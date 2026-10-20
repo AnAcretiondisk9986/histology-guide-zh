@@ -216,4 +216,7 @@ node scripts/fetch-images.mjs --chapter=2 --all-slides --width=10000
 
 - 遮挡审计：10 页 × 4 视口，锚点被头部覆盖 **0**、缩略图说明与图片相交 **0**、内容被裁切 **0**、页面横向溢出 **0**（1440 / 768 / 390 / 320）。
 - `node scripts/verify-site.mjs`：**20/20 项通过，0 失败**，新增“锚点不被遮挡”“缩略图说明不遮挡图片”“移动端头部≤120px”“移动端表格可读/可滚动”等回归检查。
-- 线上验收（`data/reports/live-verify.json`）与部署动作不受本次 UI 修改影响；重新部署后按 `docs/06-publication.md` §5 复核。
+- 线上复核（2026-10-20，Actions #39440763679 部署后，`https://blog.acretiondisk.top/histology-guide-zh/`）：
+  - 1440 / 390 / 320 三种视口下，首页、章节页、术语、来源、图谱均无横向溢出；移动端头部高度 **89px**；728 张图谱卡片的说明与图片相交 **0**。
+  - 锚点跳转（#main 与章节目录）目标均落在头部下方，覆盖 **0px**；术语表与许可条件表在 390px 下堆叠为卡片；宽表 `overflowX=auto` 且可横向滚动；灯箱工具栏右边界 = 视口宽度（无溢出）；搜索打开时 `body` 滚动锁定。
+  - 线上验收记录同步到 `data/reports/live-verify.json` 与 `docs/06-publication.md` §8。

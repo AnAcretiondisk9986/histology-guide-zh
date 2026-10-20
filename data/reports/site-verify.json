@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-20T14:35:42.663Z",
+  "checkedAt": "2026-10-20T14:47:28.028Z",
   "browser": "Chrome/155.0.8059.80",
   "pages": 20,
   "passed": 20,
@@ -257,7 +257,7 @@
         {
           "name": "卡片渲染",
           "ok": true,
-          "detail": "sertoli cell"
+          "detail": "intestinal gland"
         },
         {
           "name": "显示答案",
@@ -292,7 +292,7 @@
         {
           "name": "review.html?chapter=5 预选第 5 章",
           "ok": true,
-          "detail": "{\"scope\":\"5\",\"card\":\"cartilage\"}"
+          "detail": "{\"scope\":\"5\",\"card\":\"elastic cartilage\"}"
         }
       ]
     },
