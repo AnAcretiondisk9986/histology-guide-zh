@@ -498,7 +498,7 @@ async function buildChapterPage(c) {
       ${unverifiedHtml}
       ${toc}
       <div class="notice small" style="margin:20px 0">
-        <strong>阅读提示：</strong>本页中文要点为自编复习笔记，<strong>不是原站正文的翻译</strong>；标本图像为经作者书面许可保存的中分辨率概览，每张卡片保留 © 署名与原页面链接，“原站本章/原站切片”可查看高倍与结构标注。本站为 Histology Guide 的非官方中文学习改编版，未经其认可或背书。
+        <strong>阅读提示：</strong>本页中文要点为自编复习笔记，<strong>不是原站正文的翻译</strong>；标本图像为经作者书面许可保存的中分辨率概览，每张本地图像卡片保留 © 署名与原页面链接，“原站本章/原站切片”可查看高倍与结构标注。本站为 Histology Guide 的非官方中文学习改编版，未经其认可或背书。
       </div>
       ${sectionsHtml}
       ${leftoverHtml}
@@ -596,7 +596,7 @@ function buildAtlasPage() {
     <h1 style="font-family:var(--serif)">组织学图谱索引</h1>
     <p class="muted" style="max-width:72ch">共 ${totals.slides} 张光镜切片与 ${totals.emPhotos} 张电镜照片的索引。其中 <strong>${localImageList.length} 张</strong>已按作者书面许可保存为中分辨率概览并公开托管于本站，可直接放大查看；其余在线查看。</p>
     <div class="callout warn small" style="margin:16px 0">
-      <strong>关于图像与署名：</strong>显微图像 © Histology Guide 及/或原始贡献者，经作者 2026-10-20 书面许可在本站（GitHub Pages）公开托管，<strong>仅限非商业教育用途并免费访问</strong>；不得出售、许可或其他商业利用，不得在本站之外再分发。<strong>每张卡片保留 © 署名与原页面链接</strong>；本站为 Histology Guide 的非官方中文学习改编版，未经其认可或背书。本地图为中分辨率概览（非完整切片），高倍与结构标注请点“原站切片”在线查看。详见 <a href="sources.html">署名与许可条件</a>。
+      <strong>关于图像与署名：</strong>显微图像 © Histology Guide 及/或原始贡献者，经作者 2026-10-20 书面许可在本站（GitHub Pages）公开托管，<strong>仅限非商业教育用途并免费访问</strong>；不得出售、许可或其他商业利用，不得在本站之外再分发。<strong>每张本地图像卡片保留 © 署名与原页面链接</strong>；电镜等在线条目不保存本地图，仅提供回原站的链接。本站为 Histology Guide 的非官方中文学习改编版，未经其认可或背书。本地图为中分辨率概览（非完整切片），高倍与结构标注请点“原站切片”在线查看。详见 <a href="sources.html">署名与许可条件</a>。
     </div>
     <div class="toolbar">
       <input class="input" id="atlas-q" type="search" placeholder="搜索中文名 / 英文名 / 编号 / 染色" aria-label="搜索标本">
@@ -751,7 +751,7 @@ function buildSourcesPage() {
           <tr><td>尽可能链接回对应的 Histology Guide 原页面</td><td>每张标本卡片有“原站切片 ↗”；每章页有“原站本章 ↗ / 原站电镜页 ↗”；本页图像清单逐张给出来源页链接。</td><td>章节页、图谱页、下方清单</td></tr>
           <tr><td>明确说明中文版是非官方翻译/改编，且未获 Histology Guide 背书</td><td>署名栏、页脚、首页、本页、使用说明页均写明“非官方”“无隶属关系”“未经认可或背书”。</td><td>全部页面</td></tr>
           <tr><td>不得去除或篡改版权声明、水印、来源署名</td><td>本地图像按采集到的原始像素保存，未裁剪、未抹除、未添加遮挡；每张图保留 © 署名与原页面链接；不采集/不展示任何去除水印的版本。</td><td>标本卡片、图像清单</td></tr>
-          <tr><td>若某材料另有作者/机构署名，须遵从该署名并另行取得许可</td><td>已核对 <code class="mono">data/local-images.json</code> 中全部 ${localImageList.length} 条记录，署名均为 Histology Guide 及/或原始贡献者，未发现单独署名条目；如后续发现，将遵从该署名并删除或另行取得许可。</td><td><code class="mono">data/local-images.json</code></td></tr>
+          <tr><td>若某材料另有作者/机构署名，须遵从该署名并另行取得许可</td><td>已核对 <code class="mono">data/local-images.json</code> 中全部 ${localImageList.length} 条记录的 attribution（均为 Histology Guide 及/或原始贡献者），并抽查原站页脚，未发现单独第三方 credit；如后续发现，将遵从该署名并删除或另行取得许可。</td><td><code class="mono">data/local-images.json</code></td></tr>
           <tr><td>保持非商业、可免费访问；不得出售、许可或其他商业利用</td><td>站点无付费墙、无广告、无许可售卖、不提供付费下载；全部内容公开免费访问；仓库与站点不用于任何商业目的。</td><td>首页、页脚、本页</td></tr>
           <tr><td>未经进一步许可，不得在 GitHub Pages 学习资源之外再分发材料</td><td>README、NOTICE、使用说明均声明：本仓库仅用于发布本站；禁止克隆、镜像、转存或再分发其中的图像与内容。站点不提供打包下载。</td><td>README、NOTICE、使用说明</td></tr>
           <tr><td>发布后把 live URL 发给作者，供其复核署名</td><td>本页与 <code class="mono">docs/06-publication.md</code> 记录线上地址；部署后按作者要求发送说明邮件。</td><td>本页末节、<code class="mono">docs/06-publication.md</code></td></tr>

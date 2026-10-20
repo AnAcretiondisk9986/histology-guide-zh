@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-20T13:35:44.165Z",
+  "checkedAt": "2026-10-20T13:41:05.080Z",
   "browser": "Chrome/155.0.8059.80",
   "pages": 19,
   "passed": 19,
@@ -248,7 +248,7 @@
         {
           "name": "卡片渲染",
           "ok": true,
-          "detail": "nucleus"
+          "detail": "plasma cell"
         },
         {
           "name": "显示答案",
@@ -377,7 +377,7 @@
         {
           "name": "切换生效",
           "ok": true,
-          "detail": "{\"before\":\"light\",\"after\":\"dark\",\"bg\":\"rgb(20, 24, 27)\",\"stored\":\"dark\",\"btnBg\":\"rgb(61, 65, 68)\",\"btnColor\":\"rgb(230, 232, 230)\",\"themeNow\":\"dark\"}"
+          "detail": "{\"before\":\"light\",\"after\":\"dark\",\"bg\":\"rgb(20, 24, 27)\",\"stored\":\"dark\",\"btnBg\":\"rgb(41, 46, 50)\",\"btnColor\":\"rgb(230, 232, 230)\",\"themeNow\":\"dark\"}"
         },
         {
           "name": "持久化",
@@ -386,7 +386,7 @@
         {
           "name": "深色下按钮文字与背景不同色",
           "ok": true,
-          "detail": "rgb(61, 65, 68) / rgb(230, 232, 230)"
+          "detail": "rgb(41, 46, 50) / rgb(230, 232, 230)"
         }
       ]
     },

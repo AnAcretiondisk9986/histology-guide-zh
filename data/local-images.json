@@ -1,7 +1,11 @@
 {
   "schema": 1,
   "importedAt": "2026-10-19T00:04:37.130Z",
-  "notes": [],
+  "notes": [
+    "slides 是唯一图像清单：284 条 = 266 张唯一切片 + 18 幅示意图。",
+    "figures 是其中 18 幅示意图的重复索引（同一文件同时出现在 slides 与 figures），联合统计时请勿相加，唯一图像数以 slides 的 284 条为准。",
+    "attribution 统一遵循 2026-10-20 书面许可：© Histology Guide 及/或原始贡献者，仅非商业教育用途；每张图保留 sourcePage 原页面链接。"
+  ],
   "slides": {
     "fig-008-epithelium": {
       "file": "images/figures/fig-008-epithelium.jpg",
