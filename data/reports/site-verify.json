@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-20T13:41:05.080Z",
+  "checkedAt": "2026-10-20T14:09:04.702Z",
   "browser": "Chrome/155.0.8059.80",
   "pages": 19,
   "passed": 19,
@@ -248,7 +248,7 @@
         {
           "name": "卡片渲染",
           "ok": true,
-          "detail": "plasma cell"
+          "detail": "nephron"
         },
         {
           "name": "显示答案",
@@ -283,7 +283,7 @@
         {
           "name": "review.html?chapter=5 预选第 5 章",
           "ok": true,
-          "detail": "{\"scope\":\"5\",\"card\":\"osteon\"}"
+          "detail": "{\"scope\":\"5\",\"card\":\"elastic cartilage\"}"
         }
       ]
     },

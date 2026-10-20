@@ -10,7 +10,7 @@
 >
 > 本站据此执行：中文要点/术语/自测为**独立编写**；所选图像的**中分辨率概览**公开托管并逐张署名、链接原页面；原站英文正文段落与测验题不复制。原始图像与文字版权归 **Histology Guide 及/或原始贡献者** 所有。**本站不用于出售、许可或其他商业利用；除本站外不得再分发其中保存的原始材料。** 许可原文与 8 条条件落实见 [docs/05-permission.md](docs/05-permission.md)、[docs/06-publication.md](docs/06-publication.md) 与站内 [来源与许可](site/sources.html) 页。
 
-> **在线地址**：<https://blog.acretiondisk.top/histology-guide-zh/>（部署后确认）
+> **在线地址（已部署）**：<https://blog.acretiondisk.top/histology-guide-zh/>（GitHub Pages；`anacreationdisk9986.github.io` 项目地址不直接提供内容）
 >
 > **换新对话继续任务**：见项目根目录 [`RESTART-PROMPT.md`](RESTART-PROMPT.md)，内含可直接粘贴的提示词与当前状态快照。
 
@@ -83,6 +83,7 @@ npx serve site
 │  ├─ stitch_tiles.py          本地瓦片拼接（Python + Pillow）
 │  ├─ build.mjs                生成 site/ 静态站点（含全站署名栏、sitemap、404）
 │  ├─ verify-site.mjs          Chrome CDP 真实浏览器验收（含全站署名/内链检查）
+│  ├─ verify-live.mjs          GitHub Pages 线上验收（页面、sitemap、图片、404）
 │  ├─ check-links.mjs          原站链接可用性抽查（可选，需网络）
 │  └─ import-local-images.mjs  导入自备图片（备用，不走原站）
 ├─ data/
@@ -108,6 +109,7 @@ node scripts/fetch-images.mjs    # 4. 按许可下载所选图像（默认每章
 node scripts/build.mjs           # 5. 生成 site/（含 404、sitemap、.nojekyll）
 node scripts/verify-site.mjs     # 6. 浏览器验收（需要本机 Chrome/Edge，--shots 可出截图）
 git add -A; git commit -m "update"; git push    # 7. 推送到 main，GitHub Actions 自动发布 site/
+node scripts/verify-live.mjs     # 8. 线上验收（29 页、sitemap、图片、404；结果写入 data/reports/）
 ```
 
 图像采集是**可增量**的：已存在的图像会跳过；可用参数控制范围与分辨率，例如：

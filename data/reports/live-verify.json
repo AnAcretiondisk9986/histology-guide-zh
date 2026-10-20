@@ -1,0 +1,46 @@
+{
+  "checkedAt": "2026-10-20T14:08:05.416Z",
+  "base": "https://blog.acretiondisk.top/histology-guide-zh/",
+  "pageCount": 29,
+  "pageFail": [],
+  "sitemapCount": 28,
+  "badSitemap": [],
+  "imageSamples": [
+    {
+      "rel": "images/slides/MH-001-nuclear-morphology.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 901587
+    },
+    {
+      "rel": "images/slides/MHS-268-269-270-pancreas.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 1410363
+    },
+    {
+      "rel": "images/slides/MH-172-cervix.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 9184574
+    },
+    {
+      "rel": "images/figures/fig-008-epithelium.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 620376
+    },
+    {
+      "rel": "images/figures/fig-002-microscopes.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 197846
+    }
+  ],
+  "badImages": [],
+  "notFoundOk": true,
+  "ghio": {
+    "status": 404
+  },
+  "pass": true
+}

@@ -14,16 +14,15 @@
 
 当前状态（每次以项目文件为准）：
 - 许可：2026-10-20 Histology Guide 作者团队（tcbrelje）授予「在 GitHub Pages 公开托管非商业中文改编版」的书面许可，附 8 条条件；见 docs/05-permission.md 第 9 节。
-- 托管：GitHub Pages 公开、非商业、免费访问；仓库 AnAcretiondisk9986/histology-guide-zh；地址 https://blog.acretiondisk.top/histology-guide-zh/（部署后确认）。
+- 托管：GitHub Pages 公开、非商业、免费访问；仓库 AnAcretiondisk9986/histology-guide-zh；地址 https://blog.acretiondisk.top/histology-guide-zh/（已上线）。
 - 本地概览图：284 张（266 张唯一切片 + 18 幅示意图），约 566.6 MB；每张卡片保留 © 署名与原页面链接。
 - 未采集：原站英文正文、测验题、关键词索引（不在许可范围，继续不采集）。
-- 站点：site/ 已完成全站署名栏与页脚署名改造（2026-10-20 复验 19/19 通过）；线上验收待部署后完成。
+- 站点：site/ 已完成全站署名栏与页脚署名改造（本地复验 19/19 通过）；已部署并完成线上验收（29/29 页 200、28 个 sitemap URL 200、图片抽查 200、404 正常）；live URL 尚未发送作者。
 
 可选后续任务（按需选择）：
-1) 推进出版阶段：站点合规改造 → 仓库与 Pages 部署 → 线上验收（见 docs/03-implementation-plan.md「出版阶段」、docs/06-publication.md）。
-2) 部署后把 live URL 发送至 tcbrelje@gmail.com 供作者复核署名（草稿见 docs/06-publication.md §6）。
-3) 抽查个别图像质量/分辨率（已无超时与失败记录）。
-4) 每次改动后运行：node scripts/build.mjs && node scripts/verify-site.mjs（必须 19/19），并同步 README、docs/03、docs/04 的计数。
+1) 把 live URL 发送至 tcbrelje@gmail.com 供作者复核署名（草稿见 docs/06-publication.md §6），发送后记录日期。
+2) 抽查个别图像质量/分辨率（已无超时与失败记录）。
+3) 每次改动后运行：node scripts/build.mjs && node scripts/verify-site.mjs（必须 19/19），并同步 README、docs/03、docs/04 的计数。
 
 约束（必须遵守）：
 - 仅限非商业教育用途、免费公开访问；不得出售、许可或以其他方式商业利用；不得在 GitHub Pages 之外再分发。
@@ -42,14 +41,14 @@
 | --- | --- |
 | 许可 | 2026-10-18 私有许可 + **2026-10-20 GitHub Pages 公开托管许可**（8 条条件） |
 | 托管状态 | 公开、非商业、免费访问；仓库 `AnAcretiondisk9986/histology-guide-zh` |
-| 线上地址 | `https://blog.acretiondisk.top/histology-guide-zh/`（**部署后确认**） |
-| 部署 / 线上验收 | **未完成 / 待验收** |
+| 线上地址 | `https://blog.acretiondisk.top/histology-guide-zh/`（**已上线**） |
+| 部署 / 线上验收 | **已完成（2026-10-20）**；Actions #39433580696 |
 | 本地图像 | **284 张**（266 张唯一切片 + 18 幅示意图） |
 | 占用 | **566.6 MB**（`site/images/`） |
 | 全站覆盖率 | **39.0%**（284/728 张，按图片张数）；**50.1%**（365/728 个图谱条目） |
 | 切片下载队列 | **284 / 284** 个唯一目标（100%，266 切片 + 18 示意图） |
 | 剩余 | **0**；电镜 363 张未下载（约 11 GB，需另行确认磁盘与意愿） |
-| 站点验收 | **19 / 19 通过**（2026-10-20 本地复验；线上待部署后另验） |
+| 站点验收 | **19 / 19 通过**（本地，2026-10-20）；**线上 29/29 页 + 28 sitemap URL 通过** |
 | 内容基线 | 21/21 章、152 小节、335 术语、186 自测题、0 error |
 
 进度与明细：
@@ -83,13 +82,13 @@ node scripts/verify-site.mjs            # 加 --shots 可输出截图到 .tmp/
 node scripts/check-content.mjs          # 内容基线（0 error / 0 warning）
 ```
 
-部署：由 GitHub Actions 把 `site/` 发布到 GitHub Pages（工作流与 `.gitignore` 配置由 Lead 维护，见 `.github/`；待验收）。部署完成后按 `docs/06-publication.md` §5 做线上验收。
+部署：GitHub Actions 把 `site/` 发布到 GitHub Pages（`.github/workflows/pages.yml`）；推送到 `main` 或手动 `gh workflow run pages.yml` 即可。2026-10-20 已部署成功（Actions #39433580696），线上验收见 `docs/06-publication.md` §5/§8。
 
 ## 四、重要提醒
 
 1. **先读许可**：`docs/05-permission.md` 第 9 节是当前有效许可（2026-10-20，GitHub Pages 公开托管 + 8 条条件）；第 1–8 节是 2026-10-18 私有许可历史。超出「GitHub Pages 非商业中文学习资源」的任何发布、分享、商用，都需作者另行书面许可。
 2. **断网安全**：下载可随时中断；`data/local-images.json` 每次成功一张就落盘，不会因中断丢失已完成的图。
-3. **仓库与发布**：线上发布产物是 `site/`（含 `images/` 284 张概览图）；构建/发布方式、`.gitignore` 与 `.github/` 配置以 Lead 的部署配置为准。不要上传原站完整切片或其他未获许可的材料，也不要在 GitHub Pages 之外的平台部署或镜像。
+3. **仓库与发布**：线上发布产物是 `site/`（含 `images/` 284 张概览图）；工作流见 `.github/workflows/pages.yml`，每次推送 `main` 会重新发布。不要上传原站完整切片或其他未获许可的材料，也不要在 GitHub Pages 之外的平台部署或镜像。
 4. **图像是概览**：本地图 930×662 ～ 5176×11372，来自原站 BigTIFF 金字塔的一个中分辨率层级，不是完整分辨率；高倍与标注请点“原站切片”。每张图保留 © 署名与原页面链接，不得去除或篡改。
 5. 电镜 363 张尚未本地化；若要做，先确认磁盘（当前 E: 剩余约 222 GB）与时间（约 11 GB + 数小时），并评估公开托管后的带宽与许可边界（条件 5、7）。
 

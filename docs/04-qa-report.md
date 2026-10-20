@@ -173,10 +173,22 @@ node scripts/fetch-images.mjs --chapter=2 --all-slides --width=10000
 | 5 | 第三方单独 credit | 284 条 `attribution` 均为 Histology Guide 及/或原始贡献者，未发现单独 credit | 通过（持续核对） |
 | 6 | 非商业、免费 | 无广告/付费/售卖入口；页脚与来源页声明 | 通过 |
 | 7 | 不得在 GitHub Pages 外再分发 | README、NOTICE、帮助页、来源页均声明；仓库仅用于发布 | 通过 |
-| 8 | 发布后发送 live URL | 线上地址已写入站点与 `docs/06-publication.md`；部署后发送邮件 | 待部署后 |
+| 8 | 发布后发送 live URL | live URL 已确认（`https://blog.acretiondisk.top/histology-guide-zh/`）；待发送邮件 | 待发送 |
 
 ### 7.4 截图
 
 `node scripts/verify-site.mjs --shots` 输出到 `.tmp/verify-*.png`（首页、章节页、图谱、术语、复习、深色、移动端）。2026-10-20 复验截图确认：署名栏在桌面与 390px 移动端均可见且无横向溢出；章节页本地图像正常显示。
 
-> 说明：本节只覆盖本地 `site/` 验收。GitHub Pages 线上验收在部署完成后单独记录于 `docs/06-publication.md` §5/§8。
+### 7.5 线上验收（2026-10-20，GitHub Pages）
+
+- 线上地址：`https://blog.acretiondisk.top/histology-guide-zh/`（账户级自定义域名；`*.github.io` 项目地址不提供内容）。
+- 部署：GitHub Actions `Deploy GitHub Pages` 运行 #39433580696 成功。
+- 验收结果（`data/reports/live-verify.json`）：
+  - 29/29 个 HTML 页面返回 200，且逐页含署名栏、逐字英文示例句、中文非官方声明、© 归属与 canonical；
+  - sitemap 中 28 个 URL（不含 404 页）全部 200；
+  - 抽查 5 张图片（含 8.8 MB 大图）全部 200、类型与体积正常；
+  - 不存在的路径返回 404 状态并显示自定义“页面不存在”页面；
+  - 页面不含旧私有措辞；`check-content` 0 error；本地 `verify-site` 19/19。
+- 结论：线上验收 **通过**。唯一未完成项为条件 8 的 live URL 邮件（见 `docs/06-publication.md` §6，发送后记录）。
+
+> 说明：本节 7.1–7.4 覆盖本地 `site/` 验收；线上验收记录见 7.5 与 `docs/06-publication.md` §5/§8。

@@ -1,7 +1,9 @@
 name: Deploy GitHub Pages
 
-# 首次部署通过手动触发；线上验收通过后再启用 push 自动部署。
+# 推送到 main 或手动触发都会重新发布 site/。
 on:
+  push:
+    branches: [main]
   workflow_dispatch:
 
 permissions:
