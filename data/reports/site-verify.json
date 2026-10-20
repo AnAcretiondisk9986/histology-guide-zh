@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-20T13:27:52.316Z",
+  "checkedAt": "2026-10-20T13:35:44.165Z",
   "browser": "Chrome/155.0.8059.80",
   "pages": 19,
   "passed": 19,
@@ -166,7 +166,12 @@
         {
           "name": "显示版权署名",
           "ok": true,
-          "detail": "图像 © Histology Guide 及/或原始贡献者 · 非商业教育用途，"
+          "detail": "图像 © Histology Guide 及/或原始贡献者 · 非商业教育用途，经许可保存；原页面链接见下方"
+        },
+        {
+          "name": "署名口径为公开非商业（无旧私有措辞）",
+          "ok": true,
+          "detail": "图像 © Histology Guide 及/或原始贡献者 · 非商业教育用途，经许可保存；原页面链接见下方"
         },
         {
           "name": "点击可放大（灯箱）",
@@ -202,6 +207,11 @@
           "name": "仅本地概览图筛选",
           "ok": true,
           "detail": "369/369"
+        },
+        {
+          "name": "图谱卡片署名口径为公开非商业",
+          "ok": true,
+          "detail": "图像 © Histology Guide 及/或原始贡献者 · 非商业教育用途，经许可保存；原页面链接见下方"
         }
       ]
     },
@@ -238,7 +248,7 @@
         {
           "name": "卡片渲染",
           "ok": true,
-          "detail": "urinary bladder"
+          "detail": "nucleus"
         },
         {
           "name": "显示答案",
@@ -273,7 +283,7 @@
         {
           "name": "review.html?chapter=5 预选第 5 章",
           "ok": true,
-          "detail": "{\"scope\":\"5\",\"card\":\"osteoclast\"}"
+          "detail": "{\"scope\":\"5\",\"card\":\"osteon\"}"
         }
       ]
     },
@@ -367,7 +377,7 @@
         {
           "name": "切换生效",
           "ok": true,
-          "detail": "{\"before\":\"light\",\"after\":\"dark\",\"bg\":\"rgb(20, 24, 27)\",\"stored\":\"dark\",\"btnBg\":\"rgb(41, 46, 49)\",\"btnColor\":\"rgb(230, 232, 230)\",\"themeNow\":\"dark\"}"
+          "detail": "{\"before\":\"light\",\"after\":\"dark\",\"bg\":\"rgb(20, 24, 27)\",\"stored\":\"dark\",\"btnBg\":\"rgb(61, 65, 68)\",\"btnColor\":\"rgb(230, 232, 230)\",\"themeNow\":\"dark\"}"
         },
         {
           "name": "持久化",
@@ -376,7 +386,7 @@
         {
           "name": "深色下按钮文字与背景不同色",
           "ok": true,
-          "detail": "rgb(41, 46, 49) / rgb(230, 232, 230)"
+          "detail": "rgb(61, 65, 68) / rgb(230, 232, 230)"
         }
       ]
     },

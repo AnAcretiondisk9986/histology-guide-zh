@@ -495,7 +495,7 @@
     const src = hasImg ? base + sp.img : '';
     return `<article class="specimen" data-slide-name="${esc(sp.name)}">
       <div class="thumb">${hasImg
-        ? `<img src="${esc(src)}" alt="${esc(zh || sp.name)}（本地概览，© Histology Guide，经许可）" loading="lazy" data-zoom="${esc(src)}">`
+        ? `<img src="${esc(src)}" alt="${esc(zh || sp.name)}（本地概览，© Histology Guide 及/或原始贡献者，经许可）" loading="lazy" data-zoom="${esc(src)}">`
         : esc(code)}
         <div class="thumb-note">${hasImg ? '点击图片放大 · 本地概览' : `${isEm ? '电镜图像' : '显微图像'}仅在线查看`}</div>
       </div>
@@ -511,7 +511,7 @@
           ${hasImg ? '<span class="badge ok">本地概览</span>' : ''}
           ${hasImg && sp.imgW ? `<span class="badge">${esc(sp.imgW)}×${esc(sp.imgH)}</span>` : ''}
         </div>
-        ${hasImg ? '<div class="img-credit">图像 © T. Clark Brelje &amp; Robert L. Sorenson · Histology Guide，经许可仅个人学习使用</div>' : ''}
+        ${hasImg ? '<div class="img-credit">图像 © Histology Guide 及/或原始贡献者 · 非商业教育用途，经许可保存；原页面链接见下方</div>' : ''}
         <div class="actions">
           <a class="btn small" data-open-slide="${esc(sp.name)}" href="${esc(HG_SITE + sp.url)}" target="_blank" rel="noopener noreferrer">原站切片 ↗</a>
           <a class="btn small ghost" href="${chapterHref(sp.chapter)}">本章</a>

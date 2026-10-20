@@ -14,7 +14,7 @@ const ZH = path.join(ROOT, 'content', 'zh');
 
 /* ---------- 许可与公开托管（2026-10-20 作者书面许可） ---------- */
 const HG_HOME = 'https://histologyguide.com';
-const SITE_URL = 'https://anacreationdisk9986.github.io/histology-guide-zh/';
+const SITE_URL = 'https://blog.acretiondisk.top/histology-guide-zh/';
 const ATTRIBUTION_EN =
   'Source: Histology Guide (histologyguide.com). Original content © Histology Guide and/or original contributors. This is an unofficial Chinese-language educational adaptation.';
 const ATTRIBUTION_EN_HTML = `Source: <a href="${HG_HOME}/" target="_blank" rel="noopener noreferrer">Histology Guide</a> (histologyguide.com). Original content © Histology Guide and/or original contributors. This is an unofficial Chinese-language educational adaptation.`;
@@ -956,3 +956,4 @@ console.log('章节：', chapters.length, '| 已完成内容章节：', totals.a
 console.log('术语：', totals.terms, '| 自测题：', totals.quizzes, '| 来源条目：', sourcesList.length);
 const pending = chapters.filter((c) => c.contentStatus !== 'authored').map((c) => c.n);
 if (pending.length) console.log('仍待编写内容章节：', pending.join(', '));
+

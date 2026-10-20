@@ -288,11 +288,12 @@ async function main() {
       lightbox = ov ? ov.classList.contains('open') : false;
       document.dispatchEvent(new KeyboardEvent('keydown', { key: 'Escape' }));
     }
-    return { count: imgs.length, credit: credit ? credit.textContent.slice(0, 40) : null, lightbox, badge: /本地概览/.test(document.body.textContent) };
+    return { count: imgs.length, credit: credit ? credit.textContent : null, lightbox, badge: /本地概览/.test(document.body.textContent), oldWording: /仅个人学习|请勿发布|不得发布/.test(document.body.textContent) };
   })()`);
   record('本地图像', [
     { name: '章节页有本地图像', ok: localImg.count > 0, detail: String(localImg.count) },
-    { name: '显示版权署名', ok: !!localImg.credit, detail: localImg.credit },
+    { name: '显示版权署名', ok: !!localImg.credit, detail: localImg.credit && localImg.credit.slice(0, 60) },
+    { name: '署名口径为公开非商业（无旧私有措辞）', ok: /非商业教育用途/.test(localImg.credit || '') && !localImg.oldWording, detail: localImg.credit && localImg.credit.slice(0, 60) },
     { name: '点击可放大（灯箱）', ok: localImg.lightbox === true },
     { name: '显示本地概览徽标', ok: localImg.badge, detail: String(localImg.badge) }
   ]);
@@ -322,13 +323,16 @@ async function main() {
       totalLocal = window.HG.chapters.reduce((a, c) => a + (c.specimens || []).filter(s => s.img).length + (c.em || []).filter(s => s.img).length, 0);
       local.checked = false; local.dispatchEvent(new Event('change'));
     }
-    return { initial, filtered, emOnly, localOnly, totalLocal, count: document.querySelector('#atlas-count').textContent };
+    return { initial, filtered, emOnly, localOnly, totalLocal, count: document.querySelector('#atlas-count').textContent,
+      credit: (document.querySelector('#atlas-root .img-credit') || {}).textContent || '',
+      oldWording: /仅个人学习|请勿发布|不得发布/.test(document.body.textContent) };
   })()`);
   record('atlas.html', [
     { name: '初始渲染', ok: atlas.initial > 500, detail: String(atlas.initial) },
     { name: '英文搜索过滤', ok: atlas.filtered > 0 && atlas.filtered < atlas.initial, detail: `${atlas.filtered}/${atlas.initial}` },
     { name: '类型筛选(电镜)', ok: atlas.emOnly > 100 && atlas.emOnly < atlas.initial, detail: String(atlas.emOnly) },
-    { name: '仅本地概览图筛选', ok: atlas.localOnly > 0 && atlas.localOnly === atlas.totalLocal, detail: `${atlas.localOnly}/${atlas.totalLocal}` }
+    { name: '仅本地概览图筛选', ok: atlas.localOnly > 0 && atlas.localOnly === atlas.totalLocal, detail: `${atlas.localOnly}/${atlas.totalLocal}` },
+    { name: '图谱卡片署名口径为公开非商业', ok: /非商业教育用途/.test(atlas.credit) && !atlas.oldWording, detail: atlas.credit.slice(0, 60) }
   ]);
   if (SHOTS) await shot(cdp, 'atlas');
 
@@ -425,7 +429,7 @@ async function main() {
   ]);
   await navigate(cdp, 'help.html', 400);
   record('help.html', [
-    await check(cdp, '在线访问地址', `return document.body.textContent.includes('anacreationdisk9986.github.io/histology-guide-zh')`),
+    await check(cdp, '在线访问地址', `return document.body.textContent.includes('blog.acretiondisk.top/histology-guide-zh')`),
     await check(cdp, '本地打开方式', `return document.body.textContent.includes('双击')`),
     await check(cdp, '离线/在线对照表', `return document.body.textContent.includes('离线可用')`),
     await check(cdp, '署名与许可（非商业、不得再分发）', `return document.body.textContent.includes('未经其认可或背书') && document.body.textContent.includes('不得') && document.body.textContent.includes('再分发')`)
@@ -511,7 +515,7 @@ async function main() {
       ['原站链接', 'histologyguide.com'],
       ['版权归属', 'Histology Guide and/or original contributors'],
       ['未背书声明', '未经其认可或背书'],
-      ['canonical', 'https://anacreationdisk9986.github.io/histology-guide-zh/']
+      ['canonical', 'https://blog.acretiondisk.top/histology-guide-zh/']
     ];
     for (const [name, needle] of need) if (!html.includes(needle)) licenseProblems.push(`${rel}: 缺少${name}`);
     const dir = path.dirname(file);
@@ -565,3 +569,5 @@ main().catch(async (e) => {
   try { proc.kill(); } catch {}
   process.exit(2);
 });
+
+

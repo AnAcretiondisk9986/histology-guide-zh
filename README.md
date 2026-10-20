@@ -10,7 +10,7 @@
 >
 > 本站据此执行：中文要点/术语/自测为**独立编写**；所选图像的**中分辨率概览**公开托管并逐张署名、链接原页面；原站英文正文段落与测验题不复制。原始图像与文字版权归 **Histology Guide 及/或原始贡献者** 所有。**本站不用于出售、许可或其他商业利用；除本站外不得再分发其中保存的原始材料。** 许可原文与 8 条条件落实见 [docs/05-permission.md](docs/05-permission.md)、[docs/06-publication.md](docs/06-publication.md) 与站内 [来源与许可](site/sources.html) 页。
 
-> **在线地址**：<https://anacreationdisk9986.github.io/histology-guide-zh/>（部署后确认）
+> **在线地址**：<https://blog.acretiondisk.top/histology-guide-zh/>（部署后确认）
 >
 > **换新对话继续任务**：见项目根目录 [`RESTART-PROMPT.md`](RESTART-PROMPT.md)，内含可直接粘贴的提示词与当前状态快照。
 
@@ -18,7 +18,7 @@
 
 ```powershell
 # 1. 在线访问（推荐）
-start https://anacreationdisk9986.github.io/histology-guide-zh/
+start https://blog.acretiondisk.top/histology-guide-zh/
 
 # 2. 本地直接打开（离线可用）
 start site\index.html
@@ -125,7 +125,7 @@ node scripts/fetch-images.mjs --dry                          # 只统计请求�
 
 | 功能 | 离线 | 说明 |
 | --- | --- | --- |
-| 在线公开访问（GitHub Pages） | ❌ 需联网 | <https://anacreationdisk9986.github.io/histology-guide-zh/> |
+| 在线公开访问（GitHub Pages） | ❌ 需联网 | <https://blog.acretiondisk.top/histology-guide-zh/> |
 | 章节要点、术语表、搜索、自测、抽认卡、进度、易错本 | ✅ | 数据内嵌在 `site/assets/data.js`，进度存浏览器 |
 | 已下载的本地概览图（可放大） | ✅ | 经许可保存的中分辨率概览，见“来源与许可”页清单 |
 | 电镜图像（363 张）、完整分辨率、结构标注 | ❌ 需联网 | 点击“原站切片”进入原站虚拟显微镜 |
@@ -155,3 +155,4 @@ node scripts/fetch-images.mjs --dry                          # 只统计请求�
 - **原站图像与文字**：© **Histology Guide 及/或原始贡献者**，不是公有领域。经作者团队 2026-10-20 书面许可（此前 2026-10-18 另有个人离线学习许可），本站作为**非商业中文学习改编版**公开托管于 GitHub Pages；每张图保留 © 署名与原页面链接；不得去除/篡改版权声明、水印或来源署名；不得出售、许可或其他商业利用；除本站外不得再分发。若某材料另有单独作者/机构署名，须遵从该署名并另行取得许可。证据见 [docs/05-permission.md](docs/05-permission.md)、[docs/permission/](docs/permission/) 与 [NOTICE.md](NOTICE.md)。
 - **本站自编内容**（中文要点、术语释义、自测题、代码与页面）：由本项目编写，可自由用于个人学习；转载时请保留非官方声明与原站署名链接。
 - **如需扩大使用范围**（商业使用、在 GitHub Pages 之外再分发、更高分辨率批量获取等），必须另行取得作者书面许可：`tcbrelje@gmail.com`。
+

@@ -105,7 +105,7 @@ node scripts/import-local-images.mjs <dir>  # 可选：导入授权图片
 | --- | --- | --- | --- |
 | P1 站点合规改造 | 全站署名栏（英文示例句 + 中文非官方声明）、页脚署名、来源页 8 条条件清单、逐图 © 署名与原页面链接 | **进行中**（`site/` 改造） | `site/` 各页署名栏与页脚、`site/sources.html`；对照见 `docs/06-publication.md` §4 |
 | P2 仓库与发布配置 | GitHub 仓库 `AnAcretiondisk9986/histology-guide-zh`、GitHub Actions 发布 `site/` | **进行中**（配置） | 仓库与工作流文件（`.github/`，由 Lead 配置） |
-| P3 GitHub Pages 部署 | 发布到 `https://anacreationdisk9986.github.io/histology-guide-zh/` | **待验收（部署后确认）** | 部署记录；URL 待部署后确认 |
+| P3 GitHub Pages 部署 | 发布到 `https://blog.acretiondisk.top/histology-guide-zh/` | **待验收（部署后确认）** | 部署记录；URL 待部署后确认 |
 | P4 线上验收 | 逐项核对 8 条条件、全站署名与页脚、内部/原站链接、移动端、非商业声明 | **待验收** | `docs/06-publication.md` §5 清单逐项勾选 |
 | P5 通知作者 | 把 live URL 发送至 tcbrelje@gmail.com 供其复核署名 | **待部署后** | `docs/06-publication.md` §6 邮件草稿与发送记录 |
 
@@ -115,3 +115,4 @@ node scripts/import-local-images.mjs <dir>  # 可选：导入授权图片
 - 内容边界不变：不采集原站英文正文、测验题、关键词索引；284 张概览图逐张保留 © 署名与原页面链接。
 - 站点免费、无广告、无付费入口；不得出售、许可或商业利用（条件 6）。
 - 线上验收完成前，任何「已部署 / 已上线」类表述均视为待验证。
+

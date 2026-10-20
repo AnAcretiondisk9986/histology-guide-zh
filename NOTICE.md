@@ -53,11 +53,12 @@ The site includes **284 middle-resolution overview images** (266 unique slides +
 ## 7. 联系 / Contact
 
 - 原始内容与许可事宜：T. Clark Brelje（Histology Guide），tcbrelje@gmail.com
-- 本项目：GitHub `AnAcretiondisk9986/histology-guide-zh`；站点 <https://anacreationdisk9986.github.io/histology-guide-zh/>（**部署后确认**）
+- 本项目：GitHub `AnAcretiondisk9986/histology-guide-zh`；站点 <https://blog.acretiondisk.top/histology-guide-zh/>（**部署后确认**）
 
 For questions about the original materials or the permission: T. Clark Brelje (Histology Guide), tcbrelje@gmail.com.
-For this adaptation: GitHub `AnAcretiondisk9986/histology-guide-zh`; site <https://anacreationdisk9986.github.io/histology-guide-zh/> (URL to be confirmed after deployment).
+For this adaptation: GitHub `AnAcretiondisk9986/histology-guide-zh`; site <https://blog.acretiondisk.top/histology-guide-zh/> (URL to be confirmed after deployment).
 
 ---
 
 中文版与英文版内容一致；如有歧义，以中文版为准。
+

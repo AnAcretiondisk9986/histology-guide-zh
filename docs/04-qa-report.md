@@ -160,6 +160,7 @@ node scripts/fetch-images.mjs --chapter=2 --all-slides --width=10000
 1. **章节页本地图像全部 404**：`named.map(specimenCard)` / `leftovers.map(specimenCard)` 把数组下标当作 `base` 参数传入，生成 `0images/...`、`1images/...` 等错误路径（19 个章节页受影响）。改为 `.map((s) => specimenCard(s, base))`。
 2. **章节页面包屑与“本章图谱”链接缺 `../`**：`breadcrumb()` 未拼接 `base`；工具栏 `atlas.html?chapter=N` 未加 `base`。修复后章节页返回链接可正常使用。
 3. **旧许可措辞残留**：页脚、图谱页、来源页、帮助页仍写“仅限本人学习、请勿发布/分享”，已随 8 条条件整体改写。
+4. **图谱页 JS 渲染卡片旧署名**：`site/assets/app.js` 中图谱卡片仍输出“经许可仅个人学习使用”并点名个别作者，与全站统一口径不一致；改为“图像 © Histology Guide 及/或原始贡献者 · 非商业教育用途，经许可保存；原页面链接见下方”，并在 `verify-site.mjs` 增加“署名口径为公开非商业（无旧私有措辞）”检查，防止回归。
 
 ### 7.3 8 条许可条件复验对照
 

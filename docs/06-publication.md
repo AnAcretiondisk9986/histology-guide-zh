@@ -20,7 +20,8 @@ Histology Guide 作者团队（回信人 `tcbrelje`，即 T. Clark Brelje；联�
 | 项目 | 值 | 状态 |
 | --- | --- | --- |
 | GitHub 仓库 | `AnAcretiondisk9986/histology-guide-zh` | 创建/推送待确认（Lead 配置） |
-| GitHub Pages 地址 | `https://anacreationdisk9986.github.io/histology-guide-zh/` | **部署后确认** |
+| GitHub Pages 地址 | `https://blog.acretiondisk.top/histology-guide-zh/` | **部署后确认** |
+| 域名说明 | 账户级 Pages 自定义域名 `blog.acretiondisk.top`（用户站点已启用）；项目站点按 GitHub Pages 规则挂在该域名的 `/histology-guide-zh/` 路径，`*.github.io` 项目地址不直接提供内容（与账户内其他项目一致） | 已确认域名可用 |
 | 站点可见性 | 公开 | 已获许可（条件授予「publicly host」） |
 | 商业性 | 无广告、无付费墙、无赞助、无售卖或许可入口 | 满足条件 6 |
 | 访问方式 | 免费、无需登录 | 满足条件 6 |
@@ -30,7 +31,7 @@ Histology Guide 作者团队（回信人 `tcbrelje`，即 T. Clark Brelje；联�
 
 - **发布产物**：`site/` 目录——29 个 HTML 页面（首页、章节目录、21 个章节页、图谱、术语、复习、来源、帮助）+ `assets/`（样式、脚本、内嵌数据）+ `images/`（284 张经许可保存的中分辨率概览图）。
 - **发布方式**：GitHub Actions 构建并发布 `site/` 到 GitHub Pages；工作流与 `.gitignore` 配置由 Lead 维护（`.github/`），具体触发分支与产物路径以工作流文件为准（**待验收**）。
-- **访问地址**：`https://anacreationdisk9986.github.io/histology-guide-zh/`（**部署后确认**）。
+- **访问地址**：`https://blog.acretiondisk.top/histology-guide-zh/`（**部署后确认**）。
 - **不做的部署**：不在 GitHub Pages 之外的平台部署、镜像或打包分发（条件 7）；不把原站完整分辨率切片或其他未获许可材料上传。
 - **源材料与发布产物的区分**：`content/`、`data/`、`scripts/` 为源材料与采集记录，不进入线上页面；线上只读 `site/`。
 
@@ -51,7 +52,7 @@ Histology Guide 作者团队（回信人 `tcbrelje`，即 T. Clark Brelje；联�
 
 > 以下项目**均未执行**，部署完成后按序核对；任何一项未通过都不得对外宣称「已完成线上验收」。
 
-- [ ] Pages 地址可访问：`https://anacreationdisk9986.github.io/histology-guide-zh/`（部署后确认实际 URL）
+- [ ] Pages 地址可访问：`https://blog.acretiondisk.top/histology-guide-zh/`（部署后确认实际 URL）
 - [ ] 首页、章节目录、21 个章节页、图谱、术语、复习、来源、帮助页均正常渲染
 - [ ] 所有页面可见全站署名栏（英文示例句 + 中文非官方声明）与页脚署名
 - [ ] 来源页（`site/sources.html`）列出 8 条条件清单与许可摘要
@@ -77,7 +78,7 @@ publicly host a non-commercial Chinese-language version of selected educational 
 from Histology Guide on GitHub Pages.
 
 The resource is now live at:
-https://anacreationdisk9986.github.io/histology-guide-zh/
+https://blog.acretiondisk.top/histology-guide-zh/
 
 What it is
 This is an unofficial Chinese-language educational adaptation for histology review,
@@ -133,3 +134,4 @@ GitHub: AnAcretiondisk9986
 | 2026-10-20 | 建立本文档：记录新许可依据、仓库与 URL 占位、部署方式、8 条条件落实与线上验收清单、邮件草稿 | 文档维护（docs-license） | 完成记录；部署与线上验收未执行 |
 
 > 后续记录：部署日期、实际 URL、线上验收结论、live URL 发送日期与作者回复，均追加到本表。
+
