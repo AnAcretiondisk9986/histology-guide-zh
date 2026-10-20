@@ -1,0 +1,915 @@
+{
+  "schema": 1,
+  "note": "原站卡片中的“鉴定短语”词频表，可作为术语表候选",
+  "count": 126,
+  "captions": [
+    {
+      "caption": "H&E",
+      "count": 101,
+      "chapters": [
+        1,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "caption": "Wright's Stain",
+      "count": 21,
+      "chapters": [
+        7,
+        8
+      ]
+    },
+    {
+      "caption": "Simple Columnar Epithelium",
+      "count": 6,
+      "chapters": [
+        2
+      ]
+    },
+    {
+      "caption": "Purkinje Fibers",
+      "count": 5,
+      "chapters": [
+        4,
+        9
+      ]
+    },
+    {
+      "caption": "Simple Squamous Epithelium",
+      "count": 5,
+      "chapters": [
+        2
+      ]
+    },
+    {
+      "caption": "Compact Bone",
+      "count": 4,
+      "chapters": [
+        5
+      ]
+    },
+    {
+      "caption": "Endocrine Pancreas",
+      "count": 4,
+      "chapters": [
+        13
+      ]
+    },
+    {
+      "caption": "Exocrine Pancreas",
+      "count": 4,
+      "chapters": [
+        12
+      ]
+    },
+    {
+      "caption": "Simple Pseudostratified Epithelium",
+      "count": 4,
+      "chapters": [
+        2
+      ]
+    },
+    {
+      "caption": "Stratified Squamous Epithelium (non-keratinized)",
+      "count": 4,
+      "chapters": [
+        2
+      ]
+    },
+    {
+      "caption": "Fibroblasts",
+      "count": 3,
+      "chapters": [
+        3
+      ]
+    },
+    {
+      "caption": "Intramembranous Ossification",
+      "count": 3,
+      "chapters": [
+        5
+      ]
+    },
+    {
+      "caption": "Longitudinal Section",
+      "count": 3,
+      "chapters": [
+        4
+      ]
+    },
+    {
+      "caption": "Masson's Trichrome",
+      "count": 3,
+      "chapters": [
+        6,
+        9,
+        14
+      ]
+    },
+    {
+      "caption": "Nephron",
+      "count": 3,
+      "chapters": [
+        16
+      ]
+    },
+    {
+      "caption": "Parasympathetic Ganglion",
+      "count": 3,
+      "chapters": [
+        6
+      ]
+    },
+    {
+      "caption": "Simple Cuboidal Epithelium",
+      "count": 3,
+      "chapters": [
+        2
+      ]
+    },
+    {
+      "caption": "Smooth Muscle",
+      "count": 3,
+      "chapters": [
+        4
+      ]
+    },
+    {
+      "caption": "Stratified Squamous Epithelium (keratinized)",
+      "count": 3,
+      "chapters": [
+        2
+      ]
+    },
+    {
+      "caption": "Azan",
+      "count": 2,
+      "chapters": [
+        6,
+        13
+      ]
+    },
+    {
+      "caption": "Bile Canaliculi",
+      "count": 2,
+      "chapters": [
+        15
+      ]
+    },
+    {
+      "caption": "Corpus Luteum",
+      "count": 2,
+      "chapters": [
+        18
+      ]
+    },
+    {
+      "caption": "Dye Injection",
+      "count": 2,
+      "chapters": [
+        14
+      ]
+    },
+    {
+      "caption": "Elastic Artery and Large Vein",
+      "count": 2,
+      "chapters": [
+        9
+      ]
+    },
+    {
+      "caption": "Elastic Cartilage",
+      "count": 2,
+      "chapters": [
+        5
+      ]
+    },
+    {
+      "caption": "Embryonic Connective Tissue",
+      "count": 2,
+      "chapters": [
+        3
+      ]
+    },
+    {
+      "caption": "Endochondral Ossification (Epiphyseal Plate)",
+      "count": 2,
+      "chapters": [
+        5
+      ]
+    },
+    {
+      "caption": "Filiform Papillae",
+      "count": 2,
+      "chapters": [
+        14
+      ]
+    },
+    {
+      "caption": "Glycogen",
+      "count": 2,
+      "chapters": [
+        1,
+        15
+      ]
+    },
+    {
+      "caption": "Golgi's Method",
+      "count": 2,
+      "chapters": [
+        1,
+        6
+      ]
+    },
+    {
+      "caption": "Iron Hematoxylin",
+      "count": 2,
+      "chapters": [
+        1
+      ]
+    },
+    {
+      "caption": "Lactating",
+      "count": 2,
+      "chapters": [
+        18
+      ]
+    },
+    {
+      "caption": "Longitudinal and Cross-section",
+      "count": 2,
+      "chapters": [
+        4,
+        6
+      ]
+    },
+    {
+      "caption": "Loose Connective Tissue",
+      "count": 2,
+      "chapters": [
+        3
+      ]
+    },
+    {
+      "caption": "Mast Cells",
+      "count": 2,
+      "chapters": [
+        3
+      ]
+    },
+    {
+      "caption": "Meissner and Pacinian Corpuscles",
+      "count": 2,
+      "chapters": [
+        6,
+        11
+      ]
+    },
+    {
+      "caption": "Meissner Corpuscle",
+      "count": 2,
+      "chapters": [
+        6,
+        11
+      ]
+    },
+    {
+      "caption": "Melanin",
+      "count": 2,
+      "chapters": [
+        11
+      ]
+    },
+    {
+      "caption": "Muscle-Tendon Junction",
+      "count": 2,
+      "chapters": [
+        4
+      ]
+    },
+    {
+      "caption": "Muscular Artery and Medium Vein",
+      "count": 2,
+      "chapters": [
+        9
+      ]
+    },
+    {
+      "caption": "Neonatal and Adult",
+      "count": 2,
+      "chapters": [
+        19
+      ]
+    },
+    {
+      "caption": "Pacinian Corpuscle",
+      "count": 2,
+      "chapters": [
+        6
+      ]
+    },
+    {
+      "caption": "Pig",
+      "count": 2,
+      "chapters": [
+        15
+      ]
+    },
+    {
+      "caption": "Reticular Fibers",
+      "count": 2,
+      "chapters": [
+        3
+      ]
+    },
+    {
+      "caption": "Stratified Cuboidal Epithelium",
+      "count": 2,
+      "chapters": [
+        2
+      ]
+    },
+    {
+      "caption": "Transitional Epithelium (relaxed and stretched)",
+      "count": 2,
+      "chapters": [
+        2
+      ]
+    },
+    {
+      "caption": "White Adipocytes",
+      "count": 2,
+      "chapters": [
+        3
+      ]
+    },
+    {
+      "caption": "Acidophilic/Basophilic",
+      "count": 1,
+      "chapters": [
+        1
+      ]
+    },
+    {
+      "caption": "Adult and Neonatal",
+      "count": 1,
+      "chapters": [
+        10
+      ]
+    },
+    {
+      "caption": "Aldehyde Fuchsin",
+      "count": 1,
+      "chapters": [
+        9
+      ]
+    },
+    {
+      "caption": "Aortic Valve / Cardiac Skeleton",
+      "count": 1,
+      "chapters": [
+        9
+      ]
+    },
+    {
+      "caption": "Arterioles and Venules",
+      "count": 1,
+      "chapters": [
+        9
+      ]
+    },
+    {
+      "caption": "Atherosclerosis",
+      "count": 1,
+      "chapters": [
+        9
+      ]
+    },
+    {
+      "caption": "Brown Adipocytes",
+      "count": 1,
+      "chapters": [
+        3
+      ]
+    },
+    {
+      "caption": "Cell Ultrastructure/H&E",
+      "count": 1,
+      "chapters": [
+        1
+      ]
+    },
+    {
+      "caption": "Chondrogenesis",
+      "count": 1,
+      "chapters": [
+        5
+      ]
+    },
+    {
+      "caption": "Circumvallate Papillae",
+      "count": 1,
+      "chapters": [
+        14
+      ]
+    },
+    {
+      "caption": "Collagen and Elastic Fibers",
+      "count": 1,
+      "chapters": [
+        3
+      ]
+    },
+    {
+      "caption": "Continuous Capillaries",
+      "count": 1,
+      "chapters": [
+        9
+      ]
+    },
+    {
+      "caption": "Coronary Artery",
+      "count": 1,
+      "chapters": [
+        9
+      ]
+    },
+    {
+      "caption": "Corpus Hemorrhagicum",
+      "count": 1,
+      "chapters": [
+        18
+      ]
+    },
+    {
+      "caption": "Cross-section",
+      "count": 1,
+      "chapters": [
+        4
+      ]
+    },
+    {
+      "caption": "Cycling",
+      "count": 1,
+      "chapters": [
+        18
+      ]
+    },
+    {
+      "caption": "Dense Irregular Connective Tissue",
+      "count": 1,
+      "chapters": [
+        3
+      ]
+    },
+    {
+      "caption": "Dense Regular Connective Tissue",
+      "count": 1,
+      "chapters": [
+        3
+      ]
+    },
+    {
+      "caption": "Dorsal Root Ganglion",
+      "count": 1,
+      "chapters": [
+        6
+      ]
+    },
+    {
+      "caption": "Dye Perfusion",
+      "count": 1,
+      "chapters": [
+        12
+      ]
+    },
+    {
+      "caption": "Early Secretory (Luteal) Phase",
+      "count": 1,
+      "chapters": [
+        18
+      ]
+    },
+    {
+      "caption": "Elastic Fibers",
+      "count": 1,
+      "chapters": [
+        11
+      ]
+    },
+    {
+      "caption": "Endochondral Ossification",
+      "count": 1,
+      "chapters": [
+        5
+      ]
+    },
+    {
+      "caption": "Endochondral Ossification (Embryo)",
+      "count": 1,
+      "chapters": [
+        5
+      ]
+    },
+    {
+      "caption": "Eosinophils",
+      "count": 1,
+      "chapters": [
+        3
+      ]
+    },
+    {
+      "caption": "Fenestrated Capillaries",
+      "count": 1,
+      "chapters": [
+        9
+      ]
+    },
+    {
+      "caption": "Feulgen Stain",
+      "count": 1,
+      "chapters": [
+        1
+      ]
+    },
+    {
+      "caption": "Fibrocartilage Cartilage",
+      "count": 1,
+      "chapters": [
+        5
+      ]
+    },
+    {
+      "caption": "Foliate Papillae and Taste Buds",
+      "count": 1,
+      "chapters": [
+        14
+      ]
+    },
+    {
+      "caption": "Fungiform Papillae",
+      "count": 1,
+      "chapters": [
+        14
+      ]
+    },
+    {
+      "caption": "Glycoproteins (mucus)",
+      "count": 1,
+      "chapters": [
+        1
+      ]
+    },
+    {
+      "caption": "H&E, Toluidine Blue, Golgi's Method",
+      "count": 1,
+      "chapters": [
+        1
+      ]
+    },
+    {
+      "caption": "H&E/Azan/Silver",
+      "count": 1,
+      "chapters": [
+        10
+      ]
+    },
+    {
+      "caption": "H&E/Azan/Verhoeff",
+      "count": 1,
+      "chapters": [
+        3
+      ]
+    },
+    {
+      "caption": "H&E/Verhoeff",
+      "count": 1,
+      "chapters": [
+        17
+      ]
+    },
+    {
+      "caption": "Hair Follicles",
+      "count": 1,
+      "chapters": [
+        11
+      ]
+    },
+    {
+      "caption": "Hair Follicles (cross section)",
+      "count": 1,
+      "chapters": [
+        11
+      ]
+    },
+    {
+      "caption": "Hair Follicles (longitudinal section)",
+      "count": 1,
+      "chapters": [
+        11
+      ]
+    },
+    {
+      "caption": "Heterochromatin/Euchromatin",
+      "count": 1,
+      "chapters": [
+        1
+      ]
+    },
+    {
+      "caption": "Human",
+      "count": 1,
+      "chapters": [
+        15
+      ]
+    },
+    {
+      "caption": "Hyaline Cartilage",
+      "count": 1,
+      "chapters": [
+        5
+      ]
+    },
+    {
+      "caption": "Ileum, Jejunum, and Duodenum",
+      "count": 1,
+      "chapters": [
+        14
+      ]
+    },
+    {
+      "caption": "Ink Injection",
+      "count": 1,
+      "chapters": [
+        15
+      ]
+    },
+    {
+      "caption": "Intercalated Discs",
+      "count": 1,
+      "chapters": [
+        4
+      ]
+    },
+    {
+      "caption": "Iron Hematoxylin & Aniline Blue (IHAB)",
+      "count": 1,
+      "chapters": [
+        14
+      ]
+    },
+    {
+      "caption": "Kupffer Cells",
+      "count": 1,
+      "chapters": [
+        15
+      ]
+    },
+    {
+      "caption": "Late Secretory (Luteal) Phase",
+      "count": 1,
+      "chapters": [
+        18
+      ]
+    },
+    {
+      "caption": "Left Ventricle",
+      "count": 1,
+      "chapters": [
+        9
+      ]
+    },
+    {
+      "caption": "Lipids",
+      "count": 1,
+      "chapters": [
+        15
+      ]
+    },
+    {
+      "caption": "Lower Third",
+      "count": 1,
+      "chapters": [
+        14
+      ]
+    },
+    {
+      "caption": "Lymph Node",
+      "count": 1,
+      "chapters": [
+        10
+      ]
+    },
+    {
+      "caption": "Lymph Nodes",
+      "count": 1,
+      "chapters": [
+        10
+      ]
+    },
+    {
+      "caption": "Macrophages",
+      "count": 1,
+      "chapters": [
+        3
+      ]
+    },
+    {
+      "caption": "Mature or Graafian Follicle",
+      "count": 1,
+      "chapters": [
+        18
+      ]
+    },
+    {
+      "caption": "Menopausal",
+      "count": 1,
+      "chapters": [
+        18
+      ]
+    },
+    {
+      "caption": "Menstrual Phase",
+      "count": 1,
+      "chapters": [
+        18
+      ]
+    },
+    {
+      "caption": "Mesentery",
+      "count": 1,
+      "chapters": [
+        9
+      ]
+    },
+    {
+      "caption": "Mid-Secretory (Luteal) Phase",
+      "count": 1,
+      "chapters": [
+        18
+      ]
+    },
+    {
+      "caption": "Middle Third",
+      "count": 1,
+      "chapters": [
+        14
+      ]
+    },
+    {
+      "caption": "Muscle Insertion",
+      "count": 1,
+      "chapters": [
+        4
+      ]
+    },
+    {
+      "caption": "Nissl Substance",
+      "count": 1,
+      "chapters": [
+        6
+      ]
+    },
+    {
+      "caption": "Nissl/Chromophil Substance",
+      "count": 1,
+      "chapters": [
+        6
+      ]
+    },
+    {
+      "caption": "Optic Nerve",
+      "count": 1,
+      "chapters": [
+        20
+      ]
+    },
+    {
+      "caption": "Orthochromatic/Metachromatic Staining",
+      "count": 1,
+      "chapters": [
+        1
+      ]
+    },
+    {
+      "caption": "Periodic Acid-Schiff’s/H&E",
+      "count": 1,
+      "chapters": [
+        14
+      ]
+    },
+    {
+      "caption": "Peripheral Nerve",
+      "count": 1,
+      "chapters": [
+        6
+      ]
+    },
+    {
+      "caption": "Plasma Cells",
+      "count": 1,
+      "chapters": [
+        3
+      ]
+    },
+    {
+      "caption": "Proliferative (Follicular) Phase",
+      "count": 1,
+      "chapters": [
+        18
+      ]
+    },
+    {
+      "caption": "Relaxed and Stretched Bladder",
+      "count": 1,
+      "chapters": [
+        16
+      ]
+    },
+    {
+      "caption": "Resting and Lactating",
+      "count": 1,
+      "chapters": [
+        18
+      ]
+    },
+    {
+      "caption": "Rete Testis and Efferent Ductules",
+      "count": 1,
+      "chapters": [
+        19
+      ]
+    },
+    {
+      "caption": "Right Ventricle",
+      "count": 1,
+      "chapters": [
+        9
+      ]
+    },
+    {
+      "caption": "Skeletal Muscle Cells",
+      "count": 1,
+      "chapters": [
+        4
+      ]
+    },
+    {
+      "caption": "Spongy Bone",
+      "count": 1,
+      "chapters": [
+        5
+      ]
+    },
+    {
+      "caption": "Stratified Columnar Epithelium",
+      "count": 1,
+      "chapters": [
+        2
+      ]
+    },
+    {
+      "caption": "Sympathetic Ganglion",
+      "count": 1,
+      "chapters": [
+        6
+      ]
+    },
+    {
+      "caption": "Thin Section",
+      "count": 1,
+      "chapters": [
+        14
+      ]
+    },
+    {
+      "caption": "Toluidine Blue/Myelin Stain",
+      "count": 1,
+      "chapters": [
+        6
+      ]
+    },
+    {
+      "caption": "Tricuspid Valve / Coronary Artery",
+      "count": 1,
+      "chapters": [
+        9
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "schema": 1,
+  "n": 20,
+  "titleEn": "Organs of Special Sense",
+  "group": "organ-systems",
+  "originalPage": "https://histologyguide.com/slidebox/20-organs-of-special-sense.html",
+  "note": "此文件由 scripts/scaffold.mjs 生成，仅供内容编写参考；请把中文写入 content/zh/chapters/NN.json，不要修改本文件。",
+  "sections": [
+    {
+      "en": "Eye",
+      "specimenCount": 4,
+      "specimenNames": [
+        "MHS 227a Eye",
+        "MHS 229 Eye",
+        "MHS 226 Eye",
+        "MHS 302 Eye"
+      ]
+    },
+    {
+      "en": "Eyelid and Conjunctiva",
+      "specimenCount": 2,
+      "specimenNames": [
+        "MHS 231 Eyelid",
+        "MHS 227b Eye"
+      ]
+    },
+    {
+      "en": "Ear",
+      "specimenCount": 1,
+      "specimenNames": [
+        "MHS 230 Inner Ear"
+      ]
+    }
+  ],
+  "specimens": [
+    {
+      "name": "MHS 227a Eye",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Eye",
+      "href": "/slideview/MHS-227a-eye/20-slide-1.html"
+    },
+    {
+      "name": "MHS 229 Eye",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Eye",
+      "href": "/slideview/MHS-229-eye/20-slide-1.html"
+    },
+    {
+      "name": "MHS 226 Eye",
+      "caption": "Optic Nerve",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Eye",
+      "href": "/slideview/MHS-226-eye/20-slide-1.html"
+    },
+    {
+      "name": "MHS 302 Eye",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Eye",
+      "href": "/slideview/MHS-302-eye/20-slide-1.html"
+    },
+    {
+      "name": "MHS 231 Eyelid",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Eyelid and Conjunctiva",
+      "href": "/slideview/MHS-231-eyelid/20-slide-1.html"
+    },
+    {
+      "name": "MHS 227b Eye",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Eyelid and Conjunctiva",
+      "href": "/slideview/MHS-227b-eye/20-slide-1.html"
+    },
+    {
+      "name": "MHS 230 Inner Ear",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Ear",
+      "href": "/slideview/MHS-230-inner-ear/20-slide-1.html"
+    }
+  ],
+  "emItems": []
+}

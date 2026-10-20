@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>组织学图谱索引 · 组织学复习</title>
+<meta name="description" content="Histology Guide 切片与电镜照片的中文索引：本地概览图、© 署名与原站在线查看入口。">
+<link rel="canonical" href="https://anacreationdisk9986.github.io/histology-guide-zh/atlas.html">
+<meta name="theme-color" content="#f7f6f3">
+<link rel="stylesheet" href="assets/app.css">
+</head>
+<body>
+<a class="skip-link" href="#main">跳到正文</a>
+<div class="license-bar" role="note" aria-label="非官方声明与内容来源署名">
+  <div class="license-bar-inner">
+    <p class="license-bar-zh"><strong>非官方中文学习改编版</strong> · 与 Histology Guide 无隶属关系，未经其认可或背书 · 仅限非商业教育用途</p>
+    <p class="license-bar-en">Source: <a href="https://histologyguide.com/" target="_blank" rel="noopener noreferrer">Histology Guide</a> (histologyguide.com). Original content © Histology Guide and/or original contributors. This is an unofficial Chinese-language educational adaptation.</p>
+    <a class="license-bar-more" href="sources.html">署名与许可条件 →</a>
+  </div>
+</div>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html"><span class="logo-dot"></span>组织学复习<span style="font-weight:400;color:var(--text-faint)">·</span><small>Histology Guide 中文学习层</small></a>
+    <nav class="main-nav" aria-label="主导航"><a href="index.html">首页</a><a href="chapters.html">章节目录</a><a href="atlas.html" aria-current="page">组织学图谱</a><a href="glossary.html">术语表</a><a href="review.html">复习模式</a><a href="sources.html">来源与许可</a></nav>
+    <div class="header-tools">
+      <button class="icon-btn search-btn" id="open-search" type="button" aria-label="打开搜索">搜索 <kbd>/</kbd></button>
+      <button class="icon-btn" id="theme-toggle" type="button" aria-label="切换主题">☾</button>
+    </div>
+  </div>
+</header>
+<main id="main" class="page ">
+<div class="breadcrumb"><a href="index.html">首页</a><span>/</span><span aria-current="page">组织学图谱</span></div>
+    <h1 style="font-family:var(--serif)">组织学图谱索引</h1>
+    <p class="muted" style="max-width:72ch">共 347 张光镜切片与 363 张电镜照片的索引。其中 <strong>284 张</strong>已按作者书面许可保存为中分辨率概览并公开托管于本站，可直接放大查看；其余在线查看。</p>
+    <div class="callout warn small" style="margin:16px 0">
+      <strong>关于图像与署名：</strong>显微图像 © Histology Guide 及/或原始贡献者，经作者 2026-10-20 书面许可在本站（GitHub Pages）公开托管，<strong>仅限非商业教育用途并免费访问</strong>；不得出售、许可或其他商业利用，不得在本站之外再分发。<strong>每张卡片保留 © 署名与原页面链接</strong>；本站为 Histology Guide 的非官方中文学习改编版，未经其认可或背书。本地图为中分辨率概览（非完整切片），高倍与结构标注请点“原站切片”在线查看。详见 <a href="sources.html">署名与许可条件</a>。
+    </div>
+    <div class="toolbar">
+      <input class="input" id="atlas-q" type="search" placeholder="搜索中文名 / 英文名 / 编号 / 染色" aria-label="搜索标本">
+      <select class="input" id="atlas-chapter" aria-label="按章节筛选"></select>
+      <select class="input" id="atlas-kind" aria-label="按类型筛选">
+        <option value="">全部类型</option>
+        <option value="slide">光镜切片</option>
+        <option value="em">电镜照片</option>
+        <option value="figure">示意图</option>
+      </select>
+      <label class="small muted" style="display:flex;gap:6px;align-items:center"><input type="checkbox" id="atlas-local"> 仅本地概览图</label>
+      <span class="spacer"></span>
+      <span class="small faint" id="atlas-count"></span>
+    </div>
+    <div id="atlas-root"></div>
+</main>
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-main">
+      <p><strong>非官方中文学习改编版</strong>：本站是 Histology Guide 的非官方中文学习改编版，与 Histology Guide 无隶属关系，未经其认可或背书。 Source: Histology Guide (histologyguide.com). Original content © Histology Guide and/or original contributors. This is an unofficial Chinese-language educational adaptation.</p>
+      <p>本站按作者 2026-10-20 书面许可公开托管于 GitHub Pages，仅限非商业教育用途并免费访问；不得出售、许可或其他商业利用，不得在本站之外再分发本站保存的原始材料。中文要点、术语与自测题为自编；每张本地图像均保留 © 署名与原页面链接，且不改变原图内容与水印。</p>
+    </div>
+    <div class="footer-links"><a href="sources.html">署名与许可条件</a> · <a href="help.html">使用说明</a> · <a href="https://histologyguide.com/" target="_blank" rel="noopener noreferrer">原站 Histology Guide ↗</a></div>
+  </div>
+</footer>
+<div class="search-overlay" id="search-overlay" role="dialog" aria-modal="true" aria-label="站内搜索">
+  <div class="search-panel">
+    <div class="search-row">
+      <span aria-hidden="true" style="color:var(--text-faint)">⌕</span>
+      <input id="search-input" type="search" placeholder="搜索章节、小节、标本编号或中英术语…" aria-label="站内搜索" autocomplete="off">
+      <button class="btn small ghost" type="button" id="search-close" aria-label="关闭搜索">Esc</button>
+    </div>
+    <div class="search-results" id="search-results" role="listbox" aria-label="搜索结果"></div>
+  </div>
+</div>
+<script>window.HG_BASE='';</script>
+<script src="assets/data.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

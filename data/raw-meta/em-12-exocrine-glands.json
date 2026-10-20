@@ -1,0 +1,123 @@
+{
+  "schema": 1,
+  "source": {
+    "url": "https://histologyguide.com/EM-atlas/12-exocrine-glands.html",
+    "finalUrl": "https://histologyguide.com/EM-atlas/12-exocrine-glands.html",
+    "fetchedAt": "2026-10-18T11:29:42.521Z",
+    "httpStatus": 200,
+    "bytes": 15429,
+    "sha256": "7d39a2d5adee18e74bfd03847bf7f8183466bb60b933855e10949cc128168511",
+    "userAgent": "HistologyGuideCNStudyIndex/0.1 (+personal non-commercial study index; metadata extraction only; contact: local user)",
+    "note": "仅保存导航元数据；正文段落与图片未保存，遵循原站使用条款"
+  },
+  "chapter": 12,
+  "pageType": "em",
+  "pageTitle": "Chapter 12 - Exocrine Glands",
+  "hasIntroProse": true,
+  "headings": [
+    {
+      "level": 2,
+      "id": null,
+      "text": "Chapter 12 - Exocrine Glands"
+    },
+    {
+      "level": 3,
+      "id": "salivary-glands",
+      "text": "Salivary Glands"
+    },
+    {
+      "level": 3,
+      "id": "sweat-glands",
+      "text": "Sweat Glands"
+    },
+    {
+      "level": 3,
+      "id": "exocrine-pancreas",
+      "text": "Exocrine Pancreas"
+    },
+    {
+      "level": 2,
+      "id": null,
+      "text": "CELL AND TISSUES"
+    },
+    {
+      "level": 2,
+      "id": null,
+      "text": "ORGAN SYSTEMS"
+    }
+  ],
+  "items": [
+    {
+      "kind": "em",
+      "name": "EM 204 Salivary Gland",
+      "caption": "TEM",
+      "stain": "",
+      "href": "/EM-view/EM-204-salivary-gland/12-photo-1.html",
+      "thumbPath": "/EM-view/EM-204-salivary-gland/imgs/photo-2c.png",
+      "section": "Salivary Glands"
+    },
+    {
+      "kind": "em",
+      "name": "EM 373 Sebaceous Gland",
+      "caption": "TEM",
+      "stain": "",
+      "href": "/EM-view/EM-373-sebaceous-gland/12-photo-1.html",
+      "thumbPath": "/EM-view/EM-373-sebaceous-gland/imgs/photo-2c.png",
+      "section": "Sweat Glands"
+    },
+    {
+      "kind": "em",
+      "name": "EM 257 Pancreas",
+      "caption": "SEM",
+      "stain": "",
+      "href": "/EM-view/EM-257-pancreas/12-photo-1.html",
+      "thumbPath": "/EM-view/EM-257-pancreas/imgs/photo-2c.png",
+      "section": "Exocrine Pancreas"
+    },
+    {
+      "kind": "em",
+      "name": "EM 258 Pancreas",
+      "caption": "SEM",
+      "stain": "",
+      "href": "/EM-view/EM-258-pancreas/12-photo-1.html",
+      "thumbPath": "/EM-view/EM-258-pancreas/imgs/photo-2c.png",
+      "section": "Exocrine Pancreas"
+    },
+    {
+      "kind": "em",
+      "name": "EM 290 Zymogen Granules",
+      "caption": "SEM",
+      "stain": "",
+      "href": "/EM-view/EM-290-exocrine-pancreas/12-photo-1.html",
+      "thumbPath": "/EM-view/EM-290-exocrine-pancreas/imgs/photo-2c.png",
+      "section": "Exocrine Pancreas"
+    },
+    {
+      "kind": "em",
+      "name": "EM 208 Acinar Cell",
+      "caption": "TEM",
+      "stain": "",
+      "href": "/EM-view/EM-208-acinar-cell/12-photo-1.html",
+      "thumbPath": "/EM-view/EM-208-acinar-cell/imgs/photo-2c.png",
+      "section": "Exocrine Pancreas"
+    },
+    {
+      "kind": "em",
+      "name": "EM 074 Interlobular Duct",
+      "caption": "TEM",
+      "stain": "",
+      "href": "/EM-view/EM-074-interlobular-duct/12-photo-1.html",
+      "thumbPath": "/EM-view/EM-074-interlobular-duct/imgs/photo-2c.png",
+      "section": "Exocrine Pancreas"
+    },
+    {
+      "kind": "em",
+      "name": "EM 352 Centroacinar Cell",
+      "caption": "TEM",
+      "stain": "",
+      "href": "/EM-view/EM-352-centroacinar-cell/12-photo-1.html",
+      "thumbPath": "/EM-view/EM-352-centroacinar-cell/imgs/photo-2c.png",
+      "section": "Exocrine Pancreas"
+    }
+  ]
+}

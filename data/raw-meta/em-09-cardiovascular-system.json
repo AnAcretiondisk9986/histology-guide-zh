@@ -1,0 +1,291 @@
+{
+  "schema": 1,
+  "source": {
+    "url": "https://histologyguide.com/EM-atlas/09-cardiovascular-system.html",
+    "finalUrl": "https://histologyguide.com/EM-atlas/09-cardiovascular-system.html",
+    "fetchedAt": "2026-10-18T11:29:31.450Z",
+    "httpStatus": 200,
+    "bytes": 30628,
+    "sha256": "62feadaae550f1094f9650c85c76d3f0b048a8d1d985a9d35b7edd52ec1bb8ea",
+    "userAgent": "HistologyGuideCNStudyIndex/0.1 (+personal non-commercial study index; metadata extraction only; contact: local user)",
+    "note": "仅保存导航元数据；正文段落与图片未保存，遵循原站使用条款"
+  },
+  "chapter": 9,
+  "pageType": "em",
+  "pageTitle": "Chapter 9 - Cardiovascular System",
+  "hasIntroProse": true,
+  "headings": [
+    {
+      "level": 2,
+      "id": null,
+      "text": "Chapter 9 - Cardiovascular System"
+    },
+    {
+      "level": 3,
+      "id": "heart",
+      "text": "HEART"
+    },
+    {
+      "level": 3,
+      "id": "blood-vessels",
+      "text": "BLOOD VESSELS"
+    },
+    {
+      "level": 3,
+      "id": "capillary",
+      "text": "CAPILLARIES"
+    },
+    {
+      "level": 3,
+      "id": null,
+      "text": "Continuous Capillaries"
+    },
+    {
+      "level": 3,
+      "id": "fenestrated-capillary",
+      "text": "Fenestrated Capillaries"
+    },
+    {
+      "level": 3,
+      "id": "sinusoidal-capillary",
+      "text": "Sinusoidal Capillaries"
+    },
+    {
+      "level": 2,
+      "id": null,
+      "text": "CELL AND TISSUES"
+    },
+    {
+      "level": 2,
+      "id": null,
+      "text": "ORGAN SYSTEMS"
+    }
+  ],
+  "items": [
+    {
+      "kind": "em",
+      "name": "EM 370 Heart",
+      "caption": "Right Ventricle / Tricuspid Valve",
+      "stain": "SEM",
+      "href": "/EM-view/EM-370-heart/09-photo-1.html",
+      "thumbPath": "/EM-view/EM-370-heart/imgs/photo-2c.png",
+      "section": "HEART"
+    },
+    {
+      "kind": "em",
+      "name": "EM 371 Heart",
+      "caption": "Left Ventricle",
+      "stain": "SEM",
+      "href": "/EM-view/EM-371-heart/09-photo-1.html",
+      "thumbPath": "/EM-view/EM-371-heart/imgs/photo-2c.png",
+      "section": "HEART"
+    },
+    {
+      "kind": "em",
+      "name": "EM 073 Endocardium",
+      "caption": "SEM",
+      "stain": "",
+      "href": "/EM-view/EM-073-endocardium/09-photo-1.html",
+      "thumbPath": "/EM-view/EM-073-endocardium/imgs/photo-2c.png",
+      "section": "HEART"
+    },
+    {
+      "kind": "em",
+      "name": "EM 133 Endocardium",
+      "caption": "Cross-section",
+      "stain": "TEM",
+      "href": "/EM-view/EM-133-cardiac-muscle/09-photo-2.html",
+      "thumbPath": "/EM-view/EM-133-cardiac-muscle/imgs/photo-2c.png",
+      "section": "HEART"
+    },
+    {
+      "kind": "em",
+      "name": "EM 351 Cardiac Muscle",
+      "caption": "SEM",
+      "stain": "",
+      "href": "/EM-view/EM-351-cardiac-muscle/09-photo-1.html",
+      "thumbPath": "/EM-view/EM-351-cardiac-muscle/imgs/photo-2c.png",
+      "section": "HEART"
+    },
+    {
+      "kind": "em",
+      "name": "EM 137 Cardiac Muscle",
+      "caption": "TEM",
+      "stain": "",
+      "href": "/EM-view/EM-137-cardiac-muscle/09-photo-1.html",
+      "thumbPath": "/EM-view/EM-137-cardiac-muscle/imgs/photo-2c.png",
+      "section": "HEART"
+    },
+    {
+      "kind": "em",
+      "name": "EM 133 Cardiac Muscle",
+      "caption": "Cross-section",
+      "stain": "TEM",
+      "href": "/EM-view/EM-133-cardiac-muscle/09-photo-1.html",
+      "thumbPath": "/EM-view/EM-133-cardiac-muscle/imgs/photo-2c.png",
+      "section": "HEART"
+    },
+    {
+      "kind": "em",
+      "name": "EM 122 Cardiac Muscle",
+      "caption": "Sarcomere / Intercalated Disc",
+      "stain": "TEM",
+      "href": "/EM-view/EM-122-cardiac-muscle/09-photo-1.html",
+      "thumbPath": "/EM-view/EM-122-cardiac-muscle/imgs/photo-2c.png",
+      "section": "HEART"
+    },
+    {
+      "kind": "em",
+      "name": "EM 138 Cardiac Muscle",
+      "caption": "Sarcomere / Intercalated Disc",
+      "stain": "TEM",
+      "href": "/EM-view/EM-138-cardiac-muscle/09-photo-1.html",
+      "thumbPath": "/EM-view/EM-138-cardiac-muscle/imgs/photo-2c.png",
+      "section": "HEART"
+    },
+    {
+      "kind": "em",
+      "name": "EM 141 Cardiac Muscle",
+      "caption": "Sarcomere / Intercalated Disc",
+      "stain": "SEM",
+      "href": "/EM-view/EM-141-cardiac-muscle/09-photo-1.html",
+      "thumbPath": "/EM-view/EM-141-cardiac-muscle/imgs/photo-2c.png",
+      "section": "HEART"
+    },
+    {
+      "kind": "em",
+      "name": "EM 246 Muscular Artery and Medium Vein",
+      "caption": "SEM",
+      "stain": "",
+      "href": "/EM-view/EM-246-artery-and-vein/09-photo-1.html",
+      "thumbPath": "/EM-view/EM-246-artery-and-vein/imgs/photo-2c.png",
+      "section": "BLOOD VESSELS"
+    },
+    {
+      "kind": "em",
+      "name": "EM 176 Muscular Artery",
+      "caption": "TEM",
+      "stain": "",
+      "href": "/EM-view/EM-176-muscular-artery/09-photo-1.html",
+      "thumbPath": "/EM-view/EM-176-muscular-artery/imgs/photo-2c.png",
+      "section": "BLOOD VESSELS"
+    },
+    {
+      "kind": "em",
+      "name": "EM 285 Arteriole",
+      "caption": "SEM",
+      "stain": "",
+      "href": "/EM-view/EM-285-arteriole/09-photo-1.html",
+      "thumbPath": "/EM-view/EM-285-arteriole/imgs/photo-2c.png",
+      "section": "BLOOD VESSELS"
+    },
+    {
+      "kind": "em",
+      "name": "EM 389 Vein",
+      "caption": "TEM",
+      "stain": "",
+      "href": "/EM-view/EM-389-vein/09-photo-1.html",
+      "thumbPath": "/EM-view/EM-389-vein/imgs/photo-2c.png",
+      "section": "BLOOD VESSELS"
+    },
+    {
+      "kind": "em",
+      "name": "EM 213 Continuous Capillary",
+      "caption": "TEM",
+      "stain": "",
+      "href": "/EM-view/EM-213-capillary/09-photo-1.html",
+      "thumbPath": "/EM-view/EM-213-capillary/imgs/photo-2c.png",
+      "section": "Continuous Capillaries"
+    },
+    {
+      "kind": "em",
+      "name": "EM 221 Pericyte",
+      "caption": "SEM",
+      "stain": "",
+      "href": "/EM-view/EM-221-pericyte/09-photo-1.html",
+      "thumbPath": "/EM-view/EM-221-pericyte/imgs/photo-2c.png",
+      "section": "Continuous Capillaries"
+    },
+    {
+      "kind": "em",
+      "name": "EM 220 Pericyte",
+      "caption": "SEM",
+      "stain": "",
+      "href": "/EM-view/EM-220-pericyte/09-photo-1.html",
+      "thumbPath": "/EM-view/EM-220-pericyte/imgs/photo-2c.png",
+      "section": "Continuous Capillaries"
+    },
+    {
+      "kind": "em",
+      "name": "EM 224 Pericyte",
+      "caption": "TEM",
+      "stain": "",
+      "href": "/EM-view/EM-224-capillary/09-photo-1.html",
+      "thumbPath": "/EM-view/EM-224-capillary/imgs/photo-2c.png",
+      "section": "Continuous Capillaries"
+    },
+    {
+      "kind": "em",
+      "name": "EM 226 Fenestrated Capillary",
+      "caption": "TEM",
+      "stain": "",
+      "href": "/EM-view/EM-226-capillary/09-photo-1.html",
+      "thumbPath": "/EM-view/EM-226-capillary/imgs/photo-2c.png",
+      "section": "Fenestrated Capillaries"
+    },
+    {
+      "kind": "em",
+      "name": "EM 160 Fenestrated Capillary",
+      "caption": "TEM",
+      "stain": "",
+      "href": "/EM-view/EM-160-capillary/09-photo-1.html",
+      "thumbPath": "/EM-view/EM-160-capillary/imgs/photo-2c.png",
+      "section": "Fenestrated Capillaries"
+    },
+    {
+      "kind": "em",
+      "name": "EM 299 Adrenal Cortex",
+      "caption": "Fenestrated Capillaries",
+      "stain": "SEM",
+      "href": "/EM-view/EM-299-zona-reticularis/09-photo-1.html",
+      "thumbPath": "/EM-view/EM-299-zona-reticularis/imgs/photo-2c.png",
+      "section": "Fenestrated Capillaries"
+    },
+    {
+      "kind": "em",
+      "name": "EM 235 Kidney",
+      "caption": "Fenestrated Capillaries",
+      "stain": "SEM",
+      "href": "/EM-view/EM-235-kidney-glomerulus/09-photo-1.html",
+      "thumbPath": "/EM-view/EM-235-kidney-glomerulus/imgs/photo-2c.png",
+      "section": "Fenestrated Capillaries"
+    },
+    {
+      "kind": "em",
+      "name": "EM 284 Fenestrated Capillary",
+      "caption": "Freeze Fracture",
+      "stain": "",
+      "href": "/EM-view/EM-284-fenestrated-capillary/09-photo-1.html",
+      "thumbPath": "/EM-view/EM-284-fenestrated-capillary/imgs/photo-2c.png",
+      "section": "Fenestrated Capillaries"
+    },
+    {
+      "kind": "em",
+      "name": "EM 242 Kupffer Cell",
+      "caption": "Sinusoidal Capillaries",
+      "stain": "TEM",
+      "href": "/EM-view/EM-242-kupffer-cell/09-photo-1.html",
+      "thumbPath": "/EM-view/EM-242-kupffer-cell/imgs/photo-2c.png",
+      "section": "Sinusoidal Capillaries"
+    },
+    {
+      "kind": "em",
+      "name": "EM 300 Bone Marrow",
+      "caption": "Sinusoidal Capillaries",
+      "stain": "SEM",
+      "href": "/EM-view/EM-300-bone-marrow/09-photo-1.html",
+      "thumbPath": "/EM-view/EM-300-bone-marrow/imgs/photo-2c.png",
+      "section": "Sinusoidal Capillaries"
+    }
+  ]
+}

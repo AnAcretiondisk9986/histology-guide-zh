@@ -1,0 +1,4705 @@
+{
+  "schema": 1,
+  "updatedAt": "2026-10-18",
+  "terms": [
+    {
+      "id": "epithelium",
+      "zh": "上皮组织",
+      "en": "epithelium",
+      "aliases": [
+        "上皮"
+      ],
+      "category": "组织",
+      "chapters": [
+        2
+      ],
+      "definition": "由大量排列紧密的细胞和极少量细胞外基质构成的基本组织，细胞具极性，基底面附着于基膜，被覆体表、衬贴腔面或构成腺体。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "simple-squamous-epithelium",
+      "zh": "单层扁平上皮",
+      "en": "simple squamous epithelium",
+      "aliases": [
+        "单层鳞状上皮"
+      ],
+      "category": "组织",
+      "chapters": [
+        2
+      ],
+      "definition": "由一层扁平细胞构成的上皮，细胞薄而核呈扁卵圆形，物质通透方便，分布于肺泡、血管内皮和浆膜表面。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "simple-cuboidal-epithelium",
+      "zh": "单层立方上皮",
+      "en": "simple cuboidal epithelium",
+      "aliases": [],
+      "category": "组织",
+      "chapters": [
+        2
+      ],
+      "definition": "由一层立方细胞构成的上皮，核圆而居中，见于肾小管、甲状腺滤泡和卵巢表面，以分泌和吸收为主要功能。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "simple-columnar-epithelium",
+      "zh": "单层柱状上皮",
+      "en": "simple columnar epithelium",
+      "aliases": [],
+      "category": "组织",
+      "chapters": [
+        2
+      ],
+      "definition": "由一层高柱状细胞构成的上皮，核长圆多位于基底部，游离面常有微绒毛，主要分布于胃肠黏膜，功能以吸收和分泌为主。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "pseudostratified-columnar-epithelium",
+      "zh": "假复层纤毛柱状上皮",
+      "en": "pseudostratified ciliated columnar epithelium",
+      "aliases": [
+        "pseudostratified columnar epithelium",
+        "假复层柱状上皮"
+      ],
+      "category": "组织",
+      "chapters": [
+        2,
+        17
+      ],
+      "definition": "由高低不等的细胞紧密排列、核不在同一平面而貌似复层，实为单层，多分布于呼吸道，常含纤毛细胞和杯状细胞。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "stratified-squamous-epithelium",
+      "zh": "复层扁平上皮",
+      "en": "stratified squamous epithelium",
+      "aliases": [
+        "复层鳞状上皮"
+      ],
+      "category": "组织",
+      "chapters": [
+        2,
+        11
+      ],
+      "definition": "由多层细胞构成、浅层细胞扁平的复层上皮，分为角化型和不角化型，分别构成表皮以及口腔、食管等处的衬里。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "stratified-cuboidal-epithelium",
+      "zh": "复层立方上皮",
+      "en": "stratified cuboidal epithelium",
+      "aliases": [],
+      "category": "组织",
+      "chapters": [
+        2
+      ],
+      "definition": "由两层以上的立方细胞构成的上皮，在体内较少见，主要分布于汗腺导管和卵巢的卵泡等处。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "stratified-columnar-epithelium",
+      "zh": "复层柱状上皮",
+      "en": "stratified columnar epithelium",
+      "aliases": [],
+      "category": "组织",
+      "chapters": [
+        2
+      ],
+      "definition": "由多层细胞构成、表层为一层柱状细胞的上皮，在体内较少见，常见于大腺体的排泄管和眼结膜等部位。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "transitional-epithelium",
+      "zh": "变移上皮",
+      "en": "transitional epithelium",
+      "aliases": [
+        "移行上皮"
+      ],
+      "category": "组织",
+      "chapters": [
+        2,
+        16
+      ],
+      "definition": "衬贴于肾盂、输尿管和膀胱的复层上皮，细胞层数和形态随器官充盈程度而改变，具有很大的变形能力。",
+      "note": "旧称移行上皮",
+      "verified": true
+    },
+    {
+      "id": "respiratory-epithelium",
+      "zh": "呼吸上皮",
+      "en": "respiratory epithelium",
+      "aliases": [],
+      "category": "组织",
+      "chapters": [
+        2,
+        17
+      ],
+      "definition": "被覆于鼻腔至支气管黏膜表面的假复层纤毛柱状上皮，含杯状细胞，借黏液纤毛装置将吸入的异物排出。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "connective-tissue",
+      "zh": "结缔组织",
+      "en": "connective tissue",
+      "aliases": [],
+      "category": "组织",
+      "chapters": [
+        3
+      ],
+      "definition": "由散在的细胞、纤维和丰富的基质构成的基本组织，细胞间质多，具有连接、支持、营养、防御和修复等功能。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "loose-connective-tissue",
+      "zh": "疏松结缔组织",
+      "en": "loose connective tissue",
+      "aliases": [
+        "蜂窝组织"
+      ],
+      "category": "组织",
+      "chapters": [
+        3
+      ],
+      "definition": "纤维细而稀疏、基质丰富、细胞种类较多的结缔组织，广泛填充于器官之间，具连接、支持和防御作用，也是炎症反应的主要场所。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "dense-connective-tissue",
+      "zh": "致密结缔组织",
+      "en": "dense connective tissue",
+      "aliases": [],
+      "category": "组织",
+      "chapters": [
+        3
+      ],
+      "definition": "纤维粗大密集、细胞和基质较少的结缔组织，按纤维排列是否规则分为两型，分别构成腱、韧带与真皮、器官被膜。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "dense-regular-connective-tissue",
+      "zh": "规则致密结缔组织",
+      "en": "dense regular connective tissue",
+      "aliases": [],
+      "category": "组织",
+      "chapters": [
+        3
+      ],
+      "definition": "胶原纤维束平行排列、成纤维细胞夹于纤维束之间的致密结缔组织，构成腱和韧带，能承受单一方向强大的牵拉力。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "dense-irregular-connective-tissue",
+      "zh": "不规则致密结缔组织",
+      "en": "dense irregular connective tissue",
+      "aliases": [],
+      "category": "组织",
+      "chapters": [
+        3
+      ],
+      "definition": "胶原纤维束交错排列、方向不定的致密结缔组织，构成真皮、器官被膜和硬脑膜，可抵抗来自不同方向的张力。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "adipose-tissue",
+      "zh": "脂肪组织",
+      "en": "adipose tissue",
+      "aliases": [],
+      "category": "组织",
+      "chapters": [
+        3
+      ],
+      "definition": "由大量脂肪细胞聚集而成的结缔组织，分为白色脂肪组织和棕色脂肪组织，具有储能、保温、缓冲和产热等作用。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "reticular-tissue",
+      "zh": "网状组织",
+      "en": "reticular tissue",
+      "aliases": [],
+      "category": "组织",
+      "chapters": [
+        3,
+        10
+      ],
+      "definition": "由网状细胞、网状纤维和基质构成的结缔组织，形成淋巴器官和骨髓的网状支架，为血细胞和免疫细胞提供微环境。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "hyaline-cartilage",
+      "zh": "透明软骨",
+      "en": "hyaline cartilage",
+      "aliases": [],
+      "category": "组织",
+      "chapters": [
+        5
+      ],
+      "definition": "基质中富含胶原原纤维、新鲜时呈半透明的软骨，分布于关节面、肋软骨和呼吸道壁，抗压性较强。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "elastic-cartilage",
+      "zh": "弹性软骨",
+      "en": "elastic cartilage",
+      "aliases": [],
+      "category": "组织",
+      "chapters": [
+        5
+      ],
+      "definition": "基质内含大量弹性纤维、呈黄色的软骨，分布于耳廓、会厌等处，弹性大，弯曲变形后能恢复原状。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "fibrocartilage",
+      "zh": "纤维软骨",
+      "en": "fibrocartilage",
+      "aliases": [],
+      "category": "组织",
+      "chapters": [
+        5
+      ],
+      "definition": "含大量平行或交错排列的胶原纤维束的软骨，分布于椎间盘、耻骨联合和关节盘，兼具抗压与抗拉能力。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "bone-tissue",
+      "zh": "骨组织",
+      "en": "bone tissue",
+      "aliases": [],
+      "category": "组织",
+      "chapters": [
+        5
+      ],
+      "definition": "由骨细胞、骨基质和骨纤维构成的坚硬结缔组织，基质经钙化而坚硬，构成全身骨骼，起支持和保护作用。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "muscle-tissue",
+      "zh": "肌组织",
+      "en": "muscle tissue",
+      "aliases": [],
+      "category": "组织",
+      "chapters": [
+        4
+      ],
+      "definition": "以肌细胞为主要成分的基本组织，胞质内含肌丝，受刺激后可收缩，按结构与分布分为骨骼肌、心肌和平滑肌。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "nervous-tissue",
+      "zh": "神经组织",
+      "en": "nervous tissue",
+      "aliases": [],
+      "category": "组织",
+      "chapters": [
+        6
+      ],
+      "definition": "由神经元和神经胶质细胞构成的基本组织，神经元感受刺激、整合信息并传导神经冲动，胶质细胞起支持、保护和营养作用。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "blood",
+      "zh": "血液",
+      "en": "blood",
+      "aliases": [],
+      "category": "组织",
+      "chapters": [
+        7
+      ],
+      "definition": "流动于血管和心腔内的液态结缔组织，由血浆和血细胞组成，运输氧气、营养物质、代谢产物和激素，并参与免疫与凝血。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "basement-membrane",
+      "zh": "基膜",
+      "en": "basement membrane",
+      "aliases": [
+        "basal membrane"
+      ],
+      "category": "细胞外基质",
+      "chapters": [
+        2,
+        3
+      ],
+      "definition": "上皮细胞基底面与结缔组织之间的一层薄膜，由基板和网板构成，起支持、连接和半透膜屏障作用。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "collagen-fiber",
+      "zh": "胶原纤维",
+      "en": "collagen fiber",
+      "aliases": [
+        "白纤维"
+      ],
+      "category": "细胞外基质",
+      "chapters": [
+        3
+      ],
+      "definition": "由胶原原纤维借少量黏合质黏合而成的纤维束，新鲜时呈白色，韧性大、抗拉力强，是结缔组织中最主要的纤维。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "collagen-fibril",
+      "zh": "胶原原纤维",
+      "en": "collagen fibril",
+      "aliases": [],
+      "category": "细胞外基质",
+      "chapters": [
+        3
+      ],
+      "definition": "由胶原蛋白分子聚合而成的细长纤维，具周期性横纹，是胶原纤维的亚单位，为组织提供抗张强度。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "reticular-fiber",
+      "zh": "网状纤维",
+      "en": "reticular fiber",
+      "aliases": [
+        "嗜银纤维"
+      ],
+      "category": "细胞外基质",
+      "chapters": [
+        3,
+        10
+      ],
+      "definition": "主要由III型胶原构成的细纤维，表面包有糖蛋白，银染呈黑色，交织成网，构成淋巴器官和骨髓的支架。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "elastic-fiber",
+      "zh": "弹性纤维",
+      "en": "elastic fiber",
+      "aliases": [
+        "黄纤维"
+      ],
+      "category": "细胞外基质",
+      "chapters": [
+        3
+      ],
+      "definition": "由弹性蛋白和微原纤维构成的黄色纤维，弹性大，可随组织牵拉而伸展，在弹性软骨、大动脉壁和真皮中较多。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "ground-substance",
+      "zh": "基质",
+      "en": "ground substance",
+      "aliases": [],
+      "category": "细胞外基质",
+      "chapters": [
+        3
+      ],
+      "definition": "结缔组织基质中由蛋白多糖和糖蛋白构成的无定形凝胶状物质，其分子间孔隙可限制大分子通过，起屏障和连接作用。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "proteoglycan",
+      "zh": "蛋白多糖",
+      "en": "proteoglycan",
+      "aliases": [],
+      "category": "细胞外基质",
+      "chapters": [
+        3
+      ],
+      "definition": "由核心蛋白与糖胺多糖共价结合而成的大分子，亲水性强，构成基质的主要成分，可结合大量水并形成分子筛。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "glycoprotein",
+      "zh": "糖蛋白",
+      "en": "glycoprotein",
+      "aliases": [],
+      "category": "细胞外基质",
+      "chapters": [
+        1,
+        3
+      ],
+      "definition": "由蛋白质与寡糖链共价结合的分子，参与细胞识别、黏附和基质构成，纤维粘连蛋白是其中的代表。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "tissue-fluid",
+      "zh": "组织液",
+      "en": "tissue fluid",
+      "aliases": [],
+      "category": "细胞外基质",
+      "chapters": [
+        3
+      ],
+      "definition": "从毛细血管动脉端滤出、进入细胞间质的水和电解质，经毛细血管静脉端或淋巴管回流，是细胞获取营养和排出废物的中介。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "mitochondrion",
+      "zh": "线粒体",
+      "en": "mitochondrion",
+      "aliases": [],
+      "category": "细胞器",
+      "chapters": [
+        1,
+        13
+      ],
+      "definition": "由双层膜围成的细胞器，内膜向腔内折叠形成嵴，是氧化磷酸化和产生ATP的主要场所，其数量和形态反映细胞的能量需求。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "rough-endoplasmic-reticulum",
+      "zh": "粗面内质网",
+      "en": "rough endoplasmic reticulum",
+      "aliases": [
+        "RER"
+      ],
+      "category": "细胞器",
+      "chapters": [
+        1,
+        6,
+        13
+      ],
+      "definition": "表面附着核糖体的膜性细胞器，主要合成分泌性蛋白质和膜蛋白，在浆细胞和胰腺腺泡细胞等合成旺盛的细胞中发达。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "smooth-endoplasmic-reticulum",
+      "zh": "滑面内质网",
+      "en": "smooth endoplasmic reticulum",
+      "aliases": [
+        "SER"
+      ],
+      "category": "细胞器",
+      "chapters": [
+        1,
+        13
+      ],
+      "definition": "无核糖体附着的膜性小管网络，参与脂类和类固醇激素合成、糖原代谢、解毒及钙离子储存，在肝细胞和内分泌细胞中丰富。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "golgi-apparatus",
+      "zh": "高尔基复合体",
+      "en": "Golgi apparatus",
+      "aliases": [
+        "高尔基体"
+      ],
+      "category": "细胞器",
+      "chapters": [
+        1,
+        13
+      ],
+      "definition": "由扁平囊泡堆叠而成的膜性细胞器，对来自内质网的蛋白质进行加工、分类和包装，并参与溶酶体形成和分泌颗粒排出。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "lysosome",
+      "zh": "溶酶体",
+      "en": "lysosome",
+      "aliases": [],
+      "category": "细胞器",
+      "chapters": [
+        1,
+        3
+      ],
+      "definition": "含多种酸性水解酶的膜性小体，能分解吞噬的异物、衰老的细胞器和大分子物质，具有细胞内消化和防御作用。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "peroxisome",
+      "zh": "过氧化物酶体",
+      "en": "peroxisome",
+      "aliases": [
+        "微体"
+      ],
+      "category": "细胞器",
+      "chapters": [
+        1
+      ],
+      "definition": "含氧化酶和过氧化氢酶的膜性小体，可氧化脂肪酸并分解过氧化氢，使细胞免受氧化损伤。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "ribosome",
+      "zh": "核糖体",
+      "en": "ribosome",
+      "aliases": [
+        "核蛋白体"
+      ],
+      "category": "细胞器",
+      "chapters": [
+        1
+      ],
+      "definition": "由核糖体RNA和蛋白质构成的非膜性颗粒，附着于内质网或游离于胞质，是细胞内蛋白质合成的场所。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "centrosome",
+      "zh": "中心体",
+      "en": "centrosome",
+      "aliases": [],
+      "category": "细胞器",
+      "chapters": [
+        1
+      ],
+      "definition": "由中心粒和周围致密物质组成的细胞器，是微管组织中心，参与纺锤体形成、染色体移动和纤毛发生。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "microtubule",
+      "zh": "微管",
+      "en": "microtubule",
+      "aliases": [],
+      "category": "细胞器",
+      "chapters": [
+        1
+      ],
+      "definition": "由微管蛋白聚合而成的中空管状结构，构成细胞骨架，参与维持细胞形态、细胞器运输和纺锤体形成。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "microfilament",
+      "zh": "微丝",
+      "en": "microfilament",
+      "aliases": [],
+      "category": "细胞器",
+      "chapters": [
+        1
+      ],
+      "definition": "由肌动蛋白组成的细丝，构成细胞骨架的微丝系统，参与维持细胞形态、细胞运动、胞质分裂和微绒毛支架形成。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "intermediate-filament",
+      "zh": "中间丝",
+      "en": "intermediate filament",
+      "aliases": [
+        "中间纤维"
+      ],
+      "category": "细胞器",
+      "chapters": [
+        1,
+        11
+      ],
+      "definition": "由角蛋白、波形蛋白等不同蛋白组成的坚韧纤维，起机械支撑作用，其种类常作为鉴别细胞类型的标志。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "nucleolus",
+      "zh": "核仁",
+      "en": "nucleolus",
+      "aliases": [],
+      "category": "细胞器",
+      "chapters": [
+        1
+      ],
+      "definition": "细胞核内由核糖体RNA和蛋白质组成的球形结构，是核糖体亚基组装的场所，蛋白质合成旺盛的细胞中明显增大。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "heterochromatin",
+      "zh": "异染色质",
+      "en": "heterochromatin",
+      "aliases": [],
+      "category": "细胞器",
+      "chapters": [
+        1
+      ],
+      "definition": "染色质中折叠紧密、染色较深的部分，转录活性低，多位于核膜下或核仁周围，常见于分化成熟、代谢不活跃的细胞。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "nuclear-envelope",
+      "zh": "核膜",
+      "en": "nuclear envelope",
+      "aliases": [],
+      "category": "细胞器",
+      "chapters": [
+        1
+      ],
+      "definition": "分隔细胞核与细胞质的双层单位膜，外膜常与内质网相连，膜上分布核孔，是核质间进行物质交换的通道。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "microvillus",
+      "zh": "微绒毛",
+      "en": "microvillus",
+      "aliases": [],
+      "category": "细胞器",
+      "chapters": [
+        2
+      ],
+      "definition": "上皮细胞游离面伸出的细小指状突起，内含纵行微丝，可扩大细胞表面积，多见于小肠和肾小管的吸收细胞。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "cilium",
+      "zh": "纤毛",
+      "en": "cilium",
+      "aliases": [],
+      "category": "细胞器",
+      "chapters": [
+        2
+      ],
+      "definition": "上皮细胞游离面伸出的能摆动的较长突起，内含按9+2方式排列的纵行微管，通过定向摆动推动表面物质移动。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "basal-body",
+      "zh": "基体",
+      "en": "basal body",
+      "aliases": [],
+      "category": "细胞器",
+      "chapters": [
+        2
+      ],
+      "definition": "位于纤毛基部、由中心粒衍生的圆筒状结构，是纤毛微管的组织中心，参与纤毛的发生与固定。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "flagellum",
+      "zh": "鞭毛",
+      "en": "flagellum",
+      "aliases": [],
+      "category": "细胞器",
+      "chapters": [
+        19
+      ],
+      "definition": "精子尾部细长的运动结构，轴心为9+2排列的微管，由基体发出，通过摆动推动精子向前运动。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "myofibril",
+      "zh": "肌原纤维",
+      "en": "myofibril",
+      "aliases": [],
+      "category": "细胞器",
+      "chapters": [
+        4
+      ],
+      "definition": "肌细胞内沿长轴排列的细长肌丝束，由粗肌丝和细肌丝规则排列构成，是肌纤维收缩的结构基础。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "sarcomere",
+      "zh": "肌节",
+      "en": "sarcomere",
+      "aliases": [],
+      "category": "细胞器",
+      "chapters": [
+        4
+      ],
+      "definition": "相邻两条Z线之间的一段肌原纤维，是肌收缩的最小结构单位，由粗肌丝和细肌丝有规律地重叠排列而成。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "sarcoplasmic-reticulum",
+      "zh": "肌质网",
+      "en": "sarcoplasmic reticulum",
+      "aliases": [
+        "肌浆网"
+      ],
+      "category": "细胞器",
+      "chapters": [
+        4
+      ],
+      "definition": "肌细胞内的滑面内质网，沿肌原纤维周围形成纵行管网，储存钙离子，在兴奋收缩偶联中释放并回收钙。",
+      "note": "部分教材作肌浆网",
+      "verified": false
+    },
+    {
+      "id": "t-tubule",
+      "zh": "横小管",
+      "en": "T tubule",
+      "aliases": [
+        "T小管"
+      ],
+      "category": "细胞器",
+      "chapters": [
+        4
+      ],
+      "definition": "肌膜向细胞内部凹陷形成的管状结构，可将兴奋从细胞表面传入深部，使整条肌纤维几乎同时收缩。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "nissl-body",
+      "zh": "尼氏体",
+      "en": "Nissl body",
+      "aliases": [
+        "尼氏小体",
+        "嗜染质"
+      ],
+      "category": "细胞器",
+      "chapters": [
+        6
+      ],
+      "definition": "神经元胞体和树突内由粗面内质网与游离核糖体聚集成的嗜碱性团块，是合成蛋白质的场所，轴丘处缺如。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "lipid-droplet",
+      "zh": "脂滴",
+      "en": "lipid droplet",
+      "aliases": [],
+      "category": "细胞器",
+      "chapters": [
+        1,
+        15
+      ],
+      "definition": "细胞质内储存中性脂肪的球形小体，大小不等，在脂肪细胞中融合成大脂滴并将胞质挤向细胞周边。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "fibroblast",
+      "zh": "成纤维细胞",
+      "en": "fibroblast",
+      "aliases": [],
+      "category": "细胞",
+      "chapters": [
+        3
+      ],
+      "definition": "结缔组织中最常见的细胞，胞体多突，能合成和分泌胶原蛋白、弹性蛋白及基质成分，并参与创伤修复。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "fibrocyte",
+      "zh": "纤维细胞",
+      "en": "fibrocyte",
+      "aliases": [],
+      "category": "细胞",
+      "chapters": [
+        3
+      ],
+      "definition": "成纤维细胞功能静止时的形态，胞体较小、突起细长，细胞器少，组织损伤时可转变为成纤维细胞。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "macrophage",
+      "zh": "巨噬细胞",
+      "en": "macrophage",
+      "aliases": [],
+      "category": "细胞",
+      "chapters": [
+        3
+      ],
+      "definition": "由单核细胞分化而来的吞噬细胞，形态不规则，表面伸出伪足，能吞噬异物、清除衰老细胞并参与免疫应答。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "plasma-cell",
+      "zh": "浆细胞",
+      "en": "plasma cell",
+      "aliases": [],
+      "category": "细胞",
+      "chapters": [
+        3,
+        7,
+        8
+      ],
+      "definition": "由B淋巴细胞分化而来的免疫细胞，胞质嗜碱性，核偏位而染色质呈车轮状，能合成并分泌免疫球蛋白即抗体。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "mast-cell",
+      "zh": "肥大细胞",
+      "en": "mast cell",
+      "aliases": [],
+      "category": "细胞",
+      "chapters": [
+        3
+      ],
+      "definition": "胞质含大量粗大嗜碱性颗粒的结缔组织细胞，颗粒内含肝素、组胺等物质，参与过敏反应和抗凝血。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "adipocyte",
+      "zh": "脂肪细胞",
+      "en": "adipocyte",
+      "aliases": [],
+      "category": "细胞",
+      "chapters": [
+        3
+      ],
+      "definition": "胞质内含巨大脂滴的细胞，核被挤到细胞一侧，成群分布构成脂肪组织，具有储存能量和保温作用。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "white-adipocyte",
+      "zh": "白色脂肪细胞",
+      "en": "white adipocyte",
+      "aliases": [
+        "单泡脂肪细胞"
+      ],
+      "category": "细胞",
+      "chapters": [
+        3
+      ],
+      "definition": "含单个大脂滴、核被挤至周边的脂肪细胞，胞质和细胞器少，构成白色脂肪组织，主要功能是储能和保温。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "brown-adipocyte",
+      "zh": "棕色脂肪细胞",
+      "en": "brown adipocyte",
+      "aliases": [
+        "多泡脂肪细胞"
+      ],
+      "category": "细胞",
+      "chapters": [
+        3
+      ],
+      "definition": "含多个小脂滴和大量线粒体的脂肪细胞，核居中，通过脂肪酸氧化产热，在新生儿体内较多。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "mesenchymal-cell",
+      "zh": "间充质细胞",
+      "en": "mesenchymal cell",
+      "aliases": [],
+      "category": "细胞",
+      "chapters": [
+        3
+      ],
+      "definition": "胚胎时期散在于间充质中的未分化细胞，胞体呈星形，可分化为成纤维细胞、脂肪细胞、骨细胞和肌细胞等。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "neutrophil",
+      "zh": "中性粒细胞",
+      "en": "neutrophil",
+      "aliases": [],
+      "category": "细胞",
+      "chapters": [
+        7,
+        8
+      ],
+      "definition": "数量最多的白细胞，核呈分叶状，胞质含细小中性颗粒，能活跃地穿出血管并吞噬、杀灭细菌。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "eosinophil",
+      "zh": "嗜酸性粒细胞",
+      "en": "eosinophil",
+      "aliases": [],
+      "category": "细胞",
+      "chapters": [
+        3,
+        7,
+        8
+      ],
+      "definition": "胞质含粗大橘红色颗粒的白细胞，核多分两叶，能吞噬抗原抗体复合物，并释放颗粒内容物杀伤寄生虫。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "basophil",
+      "zh": "嗜碱性粒细胞",
+      "en": "basophil",
+      "aliases": [],
+      "category": "细胞",
+      "chapters": [
+        7,
+        8
+      ],
+      "definition": "数量最少的粒细胞，核分叶或呈S形，胞质含嗜碱性颗粒，可释放组胺和肝素参与过敏反应。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "lymphocyte",
+      "zh": "淋巴细胞",
+      "en": "lymphocyte",
+      "aliases": [],
+      "category": "细胞",
+      "chapters": [
+        3,
+        7,
+        8
+      ],
+      "definition": "胞质少、核圆而染色深的单个核细胞，分T细胞、B细胞和NK细胞等，是免疫应答的主要执行者。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "monocyte",
+      "zh": "单核细胞",
+      "en": "monocyte",
+      "aliases": [],
+      "category": "细胞",
+      "chapters": [
+        7,
+        8
+      ],
+      "definition": "体积最大的白细胞，核呈肾形或马蹄形，胞质灰蓝色，穿出血管进入组织后分化为巨噬细胞。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "erythrocyte",
+      "zh": "红细胞",
+      "en": "erythrocyte",
+      "aliases": [
+        "red blood cell"
+      ],
+      "category": "细胞",
+      "chapters": [
+        7,
+        8
+      ],
+      "definition": "无核无细胞器的双凹圆盘状细胞，胞质充满血红蛋白，主要功能是运输氧和二氧化碳，寿命约120天。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "reticulocyte",
+      "zh": "网织红细胞",
+      "en": "reticulocyte",
+      "aliases": [],
+      "category": "细胞",
+      "chapters": [
+        8
+      ],
+      "definition": "未完全成熟的红细胞，胞质内残留少量核糖体，用煌焦油蓝染色呈细网状，其比例可反映骨髓造血功能。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "platelet",
+      "zh": "血小板",
+      "en": "platelet",
+      "aliases": [
+        "thrombocyte"
+      ],
+      "category": "细胞",
+      "chapters": [
+        7,
+        8
+      ],
+      "definition": "由巨核细胞胞质脱落形成的盘状小体，无细胞核，参与止血和凝血，并能释放多种生长因子。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "megakaryocyte",
+      "zh": "巨核细胞",
+      "en": "megakaryocyte",
+      "aliases": [],
+      "category": "细胞",
+      "chapters": [
+        8
+      ],
+      "definition": "骨髓中体积最大的细胞，核多叶，胞质被分界膜系统分隔，成熟后脱落形成血小板释放入血。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "hematopoietic-stem-cell",
+      "zh": "造血干细胞",
+      "en": "hematopoietic stem cell",
+      "aliases": [],
+      "category": "细胞",
+      "chapters": [
+        8
+      ],
+      "definition": "骨髓中具有自我更新和多向分化潜能的原始细胞，能增殖分化为各种血细胞，是各类血细胞的共同来源。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "osteoblast",
+      "zh": "成骨细胞",
+      "en": "osteoblast",
+      "aliases": [],
+      "category": "细胞",
+      "chapters": [
+        5
+      ],
+      "definition": "位于骨组织表面、能合成和分泌骨基质的细胞，分泌的基质随即钙化，自身被埋入后转变为骨细胞。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "osteocyte",
+      "zh": "骨细胞",
+      "en": "osteocyte",
+      "aliases": [],
+      "category": "细胞",
+      "chapters": [
+        5
+      ],
+      "definition": "由成骨细胞被埋入骨基质后转变而来，胞体位于骨陷窝，突起伸入骨小管，经缝隙连接相互联系。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "osteoclast",
+      "zh": "破骨细胞",
+      "en": "osteoclast",
+      "aliases": [],
+      "category": "细胞",
+      "chapters": [
+        5,
+        8
+      ],
+      "definition": "由多个单核细胞融合形成的多核大细胞，贴附于骨表面，分泌酸和蛋白酶溶解骨质，参与骨吸收。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "chondrocyte",
+      "zh": "软骨细胞",
+      "en": "chondrocyte",
+      "aliases": [],
+      "category": "细胞",
+      "chapters": [
+        5
+      ],
+      "definition": "位于软骨陷窝内的细胞，能合成和分泌软骨基质，近表面者较小而幼稚，深部者常成对成群。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "skeletal-muscle-fiber",
+      "zh": "骨骼肌纤维",
+      "en": "skeletal muscle fiber",
+      "aliases": [
+        "骨骼肌细胞"
+      ],
+      "category": "细胞",
+      "chapters": [
+        4
+      ],
+      "definition": "细长圆柱状的多核肌细胞，核位于肌膜下，胞质含大量纵行肌原纤维并显示横纹，受躯体运动神经支配。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "cardiac-muscle-cell",
+      "zh": "心肌细胞",
+      "en": "cardiac muscle cell",
+      "aliases": [
+        "心肌纤维"
+      ],
+      "category": "细胞",
+      "chapters": [
+        4
+      ],
+      "definition": "短柱状、有分支的肌细胞，多有一个居中的细胞核，具横纹，相邻细胞以闰盘相连，受自主神经调节。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "smooth-muscle-cell",
+      "zh": "平滑肌细胞",
+      "en": "smooth muscle cell",
+      "aliases": [
+        "平滑肌纤维"
+      ],
+      "category": "细胞",
+      "chapters": [
+        4
+      ],
+      "definition": "梭形的肌细胞，核居中呈杆状，胞质无横纹，主要分布于内脏器官壁和血管壁，收缩缓慢而持久。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "myosatellite-cell",
+      "zh": "肌卫星细胞",
+      "en": "muscle satellite cell",
+      "aliases": [],
+      "category": "细胞",
+      "chapters": [
+        4
+      ],
+      "definition": "位于骨骼肌纤维与基膜之间的扁平细胞，属肌组织内的储备细胞，损伤后可增殖融合修复肌纤维。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "neuron",
+      "zh": "神经元",
+      "en": "neuron",
+      "aliases": [
+        "神经细胞"
+      ],
+      "category": "细胞",
+      "chapters": [
+        6
+      ],
+      "definition": "神经组织的基本单位，由胞体、树突和轴突构成，能接受刺激、整合信息并传导神经冲动，又称神经细胞。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "astrocyte",
+      "zh": "星形胶质细胞",
+      "en": "astrocyte",
+      "aliases": [],
+      "category": "细胞",
+      "chapters": [
+        6
+      ],
+      "definition": "体积最大的神经胶质细胞，突起呈星状并有足板，参与构成血脑屏障、转运物质，起支持与绝缘作用。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "oligodendrocyte",
+      "zh": "少突胶质细胞",
+      "en": "oligodendrocyte",
+      "aliases": [],
+      "category": "细胞",
+      "chapters": [
+        6
+      ],
+      "definition": "突起较少的中枢神经胶质细胞，其突起末端包卷轴突形成髓鞘，髓鞘形成障碍可导致脱髓鞘疾病。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "microglia",
+      "zh": "小胶质细胞",
+      "en": "microglia",
+      "aliases": [],
+      "category": "细胞",
+      "chapters": [
+        6
+      ],
+      "definition": "中枢神经系统内最小的胶质细胞，由单核细胞迁入而来，能吞噬坏死组织与异物，起防御作用。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "schwann-cell",
+      "zh": "施万细胞",
+      "en": "Schwann cell",
+      "aliases": [
+        "神经膜细胞"
+      ],
+      "category": "细胞",
+      "chapters": [
+        6
+      ],
+      "definition": "周围神经系统的神经膜细胞，一个细胞可包卷一段轴突形成髓鞘，并对神经纤维的再生有引导作用。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "satellite-cell",
+      "zh": "卫星细胞",
+      "en": "satellite cell",
+      "aliases": [
+        "被囊细胞"
+      ],
+      "category": "细胞",
+      "chapters": [
+        6
+      ],
+      "definition": "位于神经节内神经元胞体周围的扁平细胞，包绕胞体，对神经元起绝缘、支持和营养作用。",
+      "note": "指神经节内的卫星细胞，勿与肌卫星细胞相混",
+      "verified": true
+    },
+    {
+      "id": "ependymal-cell",
+      "zh": "室管膜细胞",
+      "en": "ependymal cell",
+      "aliases": [],
+      "category": "细胞",
+      "chapters": [
+        6
+      ],
+      "definition": "衬于脑室和脊髓中央管腔面的柱状或立方细胞，表面有纤毛或微绒毛，可产生并推动脑脊液。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "hepatocyte",
+      "zh": "肝细胞",
+      "en": "hepatocyte",
+      "aliases": [],
+      "category": "细胞",
+      "chapters": [
+        15
+      ],
+      "definition": "肝小叶内呈多面体的主要实质细胞，胞质内含丰富的细胞器，参与物质代谢、生物转化和胆汁分泌。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "kupffer-cell",
+      "zh": "肝巨噬细胞（库普弗细胞）",
+      "en": "Kupffer cell",
+      "aliases": [
+        "库普弗细胞"
+      ],
+      "category": "细胞",
+      "chapters": [
+        15
+      ],
+      "definition": "定居于肝血窦内的肝巨噬细胞，突起可穿过内皮间隙，能吞噬血液中的异物、衰老红细胞和细菌。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "hepatic-stellate-cell",
+      "zh": "肝星状细胞",
+      "en": "hepatic stellate cell",
+      "aliases": [
+        "贮脂细胞",
+        "Ito细胞"
+      ],
+      "category": "细胞",
+      "chapters": [
+        15
+      ],
+      "definition": "位于窦周隙内的贮脂细胞，胞质含脂滴，能储存维生素A，病理状态下转变为成纤维样细胞并致纤维化。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "podocyte",
+      "zh": "足细胞",
+      "en": "podocyte",
+      "aliases": [],
+      "category": "细胞",
+      "chapters": [
+        16
+      ],
+      "definition": "肾小囊脏层的细胞，胞体伸出多个足突附着于基膜外面，参与构成滤过屏障并防止蛋白质漏出。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "type-i-alveolar-cell",
+      "zh": "I型肺泡细胞",
+      "en": "type I alveolar cell",
+      "aliases": [],
+      "category": "细胞",
+      "chapters": [
+        17
+      ],
+      "definition": "肺泡表面扁平的细胞，覆盖肺泡的大部分面积，核扁圆，与基膜共同构成气血屏障，便于气体交换。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "type-ii-alveolar-cell",
+      "zh": "II型肺泡细胞",
+      "en": "type II alveolar cell",
+      "aliases": [],
+      "category": "细胞",
+      "chapters": [
+        17
+      ],
+      "definition": "呈立方或圆形的肺泡细胞，胞质含板层体，能分泌表面活性物质，并可增殖分化为I型肺泡细胞。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "alveolar-macrophage",
+      "zh": "肺泡巨噬细胞",
+      "en": "alveolar macrophage",
+      "aliases": [
+        "尘细胞"
+      ],
+      "category": "细胞",
+      "chapters": [
+        17
+      ],
+      "definition": "位于肺泡隔和肺泡表面的巨噬细胞，能吞噬吸入的尘粒和病原体，吞噬大量尘粒后称尘细胞。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "goblet-cell",
+      "zh": "杯状细胞",
+      "en": "goblet cell",
+      "aliases": [],
+      "category": "细胞",
+      "chapters": [
+        2,
+        14
+      ],
+      "definition": "形似高脚杯的黏液性分泌细胞，胞质上部充满黏原颗粒，分泌黏液以润滑和保护上皮表面。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "parietal-cell",
+      "zh": "壁细胞",
+      "en": "parietal cell",
+      "aliases": [
+        "泌酸细胞"
+      ],
+      "category": "细胞",
+      "chapters": [
+        14
+      ],
+      "definition": "胃腺内体积较大、胞质嗜酸性强的细胞，分泌盐酸和内因子，与胃酸分泌及维生素B12吸收有关。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "chief-cell",
+      "zh": "主细胞",
+      "en": "chief cell",
+      "aliases": [
+        "胃蛋白酶原细胞"
+      ],
+      "category": "细胞",
+      "chapters": [
+        14
+      ],
+      "definition": "胃腺内的柱状分泌细胞，核圆而位于基底部，胞质顶端充满酶原颗粒，分泌胃蛋白酶原，参与蛋白质消化。",
+      "note": "指胃腺主细胞；甲状旁腺同名细胞需加器官限定",
+      "verified": true
+    },
+    {
+      "id": "paneth-cell",
+      "zh": "帕内特细胞",
+      "en": "Paneth cell",
+      "aliases": [],
+      "category": "细胞",
+      "chapters": [
+        14
+      ],
+      "definition": "小肠腺底部的锥体形细胞，胞质顶端含粗大嗜酸性颗粒，分泌溶菌酶等抗菌物质，参与肠黏膜免疫。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "enteroendocrine-cell",
+      "zh": "肠内分泌细胞",
+      "en": "enteroendocrine cell",
+      "aliases": [
+        "基底颗粒细胞"
+      ],
+      "category": "细胞",
+      "chapters": [
+        14
+      ],
+      "definition": "散布于消化管上皮的基底颗粒细胞，分泌胃肠激素，调节消化腺分泌和消化管运动，属弥散神经内分泌系统。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "sertoli-cell",
+      "zh": "支持细胞",
+      "en": "Sertoli cell",
+      "aliases": [],
+      "category": "细胞",
+      "chapters": [
+        19
+      ],
+      "definition": "生精小管内的高柱状细胞，核不规则，能支持营养生精细胞、吞噬残余胞质并构成血睾屏障。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "leydig-cell",
+      "zh": "间质细胞",
+      "en": "Leydig cell",
+      "aliases": [
+        "睾丸间质细胞"
+      ],
+      "category": "细胞",
+      "chapters": [
+        19
+      ],
+      "definition": "位于生精小管之间间质内的圆形或多边形细胞，胞质嗜酸性，分泌雄激素，受黄体生成素调节。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "spermatogonium",
+      "zh": "精原细胞",
+      "en": "spermatogonium",
+      "aliases": [],
+      "category": "细胞",
+      "chapters": [
+        19
+      ],
+      "definition": "紧贴生精小管基膜的最幼稚的生精细胞，染色体为二倍体，经有丝分裂不断补充自身并进入减数分裂。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "primary-spermatocyte",
+      "zh": "初级精母细胞",
+      "en": "primary spermatocyte",
+      "aliases": [],
+      "category": "细胞",
+      "chapters": [
+        19
+      ],
+      "definition": "由精原细胞分化而来的体积较大的生精细胞，脱离基膜向腔侧移动，经第一次减数分裂形成两个次级精母细胞。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "spermatid",
+      "zh": "精子细胞",
+      "en": "spermatid",
+      "aliases": [],
+      "category": "细胞",
+      "chapters": [
+        19
+      ],
+      "definition": "靠近管腔的圆形生精细胞，染色体为单倍体，不再分裂，经复杂的形态变化即精子形成转变为精子。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "spermatozoon",
+      "zh": "精子",
+      "en": "spermatozoon",
+      "aliases": [],
+      "category": "细胞",
+      "chapters": [
+        19
+      ],
+      "definition": "由精子细胞变态形成的有尾生殖细胞，分头、尾两部分，头部含高度浓缩的核和顶体，能主动运动。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "oocyte",
+      "zh": "卵母细胞",
+      "en": "oocyte",
+      "aliases": [],
+      "category": "细胞",
+      "chapters": [
+        18
+      ],
+      "definition": "卵巢内发育中的女性生殖细胞，初级卵母细胞长期停滞于第一次减数分裂前期，排卵前才完成分裂。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "granulosa-cell",
+      "zh": "颗粒细胞",
+      "en": "granulosa cell",
+      "aliases": [
+        "卵泡细胞"
+      ],
+      "category": "细胞",
+      "chapters": [
+        18
+      ],
+      "definition": "卵泡内围绕卵母细胞的立方或柱状细胞，初为单层，随卵泡发育增殖成多层，可分泌雌激素并形成放射冠。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "theca-cell",
+      "zh": "卵泡膜细胞",
+      "en": "theca cell",
+      "aliases": [],
+      "category": "细胞",
+      "chapters": [
+        18
+      ],
+      "definition": "卵泡周围间质分化形成的梭形细胞层，分内、外两层，内层细胞含脂滴，可合成雄激素供颗粒细胞转化。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "melanocyte",
+      "zh": "黑素细胞",
+      "en": "melanocyte",
+      "aliases": [],
+      "category": "细胞",
+      "chapters": [
+        11
+      ],
+      "definition": "散在于表皮基底层内的胞质透亮细胞，有多个细长突起，能合成黑色素并经突起输送给角质形成细胞。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "langerhans-cell",
+      "zh": "朗格汉斯细胞",
+      "en": "Langerhans cell",
+      "aliases": [],
+      "category": "细胞",
+      "chapters": [
+        11
+      ],
+      "definition": "表皮棘层内的星形树突状细胞，能摄取和处理抗原并提呈给T细胞，属皮肤的抗原提呈细胞。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "keratinocyte",
+      "zh": "角质形成细胞",
+      "en": "keratinocyte",
+      "aliases": [
+        "角朊细胞"
+      ],
+      "category": "细胞",
+      "chapters": [
+        11
+      ],
+      "definition": "表皮中数量最多的细胞，自基底层向浅层推移并逐渐角化，胞质内角蛋白增多，最终形成角质层而脱落。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "endothelial-cell",
+      "zh": "内皮细胞",
+      "en": "endothelial cell",
+      "aliases": [],
+      "category": "细胞",
+      "chapters": [
+        9
+      ],
+      "definition": "衬贴于心、血管和淋巴管内表面的单层扁平细胞，表面光滑，参与物质交换和血管活性物质的调节。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "myoepithelial-cell",
+      "zh": "肌上皮细胞",
+      "en": "myoepithelial cell",
+      "aliases": [],
+      "category": "细胞",
+      "chapters": [
+        12
+      ],
+      "definition": "位于腺泡和部分导管基膜与腺细胞之间的收缩细胞，胞质含肌丝，收缩时有助于分泌物排出。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "chromaffin-cell",
+      "zh": "嗜铬细胞",
+      "en": "chromaffin cell",
+      "aliases": [],
+      "category": "细胞",
+      "chapters": [
+        13
+      ],
+      "definition": "肾上腺髓质内的多边形细胞，胞质颗粒可被铬盐染成棕黄色，分泌肾上腺素或去甲肾上腺素。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "parafollicular-cell",
+      "zh": "滤泡旁细胞",
+      "en": "parafollicular cell",
+      "aliases": [
+        "C细胞"
+      ],
+      "category": "细胞",
+      "chapters": [
+        13
+      ],
+      "definition": "位于甲状腺滤泡之间或嵌于滤泡上皮内的较大细胞，胞质染色浅，分泌降钙素，可降低血钙。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "thyroid-follicular-cell",
+      "zh": "甲状腺滤泡上皮细胞",
+      "en": "thyroid follicular cell",
+      "aliases": [],
+      "category": "细胞",
+      "chapters": [
+        13
+      ],
+      "definition": "围成甲状腺滤泡的单层立方细胞，合成甲状腺球蛋白并分泌甲状腺激素，其形态随功能状态改变。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "pituicyte",
+      "zh": "垂体细胞",
+      "en": "pituicyte",
+      "aliases": [],
+      "category": "细胞",
+      "chapters": [
+        13
+      ],
+      "definition": "神经垂体内的特殊胶质细胞，胞体有突起，胞质不含分泌颗粒，对神经纤维起支持和营养作用。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "cone-cell",
+      "zh": "视锥细胞",
+      "en": "cone cell",
+      "aliases": [],
+      "category": "细胞",
+      "chapters": [
+        20
+      ],
+      "definition": "视网膜内呈锥形的感光细胞，外段由膜盘堆叠而成，含三种视色素，主要感受强光和辨别颜色。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "rod-cell",
+      "zh": "视杆细胞",
+      "en": "rod cell",
+      "aliases": [],
+      "category": "细胞",
+      "chapters": [
+        20
+      ],
+      "definition": "视网膜内细长的感光细胞，外段含大量视紫红质，主要感受弱光，不能辨别颜色，数量多于视锥细胞。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "bipolar-cell",
+      "zh": "双极细胞",
+      "en": "bipolar cell",
+      "aliases": [],
+      "category": "细胞",
+      "chapters": [
+        20
+      ],
+      "definition": "视网膜内连接感光细胞与节细胞的中间神经元，胞体位于内核层，以其树突和轴突联系上下两级神经元。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "ganglion-cell",
+      "zh": "节细胞",
+      "en": "ganglion cell",
+      "aliases": [],
+      "category": "细胞",
+      "chapters": [
+        20
+      ],
+      "definition": "视网膜内最内层的神经元，胞体较大，其轴突汇集穿过巩膜形成视神经，将视觉信息传向脑。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "liver",
+      "zh": "肝",
+      "en": "liver",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        15
+      ],
+      "definition": "人体最大的消化腺，被膜下实质分为许多肝小叶，具有代谢、解毒、分泌胆汁和储存等多种功能。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "gallbladder",
+      "zh": "胆囊",
+      "en": "gallbladder",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        15
+      ],
+      "definition": "位于肝下方的囊状器官，壁由黏膜、肌层和外膜构成，能储存和浓缩胆汁，收缩时将胆汁排入胆管。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "kidney",
+      "zh": "肾",
+      "en": "kidney",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        16
+      ],
+      "definition": "成对的泌尿器官，实质分皮质和髓质，由肾单位、集合管及结缔组织构成，通过滤过血液形成尿液。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "respiratory-system",
+      "zh": "呼吸系统",
+      "en": "respiratory system",
+      "aliases": [],
+      "category": "其他",
+      "chapters": [
+        17
+      ],
+      "definition": "由鼻、咽、喉、气管、支气管和肺组成的系统，完成气体的传导与交换，兼有嗅觉和发音功能。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "bronchus",
+      "zh": "支气管",
+      "en": "bronchus",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        17
+      ],
+      "definition": "气管分叉后进入肺内的分支管道，管壁含软骨片和平滑肌，黏膜为假复层纤毛柱状上皮，随分支变细软骨片逐渐减少。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "bronchiole",
+      "zh": "细支气管",
+      "en": "bronchiole",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        17
+      ],
+      "definition": "支气管的细小分支，管壁内软骨消失，环行平滑肌相对增多，黏膜逐渐变薄并出现克拉拉细胞。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "epiglottis",
+      "zh": "会厌",
+      "en": "epiglottis",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        17
+      ],
+      "definition": "位于舌根后方、喉口上方的软骨片，表面被覆黏膜，黏膜下含浆液腺，吞咽时可遮盖喉口。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "larynx",
+      "zh": "喉",
+      "en": "larynx",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        17
+      ],
+      "definition": "呼吸道的一部分，由软骨、肌肉和黏膜构成，黏膜形成声襞和室襞，兼有呼吸和发音功能。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "ovary",
+      "zh": "卵巢",
+      "en": "ovary",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        18
+      ],
+      "definition": "产生卵细胞并分泌性激素的器官，皮质内散在各级卵泡和黄体，髓质内含丰富的血管和淋巴管。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "female-reproductive-system",
+      "zh": "女性生殖系统",
+      "en": "female reproductive system",
+      "aliases": [],
+      "category": "其他",
+      "chapters": [
+        18
+      ],
+      "definition": "由卵巢、输卵管、子宫、阴道和外生殖器组成的系统，产生卵细胞、分泌性激素并孕育胎儿。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "male-reproductive-system",
+      "zh": "男性生殖系统",
+      "en": "male reproductive system",
+      "aliases": [],
+      "category": "其他",
+      "chapters": [
+        19
+      ],
+      "definition": "由睾丸、输精管道、精囊、前列腺和外生殖器组成的系统，产生精子、分泌雄激素并维持第二性征。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "testis",
+      "zh": "睾丸",
+      "en": "testis",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        19
+      ],
+      "definition": "男性生殖腺，表面覆以白膜，实质被小隔分成小叶，小叶内主要含生精小管，小管之间为睾丸间质。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "eye",
+      "zh": "眼",
+      "en": "eye",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        20
+      ],
+      "definition": "视觉器官，由眼球及其附属器构成，眼球壁分纤维膜、血管膜和视网膜三层，内容物包括房水、晶状体和玻璃体。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "inner-ear",
+      "zh": "内耳",
+      "en": "inner ear",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        20
+      ],
+      "definition": "位于颞骨岩部内的复杂腔道，由骨迷路和膜迷路构成，内含感受位觉和听觉的装置，又称迷路。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "lymph-node",
+      "zh": "淋巴结",
+      "en": "lymph node",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        10
+      ],
+      "definition": "被膜包裹的次级淋巴器官，实质分皮质与髓质，内含淋巴小结、副皮质区和髓索，是免疫应答的重要场所。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "lymphoid-follicle",
+      "zh": "淋巴小结",
+      "en": "lymphoid follicle",
+      "aliases": [
+        "lymphoid nodule",
+        "淋巴滤泡"
+      ],
+      "category": "器官结构",
+      "chapters": [
+        10,
+        14
+      ],
+      "definition": "主要由B细胞密集排列成的球形结构，中央为生发中心，周边为小结帽，受抗原刺激后可增大。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "germinal-center",
+      "zh": "生发中心",
+      "en": "germinal center",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        10
+      ],
+      "definition": "淋巴小结中央染色较浅的区域，是活化的B细胞增殖、分化并进行亲和力成熟的场所，含较多巨噬细胞。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "spleen",
+      "zh": "脾",
+      "en": "spleen",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        10
+      ],
+      "definition": "最大的外周淋巴器官，实质分白髓和红髓，能滤过血液、清除衰老红细胞并参与免疫应答。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "white-pulp",
+      "zh": "白髓",
+      "en": "white pulp",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        10
+      ],
+      "definition": "脾内围绕中央动脉分布的淋巴组织，由动脉周围淋巴鞘和淋巴小结构成，主要含T细胞和B细胞。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "red-pulp",
+      "zh": "红髓",
+      "en": "red pulp",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        10
+      ],
+      "definition": "脾内白髓以外的区域，由脾索和脾血窦组成，富含巨噬细胞，负责滤过血液和清除衰老红细胞。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "thymus",
+      "zh": "胸腺",
+      "en": "thymus",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        10
+      ],
+      "definition": "中枢淋巴器官，呈分叶状，实质由皮质和髓质构成，是T淋巴细胞分化、发育和筛选的场所。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "thymic-corpuscle",
+      "zh": "胸腺小体",
+      "en": "thymic corpuscle",
+      "aliases": [
+        "Hassall's corpuscle",
+        "哈索尔小体"
+      ],
+      "category": "器官结构",
+      "chapters": [
+        10
+      ],
+      "definition": "胸腺髓质内由同心圆排列的扁平上皮性网状细胞构成的圆形结构，中心常退化，是胸腺的特征性结构。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "tonsil",
+      "zh": "扁桃体",
+      "en": "tonsil",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        10
+      ],
+      "definition": "位于咽部黏膜内的淋巴组织，表面被覆上皮，上皮常向固有层凹陷形成隐窝，参与局部免疫防御。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "peyers-patch",
+      "zh": "集合淋巴小结",
+      "en": "Peyer's patch",
+      "aliases": [
+        "派伊尔结",
+        "Peyer结"
+      ],
+      "category": "器官结构",
+      "chapters": [
+        14
+      ],
+      "definition": "小肠黏膜和黏膜下层内成群分布的淋巴小结，主要位于回肠，是肠道黏膜免疫的重要结构。",
+      "note": "教材多作集合淋巴小结，亦有音译为派伊尔结者",
+      "verified": false
+    },
+    {
+      "id": "capillary",
+      "zh": "毛细血管",
+      "en": "capillary",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        9
+      ],
+      "definition": "管径最细、管壁仅由内皮和基膜构成的血管，分支吻合成网，是血液与组织进行物质交换的场所。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "continuous-capillary",
+      "zh": "连续毛细血管",
+      "en": "continuous capillary",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        9
+      ],
+      "definition": "内皮细胞连续、细胞间有紧密连接、基膜完整的毛细血管，分布于肌组织、肺和中枢神经系统等处。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "fenestrated-capillary",
+      "zh": "有孔毛细血管",
+      "en": "fenestrated capillary",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        9
+      ],
+      "definition": "内皮细胞上具有许多窗孔的毛细血管，通透性较高，分布于肾、内分泌腺和胃肠黏膜等部位。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "sinusoid",
+      "zh": "血窦",
+      "en": "blood sinusoid",
+      "aliases": [
+        "sinusoid",
+        "窦状毛细血管"
+      ],
+      "category": "器官结构",
+      "chapters": [
+        9
+      ],
+      "definition": "管腔大而不规则、内皮细胞间有间隙、基膜不完整的毛细血管，血流缓慢，利于大分子和细胞出入。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "arteriole",
+      "zh": "微动脉",
+      "en": "arteriole",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        9
+      ],
+      "definition": "管径细、管壁含1至2层平滑肌的动脉末梢分支，通过收缩改变外周阻力，调节局部血流量和血压。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "elastic-artery",
+      "zh": "弹性动脉",
+      "en": "elastic artery",
+      "aliases": [
+        "大动脉"
+      ],
+      "category": "器官结构",
+      "chapters": [
+        9
+      ],
+      "definition": "管壁含大量弹性膜的大动脉，如主动脉，心室射血时扩张、舒张时回缩，使血流保持连续。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "muscular-artery",
+      "zh": "肌性动脉",
+      "en": "muscular artery",
+      "aliases": [
+        "中动脉"
+      ],
+      "category": "器官结构",
+      "chapters": [
+        9
+      ],
+      "definition": "即中动脉，管壁平滑肌发达，通过收缩与舒张调节血流分配，内膜与中膜之间有明显的内弹性膜。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "vein",
+      "zh": "静脉",
+      "en": "vein",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        9
+      ],
+      "definition": "将血液导回心房的血管，管壁较动脉薄、腔大而不规则，四肢静脉内常有静脉瓣防止血液逆流。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "venous-valve",
+      "zh": "静脉瓣",
+      "en": "venous valve",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        9
+      ],
+      "definition": "静脉内膜向腔内折叠形成的成对半月形瓣膜，可阻止血液逆流，多见于四肢的静脉，尤以下肢明显。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "endocardium",
+      "zh": "心内膜",
+      "en": "endocardium",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        9
+      ],
+      "definition": "衬于心腔内表面的膜，由内皮、内皮下层和心内膜下层组成，后者含心传导系的分支和血管。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "myocardium",
+      "zh": "心肌膜",
+      "en": "myocardium",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        9
+      ],
+      "definition": "心脏壁的主体层，由螺旋状排列的心肌纤维构成，心房肌层较薄而心室肌层厚，是心泵血的结构基础。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "epicardium",
+      "zh": "心外膜",
+      "en": "epicardium",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        9
+      ],
+      "definition": "心壁的最外层，为浆膜，由间皮和薄层结缔组织构成，深部含血管、神经和脂肪组织，与心包脏层相续。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "purkinje-fiber",
+      "zh": "浦肯野纤维",
+      "en": "Purkinje fiber",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        4,
+        9
+      ],
+      "definition": "心传导系中由特殊心肌细胞构成的纤维，胞体大、肌原纤维少、闰盘发达，能快速传导兴奋。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "epidermis",
+      "zh": "表皮",
+      "en": "epidermis",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        11
+      ],
+      "definition": "皮肤的表层，为角化的复层扁平上皮，由基底层向浅层不断分化推移，最终形成角质层脱落。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "dermis",
+      "zh": "真皮",
+      "en": "dermis",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        11
+      ],
+      "definition": "表皮深面的致密结缔组织层，分乳头层和网织层，含血管、神经、毛囊和腺体，与表皮共同构成皮肤。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "stratum-corneum",
+      "zh": "角质层",
+      "en": "stratum corneum",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        11
+      ],
+      "definition": "表皮的最浅层，由多层已角化脱核的扁平细胞构成，胞质充满角蛋白，耐摩擦并能防止水分丢失。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "stratum-basale",
+      "zh": "基底层",
+      "en": "stratum basale",
+      "aliases": [
+        "生发层"
+      ],
+      "category": "器官结构",
+      "chapters": [
+        11
+      ],
+      "definition": "表皮最深的一层，由单层矮柱状细胞构成，附着于基膜，增殖能力强，可不断补充浅层细胞。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "dermal-papilla",
+      "zh": "真皮乳头",
+      "en": "dermal papilla",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        11
+      ],
+      "definition": "真皮乳头层向表皮底部凸出的结构，内含毛细血管和触觉小体，可扩大表皮与真皮的接触面。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "hair-follicle",
+      "zh": "毛囊",
+      "en": "hair follicle",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        11
+      ],
+      "definition": "包裹毛根的上皮组织和结缔组织鞘，由内向外分为上皮根鞘和结缔组织鞘，下端膨大形成毛球。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "sweat-gland",
+      "zh": "汗腺",
+      "en": "sweat gland",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        11,
+        12
+      ],
+      "definition": "由盘曲的单管腺构成，分泌部位于真皮深部，导管开口于皮肤表面，分泌汗液以调节体温。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "meissner-corpuscle",
+      "zh": "触觉小体",
+      "en": "meissner corpuscle",
+      "aliases": [
+        "Meissner's corpuscle",
+        "梅斯纳小体"
+      ],
+      "category": "器官结构",
+      "chapters": [
+        6,
+        11
+      ],
+      "definition": "位于真皮乳头内的椭圆形触觉感受器，由多层扁平施万细胞和神经末梢构成，主要感受触觉刺激。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "pacinian-corpuscle",
+      "zh": "环层小体",
+      "en": "Pacinian corpuscle",
+      "aliases": [
+        "帕西尼小体"
+      ],
+      "category": "器官结构",
+      "chapters": [
+        6,
+        11
+      ],
+      "definition": "位于真皮深层和皮下组织的同心圆板层状感受器，中央为神经末梢，主要感受压力和振动。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "taste-bud",
+      "zh": "味蕾",
+      "en": "taste bud",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        14
+      ],
+      "definition": "位于舌乳头侧壁上皮内的卵圆形结构，由味细胞、支持细胞和基细胞组成，能感受味觉刺激。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "gastric-pit",
+      "zh": "胃小凹",
+      "en": "gastric pit",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        14
+      ],
+      "definition": "胃黏膜表面上皮向固有层凹陷形成的细小凹窝，是胃腺的开口处，底部与胃腺相通，其深浅随胃充盈程度而变。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "gastric-gland",
+      "zh": "胃腺",
+      "en": "gastric gland",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        14
+      ],
+      "definition": "位于胃固有层内、开口于胃小凹的管状腺，含主细胞、壁细胞和内分泌细胞，分泌胃液和盐酸。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "intestinal-villus",
+      "zh": "小肠绒毛",
+      "en": "intestinal villus",
+      "aliases": [
+        "肠绒毛"
+      ],
+      "category": "器官结构",
+      "chapters": [
+        14
+      ],
+      "definition": "小肠黏膜的上皮和固有层向肠腔伸出的指状突起，中央含中央乳糜管，可大大扩大吸收面积。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "intestinal-gland",
+      "zh": "肠腺",
+      "en": "intestinal gland",
+      "aliases": [
+        "小肠腺",
+        "肠隐窝",
+        "李氏隐窝"
+      ],
+      "category": "器官结构",
+      "chapters": [
+        14
+      ],
+      "definition": "小肠上皮向固有层内凹陷形成的管状腺，含杯状细胞、内分泌细胞和帕内特细胞，分泌肠液。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "mucosa",
+      "zh": "黏膜",
+      "en": "mucosa",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        14
+      ],
+      "definition": "消化管壁的最内层，由上皮、固有层和黏膜肌层组成，是消化吸收和免疫防御的关键层次。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "submucosa",
+      "zh": "黏膜下层",
+      "en": "submucosa",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        14
+      ],
+      "definition": "黏膜与肌层之间的疏松结缔组织层，含较大血管、淋巴管和神经，在食管和十二指肠还含腺体。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "serosa",
+      "zh": "浆膜",
+      "en": "serosa",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        9,
+        14
+      ],
+      "definition": "覆盖于器官表面的薄膜，由间皮和薄层结缔组织构成，表面光滑，可减少器官运动时的摩擦。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "hepatic-lobule",
+      "zh": "肝小叶",
+      "en": "hepatic lobule",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        15
+      ],
+      "definition": "肝脏的基本结构单位，呈六棱柱状，中央为中央静脉，周围有放射状排列的肝板、肝血窦和胆小管。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "hepatic-plate",
+      "zh": "肝板",
+      "en": "hepatic plate",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        15
+      ],
+      "definition": "肝小叶内由单层或双层肝细胞构成的板状结构，以中央静脉为中心呈放射状排列，板间为肝血窦。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "bile-canaliculus",
+      "zh": "胆小管",
+      "en": "bile canaliculus",
+      "aliases": [
+        "毛细胆管"
+      ],
+      "category": "器官结构",
+      "chapters": [
+        15
+      ],
+      "definition": "相邻肝细胞局部质膜凹陷形成的微细管道，位于肝板内，收集肝细胞分泌的胆汁并汇入小叶间胆管。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "space-of-disse",
+      "zh": "窦周隙",
+      "en": "space of Disse",
+      "aliases": [
+        "狄塞隙"
+      ],
+      "category": "器官结构",
+      "chapters": [
+        15
+      ],
+      "definition": "肝血窦内皮与肝细胞之间的狭窄间隙，血浆在此与肝细胞充分接触，内含网状纤维和肝星状细胞。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "portal-area",
+      "zh": "门管区",
+      "en": "portal area",
+      "aliases": [
+        "汇管区"
+      ],
+      "category": "器官结构",
+      "chapters": [
+        15
+      ],
+      "definition": "肝小叶之间的结缔组织区域，含小叶间动脉、小叶间静脉和小叶间胆管，故又称汇管区，是肝的血管出入处。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "hepatic-sinusoid",
+      "zh": "肝血窦",
+      "en": "hepatic sinusoid",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        15
+      ],
+      "definition": "位于肝板之间、管腔不规则的毛细血管，内皮有间隙且基膜不完整，内含肝巨噬细胞，血流缓慢。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "central-vein",
+      "zh": "中央静脉",
+      "en": "central vein",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        15
+      ],
+      "definition": "肝小叶中央的纵行小静脉，管壁很薄，收集周围肝血窦的血液，汇入小叶下静脉后经肝静脉出肝。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "nephron",
+      "zh": "肾单位",
+      "en": "nephron",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        16
+      ],
+      "definition": "肾的基本结构和功能单位，由肾小体和肾小管构成，通过滤过、重吸收和分泌过程形成尿液。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "renal-corpuscle",
+      "zh": "肾小体",
+      "en": "renal corpuscle",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        16
+      ],
+      "definition": "位于肾皮质内、由肾小球和肾小囊构成的球形结构，是血浆滤过形成原尿的部位，其直径约200微米。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "glomerulus",
+      "zh": "肾小球",
+      "en": "glomerulus",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        16
+      ],
+      "definition": "入球微动脉分支盘曲形成的毛细血管球，位于肾小囊内，内皮有孔，与基膜和足细胞共同构成滤过屏障。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "bowmans-capsule",
+      "zh": "肾小囊",
+      "en": "Bowman's capsule",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        16
+      ],
+      "definition": "包绕肾小球的双层囊，壁层为单层扁平上皮，脏层为足细胞，两层之间为肾小囊腔，可收集原尿。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "proximal-tubule",
+      "zh": "近端小管",
+      "en": "proximal tubule",
+      "aliases": [
+        "近曲小管"
+      ],
+      "category": "器官结构",
+      "chapters": [
+        16
+      ],
+      "definition": "肾小管的第一段，管壁细胞胞质嗜酸性强，游离面有刷状缘，可重吸收原尿中大部分水和营养物质。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "distal-tubule",
+      "zh": "远端小管",
+      "en": "distal tubule",
+      "aliases": [
+        "远曲小管"
+      ],
+      "category": "器官结构",
+      "chapters": [
+        16
+      ],
+      "definition": "肾小管的末段，管壁细胞胞质染色浅，基底面有纵褶并含大量线粒体，参与离子和水的调节。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "collecting-duct",
+      "zh": "集合管",
+      "en": "collecting duct",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        16
+      ],
+      "definition": "连接远端小管与乳头管的直行管道，管壁由立方至柱状细胞构成，在抗利尿激素作用下重吸收水。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "juxtaglomerular-complex",
+      "zh": "球旁复合体",
+      "en": "juxtaglomerular complex",
+      "aliases": [
+        "肾小球旁器"
+      ],
+      "category": "器官结构",
+      "chapters": [
+        16
+      ],
+      "definition": "由球旁细胞、致密斑和球外系膜细胞构成的复合结构，参与肾素分泌和肾血流量及血压的调节。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "filtration-barrier",
+      "zh": "滤过屏障",
+      "en": "filtration barrier",
+      "aliases": [
+        "滤过膜"
+      ],
+      "category": "器官结构",
+      "chapters": [
+        16
+      ],
+      "definition": "由有孔内皮、基膜和足细胞裂孔膜构成的屏障，能限制大分子物质通过，对血浆起滤过作用。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "ureter",
+      "zh": "输尿管",
+      "en": "ureter",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        16
+      ],
+      "definition": "连接肾盂与膀胱的肌性管道，管壁分黏膜、肌层和外膜，黏膜形成纵行皱襞，收缩时推送尿液。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "urinary-bladder",
+      "zh": "膀胱",
+      "en": "urinary bladder",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        16
+      ],
+      "definition": "储存尿液的囊状肌性器官，黏膜被覆变移上皮，壁内平滑肌交错排列，收缩时可将尿液排空。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "alveolus",
+      "zh": "肺泡",
+      "en": "alveolus",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        17
+      ],
+      "definition": "肺内进行气体交换的囊泡状结构，壁由肺泡上皮和基膜构成，相邻肺泡之间为肺泡隔，成人肺内约有3亿个。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "alveolar-septum",
+      "zh": "肺泡隔",
+      "en": "alveolar septum",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        17
+      ],
+      "definition": "相邻肺泡之间的薄层结缔组织，内含丰富的毛细血管网、弹性纤维和巨噬细胞，是气体交换的部位。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "blood-air-barrier",
+      "zh": "气血屏障",
+      "en": "blood-air barrier",
+      "aliases": [
+        "呼吸膜"
+      ],
+      "category": "器官结构",
+      "chapters": [
+        17
+      ],
+      "definition": "肺泡与血液之间进行气体交换所经过的结构，由表面活性物质层、肺泡上皮、基膜和毛细血管内皮构成。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "trachea",
+      "zh": "气管",
+      "en": "trachea",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        17
+      ],
+      "definition": "连接喉与支气管的管道，管壁由黏膜、黏膜下层和外膜构成，外膜内含C形透明软骨环，后壁为平滑肌。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "pleura",
+      "zh": "胸膜",
+      "en": "pleura",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        17
+      ],
+      "definition": "被覆于肺表面和胸壁内面的浆膜，由间皮和结缔组织构成，两层之间含少量液体以减少摩擦。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "ovarian-follicle",
+      "zh": "卵泡",
+      "en": "ovarian follicle",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        18
+      ],
+      "definition": "由卵母细胞和周围卵泡细胞构成的发育单位，自原始卵泡依次发育为初级、次级和成熟卵泡。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "primordial-follicle",
+      "zh": "原始卵泡",
+      "en": "primordial follicle",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        18
+      ],
+      "definition": "位于卵巢皮质浅层的幼稚卵泡，由中央的初级卵母细胞和周围一层扁平的卵泡细胞构成，数量最多。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "mature-follicle",
+      "zh": "成熟卵泡",
+      "en": "mature follicle",
+      "aliases": [
+        "格拉夫卵泡"
+      ],
+      "category": "器官结构",
+      "chapters": [
+        18
+      ],
+      "definition": "卵巢内体积最大的卵泡，卵泡腔很大，卵丘明显，排卵前初级卵母细胞完成第一次减数分裂。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "zona-pellucida",
+      "zh": "透明带",
+      "en": "zona pellucida",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        18
+      ],
+      "definition": "位于卵母细胞与放射冠之间的嗜酸性均质层，由卵母细胞和卵泡细胞共同分泌，参与精子识别。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "corona-radiata",
+      "zh": "放射冠",
+      "en": "corona radiata",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        18
+      ],
+      "definition": "紧靠透明带、呈放射状排列的一层卵泡细胞，排卵时与卵母细胞一同排出，并随其进入输卵管。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "corpus-luteum",
+      "zh": "黄体",
+      "en": "corpus luteum",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        18
+      ],
+      "definition": "排卵后残留卵泡壁塌陷形成的内分泌腺体，由颗粒黄体细胞和膜黄体细胞组成，分泌孕激素和雌激素。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "corpus-albicans",
+      "zh": "白体",
+      "en": "corpus albicans",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        18
+      ],
+      "definition": "黄体退化后由结缔组织取代形成的白色瘢痕状结构，可存在数月，随后逐渐缩小并被吸收。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "corpus-hemorrhagicum",
+      "zh": "血体",
+      "en": "corpus hemorrhagicum",
+      "aliases": [
+        "红体"
+      ],
+      "category": "器官结构",
+      "chapters": [
+        18
+      ],
+      "definition": "排卵后卵泡壁破裂、血液充盈卵泡腔形成的结构，随后卵泡壁细胞增殖并演变为黄体，存留时间很短。",
+      "note": "部分教材称红体，译名尚未完全统一",
+      "verified": false
+    },
+    {
+      "id": "oviduct",
+      "zh": "输卵管",
+      "en": "oviduct",
+      "aliases": [
+        "fallopian tube"
+      ],
+      "category": "器官结构",
+      "chapters": [
+        18
+      ],
+      "definition": "连接卵巢与子宫的肌性管道，管壁分黏膜、肌层和浆膜，黏膜皱襞发达，是受精和早期卵裂的场所。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "endometrium",
+      "zh": "子宫内膜",
+      "en": "endometrium",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        18
+      ],
+      "definition": "子宫壁的内层，由上皮和固有层构成，含大量子宫腺，随月经周期发生周期性增生与脱落。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "cervix",
+      "zh": "子宫颈",
+      "en": "cervix",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        18
+      ],
+      "definition": "子宫下端的缩窄部，管壁以结缔组织为主并含少量平滑肌，黏膜上皮随月经周期和激素水平改变。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "placenta",
+      "zh": "胎盘",
+      "en": "placenta",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        18
+      ],
+      "definition": "由母体子宫基蜕膜与胎儿丛密绒毛膜共同构成的器官，实现母胎之间的物质交换和内分泌功能。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "mammary-gland",
+      "zh": "乳腺",
+      "en": "mammary gland",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        18
+      ],
+      "definition": "由腺泡和导管构成的大型复管泡状腺，受激素调节在妊娠期和哺乳期显著发育并分泌乳汁。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "seminiferous-tubule",
+      "zh": "生精小管",
+      "en": "seminiferous tubule",
+      "aliases": [
+        "曲细精管"
+      ],
+      "category": "器官结构",
+      "chapters": [
+        19
+      ],
+      "definition": "睾丸内高度盘曲的细长管道，管壁由支持细胞和各级生精细胞构成，是精子发生的主要场所。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "blood-testis-barrier",
+      "zh": "血睾屏障",
+      "en": "blood-testis barrier",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        19
+      ],
+      "definition": "由支持细胞间的紧密连接、基膜及睾丸间质血管内皮等构成，使生精过程处于免疫豁免环境。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "epididymis",
+      "zh": "附睾",
+      "en": "epididymis",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        19
+      ],
+      "definition": "位于睾丸后上方的弯曲管道，管壁假复层柱状上皮有静纤毛，是精子成熟和暂时储存的部位。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "ductus-deferens",
+      "zh": "输精管",
+      "en": "ductus deferens",
+      "aliases": [
+        "vas deferens"
+      ],
+      "category": "器官结构",
+      "chapters": [
+        19
+      ],
+      "definition": "连接附睾管与射精管的肌性管道，管壁平滑肌很厚，黏膜形成纵行皱襞，收缩时快速排出精子。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "seminal-vesicle",
+      "zh": "精囊",
+      "en": "seminal vesicle",
+      "aliases": [
+        "精囊腺"
+      ],
+      "category": "器官结构",
+      "chapters": [
+        19
+      ],
+      "definition": "位于膀胱后方的囊状腺，黏膜高度皱褶形成许多小腔，分泌富含果糖的液体，为精子提供能量。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "prostate",
+      "zh": "前列腺",
+      "en": "prostate",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        19
+      ],
+      "definition": "位于膀胱下方的复管泡状腺，腺泡腔大而不规则，含前列腺凝固体，其分泌物参与精液的组成。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "acinus",
+      "zh": "腺泡",
+      "en": "acinus",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        12
+      ],
+      "definition": "腺的分泌部呈泡状或管状的结构，由单层腺细胞围成，中央有腺泡腔，分泌物经导管排出。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "serous-acinus",
+      "zh": "浆液性腺泡",
+      "en": "serous acinus",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        12
+      ],
+      "definition": "由浆液性腺细胞构成的腺泡，细胞核圆、胞质嗜碱性、顶端含嗜酸性酶原颗粒，分泌物稀薄。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "mucous-acinus",
+      "zh": "黏液性腺泡",
+      "en": "mucous acinus",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        12
+      ],
+      "definition": "由黏液性腺细胞构成的腺泡，细胞核扁而位于基底部，胞质含黏原颗粒，分泌物黏稠，呈弱碱性。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "intercalated-duct",
+      "zh": "闰管",
+      "en": "intercalated duct",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        12
+      ],
+      "definition": "连接腺泡与纹状管的细小导管，管壁为单层扁平或立方上皮，是唾液腺导管系统中最细的一段。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "striated-duct",
+      "zh": "纹状管",
+      "en": "striated duct",
+      "aliases": [
+        "分泌管"
+      ],
+      "category": "器官结构",
+      "chapters": [
+        12
+      ],
+      "definition": "唾液腺内管径较粗的导管，管壁为单层高柱状上皮，胞质嗜酸性，基底面有纵纹，参与唾液成分调节。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "osteon",
+      "zh": "骨单位",
+      "en": "osteon",
+      "aliases": [
+        "哈弗斯系统"
+      ],
+      "category": "器官结构",
+      "chapters": [
+        5
+      ],
+      "definition": "由同心圆排列的骨板和中央管构成的圆柱状结构，骨板间有骨细胞，是密质骨的基本结构单位。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "periosteum",
+      "zh": "骨膜",
+      "en": "periosteum",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        5
+      ],
+      "definition": "覆盖于骨表面的致密结缔组织膜，含成骨细胞和破骨细胞，参与骨的生长、改建和骨折后的修复。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "epiphyseal-plate",
+      "zh": "骺板",
+      "en": "epiphyseal plate",
+      "aliases": [
+        "骺软骨"
+      ],
+      "category": "器官结构",
+      "chapters": [
+        5
+      ],
+      "definition": "位于长骨骨干与骨骺之间的软骨层，软骨细胞不断增殖并钙化使骨加长，成年后骨化闭锁。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "compact-bone",
+      "zh": "密质骨",
+      "en": "compact bone",
+      "aliases": [
+        "骨密质"
+      ],
+      "category": "器官结构",
+      "chapters": [
+        5
+      ],
+      "definition": "骨板排列紧密的骨组织，主要位于长骨骨干和扁骨表面，结构致密，抗压和抗拉能力很强。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "spongy-bone",
+      "zh": "松质骨",
+      "en": "spongy bone",
+      "aliases": [
+        "骨松质"
+      ],
+      "category": "器官结构",
+      "chapters": [
+        5
+      ],
+      "definition": "由骨小梁交织成网的骨组织，位于长骨骨骺和扁骨内部，网眼内充填红骨髓或黄骨髓，又称骨松质。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "bone-marrow",
+      "zh": "骨髓",
+      "en": "bone marrow",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        5,
+        8
+      ],
+      "definition": "填充于骨髓腔和骨松质网眼内的造血组织，分为红骨髓和黄骨髓，红骨髓是血细胞生成的场所。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "red-bone-marrow",
+      "zh": "红骨髓",
+      "en": "red bone marrow",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        8
+      ],
+      "definition": "富含造血组织和血窦的骨髓，能生成红细胞、粒细胞和血小板，成人见于扁骨及长骨骨骺。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "perichondrium",
+      "zh": "软骨膜",
+      "en": "perichondrium",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        5
+      ],
+      "definition": "覆盖于软骨表面的致密结缔组织膜，分内、外两层，内层含软骨祖细胞，参与软骨的生长和修复。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "thyroid-follicle",
+      "zh": "甲状腺滤泡",
+      "en": "thyroid follicle",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        13
+      ],
+      "definition": "甲状腺的实质结构，由单层滤泡上皮围成，腔内充满胶质，胶质中储存甲状腺球蛋白和碘化物。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "adrenal-cortex",
+      "zh": "肾上腺皮质",
+      "en": "adrenal cortex",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        13
+      ],
+      "definition": "肾上腺的外周部，由外向内分球状带、束状带和网状带，分别分泌盐皮质激素、糖皮质激素和性激素。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "zona-fasciculata",
+      "zh": "束状带",
+      "en": "zona fasciculata",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        13
+      ],
+      "definition": "肾上腺皮质最厚的中层，细胞排列成索，胞质含大量脂滴和线粒体，主要分泌糖皮质激素。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "pancreatic-islet",
+      "zh": "胰岛",
+      "en": "pancreatic islet",
+      "aliases": [
+        "胰岛（Langerhans岛）"
+      ],
+      "category": "器官结构",
+      "chapters": [
+        13
+      ],
+      "definition": "散在于胰腺外分泌部之间的内分泌细胞团，主要含A细胞、B细胞和D细胞，分泌胰高血糖素和胰岛素等。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "adenohypophysis",
+      "zh": "腺垂体",
+      "en": "adenohypophysis",
+      "aliases": [
+        "垂体前叶"
+      ],
+      "category": "器官结构",
+      "chapters": [
+        13
+      ],
+      "definition": "垂体的前部，由远侧部、结节部和中间部组成，含多种腺细胞，分泌激素调节其他内分泌腺的活动。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "neurohypophysis",
+      "zh": "神经垂体",
+      "en": "neurohypophysis",
+      "aliases": [
+        "垂体后叶"
+      ],
+      "category": "器官结构",
+      "chapters": [
+        13
+      ],
+      "definition": "垂体的后部，由神经部和漏斗组成，不含腺细胞，主要储存和释放下丘脑合成的抗利尿激素和催产素。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "cornea",
+      "zh": "角膜",
+      "en": "cornea",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        20
+      ],
+      "definition": "眼球前部透明的膜，由前向后分五层，无血管而神经末梢丰富，是眼球壁最靠前的屈光结构。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "retina",
+      "zh": "视网膜",
+      "en": "retina",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        20
+      ],
+      "definition": "眼球壁的内层，由色素上皮和神经部构成，神经部含感光细胞、双极细胞和节细胞，是感光换能的部位。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "lens",
+      "zh": "晶状体",
+      "en": "lens",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        20
+      ],
+      "definition": "位于虹膜后方、富有弹性的双凸透明体，由晶状体纤维构成，可改变曲度以聚焦远近物体。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "optic-nerve",
+      "zh": "视神经",
+      "en": "optic nerve",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        20
+      ],
+      "definition": "由视网膜节细胞的轴突汇集而成的神经，穿出眼球后经视神经管将视觉信息传入脑内视觉中枢。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "eyelid",
+      "zh": "眼睑",
+      "en": "eyelid",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        20
+      ],
+      "definition": "覆盖于眼球前方的皮肤皱襞，由浅入深分皮肤、皮下组织、肌层、睑板和睑结膜，起保护作用。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "conjunctiva",
+      "zh": "结膜",
+      "en": "conjunctiva",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        20
+      ],
+      "definition": "被覆于眼睑内面和眼球前表面的薄层黏膜，含少量杯状细胞，分泌黏液以润滑眼球表面，分睑、球两部。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "cochlea",
+      "zh": "耳蜗",
+      "en": "cochlea",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        20
+      ],
+      "definition": "内耳骨迷路中呈螺旋状的管道，内含蜗管和螺旋器，是听觉感受器所在的部位，形似蜗牛壳。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "spinal-cord",
+      "zh": "脊髓",
+      "en": "spinal cord",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        6
+      ],
+      "definition": "位于椎管内的中枢神经结构，横断面分灰质和白质，灰质前角含运动神经元，后角接受感觉传入。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "dorsal-root-ganglion",
+      "zh": "脊神经节",
+      "en": "dorsal root ganglion",
+      "aliases": [
+        "背根神经节"
+      ],
+      "category": "器官结构",
+      "chapters": [
+        6
+      ],
+      "definition": "位于脊神经后根上的神经节，由假单极神经元胞体聚集而成，其周围突分布于皮肤等处的感受器。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "sympathetic-ganglion",
+      "zh": "交感神经节",
+      "en": "sympathetic ganglion",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        6
+      ],
+      "definition": "由多极交感神经元胞体、卫星细胞和神经纤维构成的神经节，节内神经元发出节后纤维支配内脏。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "peripheral-nerve",
+      "zh": "周围神经",
+      "en": "peripheral nerve",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        6
+      ],
+      "definition": "由许多神经纤维及其外膜、束膜和内膜组成的束状结构，连接中枢神经系统与周围的器官和组织。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "myelin-sheath",
+      "zh": "髓鞘",
+      "en": "myelin sheath",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        6
+      ],
+      "definition": "包绕轴突的同心圆板层结构，由施万细胞或少突胶质细胞的细胞膜卷绕形成，起绝缘和加速传导作用。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "neuromuscular-junction",
+      "zh": "神经肌接头",
+      "en": "neuromuscular junction",
+      "aliases": [
+        "运动终板"
+      ],
+      "category": "器官结构",
+      "chapters": [
+        4,
+        6
+      ],
+      "definition": "运动神经末梢与骨骼肌纤维之间形成的突触，神经冲动经递质引起肌膜兴奋并触发肌收缩。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "synapse",
+      "zh": "突触",
+      "en": "synapse",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        6
+      ],
+      "definition": "神经元与神经元或效应细胞之间传递信息的特化连接，由突触前成分、突触间隙和突触后成分构成。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "blood-brain-barrier",
+      "zh": "血脑屏障",
+      "en": "blood-brain barrier",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        6
+      ],
+      "definition": "由毛细血管内皮、基膜和神经胶质膜构成的结构，可限制物质在血液与脑组织之间自由交换。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "paracortex",
+      "zh": "副皮质区",
+      "en": "paracortex",
+      "aliases": [
+        "胸腺依赖区"
+      ],
+      "category": "器官结构",
+      "chapters": [
+        10
+      ],
+      "definition": "淋巴结皮质深部、位于淋巴小结与髓质之间的区域，主要含T细胞和高内皮微静脉，又称胸腺依赖区。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "high-endothelial-venule",
+      "zh": "高内皮微静脉",
+      "en": "high endothelial venule",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        10
+      ],
+      "definition": "淋巴结副皮质区内衬以立方形内皮的微静脉，是血液中淋巴细胞进入淋巴组织并再循环的通道。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "splenic-sinus",
+      "zh": "脾血窦",
+      "en": "splenic sinus",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        10
+      ],
+      "definition": "脾红髓内走行迂曲、管腔不规则的血管，内皮呈杆状且间隙大，基膜不完整，利于血细胞通过。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "blood-thymus-barrier",
+      "zh": "血-胸腺屏障",
+      "en": "blood-thymus barrier",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        10
+      ],
+      "definition": "由胸腺皮质毛细血管内皮、基膜、血管周隙及上皮性网状细胞构成，可阻止抗原进入胸腺皮质。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "muscularis-externa",
+      "zh": "肌层",
+      "en": "muscularis externa",
+      "aliases": [
+        "外肌层"
+      ],
+      "category": "器官结构",
+      "chapters": [
+        14
+      ],
+      "definition": "消化管黏膜下层深侧的平滑肌层，一般分为内环行和外纵行两层，收缩时推动管内容物前进。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "circular-fold",
+      "zh": "环状襞",
+      "en": "circular fold",
+      "aliases": [
+        "环状皱襞"
+      ],
+      "category": "器官结构",
+      "chapters": [
+        14
+      ],
+      "definition": "小肠黏膜和黏膜下层共同向肠腔突出的环形皱襞，可扩大小肠的吸收面积，以十二指肠和空肠最明显。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "sebaceous-gland",
+      "zh": "皮脂腺",
+      "en": "sebaceous gland",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        11
+      ],
+      "definition": "多位于毛囊与立毛肌之间的泡状腺，导管短小，分泌的皮脂经毛囊排出，可润滑皮肤和毛发。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "eccrine-sweat-gland",
+      "zh": "外泌汗腺",
+      "en": "eccrine sweat gland",
+      "aliases": [
+        "局泌汗腺"
+      ],
+      "category": "器官结构",
+      "chapters": [
+        11
+      ],
+      "definition": "分泌部盘曲于真皮深部、导管直接开口于皮肤表面的汗腺，分泌稀薄汗液，主要参与体温调节。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "exocrine-gland",
+      "zh": "外分泌腺",
+      "en": "exocrine gland",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        12
+      ],
+      "definition": "分泌物经导管排到体表或器官腔面的腺体，由分泌部和导管两部分构成，如唾液腺和胰腺外分泌部。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "serous-demilune",
+      "zh": "浆半月",
+      "en": "serous demilune",
+      "aliases": [
+        "半月"
+      ],
+      "category": "器官结构",
+      "chapters": [
+        12
+      ],
+      "definition": "混合性腺泡中，浆液性腺细胞呈半月形覆盖于黏液性腺泡一端的结构，其分泌物经导管排出。",
+      "note": "部分教材称半月，译名尚未完全统一",
+      "verified": false
+    },
+    {
+      "id": "centroacinar-cell",
+      "zh": "泡心细胞",
+      "en": "centroacinar cell",
+      "aliases": [],
+      "category": "细胞",
+      "chapters": [
+        12
+      ],
+      "definition": "胰腺外分泌部中，闰管上皮伸入腺泡腔内形成的较小细胞，胞质染色浅，属闰管的一部分。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "hematopoietic-cord",
+      "zh": "造血索",
+      "en": "hematopoietic cord",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        8
+      ],
+      "definition": "骨髓内由造血细胞密集排列成的索状结构，位于血窦之间，是各种血细胞发育成熟的场所。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "erythroblast",
+      "zh": "幼红细胞",
+      "en": "erythroblast",
+      "aliases": [],
+      "category": "细胞",
+      "chapters": [
+        8
+      ],
+      "definition": "由原红细胞增殖分化而来的成红细胞，胞质逐渐充满血红蛋白，核最终脱去而成为网织红细胞。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "cell",
+      "zh": "细胞",
+      "en": "cell",
+      "aliases": [],
+      "category": "其他",
+      "chapters": [
+        1
+      ],
+      "definition": "生物体结构和功能的基本单位，由细胞膜、细胞质和细胞核三部分构成，能进行代谢、增殖和分化。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "cell-membrane",
+      "zh": "细胞膜",
+      "en": "cell membrane",
+      "aliases": [
+        "质膜"
+      ],
+      "category": "细胞器",
+      "chapters": [
+        1
+      ],
+      "definition": "包绕在细胞表面的薄膜，以脂质双层为骨架并镶嵌蛋白质，具有物质转运、信息传递和细胞识别等功能。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "nucleus",
+      "zh": "细胞核",
+      "en": "nucleus",
+      "aliases": [],
+      "category": "细胞器",
+      "chapters": [
+        1
+      ],
+      "definition": "真核细胞储存遗传信息的场所，由核膜、染色质、核仁和核基质构成，是细胞代谢和增殖的控制中心。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "euchromatin",
+      "zh": "常染色质",
+      "en": "euchromatin",
+      "aliases": [],
+      "category": "细胞器",
+      "chapters": [
+        1
+      ],
+      "definition": "染色质中折叠疏松、染色较浅的部分，转录活性高，多分布于核中央，常见于代谢活跃的细胞。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "tight-junction",
+      "zh": "紧密连接",
+      "en": "tight junction",
+      "aliases": [
+        "闭锁小带"
+      ],
+      "category": "细胞",
+      "chapters": [
+        2
+      ],
+      "definition": "相邻细胞膜之间呈网格状融合的封闭性连接，可阻止物质从细胞间隙通过，在上皮顶端起屏障作用。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "desmosome",
+      "zh": "桥粒",
+      "en": "desmosome",
+      "aliases": [
+        "黏着斑"
+      ],
+      "category": "细胞",
+      "chapters": [
+        2
+      ],
+      "definition": "相邻细胞间呈斑块状的连接结构，胞质面有附着板，中间丝附着其上，将细胞牢固连接，多见于皮肤和心肌。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "gap-junction",
+      "zh": "缝隙连接",
+      "en": "gap junction",
+      "aliases": [
+        "通讯连接"
+      ],
+      "category": "细胞",
+      "chapters": [
+        2
+      ],
+      "definition": "相邻细胞膜上由连接小体构成的通道性连接，允许离子和小分子物质通过，介导细胞间的信息传递。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "skeletal-muscle",
+      "zh": "骨骼肌",
+      "en": "skeletal muscle",
+      "aliases": [],
+      "category": "组织",
+      "chapters": [
+        4
+      ],
+      "definition": "由骨骼肌纤维构成、受躯体运动神经支配的肌组织，收缩快速有力，主要附着于骨骼以完成躯体运动。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "cardiac-muscle",
+      "zh": "心肌",
+      "en": "cardiac muscle",
+      "aliases": [],
+      "category": "组织",
+      "chapters": [
+        4
+      ],
+      "definition": "由心肌细胞构成、受自主神经调节的肌组织，有横纹和闰盘，是心脏节律性泵血的动力来源。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "smooth-muscle",
+      "zh": "平滑肌",
+      "en": "smooth muscle",
+      "aliases": [],
+      "category": "组织",
+      "chapters": [
+        4
+      ],
+      "definition": "由平滑肌细胞构成的肌组织，无横纹，广泛分布于内脏器官和血管壁，收缩缓慢而持久且不易疲劳。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "intercalated-disc",
+      "zh": "闰盘",
+      "en": "intercalated disc",
+      "aliases": [],
+      "category": "细胞",
+      "chapters": [
+        4
+      ],
+      "definition": "相邻心肌细胞端面彼此嵌合形成的连接结构，含桥粒、缝隙连接等，既牢固连接又利于兴奋快速传导。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "tendon",
+      "zh": "肌腱",
+      "en": "tendon",
+      "aliases": [],
+      "category": "组织",
+      "chapters": [
+        4
+      ],
+      "definition": "由规则致密结缔组织构成的带状结构，连接骨骼肌与骨，可将肌的收缩力传递至骨而产生运动。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "perimysium",
+      "zh": "肌束膜",
+      "en": "perimysium",
+      "aliases": [],
+      "category": "组织",
+      "chapters": [
+        4
+      ],
+      "definition": "包裹于骨骼肌肌束表面的结缔组织膜，内含血管和神经，与肌外膜和肌内膜共同构成肌的支架。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "cartilage",
+      "zh": "软骨",
+      "en": "cartilage",
+      "aliases": [],
+      "category": "组织",
+      "chapters": [
+        5
+      ],
+      "definition": "由软骨组织和周围软骨膜构成的器官，软骨组织含软骨细胞、纤维和基质，具支持和保护作用。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "neuroglia",
+      "zh": "神经胶质细胞",
+      "en": "neuroglia",
+      "aliases": [
+        "胶质细胞"
+      ],
+      "category": "细胞",
+      "chapters": [
+        6
+      ],
+      "definition": "神经组织中除神经元以外的细胞总称，数量多，起支持、绝缘、营养、保护和修复等作用。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "axon",
+      "zh": "轴突",
+      "en": "axon",
+      "aliases": [],
+      "category": "细胞",
+      "chapters": [
+        6
+      ],
+      "definition": "神经元胞体或树突根部伸出的细长突起，一个神经元通常只有一条，可将神经冲动传离胞体。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "dendrite",
+      "zh": "树突",
+      "en": "dendrite",
+      "aliases": [],
+      "category": "细胞",
+      "chapters": [
+        6
+      ],
+      "definition": "神经元胞体伸出的较短分支，数量常为多个，表面有树突棘，主要接受其他神经元传来的信息。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "blood-plasma",
+      "zh": "血浆",
+      "en": "blood plasma",
+      "aliases": [],
+      "category": "细胞外基质",
+      "chapters": [
+        7
+      ],
+      "definition": "血液的液态细胞外基质，主要含水、血浆蛋白、脂类和无机盐，运载血细胞并运输多种物质。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "leukocyte",
+      "zh": "白细胞",
+      "en": "leukocyte",
+      "aliases": [
+        "white blood cell"
+      ],
+      "category": "细胞",
+      "chapters": [
+        7
+      ],
+      "definition": "血液中有核的球形细胞，无色，能变形运动并穿出血管，参与机体的防御、免疫和损伤修复。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "mitosis",
+      "zh": "有丝分裂",
+      "en": "mitosis",
+      "aliases": [],
+      "category": "其他",
+      "chapters": [
+        1
+      ],
+      "definition": "细胞增殖的主要方式，染色体复制后平均分入两个子细胞，使子细胞染色体数目与母细胞相同。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "glycogen",
+      "zh": "糖原",
+      "en": "glycogen",
+      "aliases": [],
+      "category": "其他",
+      "chapters": [
+        1,
+        15
+      ],
+      "definition": "由葡萄糖聚合而成的多糖，以颗粒形式储存于胞质，PAS反应阳性，在肝细胞和肌纤维中较多。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "melanin",
+      "zh": "黑色素",
+      "en": "melanin",
+      "aliases": [],
+      "category": "其他",
+      "chapters": [
+        11
+      ],
+      "definition": "由黑素细胞合成的深色色素，可吸收紫外线，保护深部组织，尤其使细胞核免受辐射损伤。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "surfactant",
+      "zh": "表面活性物质",
+      "en": "surfactant",
+      "aliases": [],
+      "category": "其他",
+      "chapters": [
+        17
+      ],
+      "definition": "由II型肺泡细胞分泌的脂蛋白混合物，铺展于肺泡表面，降低表面张力，防止肺泡在呼气末塌陷。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "menstrual-cycle",
+      "zh": "月经周期",
+      "en": "menstrual cycle",
+      "aliases": [],
+      "category": "其他",
+      "chapters": [
+        18
+      ],
+      "definition": "女性生殖周期中子宫内膜在卵巢激素作用下发生的周期性增生、分泌和脱落过程，约28天。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "intramembranous-ossification",
+      "zh": "膜内成骨",
+      "en": "intramembranous ossification",
+      "aliases": [],
+      "category": "其他",
+      "chapters": [
+        5
+      ],
+      "definition": "间充质细胞直接分化为成骨细胞并分泌骨基质形成骨组织的成骨方式，主要见于颅骨和面骨。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "endochondral-ossification",
+      "zh": "软骨内成骨",
+      "en": "endochondral ossification",
+      "aliases": [],
+      "category": "其他",
+      "chapters": [
+        5
+      ],
+      "definition": "以透明软骨雏形为基础，软骨逐渐被骨组织取代的成骨方式，是长骨生长发育的主要形式。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "spermatogenesis",
+      "zh": "精子发生",
+      "en": "spermatogenesis",
+      "aliases": [],
+      "category": "其他",
+      "chapters": [
+        19
+      ],
+      "definition": "从精原细胞经增殖、减数分裂和精子形成最终产生精子的连续过程，在生精小管内持续进行。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "hematopoiesis",
+      "zh": "血细胞发生",
+      "en": "hematopoiesis",
+      "aliases": [
+        "造血"
+      ],
+      "category": "其他",
+      "chapters": [
+        8
+      ],
+      "definition": "由造血干细胞经增殖、分化和成熟形成各种血细胞的过程，出生后主要在红骨髓内持续进行。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "atherosclerosis",
+      "zh": "动脉粥样硬化",
+      "en": "atherosclerosis",
+      "aliases": [],
+      "category": "其他",
+      "chapters": [
+        9
+      ],
+      "definition": "大中动脉内膜下脂质沉积、斑块形成并导致管壁增厚变硬的疾病，可致管腔狭窄和血栓形成。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "parathyroid-hormone",
+      "zh": "甲状旁腺激素",
+      "en": "parathyroid hormone",
+      "aliases": [
+        "PTH"
+      ],
+      "category": "其他",
+      "chapters": [
+        13
+      ],
+      "definition": "由甲状旁腺主细胞分泌的激素，可促进骨钙释放和肾小管重吸收钙，从而使血钙升高、血磷降低。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "herring-body",
+      "zh": "赫林体",
+      "en": "Herring body",
+      "aliases": [],
+      "category": "其他",
+      "chapters": [
+        13
+      ],
+      "definition": "神经垂体内由神经分泌颗粒聚集成的大小不等的嗜酸性团块，是下丘脑激素储存和释放的形式。",
+      "note": "音译词，教材亦作赫令体",
+      "verified": false
+    },
+    {
+      "id": "h-and-e",
+      "zh": "苏木精-伊红染色",
+      "en": "H&E",
+      "aliases": [
+        "HE染色",
+        "苏木精伊红染色"
+      ],
+      "category": "染色与技术",
+      "chapters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "definition": "最常用的组织学染色法，苏木精使细胞核呈蓝紫色，伊红使细胞质和细胞外基质呈粉红色。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "hematoxylin",
+      "zh": "苏木精",
+      "en": "hematoxylin",
+      "aliases": [],
+      "category": "染色与技术",
+      "chapters": [
+        1
+      ],
+      "definition": "从苏木中提取的碱性染料，可与核酸等嗜碱性物质结合，使细胞核染成蓝紫色，是H&E染色成分之一。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "eosin",
+      "zh": "伊红",
+      "en": "eosin",
+      "aliases": [],
+      "category": "染色与技术",
+      "chapters": [
+        1
+      ],
+      "definition": "常用的酸性染料，可与蛋白质等嗜酸性物质结合，使细胞质和胶原纤维染成不同程度的粉红色。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "periodic-acid-schiff",
+      "zh": "过碘酸-雪夫反应",
+      "en": "periodic acid-Schiff",
+      "aliases": [
+        "PAS染色",
+        "PAS反应"
+      ],
+      "category": "染色与技术",
+      "chapters": [
+        1,
+        4,
+        9,
+        14,
+        15
+      ],
+      "definition": "用过碘酸氧化后以雪夫试剂显色的糖类显示法，糖原和黏多糖呈紫红色，常用于显示糖原和基膜。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "azan",
+      "zh": "Azan染色",
+      "en": "Azan",
+      "aliases": [
+        "阿赞染色",
+        "偶氮卡红染色"
+      ],
+      "category": "染色与技术",
+      "chapters": [
+        4,
+        6,
+        12,
+        13,
+        15,
+        16
+      ],
+      "definition": "改良的三色染色法，可区分胶原纤维、肌纤维和细胞核，常用于观察结缔组织和内分泌腺。",
+      "note": "中文无统一译名，多直接沿用 Azan 染色",
+      "verified": false
+    },
+    {
+      "id": "massons-trichrome",
+      "zh": "Masson三色染色",
+      "en": "Masson's trichrome",
+      "aliases": [
+        "马松三色染色"
+      ],
+      "category": "染色与技术",
+      "chapters": [
+        5,
+        6,
+        9,
+        14
+      ],
+      "definition": "以三种染料分别显示胶原纤维、肌纤维和细胞核的染色法，胶原纤维多呈绿色或蓝色，对比鲜明。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "verhoeff",
+      "zh": "Verhoeff染色",
+      "en": "Verhoeff",
+      "aliases": [
+        "Verhoeff弹力纤维染色"
+      ],
+      "category": "染色与技术",
+      "chapters": [
+        3,
+        5,
+        9,
+        11,
+        17
+      ],
+      "definition": "以铁苏木精为主的弹力纤维染色法，弹性纤维呈黑色，可清晰显示血管壁和真皮中的弹性膜。",
+      "note": "中文名多写作 Verhoeff 弹力纤维染色",
+      "verified": false
+    },
+    {
+      "id": "wrights-stain",
+      "zh": "瑞氏染色",
+      "en": "Wright's stain",
+      "aliases": [
+        "Wright染色",
+        "瑞特染色"
+      ],
+      "category": "染色与技术",
+      "chapters": [
+        7,
+        8
+      ],
+      "definition": "用于血涂片和骨髓涂片的染色法，可将各类白细胞清楚区分，血小板和红细胞也显示良好。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "aldehyde-fuchsin",
+      "zh": "醛复红染色",
+      "en": "aldehyde fuchsin",
+      "aliases": [],
+      "category": "染色与技术",
+      "chapters": [
+        3,
+        9,
+        13
+      ],
+      "definition": "用醛复红染色的方法，可选择性显示弹性纤维、肥大细胞颗粒和神经分泌物质，呈紫红色。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "toluidine-blue",
+      "zh": "甲苯胺蓝",
+      "en": "toluidine blue",
+      "aliases": [],
+      "category": "染色与技术",
+      "chapters": [
+        1,
+        3,
+        6
+      ],
+      "definition": "碱性染料，可使软骨基质、肥大细胞颗粒等呈异染性紫红色，常用于显示软骨和肥大细胞。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "silver-stain",
+      "zh": "银染",
+      "en": "silver stain",
+      "aliases": [
+        "嗜银染色"
+      ],
+      "category": "染色与技术",
+      "chapters": [
+        3,
+        9,
+        10
+      ],
+      "definition": "利用银盐还原后显色的染色法，可使网状纤维、神经纤维和嗜银细胞呈黑色或棕黑色，便于观察。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "iron-hematoxylin",
+      "zh": "铁苏木精染色",
+      "en": "iron hematoxylin",
+      "aliases": [],
+      "category": "染色与技术",
+      "chapters": [
+        1,
+        14
+      ],
+      "definition": "以铁盐为媒染剂的苏木精染色法，染色细致且不易褪色，常用于显示肌纤维、神经组织和细胞核。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "feulgen-stain",
+      "zh": "福尔根染色",
+      "en": "Feulgen stain",
+      "aliases": [
+        "福尔根反应"
+      ],
+      "category": "染色与技术",
+      "chapters": [
+        1
+      ],
+      "definition": "特异显示DNA的染色法，经酸水解后以雪夫试剂显色，细胞核呈紫红色，可用于定量DNA。",
+      "note": "教材多作福尔根反应",
+      "verified": false
+    },
+    {
+      "id": "immunohistochemistry",
+      "zh": "免疫组织化学",
+      "en": "immunohistochemistry",
+      "aliases": [
+        "免疫组化"
+      ],
+      "category": "染色与技术",
+      "chapters": [
+        1
+      ],
+      "definition": "利用特异性抗体与抗原结合、再经显色剂定位组织中特定分子的技术，可显示细胞类型和成分分布。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "immunofluorescence",
+      "zh": "免疫荧光",
+      "en": "immunofluorescence",
+      "aliases": [],
+      "category": "染色与技术",
+      "chapters": [
+        1
+      ],
+      "definition": "将荧光素标记于抗体，借抗原抗体反应在荧光显微镜下定位组织中特定分子及其分布的技术。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "transmission-electron-microscopy",
+      "zh": "透射电子显微镜",
+      "en": "transmission electron microscopy",
+      "aliases": [
+        "TEM",
+        "透射电镜"
+      ],
+      "category": "染色与技术",
+      "chapters": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        19
+      ],
+      "definition": "以电子束穿透超薄切片成像的显微镜，分辨率远高于光镜，可观察细胞内部和细胞器的微细结构。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "scanning-electron-microscopy",
+      "zh": "扫描电子显微镜",
+      "en": "scanning electron microscopy",
+      "aliases": [
+        "SEM",
+        "扫描电镜"
+      ],
+      "category": "染色与技术",
+      "chapters": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "definition": "以电子束扫描样品表面、收集二次电子成像的显微镜，可观察细胞和组织的三维表面形态。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "freeze-fracture",
+      "zh": "冷冻蚀刻",
+      "en": "freeze fracture",
+      "aliases": [
+        "冷冻断裂",
+        "冰冻蚀刻"
+      ],
+      "category": "染色与技术",
+      "chapters": [
+        1,
+        2,
+        5,
+        6,
+        9
+      ],
+      "definition": "将冷冻组织断裂并制作复型膜的制样技术，可在电镜下显示细胞膜内蛋白质颗粒的分布和数量。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "thin-section",
+      "zh": "薄切片",
+      "en": "thin section",
+      "aliases": [],
+      "category": "染色与技术",
+      "chapters": [
+        14
+      ],
+      "definition": "厚度为数微米、用于常规光镜观察的组织切片，需经固定、脱水、包埋和染色等步骤制成。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "golgis-method",
+      "zh": "高尔基镀银法",
+      "en": "Golgi's method",
+      "aliases": [
+        "高尔基法"
+      ],
+      "category": "染色与技术",
+      "chapters": [
+        1,
+        6
+      ],
+      "definition": "用银盐浸染神经组织的经典方法，可使少数神经元的胞体和突起整体呈黑色，便于追踪其形态。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "metachromasia",
+      "zh": "异染性",
+      "en": "metachromasia",
+      "aliases": [],
+      "category": "染色与技术",
+      "chapters": [
+        1
+      ],
+      "definition": "某些组织成分用碱性染料染色后呈现与染料本身不同颜色的现象，如软骨基质被甲苯胺蓝染成紫红色。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "basophilia",
+      "zh": "嗜碱性",
+      "en": "basophilia",
+      "aliases": [],
+      "category": "染色与技术",
+      "chapters": [
+        1
+      ],
+      "definition": "组织成分对碱性染料具有亲和力、染色后呈蓝紫色的性质，核酸含量高的结构嗜碱性较强。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "acidophilia",
+      "zh": "嗜酸性",
+      "en": "acidophilia",
+      "aliases": [],
+      "category": "染色与技术",
+      "chapters": [
+        1
+      ],
+      "definition": "组织成分对酸性染料具有亲和力、染色后呈红色的性质，蛋白质含量高的结构嗜酸性较强。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "vascular-cast",
+      "zh": "血管铸型",
+      "en": "vascular cast",
+      "aliases": [
+        "血管灌注铸型"
+      ],
+      "category": "染色与技术",
+      "chapters": [
+        10,
+        13,
+        14
+      ],
+      "definition": "向血管内注入树脂等填充物、腐蚀周围组织后留下的血管形态模型，可显示血管的三维分布。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "staining",
+      "zh": "染色",
+      "en": "staining",
+      "aliases": [],
+      "category": "染色与技术",
+      "chapters": [
+        1
+      ],
+      "definition": "用染料处理组织切片、使不同结构呈现不同颜色以利于光镜观察的步骤，分一般染色和特殊染色。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "histological-section",
+      "zh": "组织切片",
+      "en": "histological section",
+      "aliases": [],
+      "category": "其他",
+      "chapters": [
+        1
+      ],
+      "definition": "将组织固定、脱水、包埋后切成薄片并贴于载玻片上的标本，是光镜观察组织结构的常用形式。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "tissue-identification",
+      "zh": "组织鉴别",
+      "en": "tissue identification",
+      "aliases": [],
+      "category": "其他",
+      "chapters": [
+        21
+      ],
+      "definition": "根据细胞形态、排列方式以及纤维和基质的染色特点，判断组织或器官类型的学习方法，是组织学课程的核心技能。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "look-alike",
+      "zh": "形态相似结构",
+      "en": "look-alike",
+      "aliases": [
+        "相似组织",
+        "鉴别标本"
+      ],
+      "category": "其他",
+      "chapters": [
+        21
+      ],
+      "definition": "形态相似而来源或功能不同的组织结构，容易混淆，需依据染色特性、细胞排列和伴随结构加以区分。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "muscularis",
+      "zh": "肌层",
+      "en": "muscularis",
+      "aliases": [],
+      "category": "器官结构",
+      "chapters": [
+        14
+      ],
+      "definition": "管壁或囊壁内由平滑肌构成的层次，不同器官的层次排列和厚薄不同，收缩时推动内容物或排空器官。",
+      "note": "与 muscularis externa（消化管外肌层）同义，用于一般器官壁时作肌层",
+      "verified": true
+    },
+    {
+      "id": "basal-cell",
+      "zh": "基细胞",
+      "en": "basal cell",
+      "aliases": [],
+      "category": "细胞",
+      "chapters": [
+        2
+      ],
+      "definition": "位于假复层上皮或嗅上皮基底部、紧贴基膜的小细胞，可增殖分化为支持细胞和嗅细胞等。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "pavement-epithelium",
+      "zh": "铺砖状上皮",
+      "en": "pavement epithelium",
+      "aliases": [
+        "间皮铺片"
+      ],
+      "category": "组织",
+      "chapters": [
+        2
+      ],
+      "definition": "由扁平细胞镶嵌排列形成的上皮表面观，细胞边界呈多边形如铺路石，常见于间皮和内皮铺片。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "mesentery-spread",
+      "zh": "肠系膜铺片",
+      "en": "mesentery spread",
+      "aliases": [],
+      "category": "染色与技术",
+      "chapters": [
+        3
+      ],
+      "definition": "将肠系膜展平铺贴于载玻片后染色制成的标本，可观察疏松结缔组织中的细胞、纤维和基质。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "teased-muscle",
+      "zh": "肌纤维分离铺片",
+      "en": "teased muscle",
+      "aliases": [
+        "分离铺片"
+      ],
+      "category": "染色与技术",
+      "chapters": [
+        4
+      ],
+      "definition": "用针将肌组织分离成单条肌纤维后再制片的方法，可显示肌纤维的形状、横纹和分支情况。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "ground-bone",
+      "zh": "骨磨片",
+      "en": "ground bone",
+      "aliases": [],
+      "category": "染色与技术",
+      "chapters": [
+        5
+      ],
+      "definition": "将骨磨薄后不脱钙直接封片制成的标本，可清晰显示骨单位、骨板和骨陷窝的形态，常用于观察密质骨。",
+      "note": "",
+      "verified": true
+    },
+    {
+      "id": "schmorl-stain",
+      "zh": "Schmorl染色",
+      "en": "Schmorl stain",
+      "aliases": [
+        "肖尔染色"
+      ],
+      "category": "染色与技术",
+      "chapters": [
+        5
+      ],
+      "definition": "一种特殊染色法，可显示骨陷窝和骨小管，也用于显示黑色素、脂褐素等还原性物质，操作较简便。",
+      "note": "中文无统一译名，多直接沿用 Schmorl 染色",
+      "verified": false
+    },
+    {
+      "id": "blood-smear",
+      "zh": "血涂片",
+      "en": "blood smear",
+      "aliases": [],
+      "category": "染色与技术",
+      "chapters": [
+        7
+      ],
+      "definition": "将血液推拉成薄层涂于载玻片上并染色制成的标本，用于观察各类血细胞的形态和比例，是血液学检查的基本方法。",
+      "note": "",
+      "verified": true
+    }
+  ]
+}

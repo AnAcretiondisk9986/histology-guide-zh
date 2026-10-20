@@ -1,0 +1,137 @@
+{
+  "schema": 1,
+  "source": {
+    "url": "https://histologyguide.com/EM-atlas/11-skin.html",
+    "finalUrl": "https://histologyguide.com/EM-atlas/11-skin.html",
+    "fetchedAt": "2026-10-18T11:29:38.622Z",
+    "httpStatus": 200,
+    "bytes": 15544,
+    "sha256": "4e4d239f4a67d32567081aaed53b10856d85f722104eadd9c843844442974b62",
+    "userAgent": "HistologyGuideCNStudyIndex/0.1 (+personal non-commercial study index; metadata extraction only; contact: local user)",
+    "note": "仅保存导航元数据；正文段落与图片未保存，遵循原站使用条款"
+  },
+  "chapter": 11,
+  "pageType": "em",
+  "pageTitle": "Chapter 11 - Skin",
+  "hasIntroProse": true,
+  "headings": [
+    {
+      "level": 2,
+      "id": null,
+      "text": "Chapter 11 - Skin"
+    },
+    {
+      "level": 3,
+      "id": "thin-skin",
+      "text": "Thin Skin"
+    },
+    {
+      "level": 3,
+      "id": "pigmented-skin",
+      "text": "Pigmented Skin"
+    },
+    {
+      "level": 3,
+      "id": "langerhans",
+      "text": "Langerhans Cells"
+    },
+    {
+      "level": 3,
+      "id": "hair",
+      "text": "Hair"
+    },
+    {
+      "level": 2,
+      "id": null,
+      "text": "CELL AND TISSUES"
+    },
+    {
+      "level": 2,
+      "id": null,
+      "text": "ORGAN SYSTEMS"
+    }
+  ],
+  "items": [
+    {
+      "kind": "em",
+      "name": "EM 260 Thin Skin",
+      "caption": "SEM",
+      "stain": "",
+      "href": "/EM-view/EM-260-thin-skin/11-photo-1.html",
+      "thumbPath": "/EM-view/EM-260-thin-skin/imgs/photo-2c.png",
+      "section": "Thin Skin"
+    },
+    {
+      "kind": "em",
+      "name": "EM 084 Thin Skin",
+      "caption": "TEM",
+      "stain": "",
+      "href": "/EM-view/EM-084-thin-skin/11-photo-1.html",
+      "thumbPath": "/EM-view/EM-084-thin-skin/imgs/photo-2c.png",
+      "section": "Thin Skin"
+    },
+    {
+      "kind": "em",
+      "name": "EM 367 Stratum Spinosum",
+      "caption": "TEM",
+      "stain": "",
+      "href": "/EM-view/EM-367-langerhans-cells/11-photo-2.html",
+      "thumbPath": "/EM-view/EM-367-langerhans-cells/imgs/photo-2c.png",
+      "section": "Thin Skin"
+    },
+    {
+      "kind": "em",
+      "name": "EM 372 Desmosomes",
+      "caption": "TEM",
+      "stain": "",
+      "href": "/EM-view/EM-372-desmosomes/11-photo-1.html",
+      "thumbPath": "/EM-view/EM-372-desmosomes/imgs/photo-2c.png",
+      "section": "Thin Skin"
+    },
+    {
+      "kind": "em",
+      "name": "EM 302 Thin Skin",
+      "caption": "Hemi-Desmosomes",
+      "stain": "TEM",
+      "href": "/EM-view/EM-302-thin-skin/11-photo-1.html",
+      "thumbPath": "/EM-view/EM-302-thin-skin/imgs/photo-2c.png",
+      "section": "Thin Skin"
+    },
+    {
+      "kind": "em",
+      "name": "EM 314 Pigmented Skin",
+      "caption": "TEM",
+      "stain": "",
+      "href": "/EM-view/EM-314-pigmented-skin/11-photo-1.html",
+      "thumbPath": "/EM-view/EM-314-pigmented-skin/imgs/photo-2c.png",
+      "section": "Pigmented Skin"
+    },
+    {
+      "kind": "em",
+      "name": "EM 315 Melanocyte",
+      "caption": "TEM",
+      "stain": "",
+      "href": "/EM-view/EM-315-melanocyte/11-photo-1.html",
+      "thumbPath": "/EM-view/EM-315-melanocyte/imgs/photo-2c.png",
+      "section": "Pigmented Skin"
+    },
+    {
+      "kind": "em",
+      "name": "EM 367 Langerhans Cells",
+      "caption": "TEM",
+      "stain": "",
+      "href": "/EM-view/EM-367-langerhans-cells/11-photo-1.html",
+      "thumbPath": "/EM-view/EM-367-langerhans-cells/imgs/photo-2c.png",
+      "section": "Langerhans Cells"
+    },
+    {
+      "kind": "em",
+      "name": "EM 350 Hair Shaft",
+      "caption": "TEM",
+      "stain": "",
+      "href": "/EM-view/EM-350-hair-shaft/11-photo-1.html",
+      "thumbPath": "/EM-view/EM-350-hair-shaft/imgs/photo-2c.png",
+      "section": "Hair"
+    }
+  ]
+}

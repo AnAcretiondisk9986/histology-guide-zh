@@ -1,0 +1,325 @@
+{
+  "schema": 1,
+  "n": 4,
+  "titleEn": "Muscle Tissue",
+  "group": "cells-tissues",
+  "originalPage": "https://histologyguide.com/slidebox/04-muscle-tissue.html",
+  "note": "此文件由 scripts/scaffold.mjs 生成，仅供内容编写参考；请把中文写入 content/zh/chapters/NN.json，不要修改本文件。",
+  "sections": [
+    {
+      "en": "Skeletal Muscle",
+      "specimenCount": 6,
+      "specimenNames": [
+        "MH 055a Skeletal Muscle",
+        "MH 055ahr Skeletal Muscle",
+        "UCSF 118 Skeletal Muscle",
+        "MHS 237 Skeletal Muscle",
+        "MHS 262 Skeletal Muscle",
+        "MHS 238 Teased Muscle"
+      ]
+    },
+    {
+      "en": "Muscle Bone Junctions",
+      "specimenCount": 3,
+      "specimenNames": [
+        "MH 030 Tendon",
+        "MH 023bx Fascia Lata",
+        "MH 029b Bone"
+      ]
+    },
+    {
+      "en": "Cardiac Muscle",
+      "specimenCount": 4,
+      "specimenNames": [
+        "MH 054 Cardiac Muscle",
+        "MH 056 Muscle Types",
+        "MH 058a Heart",
+        "MH 074 Heart"
+      ]
+    },
+    {
+      "en": "Smooth Muscle",
+      "specimenCount": 4,
+      "specimenNames": [
+        "MH 053 Smooth Muscle",
+        "MH 024 Mesentery",
+        "MH 016x Small Intestine",
+        "MH 130a Gallbladder"
+      ]
+    }
+  ],
+  "specimens": [
+    {
+      "name": "Fig 021 Muscle Types",
+      "caption": "",
+      "stain": "",
+      "kind": "figure",
+      "section": null,
+      "href": "/figureview/fig-021-muscle-types/04-figure-1.html"
+    },
+    {
+      "name": "MH 055a Skeletal Muscle",
+      "caption": "Longitudinal and Cross-section",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Skeletal Muscle",
+      "href": "/slideview/MH-055a-skeletal-muscle/04-slide-1.html"
+    },
+    {
+      "name": "MH 055ahr Skeletal Muscle",
+      "caption": "Longitudinal Section",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Skeletal Muscle",
+      "href": "/slideview/MH-055ahr-skeletal-muscle/04-slide-1.html"
+    },
+    {
+      "name": "UCSF 118 Skeletal Muscle",
+      "caption": "Longitudinal Section",
+      "stain": "Phosphotungstic Acid/Hematoxylin",
+      "kind": "slide",
+      "section": "Skeletal Muscle",
+      "href": "/slideview/UCSF-118-skeletal-muscle/04-slide-1.html"
+    },
+    {
+      "name": "MHS 237 Skeletal Muscle",
+      "caption": "Longitudinal Section",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Skeletal Muscle",
+      "href": "/slideview/MHS-237-skeletal-muscle/04-slide-1.html"
+    },
+    {
+      "name": "MHS 262 Skeletal Muscle",
+      "caption": "Cross-section",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Skeletal Muscle",
+      "href": "/slideview/MHS-262-skeletal-muscle/04-slide-1.html"
+    },
+    {
+      "name": "MHS 238 Teased Muscle",
+      "caption": "Skeletal Muscle Cells",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Skeletal Muscle",
+      "href": "/slideview/MHS-238-teased-muscle/04-slide-1.html"
+    },
+    {
+      "name": "MH 030 Tendon",
+      "caption": "Muscle-Tendon Junction",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Muscle Bone Junctions",
+      "href": "/slideview/MH-030-tendon/04-slide-1.html"
+    },
+    {
+      "name": "MH 023bx Fascia Lata",
+      "caption": "Muscle-Tendon Junction",
+      "stain": "Azan",
+      "kind": "slide",
+      "section": "Muscle Bone Junctions",
+      "href": "/slideview/MH-023bx-fascia-lata/04-slide-1.html"
+    },
+    {
+      "name": "MH 029b Bone",
+      "caption": "Muscle Insertion",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Muscle Bone Junctions",
+      "href": "/slideview/MH-029b-bone/04-slide-1.html"
+    },
+    {
+      "name": "MH 054 Cardiac Muscle",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Cardiac Muscle",
+      "href": "/slideview/MH-054-cardiac-muscle/04-slide-1.html"
+    },
+    {
+      "name": "MH 056 Muscle Types",
+      "caption": "Intercalated Discs",
+      "stain": "Phosphotungstic Acid/Hematoxylin",
+      "kind": "slide",
+      "section": "Cardiac Muscle",
+      "href": "/slideview/MH-056-muscle-types/04-slide-1.html"
+    },
+    {
+      "name": "MH 058a Heart",
+      "caption": "Purkinje Fibers",
+      "stain": "Periodic Acid-Schiff Reagent",
+      "kind": "slide",
+      "section": "Cardiac Muscle",
+      "href": "/slideview/MH-058a-heart/04-slide-1.html"
+    },
+    {
+      "name": "MH 074 Heart",
+      "caption": "Purkinje Fibers",
+      "stain": "Phosphotungstic Acid/Hematoxylin",
+      "kind": "slide",
+      "section": "Cardiac Muscle",
+      "href": "/slideview/MH-074-heart/04-slide-1.html"
+    },
+    {
+      "name": "MH 053 Smooth Muscle",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Smooth Muscle",
+      "href": "/slideview/MH-053-smooth-muscle/04-slide-1.html"
+    },
+    {
+      "name": "MH 024 Mesentery",
+      "caption": "Smooth Muscle",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Smooth Muscle",
+      "href": "/slideview/MH-024-mesentery/04-slide-1.html"
+    },
+    {
+      "name": "MH 016x Small Intestine",
+      "caption": "Smooth Muscle",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Smooth Muscle",
+      "href": "/slideview/MH-016x-small-intestine/04-slide-1.html"
+    },
+    {
+      "name": "MH 130a Gallbladder",
+      "caption": "Smooth Muscle",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Smooth Muscle",
+      "href": "/slideview/MH-130a-gallbladder/04-slide-1.html"
+    }
+  ],
+  "emItems": [
+    {
+      "name": "EM 358 Skeletal Muscle Fibers",
+      "caption": "TEM",
+      "technique": "",
+      "section": "Skeletal Muscle",
+      "href": "/EM-view/EM-358-skeletal-muscle/04-photo-1.html"
+    },
+    {
+      "name": "EM 222 Skeletal Muscle",
+      "caption": "Banding",
+      "technique": "TEM",
+      "section": "Skeletal Muscle",
+      "href": "/EM-view/EM-222-skeletal-muscle/04-photo-1.html"
+    },
+    {
+      "name": "EM 123 Skeletal Muscle",
+      "caption": "Banding",
+      "technique": "TEM",
+      "section": "Skeletal Muscle",
+      "href": "/EM-view/EM-123-skeletal-muscle/04-photo-1.html"
+    },
+    {
+      "name": "EM 385 Skeletal Muscle",
+      "caption": "Banding",
+      "technique": "TEM",
+      "section": "Skeletal Muscle",
+      "href": "/EM-view/EM-385-skeletal-muscle/04-photo-1.html"
+    },
+    {
+      "name": "EM 390 Sarcomere",
+      "caption": "Sarcomere",
+      "technique": "Longitudinal Section",
+      "section": "Skeletal Muscle",
+      "href": "/EM-view/EM-390-sarcomere/04-photo-1.html"
+    },
+    {
+      "name": "EM 143 Sarcomere",
+      "caption": "Sarcomere",
+      "technique": "Cross Section",
+      "section": "Skeletal Muscle",
+      "href": "/EM-view/EM-143-sarcomere/04-photo-1.html"
+    },
+    {
+      "name": "EM 368 Sarcomere",
+      "caption": "Sarcomere",
+      "technique": "SEM (deep etching)",
+      "section": "Skeletal Muscle",
+      "href": "/EM-view/EM-368-sarcomere/04-photo-1.html"
+    },
+    {
+      "name": "EM 351 Cardiac Muscle",
+      "caption": "SEM",
+      "technique": "",
+      "section": "Cardiac Muscle",
+      "href": "/EM-view/EM-351-cardiac-muscle/04-photo-1.html"
+    },
+    {
+      "name": "EM 137 Cardiac Muscle",
+      "caption": "Longitudinal Section",
+      "technique": "TEM",
+      "section": "Cardiac Muscle",
+      "href": "/EM-view/EM-137-cardiac-muscle/04-photo-1.html"
+    },
+    {
+      "name": "EM 133 Cardiac Muscle",
+      "caption": "Cross-Section",
+      "technique": "TEM",
+      "section": "Cardiac Muscle",
+      "href": "/EM-view/EM-133-cardiac-muscle/04-photo-1.html"
+    },
+    {
+      "name": "EM 122 Cardiac Muscle",
+      "caption": "Sarcomere / Intercalated Disc",
+      "technique": "TEM",
+      "section": "Cardiac Muscle",
+      "href": "/EM-view/EM-122-cardiac-muscle/04-photo-1.html"
+    },
+    {
+      "name": "EM 138 Cardiac Muscle",
+      "caption": "Sarcomere / Intercalated Disc",
+      "technique": "SEM",
+      "section": "Cardiac Muscle",
+      "href": "/EM-view/EM-138-cardiac-muscle/04-photo-1.html"
+    },
+    {
+      "name": "EM 141 Cardiac Muscle",
+      "caption": "Sarcomere / Intercalated Disc",
+      "technique": "SEM",
+      "section": "Cardiac Muscle",
+      "href": "/EM-view/EM-141-cardiac-muscle/04-photo-1.html"
+    },
+    {
+      "name": "EM 236 Smooth Muscle Cell",
+      "caption": "Relaxed and Contracted",
+      "technique": "SEM",
+      "section": "Smooth Muscle",
+      "href": "/EM-view/EM-236-smooth-muscle-cell/04-photo-1.html"
+    },
+    {
+      "name": "EM 132 Smooth Muscle",
+      "caption": "Longitudinal Section",
+      "technique": "TEM",
+      "section": "Smooth Muscle",
+      "href": "/EM-view/EM-132-smooth-muscle-cell/04-photo-1.html"
+    },
+    {
+      "name": "EM 121 Smooth Muscle",
+      "caption": "Cross-Section",
+      "technique": "TEM",
+      "section": "Smooth Muscle",
+      "href": "/EM-view/EM-121-smooth-muscle/04-photo-1.html"
+    },
+    {
+      "name": "EM 128 Smooth Muscle",
+      "caption": "Cross-Section",
+      "technique": "TEM",
+      "section": "Smooth Muscle",
+      "href": "/EM-view/EM-128-smooth-muscle/04-photo-1.html"
+    },
+    {
+      "name": "EM 126 Smooth Muscle",
+      "caption": "TEM",
+      "technique": "",
+      "section": "Smooth Muscle",
+      "href": "/EM-view/EM-126-smooth-muscle/04-photo-1.html"
+    }
+  ]
+}

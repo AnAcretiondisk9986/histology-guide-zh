@@ -1,0 +1,195 @@
+{
+  "schema": 1,
+  "n": 12,
+  "titleEn": "Exocrine Glands",
+  "group": "organ-systems",
+  "originalPage": "https://histologyguide.com/slidebox/12-exocrine-glands.html",
+  "note": "此文件由 scripts/scaffold.mjs 生成，仅供内容编写参考；请把中文写入 content/zh/chapters/NN.json，不要修改本文件。",
+  "sections": [
+    {
+      "en": "Salivary Glands",
+      "specimenCount": 6,
+      "specimenNames": [
+        "Fig 022 Exocrine Glands",
+        "MH 094 Parotid",
+        "MH 094hr Parotid",
+        "MH 095 Submandibular Gland",
+        "MH 096 Sublingual Gland",
+        "MHS 265 Sublingual Gland"
+      ]
+    },
+    {
+      "en": "Exocrine Pancreas",
+      "specimenCount": 4,
+      "specimenNames": [
+        "MH 131 Pancreas",
+        "MH 132 Pancreas",
+        "MHS 211 Pancreas",
+        "MHS 232 Pancreas"
+      ]
+    },
+    {
+      "en": "Vasculature",
+      "specimenCount": 1,
+      "specimenNames": [
+        "MHS 296 Pancreas"
+      ]
+    }
+  ],
+  "specimens": [
+    {
+      "name": "Fig 005 Exocrine Glands",
+      "caption": "",
+      "stain": "",
+      "kind": "figure",
+      "section": null,
+      "href": "/figureview/fig-005-exocrine-glands/12-figure-1.html"
+    },
+    {
+      "name": "Fig 022 Exocrine Glands",
+      "caption": "",
+      "stain": "",
+      "kind": "figure",
+      "section": "Salivary Glands",
+      "href": "/figureview/fig-022-exocrine-glands/12-figure-1.html"
+    },
+    {
+      "name": "MH 094 Parotid",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Salivary Glands",
+      "href": "/slideview/MH-094-parotid/12-slide-1.html"
+    },
+    {
+      "name": "MH 094hr Parotid",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Salivary Glands",
+      "href": "/slideview/MH-094hr-parotid/12-slide-1.html"
+    },
+    {
+      "name": "MH 095 Submandibular Gland",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Salivary Glands",
+      "href": "/slideview/MH-095-submandibular-gland/12-slide-1.html"
+    },
+    {
+      "name": "MH 096 Sublingual Gland",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Salivary Glands",
+      "href": "/slideview/MH-096-sublingual-gland/12-slide-1.html"
+    },
+    {
+      "name": "MHS 265 Sublingual Gland",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Salivary Glands",
+      "href": "/slideview/MHS-265-sublingual-gland/12-slide-1.html"
+    },
+    {
+      "name": "MH 131 Pancreas",
+      "caption": "Exocrine Pancreas",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Exocrine Pancreas",
+      "href": "/slideview/MH-131-pancreas/12-slide-1.html"
+    },
+    {
+      "name": "MH 132 Pancreas",
+      "caption": "Exocrine Pancreas",
+      "stain": "Azan",
+      "kind": "slide",
+      "section": "Exocrine Pancreas",
+      "href": "/slideview/MH-132-pancreas/12-slide-1.html"
+    },
+    {
+      "name": "MHS 211 Pancreas",
+      "caption": "Exocrine Pancreas",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Exocrine Pancreas",
+      "href": "/slideview/MHS-211-pancreas/12-slide-1.html"
+    },
+    {
+      "name": "MHS 232 Pancreas",
+      "caption": "Exocrine Pancreas",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Exocrine Pancreas",
+      "href": "/slideview/MHS-232-pancreas/12-slide-1.html"
+    },
+    {
+      "name": "MHS 296 Pancreas",
+      "caption": "Dye Perfusion",
+      "stain": "",
+      "kind": "slide",
+      "section": "Vasculature",
+      "href": "/slideview/MHS-296-pancreas/12-slide-1.html"
+    }
+  ],
+  "emItems": [
+    {
+      "name": "EM 204 Salivary Gland",
+      "caption": "TEM",
+      "technique": "",
+      "section": "Salivary Glands",
+      "href": "/EM-view/EM-204-salivary-gland/12-photo-1.html"
+    },
+    {
+      "name": "EM 373 Sebaceous Gland",
+      "caption": "TEM",
+      "technique": "",
+      "section": "Sweat Glands",
+      "href": "/EM-view/EM-373-sebaceous-gland/12-photo-1.html"
+    },
+    {
+      "name": "EM 257 Pancreas",
+      "caption": "SEM",
+      "technique": "",
+      "section": "Exocrine Pancreas",
+      "href": "/EM-view/EM-257-pancreas/12-photo-1.html"
+    },
+    {
+      "name": "EM 258 Pancreas",
+      "caption": "SEM",
+      "technique": "",
+      "section": "Exocrine Pancreas",
+      "href": "/EM-view/EM-258-pancreas/12-photo-1.html"
+    },
+    {
+      "name": "EM 290 Zymogen Granules",
+      "caption": "SEM",
+      "technique": "",
+      "section": "Exocrine Pancreas",
+      "href": "/EM-view/EM-290-exocrine-pancreas/12-photo-1.html"
+    },
+    {
+      "name": "EM 208 Acinar Cell",
+      "caption": "TEM",
+      "technique": "",
+      "section": "Exocrine Pancreas",
+      "href": "/EM-view/EM-208-acinar-cell/12-photo-1.html"
+    },
+    {
+      "name": "EM 074 Interlobular Duct",
+      "caption": "TEM",
+      "technique": "",
+      "section": "Exocrine Pancreas",
+      "href": "/EM-view/EM-074-interlobular-duct/12-photo-1.html"
+    },
+    {
+      "name": "EM 352 Centroacinar Cell",
+      "caption": "TEM",
+      "technique": "",
+      "section": "Exocrine Pancreas",
+      "href": "/EM-view/EM-352-centroacinar-cell/12-photo-1.html"
+    }
+  ]
+}

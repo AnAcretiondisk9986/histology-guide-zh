@@ -1,0 +1,10 @@
+# 文本文件按内容自动判断，不强制换行符
+* text=auto
+
+# 图像按二进制处理
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.gif binary
+*.webp binary
+*.zif binary

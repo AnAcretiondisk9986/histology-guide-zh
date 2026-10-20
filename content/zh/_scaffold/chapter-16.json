@@ -1,0 +1,261 @@
+{
+  "schema": 1,
+  "n": 16,
+  "titleEn": "Urinary System",
+  "group": "organ-systems",
+  "originalPage": "https://histologyguide.com/slidebox/16-urinary-system.html",
+  "note": "此文件由 scripts/scaffold.mjs 生成，仅供内容编写参考；请把中文写入 content/zh/chapters/NN.json，不要修改本文件。",
+  "sections": [
+    {
+      "en": "Kidney",
+      "specimenCount": 4,
+      "specimenNames": [
+        "MH 143 Kidney",
+        "MH 141a Kidney",
+        "MH 141b Kidney",
+        "MH 142 Kidney"
+      ]
+    },
+    {
+      "en": "Fetal Kidney",
+      "specimenCount": 1,
+      "specimenNames": [
+        "MH 140 Kidney Fetal"
+      ]
+    },
+    {
+      "en": "Ureter",
+      "specimenCount": 2,
+      "specimenNames": [
+        "MH 146 Ureter",
+        "MHS 215 Ureter"
+      ]
+    },
+    {
+      "en": "Urinary Bladder",
+      "specimenCount": 3,
+      "specimenNames": [
+        "MH 147 Bladder",
+        "MH 018 Transitional Epithelia",
+        "MHS 214 Bladder"
+      ]
+    }
+  ],
+  "specimens": [
+    {
+      "name": "MH 143 Kidney",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Kidney",
+      "href": "/slideview/MH-143-kidney/16-slide-1.html"
+    },
+    {
+      "name": "MH 141a Kidney",
+      "caption": "Nephron",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Kidney",
+      "href": "/slideview/MH-141a-kidney/16-slide-1.html"
+    },
+    {
+      "name": "MH 141b Kidney",
+      "caption": "Nephron",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Kidney",
+      "href": "/slideview/MH-141b-kidney/16-slide-1.html"
+    },
+    {
+      "name": "MH 142 Kidney",
+      "caption": "Nephron",
+      "stain": "Azan",
+      "kind": "slide",
+      "section": "Kidney",
+      "href": "/slideview/MH-142-kidney/16-slide-1.html"
+    },
+    {
+      "name": "MH 140 Kidney Fetal",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Fetal Kidney",
+      "href": "/slideview/MH-140-kidney-fetal/16-slide-1.html"
+    },
+    {
+      "name": "MH 146 Ureter",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Ureter",
+      "href": "/slideview/MH-146-ureter/16-slide-1.html"
+    },
+    {
+      "name": "MHS 215 Ureter",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Ureter",
+      "href": "/slideview/MHS-215-ureter/16-slide-1.html"
+    },
+    {
+      "name": "MH 147 Bladder",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Urinary Bladder",
+      "href": "/slideview/MH-147-bladder/16-slide-1.html"
+    },
+    {
+      "name": "MH 018 Transitional Epithelia",
+      "caption": "Relaxed and Stretched Bladder",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Urinary Bladder",
+      "href": "/slideview/MH-018-transitional-epithelia/16-slide-1.html"
+    },
+    {
+      "name": "MHS 214 Bladder",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Urinary Bladder",
+      "href": "/slideview/MHS-214-bladder/16-slide-1.html"
+    }
+  ],
+  "emItems": [
+    {
+      "name": "EM 232 Kidney",
+      "caption": "Renal Corpuscles",
+      "technique": "SEM",
+      "section": "Renal Corpuscle",
+      "href": "/EM-view/EM-232-kidney/16-photo-1.html"
+    },
+    {
+      "name": "EM 225 Kidney Glomerulus",
+      "caption": "Renal Corpuscles",
+      "technique": "SEM",
+      "section": "Renal Corpuscle",
+      "href": "/EM-view/EM-225-kidney-glomerulus/16-photo-1.html"
+    },
+    {
+      "name": "EM 080 Bowman's Capsule",
+      "caption": "SEM",
+      "technique": "",
+      "section": "Renal Corpuscle",
+      "href": "/EM-view/EM-080-bowmans-capsule/16-photo-1.html"
+    },
+    {
+      "name": "EM 364 Renal Corpuscle",
+      "caption": "Kidney",
+      "technique": "TEM",
+      "section": "Renal Corpuscle",
+      "href": "/EM-view/EM-364-renal-corpuscle/16-photo-1.html"
+    },
+    {
+      "name": "EM 195 Podocytes",
+      "caption": "Kidney",
+      "technique": "SEM",
+      "section": "Renal Corpuscle",
+      "href": "/EM-view/EM-195-podocytes/16-photo-1.html"
+    },
+    {
+      "name": "EM 194 Podocytes",
+      "caption": "Kidney",
+      "technique": "SEM",
+      "section": "Renal Corpuscle",
+      "href": "/EM-view/EM-194-podocytes/16-photo-1.html"
+    },
+    {
+      "name": "EM 234 Kidney",
+      "caption": "Fenestrated Capillaries",
+      "technique": "SEM",
+      "section": "Renal Corpuscle",
+      "href": "/EM-view/EM-234-kidney-glomerulus/16-photo-1.html"
+    },
+    {
+      "name": "EM 235 Kidney",
+      "caption": "Fenestrated Capillaries",
+      "technique": "SEM",
+      "section": "Renal Corpuscle",
+      "href": "/EM-view/EM-235-kidney-glomerulus/16-photo-1.html"
+    },
+    {
+      "name": "EM 365 Kidney",
+      "caption": "",
+      "technique": "Filtration Barrier",
+      "section": "Renal Corpuscle",
+      "href": "/EM-view/EM-365-kidney-glomerulus/16-photo-1.html"
+    },
+    {
+      "name": "EM 233 Kidney",
+      "caption": "Filtration Barrier",
+      "technique": "TEM",
+      "section": "Renal Corpuscle",
+      "href": "/EM-view/EM-233-kidney/16-photo-1.html"
+    },
+    {
+      "name": "EM 193 Kidney",
+      "caption": "Filtration Barrier",
+      "technique": "TEM",
+      "section": "Renal Corpuscle",
+      "href": "/EM-view/EM-193-kidney/16-photo-1.html"
+    },
+    {
+      "name": "EM 366 Loop of Henle",
+      "caption": "Kidney",
+      "technique": "TEM",
+      "section": "Renal Tubule",
+      "href": "/EM-view/EM-366-loop-of-henle/16-photo-1.html"
+    },
+    {
+      "name": "EM 197 Distal Convoluted Tubule",
+      "caption": "Kidney",
+      "technique": "TEM",
+      "section": "Renal Tubule",
+      "href": "/EM-view/EM-197-renal-tubule/16-photo-1.html"
+    },
+    {
+      "name": "RD 025 Distal Convoluted Tubule",
+      "caption": "Kidney / Basal Infoldings",
+      "technique": "TEM",
+      "section": "Renal Tubule",
+      "href": "/EM-view/RD-025-basal-infoldings/16-photo-1.html"
+    },
+    {
+      "name": "EM 192 Kidney",
+      "caption": "Glomerulus",
+      "technique": "SEM",
+      "section": "Blood Supply",
+      "href": "/EM-view/EM-192-kidney/16-photo-1.html"
+    },
+    {
+      "name": "EM 228 Kidney",
+      "caption": "Peritubular Capillaries",
+      "technique": "SEM",
+      "section": "Blood Supply",
+      "href": "/EM-view/EM-228-kidney-blood-vessels/16-photo-1.html"
+    },
+    {
+      "name": "EM 237 Bladder",
+      "caption": "SEM",
+      "technique": "",
+      "section": "URINARY BLADDER",
+      "href": "/EM-view/EM-237-bladder/16-photo-1.html"
+    },
+    {
+      "name": "EM 238 Bladder",
+      "caption": "Stretched",
+      "technique": "SEM",
+      "section": "URINARY BLADDER",
+      "href": "/EM-view/EM-238-bladder-stretched/16-photo-1.html"
+    },
+    {
+      "name": "EM 239 Bladder",
+      "caption": "Relaxed",
+      "technique": "SEM",
+      "section": "URINARY BLADDER",
+      "href": "/EM-view/EM-239-bladder-relaxed/16-photo-1.html"
+    }
+  ]
+}

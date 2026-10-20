@@ -1,0 +1,165 @@
+{
+  "schema": 1,
+  "source": {
+    "url": "https://histologyguide.com/EM-atlas/05-cartilage-and-bone.html",
+    "finalUrl": "https://histologyguide.com/EM-atlas/05-cartilage-and-bone.html",
+    "fetchedAt": "2026-10-18T11:29:15.223Z",
+    "httpStatus": 200,
+    "bytes": 22871,
+    "sha256": "161e668815b2015e34dde05948102e4b0caab9ef3f70ee75dedf6f07d661952e",
+    "userAgent": "HistologyGuideCNStudyIndex/0.1 (+personal non-commercial study index; metadata extraction only; contact: local user)",
+    "note": "仅保存导航元数据；正文段落与图片未保存，遵循原站使用条款"
+  },
+  "chapter": 5,
+  "pageType": "em",
+  "pageTitle": "Chapter 5 - Cartilage and Bone",
+  "hasIntroProse": true,
+  "headings": [
+    {
+      "level": 2,
+      "id": null,
+      "text": "Chapter 5 - Cartilage and Bone"
+    },
+    {
+      "level": 3,
+      "id": "cartilage",
+      "text": "CARTILAGE"
+    },
+    {
+      "level": 3,
+      "id": "hyaline-cartilage",
+      "text": "Hyaline Cartilage"
+    },
+    {
+      "level": 3,
+      "id": "bone",
+      "text": "BONE"
+    },
+    {
+      "level": 3,
+      "id": "spongy-bone",
+      "text": "Spongy Bone"
+    },
+    {
+      "level": 3,
+      "id": "compact-bone",
+      "text": "Compact Bone"
+    },
+    {
+      "level": 3,
+      "id": "bone-development",
+      "text": "BONE DEVELOPMENT"
+    },
+    {
+      "level": 2,
+      "id": null,
+      "text": "CELL AND TISSUES"
+    },
+    {
+      "level": 2,
+      "id": null,
+      "text": "ORGAN SYSTEMS"
+    }
+  ],
+  "items": [
+    {
+      "kind": "em",
+      "name": "EM 255 Trachea",
+      "caption": "Hyaline Cartilage",
+      "stain": "SEM",
+      "href": "/EM-view/EM-255-hyaline-cartilage/05-photo-1.html",
+      "thumbPath": "/EM-view/EM-255-hyaline-cartilage/imgs/photo-2c.png",
+      "section": "Hyaline Cartilage"
+    },
+    {
+      "kind": "em",
+      "name": "EM 256 Trachea",
+      "caption": "Hyaline Cartilage",
+      "stain": "SEM",
+      "href": "/EM-view/EM-256-hyaline-cartilage/05-photo-1.html",
+      "thumbPath": "/EM-view/EM-256-hyaline-cartilage/imgs/photo-2c.png",
+      "section": "Hyaline Cartilage"
+    },
+    {
+      "kind": "em",
+      "name": "EM 147 Hyaline Cartilage",
+      "caption": "SEM",
+      "stain": "",
+      "href": "/EM-view/EM-147-cartilage/05-photo-1.html",
+      "thumbPath": "/EM-view/EM-147-cartilage/imgs/photo-2c.png",
+      "section": "Hyaline Cartilage"
+    },
+    {
+      "kind": "em",
+      "name": "EM 149 Chondrocyte",
+      "caption": "Hyaline Cartilage",
+      "stain": "SEM",
+      "href": "/EM-view/EM-149-chondrocyte/05-photo-1.html",
+      "thumbPath": "/EM-view/EM-149-chondrocyte/imgs/photo-2c.png",
+      "section": "Hyaline Cartilage"
+    },
+    {
+      "kind": "em",
+      "name": "EM 342 Bone Collagen",
+      "caption": "Mineralization",
+      "stain": "SEM",
+      "href": "/EM-view/EM-342-bone-collagen/05-photo-1.html",
+      "thumbPath": "/EM-view/EM-342-bone-collagen/imgs/photo-2c.png",
+      "section": "BONE"
+    },
+    {
+      "kind": "em",
+      "name": "EM 215 Tibia",
+      "caption": "SEM",
+      "stain": "",
+      "href": "/EM-view/EM-215-tibia/05-photo-1.html",
+      "thumbPath": "/EM-view/EM-215-tibia/imgs/photo-2c.png",
+      "section": "Spongy Bone"
+    },
+    {
+      "kind": "em",
+      "name": "EM 216 Compact Bone",
+      "caption": "SEM",
+      "stain": "",
+      "href": "/EM-view/EM-216-compact-bone/05-photo-1.html",
+      "thumbPath": "/EM-view/EM-216-compact-bone/imgs/photo-2c.png",
+      "section": "Compact Bone"
+    },
+    {
+      "kind": "em",
+      "name": "EM 217 Osteon",
+      "caption": "SEM",
+      "stain": "",
+      "href": "/EM-view/EM-217-osteon/05-photo-1.html",
+      "thumbPath": "/EM-view/EM-217-osteon/imgs/photo-2c.png",
+      "section": "Compact Bone"
+    },
+    {
+      "kind": "em",
+      "name": "EM 218 Osteocyte",
+      "caption": "SEM",
+      "stain": "",
+      "href": "/EM-view/EM-218-osteocyte/05-photo-1.html",
+      "thumbPath": "/EM-view/EM-218-osteocyte/imgs/photo-2c.png",
+      "section": "Compact Bone"
+    },
+    {
+      "kind": "em",
+      "name": "EM 391 Osteocyte",
+      "caption": "Deep Etching",
+      "stain": "SEM",
+      "href": "/EM-view/EM-391-osteocyte/05-photo-1.html",
+      "thumbPath": "/EM-view/EM-391-osteocyte/imgs/photo-2c.png",
+      "section": "Compact Bone"
+    },
+    {
+      "kind": "em",
+      "name": "EM 294 Epiphyseal Plate",
+      "caption": "SEM",
+      "stain": "",
+      "href": "/EM-view/EM-294-epiphyseal-plate/05-photo-1.html",
+      "thumbPath": "/EM-view/EM-294-epiphyseal-plate/imgs/photo-2c.png",
+      "section": "BONE DEVELOPMENT"
+    }
+  ]
+}

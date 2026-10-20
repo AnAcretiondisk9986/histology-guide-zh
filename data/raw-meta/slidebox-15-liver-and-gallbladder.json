@@ -1,0 +1,193 @@
+{
+  "schema": 1,
+  "source": {
+    "url": "https://histologyguide.com/slidebox/15-liver-and-gallbladder.html",
+    "finalUrl": "https://histologyguide.com/slidebox/15-liver-and-gallbladder.html",
+    "fetchedAt": "2026-10-18T11:29:53.888Z",
+    "httpStatus": 200,
+    "bytes": 20401,
+    "sha256": "ee3600e582fb53626f31d7f0e44a58342133f0f4f2299420dbde4150925df707",
+    "userAgent": "HistologyGuideCNStudyIndex/0.1 (+personal non-commercial study index; metadata extraction only; contact: local user)",
+    "note": "仅保存导航元数据；正文段落与图片未保存，遵循原站使用条款"
+  },
+  "chapter": 15,
+  "pageType": "slidebox",
+  "pageTitle": "Chapter 15 - Liver and Gallbladder",
+  "hasIntroProse": true,
+  "headings": [
+    {
+      "level": 2,
+      "id": "liver",
+      "text": "Chapter 15 - Liver and Gallbladder"
+    },
+    {
+      "level": 3,
+      "id": null,
+      "text": "Liver"
+    },
+    {
+      "level": 3,
+      "id": "bile-canaliculi",
+      "text": "Bile Canaliculi"
+    },
+    {
+      "level": 3,
+      "id": "trypan-blue",
+      "text": "Kupffer Cells"
+    },
+    {
+      "level": 3,
+      "id": "vasculature",
+      "text": "Hepatic Vasculature"
+    },
+    {
+      "level": 3,
+      "id": "glycogen",
+      "text": "Liver - Glycogen"
+    },
+    {
+      "level": 3,
+      "id": "fatty-acid",
+      "text": "Liver - Lipids"
+    },
+    {
+      "level": 3,
+      "id": "liver-fetal",
+      "text": "Liver Fetal"
+    },
+    {
+      "level": 3,
+      "id": "gallbladder",
+      "text": "Gallbladder"
+    },
+    {
+      "level": 2,
+      "id": null,
+      "text": "CELL AND TISSUES"
+    },
+    {
+      "level": 2,
+      "id": null,
+      "text": "ORGAN SYSTEMS"
+    }
+  ],
+  "items": [
+    {
+      "kind": "figure",
+      "name": "Fig 004 Liver and Gallbladder",
+      "caption": "",
+      "stain": "",
+      "href": "/figureview/fig-004-liver-and-gallbladder/15-figure-1.html",
+      "thumbPath": "/figureview/fig-004-liver-and-gallbladder/imgs/figure.png",
+      "section": null
+    },
+    {
+      "kind": "slide",
+      "name": "MH 126b Liver",
+      "caption": "Human",
+      "stain": "H&E",
+      "href": "/slideview/MH-126b-liver/15-slide-1.html",
+      "thumbPath": "/slideview/MH-126b-liver/imgs/slide.png",
+      "section": "Liver"
+    },
+    {
+      "kind": "slide",
+      "name": "UCSF 278 Liver",
+      "caption": "Pig",
+      "stain": "Azan",
+      "href": "/slideview/UCSF-278-liver/15-slide-1.html",
+      "thumbPath": "/slideview/UCSF-278-liver/imgs/slide.png",
+      "section": "Liver"
+    },
+    {
+      "kind": "slide",
+      "name": "MHS 206 Liver",
+      "caption": "Pig",
+      "stain": "H&E",
+      "href": "/slideview/MHS-206-liver/15-slide-1.html",
+      "thumbPath": "/slideview/MHS-206-liver/imgs/slide.png",
+      "section": "Liver"
+    },
+    {
+      "kind": "slide",
+      "name": "MHS 249 Liver",
+      "caption": "Bile Canaliculi",
+      "stain": "ATPase/Lead Phosphate",
+      "href": "/slideview/MHS-249-liver/15-slide-1.html",
+      "thumbPath": "/slideview/MHS-249-liver/imgs/slide.png",
+      "section": "Bile Canaliculi"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 127 Liver",
+      "caption": "Bile Canaliculi",
+      "stain": "Azan",
+      "href": "/slideview/MH-127-liver/15-slide-1.html",
+      "thumbPath": "/slideview/MH-127-liver/imgs/slide.png",
+      "section": "Bile Canaliculi"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 031 Liver",
+      "caption": "Kupffer Cells",
+      "stain": "Trypan Blue Uptake",
+      "href": "/slideview/MH-031-liver/15-slide-1.html",
+      "thumbPath": "/slideview/MH-031-liver/imgs/slide.png",
+      "section": "Kupffer Cells"
+    },
+    {
+      "kind": "slide",
+      "name": "UCSF 286 Liver",
+      "caption": "Ink Injection",
+      "stain": "",
+      "href": "/slideview/UCSF-286-liver/15-slide-1.html",
+      "thumbPath": "/slideview/UCSF-286-liver/imgs/slide.png",
+      "section": "Hepatic Vasculature"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 128 Liver",
+      "caption": "Glycogen",
+      "stain": "Periodic-Acid Schiff Stain",
+      "href": "/slideview/MH-128-liver/15-slide-1.html",
+      "thumbPath": "/slideview/MH-128-liver/imgs/slide.png",
+      "section": "Liver - Glycogen"
+    },
+    {
+      "kind": "slide",
+      "name": "UCSF 280 Liver",
+      "caption": "Lipids",
+      "stain": "Osmic Acid/Mallory Azan",
+      "href": "/slideview/UCSF-280-liver/15-slide-1.html",
+      "thumbPath": "/slideview/UCSF-280-liver/imgs/slide.png",
+      "section": "Liver - Lipids"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 125 Liver Fetal",
+      "caption": "H&E",
+      "stain": "",
+      "href": "/slideview/MH-125-liver-fetal/15-slide-1.html",
+      "thumbPath": "/slideview/MH-125-liver-fetal/imgs/slide.png",
+      "section": "Liver Fetal"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 130a Gallbladder",
+      "caption": "H&E",
+      "stain": "",
+      "href": "/slideview/MH-130a-gallbladder/15-slide-1.html",
+      "thumbPath": "/slideview/MH-130a-gallbladder/imgs/slide.png",
+      "section": "Gallbladder"
+    },
+    {
+      "kind": "slide",
+      "name": "MHS 261 Common Bile Duct",
+      "caption": "H&E",
+      "stain": "",
+      "href": "/slideview/MHS-261-common-bile-duct/15-slide-1.html",
+      "thumbPath": "/slideview/MHS-261-common-bile-duct/imgs/slide.png",
+      "section": "Gallbladder"
+    }
+  ]
+}

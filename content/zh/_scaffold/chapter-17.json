@@ -1,0 +1,246 @@
+{
+  "schema": 1,
+  "n": 17,
+  "titleEn": "Respiratory System",
+  "group": "organ-systems",
+  "originalPage": "https://histologyguide.com/slidebox/17-respiratory-system.html",
+  "note": "此文件由 scripts/scaffold.mjs 生成，仅供内容编写参考；请把中文写入 content/zh/chapters/NN.json，不要修改本文件。",
+  "sections": [
+    {
+      "en": "Nasal and Oral Cavities",
+      "specimenCount": 1,
+      "specimenNames": [
+        "MH 134 Nasal Conchae and Palate"
+      ]
+    },
+    {
+      "en": "Epiglottis",
+      "specimenCount": 1,
+      "specimenNames": [
+        "MH 038-039 Epiglottis"
+      ]
+    },
+    {
+      "en": "Larynx",
+      "specimenCount": 1,
+      "specimenNames": [
+        "MH 135 Larynx"
+      ]
+    },
+    {
+      "en": "Trachea",
+      "specimenCount": 3,
+      "specimenNames": [
+        "MH 110 Trachea and Esophagus",
+        "MH 136 Trachea",
+        "MHS 222 Trachea"
+      ]
+    },
+    {
+      "en": "Lungs",
+      "specimenCount": 3,
+      "specimenNames": [
+        "MH 138 Lung",
+        "MH 139 Lung",
+        "MHS 205 Lung"
+      ]
+    },
+    {
+      "en": "Fetal Lung",
+      "specimenCount": 1,
+      "specimenNames": [
+        "MH 137 Lung Fetal"
+      ]
+    }
+  ],
+  "specimens": [
+    {
+      "name": "Fig 013 Respiratory System",
+      "caption": "",
+      "stain": "",
+      "kind": "figure",
+      "section": null,
+      "href": "/figureview/fig-013-respiratory-system/17-figure-2.html"
+    },
+    {
+      "name": "MH 134 Nasal Conchae and Palate",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Nasal and Oral Cavities",
+      "href": "/slideview/MH-134-nasal-conchae-and-palate/17-slide-1.html"
+    },
+    {
+      "name": "MH 038-039 Epiglottis",
+      "caption": "H&E/Verhoeff",
+      "stain": "",
+      "kind": "slide",
+      "section": "Epiglottis",
+      "href": "/slideview/MH-038-039-epiglottis/17-slide-1.html"
+    },
+    {
+      "name": "MH 135 Larynx",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Larynx",
+      "href": "/slideview/MH-135-larynx/17-slide-1.html"
+    },
+    {
+      "name": "MH 110 Trachea and Esophagus",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Trachea",
+      "href": "/slideview/MH-110-trachea-and-esophagus/17-slide-1.html"
+    },
+    {
+      "name": "MH 136 Trachea",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Trachea",
+      "href": "/slideview/MH-136-trachea/17-slide-1.html"
+    },
+    {
+      "name": "MHS 222 Trachea",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Trachea",
+      "href": "/slideview/MHS-222-trachea/17-slide-1.html"
+    },
+    {
+      "name": "MH 138 Lung",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Lungs",
+      "href": "/slideview/MH-138-lung/17-slide-1.html"
+    },
+    {
+      "name": "MH 139 Lung",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Lungs",
+      "href": "/slideview/MH-139-lung/17-slide-1.html"
+    },
+    {
+      "name": "MHS 205 Lung",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Lungs",
+      "href": "/slideview/MHS-205-lung/17-slide-1.html"
+    },
+    {
+      "name": "MH 137 Lung Fetal",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Fetal Lung",
+      "href": "/slideview/MH-137-lung-fetal/17-slide-1.html"
+    }
+  ],
+  "emItems": [
+    {
+      "name": "Fig 013 Respiratory System",
+      "caption": "",
+      "technique": "",
+      "section": null,
+      "href": "/figureview/fig-013-respiratory-system/17-figure-1.html"
+    },
+    {
+      "name": "EM 070 Respiratory Epithelium",
+      "caption": "Lung",
+      "technique": "TEM",
+      "section": "Respiratory Epithelium",
+      "href": "/EM-view/EM-070-respiratory-epithelium/17-photo-1.html"
+    },
+    {
+      "name": "EM 076 Respiratory Epithelium",
+      "caption": "Lung",
+      "technique": "SEM",
+      "section": "Respiratory Epithelium",
+      "href": "/EM-view/EM-076-respiratory-epithelium/17-photo-1.html"
+    },
+    {
+      "name": "EM 077 Respiratory Epithelium",
+      "caption": "Lung",
+      "technique": "SEM",
+      "section": "Respiratory Epithelium",
+      "href": "/EM-view/EM-077-respiratory-epithelium/17-photo-1.html"
+    },
+    {
+      "name": "EM 266 Lung",
+      "caption": "Pleural Surface",
+      "technique": "SEM",
+      "section": "LUNG",
+      "href": "/EM-view/EM-266-lung/17-photo-1.html"
+    },
+    {
+      "name": "EM 273 Lung",
+      "caption": "SEM",
+      "technique": "",
+      "section": "LUNG",
+      "href": "/EM-view/EM-273-lung/17-photo-1.html"
+    },
+    {
+      "name": "EM 267 Terminal Bronchiole",
+      "caption": "Lung",
+      "technique": "SEM",
+      "section": "LUNG",
+      "href": "/EM-view/EM-267-respiratory-bronchiole/17-photo-1.html"
+    },
+    {
+      "name": "EM 268 Terminal and Respiratory Bronchioles",
+      "caption": "Lung",
+      "technique": "SEM",
+      "section": "Respiratory Bronchiole",
+      "href": "/EM-view/EM-268-respiratory-bronchiole/17-photo-1.html"
+    },
+    {
+      "name": "EM 270 Respiratory Bronchiole",
+      "caption": "Lung",
+      "technique": "SEM",
+      "section": "Respiratory Bronchiole",
+      "href": "/EM-view/EM-270-respiratory-bronchiole/17-photo-1.html"
+    },
+    {
+      "name": "EM 322 Lung",
+      "caption": "Alveoli",
+      "technique": "SEM",
+      "section": "Alveoli",
+      "href": "/EM-view/EM-322-lung/17-photo-1.html"
+    },
+    {
+      "name": "EM 269 Lung",
+      "caption": "Alveoli",
+      "technique": "SEM",
+      "section": "Alveoli",
+      "href": "/EM-view/EM-269-lung/17-photo-1.html"
+    },
+    {
+      "name": "RD 189 Alveoli",
+      "caption": "Lung / Type I Alveolar Cell",
+      "technique": "SEM",
+      "section": "Alveoli",
+      "href": "/EM-view/RD-189-alveoli/17-photo-1.html"
+    },
+    {
+      "name": "RD 182 Alveoli",
+      "caption": "Lung / Type I Alveolar Cell",
+      "technique": "SEM",
+      "section": "Alveoli",
+      "href": "/EM-view/RD-182-alveoli/17-photo-1.html"
+    },
+    {
+      "name": "RD 179 Alveoli",
+      "caption": "Type II Alveolar Cell",
+      "technique": "Lung",
+      "section": "Alveoli",
+      "href": "/EM-view/RD-179-alveoli/17-photo-1.html"
+    }
+  ]
+}

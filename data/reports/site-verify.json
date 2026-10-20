@@ -1,0 +1,427 @@
+{
+  "checkedAt": "2026-10-20T13:27:52.316Z",
+  "browser": "Chrome/155.0.8059.80",
+  "pages": 19,
+  "passed": 19,
+  "failed": 0,
+  "results": [
+    {
+      "page": "index.html",
+      "ok": true,
+      "checks": [
+        {
+          "name": "标题非空",
+          "ok": true,
+          "detail": null
+        },
+        {
+          "name": "章节卡片 21 个",
+          "ok": true,
+          "detail": null
+        },
+        {
+          "name": "统计徽标 5 个",
+          "ok": true,
+          "detail": null
+        },
+        {
+          "name": "最近学习容器存在",
+          "ok": true,
+          "detail": null
+        },
+        {
+          "name": "进度条渲染",
+          "ok": true,
+          "detail": null
+        },
+        {
+          "name": "无横向溢出",
+          "ok": true,
+          "detail": null
+        },
+        {
+          "name": "无 JS 错误",
+          "ok": true,
+          "detail": null
+        }
+      ],
+      "title": "组织学显微镜复习站 · Histology Guide 非官方中文学习改编版"
+    },
+    {
+      "page": "搜索浮层",
+      "ok": true,
+      "checks": [
+        {
+          "name": "点击后打开",
+          "ok": true,
+          "detail": "{\"open\":true,\"hits\":2,\"first\":\"肝小叶\",\"closedAfterEsc\":true}"
+        },
+        {
+          "name": "“肝小叶”有结果",
+          "ok": true,
+          "detail": "命中 2"
+        },
+        {
+          "name": "Esc 关闭",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "page": "chapters.html",
+      "ok": true,
+      "checks": [
+        {
+          "name": "三个分组标题",
+          "ok": true,
+          "detail": null
+        },
+        {
+          "name": "章节卡片 21",
+          "ok": true,
+          "detail": null
+        },
+        {
+          "name": "全部链接可解析",
+          "ok": true,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "page": "chapter/02.html",
+      "ok": true,
+      "checks": [
+        {
+          "name": "小节 ≥10",
+          "ok": true,
+          "detail": "12"
+        },
+        {
+          "name": "标本卡片 ≥30",
+          "ok": true,
+          "detail": "30"
+        },
+        {
+          "name": "自测题 ≥6",
+          "ok": true,
+          "detail": "10"
+        },
+        {
+          "name": "目录链接",
+          "ok": true,
+          "detail": "10"
+        },
+        {
+          "name": "电镜链接",
+          "ok": true,
+          "detail": "28"
+        },
+        {
+          "name": "在线链接均指向原站",
+          "ok": true,
+          "detail": "30/30"
+        },
+        {
+          "name": "无横向溢出",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "page": "章节页交互",
+      "ok": true,
+      "checks": [
+        {
+          "name": "显示答案",
+          "ok": true
+        },
+        {
+          "name": "易错写入 localStorage",
+          "ok": true,
+          "detail": "1"
+        }
+      ]
+    },
+    {
+      "page": "学习进度",
+      "ok": true,
+      "checks": [
+        {
+          "name": "标记完成生效",
+          "ok": true,
+          "detail": "{\"pressed\":\"true\",\"done\":true,\"text\":\"✓ 已标记完成\"}"
+        }
+      ]
+    },
+    {
+      "page": "本地图像",
+      "ok": true,
+      "checks": [
+        {
+          "name": "章节页有本地图像",
+          "ok": true,
+          "detail": "30"
+        },
+        {
+          "name": "显示版权署名",
+          "ok": true,
+          "detail": "图像 © Histology Guide 及/或原始贡献者 · 非商业教育用途，"
+        },
+        {
+          "name": "点击可放大（灯箱）",
+          "ok": true
+        },
+        {
+          "name": "显示本地概览徽标",
+          "ok": true,
+          "detail": "true"
+        }
+      ]
+    },
+    {
+      "page": "atlas.html",
+      "ok": true,
+      "checks": [
+        {
+          "name": "初始渲染",
+          "ok": true,
+          "detail": "728"
+        },
+        {
+          "name": "英文搜索过滤",
+          "ok": true,
+          "detail": "21/728"
+        },
+        {
+          "name": "类型筛选(电镜)",
+          "ok": true,
+          "detail": "363"
+        },
+        {
+          "name": "仅本地概览图筛选",
+          "ok": true,
+          "detail": "369/369"
+        }
+      ]
+    },
+    {
+      "page": "glossary.html",
+      "ok": true,
+      "checks": [
+        {
+          "name": "术语渲染",
+          "ok": true,
+          "detail": "335"
+        },
+        {
+          "name": "英文搜索",
+          "ok": true,
+          "detail": "1"
+        },
+        {
+          "name": "中文搜索",
+          "ok": true,
+          "detail": "1"
+        },
+        {
+          "name": "待核验标记存在",
+          "ok": true,
+          "detail": "9"
+        }
+      ]
+    },
+    {
+      "page": "review.html",
+      "ok": true,
+      "checks": [
+        {
+          "name": "卡片渲染",
+          "ok": true,
+          "detail": "urinary bladder"
+        },
+        {
+          "name": "显示答案",
+          "ok": true
+        },
+        {
+          "name": "下一张",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "page": "图谱深链",
+      "ok": true,
+      "checks": [
+        {
+          "name": "atlas.html?chapter=13 预选第 13 章",
+          "ok": true,
+          "detail": "{\"sel\":\"13\",\"cards\":45,\"onlyCh13\":true}"
+        },
+        {
+          "name": "仅显示该章条目",
+          "ok": true,
+          "detail": "45"
+        }
+      ]
+    },
+    {
+      "page": "复习深链",
+      "ok": true,
+      "checks": [
+        {
+          "name": "review.html?chapter=5 预选第 5 章",
+          "ok": true,
+          "detail": "{\"scope\":\"5\",\"card\":\"osteoclast\"}"
+        }
+      ]
+    },
+    {
+      "page": "离线自包含",
+      "ok": true,
+      "checks": [
+        {
+          "name": "首页不加载外部资源",
+          "ok": true,
+          "detail": "{\"count\":0,\"sample\":[]}"
+        }
+      ]
+    },
+    {
+      "page": "sources.html",
+      "ok": true,
+      "checks": [
+        {
+          "name": "来源表格 ≥40 行",
+          "ok": true,
+          "detail": null
+        },
+        {
+          "name": "许可结论块",
+          "ok": true,
+          "detail": null
+        },
+        {
+          "name": "含 SHA-256 记录",
+          "ok": true,
+          "detail": null
+        },
+        {
+          "name": "载明 2026-10-20 GitHub Pages 公开托管许可",
+          "ok": true,
+          "detail": null
+        },
+        {
+          "name": "非官方与未背书声明",
+          "ok": true,
+          "detail": null
+        },
+        {
+          "name": "逐字英文署名句",
+          "ok": true,
+          "detail": null
+        },
+        {
+          "name": "8 条许可条件落实表",
+          "ok": true,
+          "detail": null
+        },
+        {
+          "name": "本地图像清单存在",
+          "ok": true,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "page": "help.html",
+      "ok": true,
+      "checks": [
+        {
+          "name": "在线访问地址",
+          "ok": true,
+          "detail": null
+        },
+        {
+          "name": "本地打开方式",
+          "ok": true,
+          "detail": null
+        },
+        {
+          "name": "离线/在线对照表",
+          "ok": true,
+          "detail": null
+        },
+        {
+          "name": "署名与许可（非商业、不得再分发）",
+          "ok": true,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "page": "主题切换",
+      "ok": true,
+      "checks": [
+        {
+          "name": "切换生效",
+          "ok": true,
+          "detail": "{\"before\":\"light\",\"after\":\"dark\",\"bg\":\"rgb(20, 24, 27)\",\"stored\":\"dark\",\"btnBg\":\"rgb(41, 46, 49)\",\"btnColor\":\"rgb(230, 232, 230)\",\"themeNow\":\"dark\"}"
+        },
+        {
+          "name": "持久化",
+          "ok": true
+        },
+        {
+          "name": "深色下按钮文字与背景不同色",
+          "ok": true,
+          "detail": "rgb(41, 46, 49) / rgb(230, 232, 230)"
+        }
+      ]
+    },
+    {
+      "page": "移动端 390px",
+      "ok": true,
+      "checks": [
+        {
+          "name": "无横向溢出",
+          "ok": true,
+          "detail": null
+        },
+        {
+          "name": "导航仍可见",
+          "ok": true,
+          "detail": null
+        }
+      ]
+    },
+    {
+      "page": "内部链接",
+      "ok": true,
+      "checks": [
+        {
+          "name": "首页链接全部存在（28 个）",
+          "ok": true,
+          "detail": ""
+        }
+      ]
+    },
+    {
+      "page": "全站署名/许可/内链",
+      "ok": true,
+      "checks": [
+        {
+          "name": "29 个页面均含署名栏、逐字英文句、非官方声明与 canonical",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "全站 794 个相对链接/资源均存在",
+          "ok": true,
+          "detail": ""
+        }
+      ]
+    }
+  ]
+}

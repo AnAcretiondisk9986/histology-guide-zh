@@ -1,0 +1,390 @@
+{
+  "schema": 1,
+  "n": 13,
+  "titleEn": "Endocrine Glands",
+  "group": "organ-systems",
+  "originalPage": "https://histologyguide.com/slidebox/13-endocrine-glands.html",
+  "note": "此文件由 scripts/scaffold.mjs 生成，仅供内容编写参考；请把中文写入 content/zh/chapters/NN.json，不要修改本文件。",
+  "sections": [
+    {
+      "en": "Pituitary",
+      "specimenCount": 3,
+      "specimenNames": [
+        "Fig 025 Pituitary Hormones",
+        "MH 149 Pituitary",
+        "MH 150a Pituitary"
+      ]
+    },
+    {
+      "en": "Thyroid",
+      "specimenCount": 1,
+      "specimenNames": [
+        "MH 151 Thyroid"
+      ]
+    },
+    {
+      "en": "Parathyroid",
+      "specimenCount": 1,
+      "specimenNames": [
+        "MH 154 Parathyroid"
+      ]
+    },
+    {
+      "en": "Thyroid-Parathyroid-Thymus",
+      "specimenCount": 1,
+      "specimenNames": [
+        "MHS 209 Thyroid-Parathyroid-Thymus"
+      ]
+    },
+    {
+      "en": "Adrenal Glands",
+      "specimenCount": 2,
+      "specimenNames": [
+        "MH 155a Adrenal Gland",
+        "MHS 216 Adrenal Gland"
+      ]
+    },
+    {
+      "en": "Pancreatic Islets",
+      "specimenCount": 4,
+      "specimenNames": [
+        "MH 131 Pancreas",
+        "MHS 211 Pancreas",
+        "MH 133 Pancreas",
+        "UCSF 295 Pancreas"
+      ]
+    }
+  ],
+  "specimens": [
+    {
+      "name": "Fig 006 Endocrine Glands",
+      "caption": "",
+      "stain": "",
+      "kind": "figure",
+      "section": null,
+      "href": "/figureview/fig-006-endocrine-glands/13-figure-1.html"
+    },
+    {
+      "name": "Fig 025 Pituitary Hormones",
+      "caption": "",
+      "stain": "",
+      "kind": "figure",
+      "section": "Pituitary",
+      "href": "/figureview/fig-025-pituitary-hormones/13-figure-1.html"
+    },
+    {
+      "name": "MH 149 Pituitary",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Pituitary",
+      "href": "/slideview/MH-149-pituitary/13-slide-1.html"
+    },
+    {
+      "name": "MH 150a Pituitary",
+      "caption": "Azan",
+      "stain": "",
+      "kind": "slide",
+      "section": "Pituitary",
+      "href": "/slideview/MH-150a-pituitary/13-slide-1.html"
+    },
+    {
+      "name": "MH 151 Thyroid",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Thyroid",
+      "href": "/slideview/MH-151-thyroid/13-slide-1.html"
+    },
+    {
+      "name": "MH 154 Parathyroid",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Parathyroid",
+      "href": "/slideview/MH-154-parathyroid/13-slide-1.html"
+    },
+    {
+      "name": "MHS 209 Thyroid-Parathyroid-Thymus",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Thyroid-Parathyroid-Thymus",
+      "href": "/slideview/MHS-209-thyroid-parathyroid-thymus/13-slide-1.html"
+    },
+    {
+      "name": "MH 155a Adrenal Gland",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Adrenal Glands",
+      "href": "/slideview/MH-155a-adrenal/13-slide-1.html"
+    },
+    {
+      "name": "MHS 216 Adrenal Gland",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Adrenal Glands",
+      "href": "/slideview/MHS-216-adrenal/13-slide-1.html"
+    },
+    {
+      "name": "MH 131 Pancreas",
+      "caption": "Endocrine Pancreas",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Pancreatic Islets",
+      "href": "/slideview/MH-131-pancreas/13-slide-1.html"
+    },
+    {
+      "name": "MHS 211 Pancreas",
+      "caption": "Endocrine Pancreas",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Pancreatic Islets",
+      "href": "/slideview/MHS-211-pancreas/13-slide-1.html"
+    },
+    {
+      "name": "MH 133 Pancreas",
+      "caption": "Endocrine Pancreas",
+      "stain": "Aldehyde Fuchsin",
+      "kind": "slide",
+      "section": "Pancreatic Islets",
+      "href": "/slideview/MH-133-pancreas/13-slide-1.html"
+    },
+    {
+      "name": "UCSF 295 Pancreas",
+      "caption": "Endocrine Pancreas",
+      "stain": "Gomori's Stain",
+      "kind": "slide",
+      "section": "Pancreatic Islets",
+      "href": "/slideview/UCSF-295-pancreas/13-slide-1.html"
+    }
+  ],
+  "emItems": [
+    {
+      "name": "RD 213 Pituitary",
+      "caption": "Cell Types",
+      "technique": "TEM",
+      "section": "PITUITARY",
+      "href": "/EM-view/RD-213-pituitary/13-photo-1.html"
+    },
+    {
+      "name": "EM 278 Somatotrophs",
+      "caption": "Growth Hormone (GH)",
+      "technique": "TEM",
+      "section": "PITUITARY",
+      "href": "/EM-view/EM-278-GH-cell/13-photo-1.html"
+    },
+    {
+      "name": "EM 282 Mammotroph (Lactotroph)",
+      "caption": "Prolactin",
+      "technique": "TEM",
+      "section": "PITUITARY",
+      "href": "/EM-view/EM-282-PRL-cell/13-photo-1.html"
+    },
+    {
+      "name": "EM 279 Thyrotroph",
+      "caption": "Thyroid-stimulating Hormone (TSH)",
+      "technique": "TEM",
+      "section": "PITUITARY",
+      "href": "/EM-view/EM-279-TSH-cell/13-photo-1.html"
+    },
+    {
+      "name": "EM 280 Gonadotroph",
+      "caption": "Follicle-stimulating Hormone (FSH)",
+      "technique": "Luteinizing Hormone (LH)",
+      "section": "PITUITARY",
+      "href": "/EM-view/EM-280-FSH-cell/13-photo-1.html"
+    },
+    {
+      "name": "EM 281 Castration Cell",
+      "caption": "TEM",
+      "technique": "",
+      "section": "PITUITARY",
+      "href": "/EM-view/EM-281-castration-cell/13-photo-1.html"
+    },
+    {
+      "name": "EM 316 Pituitary",
+      "caption": "Vascular Cast",
+      "technique": "SEM",
+      "section": "Blood Supply",
+      "href": "/EM-view/EM-316-pituitary/13-photo-1.html"
+    },
+    {
+      "name": "EM 263 Thyroid",
+      "caption": "SEM",
+      "technique": "",
+      "section": "THYROID",
+      "href": "/EM-view/EM-317-thyroid/13-photo-1.html"
+    },
+    {
+      "name": "RD 219 Thyroid",
+      "caption": "Follicular Cells",
+      "technique": "TEM",
+      "section": "THYROID",
+      "href": "/EM-view/RD-219-thyroid/13-photo-1.html"
+    },
+    {
+      "name": "EM 188 Parafollicular Cells",
+      "caption": "TEM",
+      "technique": "",
+      "section": "THYROID",
+      "href": "/EM-view/EM-188-parafollicular-cell/13-photo-1.html"
+    },
+    {
+      "name": "EM 262 Thyroid",
+      "caption": "Vascular Cast",
+      "technique": "SEM",
+      "section": "Blood Supply",
+      "href": "/EM-view/EM-262-thyroid/13-photo-1.html"
+    },
+    {
+      "name": "EM 263 Thyroid",
+      "caption": "Vascular Cast",
+      "technique": "SEM",
+      "section": "Blood Supply",
+      "href": "/EM-view/EM-263-thyroid/13-photo-1.html"
+    },
+    {
+      "name": "EM 374 Zona Glomerulosa",
+      "caption": "TEM",
+      "technique": "",
+      "section": "Zona Glomerulosa",
+      "href": "/EM-view/EM-374-zona-glomerulosa/13-photo-1.html"
+    },
+    {
+      "name": "EM 375 Zona Glomerulosa",
+      "caption": "TEM",
+      "technique": "",
+      "section": "Zona Glomerulosa",
+      "href": "/EM-view/EM-375-zona-glomerulosa/13-photo-1.html"
+    },
+    {
+      "name": "RD 222 Zona Fasciculata",
+      "caption": "TEM",
+      "technique": "",
+      "section": "Zona Fasciculata",
+      "href": "/EM-view/RD-222-adrenal-cortex/13-photo-1.html"
+    },
+    {
+      "name": "EM 291 Adrenal Cortex",
+      "caption": "TEM",
+      "technique": "",
+      "section": "Zona Fasciculata",
+      "href": "/EM-view/EM-291-adrenal-cortex/13-photo-1.html"
+    },
+    {
+      "name": "EM 378 Zona Fasciculata",
+      "caption": "Mitochondria / Lipid Droplets",
+      "technique": "TEM",
+      "section": "Zona Fasciculata",
+      "href": "/EM-view/EM-378-zona-fasciculata/13-photo-1.html"
+    },
+    {
+      "name": "EM 306 Zona Fasciculata",
+      "caption": "Smooth and Rough Endoplasmic Reticulum",
+      "technique": "TEM",
+      "section": "Zona Fasciculata",
+      "href": "/EM-view/EM-306-adrenal-cortex/13-photo-1.html"
+    },
+    {
+      "name": "EM 305 Mitochondria",
+      "caption": "Mitochondrial Fission",
+      "technique": "TEM",
+      "section": "Zona Fasciculata",
+      "href": "/EM-view/EM-305-mitochondria/13-photo-1.html"
+    },
+    {
+      "name": "EM 299 Zona Reticularis",
+      "caption": "SEM",
+      "technique": "",
+      "section": "Zona Reticularis",
+      "href": "/EM-view/EM-299-zona-reticularis/13-photo-1.html"
+    },
+    {
+      "name": "RD 235 Zona Reticularis",
+      "caption": "TEM",
+      "technique": "",
+      "section": "Zona Reticularis",
+      "href": "/EM-view/RD-235-zona-reticularis/13-photo-1.html"
+    },
+    {
+      "name": "EM 377 Zona Reticularis",
+      "caption": "TEM",
+      "technique": "",
+      "section": "Zona Reticularis",
+      "href": "/EM-view/EM-377-zona-reticularis/13-photo-1.html"
+    },
+    {
+      "name": "RD 236 Adrenal Medulla",
+      "caption": "Chromaffin Cells",
+      "technique": "TEM",
+      "section": "Adrenal Medulla",
+      "href": "/EM-view/RD-236-adrenal-medulla/13-photo-1.html"
+    },
+    {
+      "name": "EM 376 Adrenal Medulla",
+      "caption": "Chromaffin Cells",
+      "technique": "TEM",
+      "section": "Adrenal Medulla",
+      "href": "/EM-view/EM-376-adrenal-medulla/13-photo-1.html"
+    },
+    {
+      "name": "RD 241 Adrenal Medulla",
+      "caption": "Chromaffin Cells (epinephrine / norepinephrine)",
+      "technique": "TEM",
+      "section": "Adrenal Medulla",
+      "href": "/EM-view/RD-241-adrenal-medulla/13-photo-1.html"
+    },
+    {
+      "name": "RD 264 Beta Cells",
+      "caption": "TEM",
+      "technique": "",
+      "section": "Beta Cell",
+      "href": "/EM-view/RD-264-beta-cells/13-photo-1.html"
+    },
+    {
+      "name": "RD 282 Beta Cells",
+      "caption": "TEM",
+      "technique": "",
+      "section": "Beta Cell",
+      "href": "/EM-view/RD-282-beta-cells/13-photo-1.html"
+    },
+    {
+      "name": "RD 259 Beta Cells",
+      "caption": "TEM",
+      "technique": "",
+      "section": "Beta Cell",
+      "href": "/EM-view/RD-259-beta-cells/13-photo-1.html"
+    },
+    {
+      "name": "RD 263 Beta Cell",
+      "caption": "Golgi Apparatus",
+      "technique": "TEM",
+      "section": "Beta Cell",
+      "href": "/EM-view/RD-263-beta-cell/13-photo-1.html"
+    },
+    {
+      "name": "RD 261 Beta Cell",
+      "caption": "Nerve",
+      "technique": "TEM",
+      "section": "Beta Cell",
+      "href": "/EM-view/RD-261-beta-cell/13-photo-1.html"
+    },
+    {
+      "name": "RD 248 Alpha Cells",
+      "caption": "TEM",
+      "technique": "",
+      "section": "Alpha Cell",
+      "href": "/EM-view/RD-248-alpha-cells/13-photo-1.html"
+    },
+    {
+      "name": "EM 321 Islet Vasculature",
+      "caption": "TEM",
+      "technique": "",
+      "section": "Blood Supply",
+      "href": "/EM-view/EM-321-islet/13-photo-1.html"
+    }
+  ]
+}

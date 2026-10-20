@@ -1,0 +1,287 @@
+{
+  "schema": 1,
+  "source": {
+    "url": "https://histologyguide.com/EM-atlas/06-nervous-tissue.html",
+    "finalUrl": "https://histologyguide.com/EM-atlas/06-nervous-tissue.html",
+    "fetchedAt": "2026-10-18T11:29:18.968Z",
+    "httpStatus": 200,
+    "bytes": 44811,
+    "sha256": "c2a7566447b0b71647cb4272834a914002dca7fb59f060cdbfba431c9bc6f380",
+    "userAgent": "HistologyGuideCNStudyIndex/0.1 (+personal non-commercial study index; metadata extraction only; contact: local user)",
+    "note": "仅保存导航元数据；正文段落与图片未保存，遵循原站使用条款"
+  },
+  "chapter": 6,
+  "pageType": "em",
+  "pageTitle": "Chapter 6 - Nerve Tissue",
+  "hasIntroProse": true,
+  "headings": [
+    {
+      "level": 2,
+      "id": null,
+      "text": "Chapter 6 - Nerve Tissue"
+    },
+    {
+      "level": 3,
+      "id": "introduction",
+      "text": "NEURON"
+    },
+    {
+      "level": 3,
+      "id": "CNS",
+      "text": "CENTRAL NERVOUS SYSTEM"
+    },
+    {
+      "level": 4,
+      "id": "neurons",
+      "text": "Neurons"
+    },
+    {
+      "level": 4,
+      "id": "glial-cells",
+      "text": "Glial Cells"
+    },
+    {
+      "level": 3,
+      "id": "PNS",
+      "text": "PERIPHERAL NERVOUS SYSTEM"
+    },
+    {
+      "level": 4,
+      "id": "peripheral-nerves",
+      "text": "Peripheral Nerves"
+    },
+    {
+      "level": 4,
+      "id": "neuromuscular-junction",
+      "text": "Neuromuscular Junction"
+    },
+    {
+      "level": 2,
+      "id": null,
+      "text": "CELL AND TISSUES"
+    },
+    {
+      "level": 2,
+      "id": null,
+      "text": "ORGAN SYSTEMS"
+    }
+  ],
+  "items": [
+    {
+      "kind": "figure",
+      "name": "TLL 157 Neuron",
+      "caption": "",
+      "stain": "",
+      "href": "/figureview/TLL-157-neuron/06-figure-1.html",
+      "thumbPath": "/figureview/TLL-157-neuron/imgs/photo-2c.png",
+      "section": "NEURON"
+    },
+    {
+      "kind": "em",
+      "name": "EM 398 Pyramidal Neuron",
+      "caption": "Neuron",
+      "stain": "TEM",
+      "href": "/EM-view/EM-398-pyramidal-neuron/06-photo-1.html",
+      "thumbPath": "/EM-view/EM-398-pyramidal-neuron/imgs/photo-2c.png",
+      "section": "Neurons"
+    },
+    {
+      "kind": "em",
+      "name": "EM 400 Dendritic Spines",
+      "caption": "Dendritic Spines",
+      "stain": "TEM",
+      "href": "/EM-view/EM-400-dendritic-spines/06-photo-1.html",
+      "thumbPath": "/EM-view/EM-400-dendritic-spines/imgs/photo-2c.png",
+      "section": "Neurons"
+    },
+    {
+      "kind": "em",
+      "name": "EM 287 Dendritic Spine",
+      "caption": "Axo-Dendritic Synapses",
+      "stain": "TEM",
+      "href": "/EM-view/EM-287-dendritic-spine/06-photo-1.html",
+      "thumbPath": "/EM-view/EM-287-dendritic-spine/imgs/photo-2c.png",
+      "section": "Neurons"
+    },
+    {
+      "kind": "em",
+      "name": "EM 336 Thalamus",
+      "caption": "Axo-Somatic Synapses",
+      "stain": "TEM",
+      "href": "/EM-view/EM-336-thalamus/06-photo-1.html",
+      "thumbPath": "/EM-view/EM-336-thalamus/imgs/photo-2c.png",
+      "section": "Neurons"
+    },
+    {
+      "kind": "figure",
+      "name": "TLL 16x Glial Cells",
+      "caption": "",
+      "stain": "",
+      "href": "/figureview/TLL-16x-glial-cells/06-figure-1.html",
+      "thumbPath": "/figureview/TLL-16x-glial-cells/imgs/photo-2c.png",
+      "section": "Glial Cells"
+    },
+    {
+      "kind": "em",
+      "name": "EM 338 Optic Nerve",
+      "caption": "Oligodendrocytes",
+      "stain": "TEM",
+      "href": "/EM-view/EM-338-optic-nerve/06-photo-1.html",
+      "thumbPath": "/EM-view/EM-338-optic-nerve/imgs/photo-2c.png",
+      "section": "Glial Cells"
+    },
+    {
+      "kind": "em",
+      "name": "EM 403 Node of Ranvier",
+      "caption": "TEM",
+      "stain": "",
+      "href": "/EM-view/EM-403-node-of-ranvier/06-photo-1.html",
+      "thumbPath": "/EM-view/EM-403-node-of-ranvier/imgs/photo-2c.png",
+      "section": "Glial Cells"
+    },
+    {
+      "kind": "em",
+      "name": "EM 404 Node of Ranvier",
+      "caption": "Branching Myelinated Axon",
+      "stain": "TEM",
+      "href": "/EM-view/EM-404-node-of-ranvier/06-photo-1.html",
+      "thumbPath": "/EM-view/EM-404-node-of-ranvier/imgs/photo-2c.png",
+      "section": "Glial Cells"
+    },
+    {
+      "kind": "em",
+      "name": "PN 003 Microglia",
+      "caption": "TEM",
+      "stain": "",
+      "href": "/EM-view/PN-003-microglia/06-photo-1.html",
+      "thumbPath": "/EM-view/PN-003-microglia/imgs/photo-2c.png",
+      "section": "Glial Cells"
+    },
+    {
+      "kind": "figure",
+      "name": "TLL 15x Peripheral Nerves",
+      "caption": "Schwann Cells",
+      "stain": "",
+      "href": "/figureview/TLL-15x-peripheral-nerves/06-figure-1.html",
+      "thumbPath": "/figureview/TLL-15x-peripheral-nerves/imgs/photo-2c.png",
+      "section": "Peripheral Nerves"
+    },
+    {
+      "kind": "em",
+      "name": "EM 214 Vagus Nerve",
+      "caption": "Unmyelinated / Myelinated Nerve Fibers",
+      "stain": "TEM",
+      "href": "/EM-view/EM-214-vagus-nerve/06-photo-1.html",
+      "thumbPath": "/EM-view/EM-214-vagus-nerve/imgs/photo-2c.png",
+      "section": "Peripheral Nerves"
+    },
+    {
+      "kind": "em",
+      "name": "RD 060 Peripheral Nerve",
+      "caption": "Unmyelinated Nerve Fibers",
+      "stain": "TEM",
+      "href": "/EM-view/RD-060-peripheral-nerve/06-photo-1.html",
+      "thumbPath": "/EM-view/RD-060-peripheral-nerve/imgs/photo-2c.png",
+      "section": "Peripheral Nerves"
+    },
+    {
+      "kind": "em",
+      "name": "EM 213 Peripheral Nerve",
+      "caption": "Unmyelinated Nerve Fibers",
+      "stain": "TEM",
+      "href": "/EM-view/EM-213-peripheral-nerve/06-photo-1.html",
+      "thumbPath": "/EM-view/EM-213-peripheral-nerve/imgs/photo-2c.png",
+      "section": "Peripheral Nerves"
+    },
+    {
+      "kind": "em",
+      "name": "EM 151 Peripheral Nerve",
+      "caption": "Unmyelinated Nerve Fibers",
+      "stain": "TEM",
+      "href": "/EM-view/EM-151-peripheral-nerve/06-photo-1.html",
+      "thumbPath": "/EM-view/EM-151-peripheral-nerve/imgs/photo-2c.png",
+      "section": "Peripheral Nerves"
+    },
+    {
+      "kind": "em",
+      "name": "EM 369 Peripheral Nerve",
+      "caption": "Myelinated Nerve Fibers",
+      "stain": "SEM",
+      "href": "/EM-view/EM-369-peripheral-nerve/06-photo-1.html",
+      "thumbPath": "/EM-view/EM-369-peripheral-nerve/imgs/photo-2c.png",
+      "section": "Peripheral Nerves"
+    },
+    {
+      "kind": "em",
+      "name": "EM 152 Peripheral Nerve",
+      "caption": "Myelinated / Unmyelinated Nerve Fibers",
+      "stain": "TEM",
+      "href": "/EM-view/EM-152-peripheral-nerve/06-photo-1.html",
+      "thumbPath": "/EM-view/EM-152-peripheral-nerve/imgs/photo-2c.png",
+      "section": "Peripheral Nerves"
+    },
+    {
+      "kind": "em",
+      "name": "EM 288 Node of Ranvier",
+      "caption": "TEM",
+      "stain": "",
+      "href": "/EM-view/EM-288-node-of-ranvier/06-photo-1.html",
+      "thumbPath": "/EM-view/EM-288-node-of-ranvier/imgs/photo-2c.png",
+      "section": "Peripheral Nerves"
+    },
+    {
+      "kind": "em",
+      "name": "EM 289 Node of Ranvier",
+      "caption": "SEM",
+      "stain": "",
+      "href": "/EM-view/EM-289-node-of-ranvier/06-photo-1.html",
+      "thumbPath": "/EM-view/EM-289-node-of-ranvier/imgs/photo-2c.png",
+      "section": "Peripheral Nerves"
+    },
+    {
+      "kind": "em",
+      "name": "EM 231 Neuromuscular Junction",
+      "caption": "SEM",
+      "stain": "",
+      "href": "/EM-view/EM-231-neuromuscular-junction/06-photo-1.html",
+      "thumbPath": "/EM-view/EM-231-neuromuscular-junction/imgs/photo-2c.png",
+      "section": "Neuromuscular Junction"
+    },
+    {
+      "kind": "em",
+      "name": "EM 339 Neuromuscular Junction",
+      "caption": "TEM",
+      "stain": "",
+      "href": "/EM-view/EM-339-neuromuscular-junction/06-photo-1.html",
+      "thumbPath": "/EM-view/EM-339-neuromuscular-junction/imgs/photo-c.png",
+      "section": "Neuromuscular Junction"
+    },
+    {
+      "kind": "em",
+      "name": "EM 230 Neuromuscular Junction",
+      "caption": "TEM",
+      "stain": "",
+      "href": "/EM-view/EM-230-neuromuscular-junction/06-photo-1.html",
+      "thumbPath": "/EM-view/EM-230-neuromuscular-junction/imgs/photo-2c.png",
+      "section": "Neuromuscular Junction"
+    },
+    {
+      "kind": "em",
+      "name": "EM 382 Neuromuscular Junction",
+      "caption": "Freeze Fracture",
+      "stain": "",
+      "href": "/EM-view/EM-382-neuromuscular-junction/06-photo-1.html",
+      "thumbPath": "/EM-view/EM-382-neuromuscular-junction/imgs/photo-2c.png",
+      "section": "Neuromuscular Junction"
+    },
+    {
+      "kind": "em",
+      "name": "EM 219 Neuromuscular Junction",
+      "caption": "SEM",
+      "stain": "",
+      "href": "/EM-view/EM-219-neuromuscular-junction/06-photo-1.html",
+      "thumbPath": "/EM-view/EM-219-neuromuscular-junction/imgs/photo-2c.png",
+      "section": "Neuromuscular Junction"
+    }
+  ]
+}

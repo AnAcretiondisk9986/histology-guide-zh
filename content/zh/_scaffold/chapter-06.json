@@ -1,0 +1,438 @@
+{
+  "schema": 1,
+  "n": 6,
+  "titleEn": "Nervous Tissue",
+  "group": "cells-tissues",
+  "originalPage": "https://histologyguide.com/slidebox/06-nervous-tissue.html",
+  "note": "此文件由 scripts/scaffold.mjs 生成，仅供内容编写参考；请把中文写入 content/zh/chapters/NN.json，不要修改本文件。",
+  "sections": [
+    {
+      "en": "NEURON",
+      "specimenCount": 1,
+      "specimenNames": [
+        "Fig 017 Motor Neuron"
+      ]
+    },
+    {
+      "en": "CENTRAL NERVOUS SYSTEM",
+      "specimenCount": 0,
+      "specimenNames": []
+    },
+    {
+      "en": "Brain",
+      "specimenCount": 2,
+      "specimenNames": [
+        "MHS 284 Brain",
+        "MHS 283 Brain"
+      ]
+    },
+    {
+      "en": "Spinal Cord",
+      "specimenCount": 3,
+      "specimenNames": [
+        "MHS 240 Spinal Cord",
+        "UCSF 163 Spinal Cord",
+        "MH 047 Spinal Cord"
+      ]
+    },
+    {
+      "en": "PERIPHERAL NERVOUS SYSTEM",
+      "specimenCount": 0,
+      "specimenNames": []
+    },
+    {
+      "en": "Dorsal Root Ganglion",
+      "specimenCount": 4,
+      "specimenNames": [
+        "MH 047 Spinal Cord",
+        "MHS 285-286 Dorsal Root Ganglion",
+        "MH 051 Dorsal Root Ganglion",
+        "MH 050 Dorsal Root Ganglion"
+      ]
+    },
+    {
+      "en": "Sympathetic Ganglion",
+      "specimenCount": 2,
+      "specimenNames": [
+        "MH 047 Spinal Cord",
+        "MH 059 Sympathetic Ganglion"
+      ]
+    },
+    {
+      "en": "Parasympathetic Ganglion",
+      "specimenCount": 3,
+      "specimenNames": [
+        "MH 109 Esophagus",
+        "MH 123 Colon",
+        "MHS 211 Pancreas"
+      ]
+    },
+    {
+      "en": "Peripheral Nerve",
+      "specimenCount": 3,
+      "specimenNames": [
+        "MH 052 Peripheral Nerve",
+        "MHS 239 Peripheral Nerve",
+        "MH 024 Mesentery"
+      ]
+    },
+    {
+      "en": "Sensory Nerve Endings",
+      "specimenCount": 4,
+      "specimenNames": [
+        "MH 091 Thick Skin",
+        "MH 091ahr Thick Skin",
+        "MH 024 Mesentery",
+        "MHS 294 Pancreas"
+      ]
+    }
+  ],
+  "specimens": [
+    {
+      "name": "Fig 017 Motor Neuron",
+      "caption": "",
+      "stain": "",
+      "kind": "figure",
+      "section": "NEURON",
+      "href": "/figureview/fig-017-motor-neuron/06-figure-1.html"
+    },
+    {
+      "name": "MHS 284 Brain",
+      "caption": "Golgi's Method",
+      "stain": "",
+      "kind": "slide",
+      "section": "Brain",
+      "href": "/slideview/MHS-284-brain/06-slide-1.html"
+    },
+    {
+      "name": "MHS 283 Brain",
+      "caption": "Nissl/Chromophil Substance",
+      "stain": "Cresyl Violet",
+      "kind": "slide",
+      "section": "Brain",
+      "href": "/slideview/MHS-283-brain/06-slide-1.html"
+    },
+    {
+      "name": "MHS 240 Spinal Cord",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Spinal Cord",
+      "href": "/slideview/MHS-240-spinal-cord/06-slide-1.html"
+    },
+    {
+      "name": "UCSF 163 Spinal Cord",
+      "caption": "Nissl Substance",
+      "stain": "Cresyl Violet",
+      "kind": "slide",
+      "section": "Spinal Cord",
+      "href": "/slideview/UCSF-163-spinal-cord/06-slide-1.html"
+    },
+    {
+      "name": "MH 047 Spinal Cord",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Spinal Cord",
+      "href": "/slideview/MH-047-spinal-cord/06-slide-1.html"
+    },
+    {
+      "name": "MH 047 Spinal Cord",
+      "caption": "Dorsal Root Ganglion",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Dorsal Root Ganglion",
+      "href": "/slideview/MH-047-spinal-cord/06-slide-2.html"
+    },
+    {
+      "name": "MHS 285-286 Dorsal Root Ganglion",
+      "caption": "Toluidine Blue/Myelin Stain",
+      "stain": "",
+      "kind": "slide",
+      "section": "Dorsal Root Ganglion",
+      "href": "/slideview/MHS-285-286-spinal-ganglion/06-slide-1.html"
+    },
+    {
+      "name": "MH 051 Dorsal Root Ganglion",
+      "caption": "Azan",
+      "stain": "",
+      "kind": "slide",
+      "section": "Dorsal Root Ganglion",
+      "href": "/slideview/MH-051-dorsal-root-ganglion/06-slide-1.html"
+    },
+    {
+      "name": "MH 050 Dorsal Root Ganglion",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Dorsal Root Ganglion",
+      "href": "/slideview/MH-050-dorsal-root-ganglion/06-slide-1.html"
+    },
+    {
+      "name": "MH 047 Spinal Cord",
+      "caption": "Sympathetic Ganglion",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Sympathetic Ganglion",
+      "href": "/slideview/MH-047-spinal-cord/06-slide-3.html"
+    },
+    {
+      "name": "MH 059 Sympathetic Ganglion",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Sympathetic Ganglion",
+      "href": "/slideview/MH-059-sympathetic-ganglia/06-slide-1.html"
+    },
+    {
+      "name": "MH 109 Esophagus",
+      "caption": "Parasympathetic Ganglion",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Parasympathetic Ganglion",
+      "href": "/slideview/MH-109-esophagus/06-slide-1.html"
+    },
+    {
+      "name": "MH 123 Colon",
+      "caption": "Parasympathetic Ganglion",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Parasympathetic Ganglion",
+      "href": "/slideview/MH-123-colon/06-slide-1.html"
+    },
+    {
+      "name": "MHS 211 Pancreas",
+      "caption": "Parasympathetic Ganglion",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Parasympathetic Ganglion",
+      "href": "/slideview/MHS-211-pancreas/06-slide-1.html"
+    },
+    {
+      "name": "MH 052 Peripheral Nerve",
+      "caption": "Longitudinal and Cross-section",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Peripheral Nerve",
+      "href": "/slideview/MH-052-peripheral-nerve/06-slide-1.html"
+    },
+    {
+      "name": "MHS 239 Peripheral Nerve",
+      "caption": "Masson's Trichrome",
+      "stain": "",
+      "kind": "slide",
+      "section": "Peripheral Nerve",
+      "href": "/slideview/MHS-239-peripheral-nerve/06-slide-1.html"
+    },
+    {
+      "name": "MH 024 Mesentery",
+      "caption": "Peripheral Nerve",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Peripheral Nerve",
+      "href": "/slideview/MH-024-mesentery/06-slide-1.html"
+    },
+    {
+      "name": "MH 091 Thick Skin",
+      "caption": "Meissner and Pacinian Corpuscles",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Sensory Nerve Endings",
+      "href": "/slideview/MH-091-thick-skin/06-slide-1.html"
+    },
+    {
+      "name": "MH 091ahr Thick Skin",
+      "caption": "Meissner Corpuscle",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Sensory Nerve Endings",
+      "href": "/slideview/MH-091ahr-thick-skin/06-slide-1.html"
+    },
+    {
+      "name": "MH 024 Mesentery",
+      "caption": "Pacinian Corpuscle",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Sensory Nerve Endings",
+      "href": "/slideview/MH-024-mesentery/06-slide-2.html"
+    },
+    {
+      "name": "MHS 294 Pancreas",
+      "caption": "Pacinian Corpuscle",
+      "stain": "Masson's Trichrome",
+      "kind": "slide",
+      "section": "Sensory Nerve Endings",
+      "href": "/slideview/MHS-294-pancreas/06-slide-1.html"
+    }
+  ],
+  "emItems": [
+    {
+      "name": "TLL 157 Neuron",
+      "caption": "",
+      "technique": "",
+      "section": "NEURON",
+      "href": "/figureview/TLL-157-neuron/06-figure-1.html"
+    },
+    {
+      "name": "EM 398 Pyramidal Neuron",
+      "caption": "Neuron",
+      "technique": "TEM",
+      "section": "Neurons",
+      "href": "/EM-view/EM-398-pyramidal-neuron/06-photo-1.html"
+    },
+    {
+      "name": "EM 400 Dendritic Spines",
+      "caption": "Dendritic Spines",
+      "technique": "TEM",
+      "section": "Neurons",
+      "href": "/EM-view/EM-400-dendritic-spines/06-photo-1.html"
+    },
+    {
+      "name": "EM 287 Dendritic Spine",
+      "caption": "Axo-Dendritic Synapses",
+      "technique": "TEM",
+      "section": "Neurons",
+      "href": "/EM-view/EM-287-dendritic-spine/06-photo-1.html"
+    },
+    {
+      "name": "EM 336 Thalamus",
+      "caption": "Axo-Somatic Synapses",
+      "technique": "TEM",
+      "section": "Neurons",
+      "href": "/EM-view/EM-336-thalamus/06-photo-1.html"
+    },
+    {
+      "name": "TLL 16x Glial Cells",
+      "caption": "",
+      "technique": "",
+      "section": "Glial Cells",
+      "href": "/figureview/TLL-16x-glial-cells/06-figure-1.html"
+    },
+    {
+      "name": "EM 338 Optic Nerve",
+      "caption": "Oligodendrocytes",
+      "technique": "TEM",
+      "section": "Glial Cells",
+      "href": "/EM-view/EM-338-optic-nerve/06-photo-1.html"
+    },
+    {
+      "name": "EM 403 Node of Ranvier",
+      "caption": "TEM",
+      "technique": "",
+      "section": "Glial Cells",
+      "href": "/EM-view/EM-403-node-of-ranvier/06-photo-1.html"
+    },
+    {
+      "name": "EM 404 Node of Ranvier",
+      "caption": "Branching Myelinated Axon",
+      "technique": "TEM",
+      "section": "Glial Cells",
+      "href": "/EM-view/EM-404-node-of-ranvier/06-photo-1.html"
+    },
+    {
+      "name": "PN 003 Microglia",
+      "caption": "TEM",
+      "technique": "",
+      "section": "Glial Cells",
+      "href": "/EM-view/PN-003-microglia/06-photo-1.html"
+    },
+    {
+      "name": "TLL 15x Peripheral Nerves",
+      "caption": "Schwann Cells",
+      "technique": "",
+      "section": "Peripheral Nerves",
+      "href": "/figureview/TLL-15x-peripheral-nerves/06-figure-1.html"
+    },
+    {
+      "name": "EM 214 Vagus Nerve",
+      "caption": "Unmyelinated / Myelinated Nerve Fibers",
+      "technique": "TEM",
+      "section": "Peripheral Nerves",
+      "href": "/EM-view/EM-214-vagus-nerve/06-photo-1.html"
+    },
+    {
+      "name": "RD 060 Peripheral Nerve",
+      "caption": "Unmyelinated Nerve Fibers",
+      "technique": "TEM",
+      "section": "Peripheral Nerves",
+      "href": "/EM-view/RD-060-peripheral-nerve/06-photo-1.html"
+    },
+    {
+      "name": "EM 213 Peripheral Nerve",
+      "caption": "Unmyelinated Nerve Fibers",
+      "technique": "TEM",
+      "section": "Peripheral Nerves",
+      "href": "/EM-view/EM-213-peripheral-nerve/06-photo-1.html"
+    },
+    {
+      "name": "EM 151 Peripheral Nerve",
+      "caption": "Unmyelinated Nerve Fibers",
+      "technique": "TEM",
+      "section": "Peripheral Nerves",
+      "href": "/EM-view/EM-151-peripheral-nerve/06-photo-1.html"
+    },
+    {
+      "name": "EM 369 Peripheral Nerve",
+      "caption": "Myelinated Nerve Fibers",
+      "technique": "SEM",
+      "section": "Peripheral Nerves",
+      "href": "/EM-view/EM-369-peripheral-nerve/06-photo-1.html"
+    },
+    {
+      "name": "EM 152 Peripheral Nerve",
+      "caption": "Myelinated / Unmyelinated Nerve Fibers",
+      "technique": "TEM",
+      "section": "Peripheral Nerves",
+      "href": "/EM-view/EM-152-peripheral-nerve/06-photo-1.html"
+    },
+    {
+      "name": "EM 288 Node of Ranvier",
+      "caption": "TEM",
+      "technique": "",
+      "section": "Peripheral Nerves",
+      "href": "/EM-view/EM-288-node-of-ranvier/06-photo-1.html"
+    },
+    {
+      "name": "EM 289 Node of Ranvier",
+      "caption": "SEM",
+      "technique": "",
+      "section": "Peripheral Nerves",
+      "href": "/EM-view/EM-289-node-of-ranvier/06-photo-1.html"
+    },
+    {
+      "name": "EM 231 Neuromuscular Junction",
+      "caption": "SEM",
+      "technique": "",
+      "section": "Neuromuscular Junction",
+      "href": "/EM-view/EM-231-neuromuscular-junction/06-photo-1.html"
+    },
+    {
+      "name": "EM 339 Neuromuscular Junction",
+      "caption": "TEM",
+      "technique": "",
+      "section": "Neuromuscular Junction",
+      "href": "/EM-view/EM-339-neuromuscular-junction/06-photo-1.html"
+    },
+    {
+      "name": "EM 230 Neuromuscular Junction",
+      "caption": "TEM",
+      "technique": "",
+      "section": "Neuromuscular Junction",
+      "href": "/EM-view/EM-230-neuromuscular-junction/06-photo-1.html"
+    },
+    {
+      "name": "EM 382 Neuromuscular Junction",
+      "caption": "Freeze Fracture",
+      "technique": "",
+      "section": "Neuromuscular Junction",
+      "href": "/EM-view/EM-382-neuromuscular-junction/06-photo-1.html"
+    },
+    {
+      "name": "EM 219 Neuromuscular Junction",
+      "caption": "SEM",
+      "technique": "",
+      "section": "Neuromuscular Junction",
+      "href": "/EM-view/EM-219-neuromuscular-junction/06-photo-1.html"
+    }
+  ]
+}

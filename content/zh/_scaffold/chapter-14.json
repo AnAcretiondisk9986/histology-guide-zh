@@ -1,0 +1,641 @@
+{
+  "schema": 1,
+  "n": 14,
+  "titleEn": "Gastrointestinal Tract",
+  "group": "organ-systems",
+  "originalPage": "https://histologyguide.com/slidebox/14-gastrointestinal-tract.html",
+  "note": "此文件由 scripts/scaffold.mjs 生成，仅供内容编写参考；请把中文写入 content/zh/chapters/NN.json，不要修改本文件。",
+  "sections": [
+    {
+      "en": "Hard Palate",
+      "specimenCount": 1,
+      "specimenNames": [
+        "MHS 246 Hard Palate"
+      ]
+    },
+    {
+      "en": "Tongue",
+      "specimenCount": 5,
+      "specimenNames": [
+        "MH 108 Tongue",
+        "MHS 208 Tongue",
+        "MHS 201 Tongue",
+        "MHS 264 Tongue",
+        "MHS 266 Tongue"
+      ]
+    },
+    {
+      "en": "Esophagus",
+      "specimenCount": 2,
+      "specimenNames": [
+        "MH 109 Esophagus",
+        "MHS 234 Esophagus"
+      ]
+    },
+    {
+      "en": "Gastroesophageal Junction",
+      "specimenCount": 1,
+      "specimenNames": [
+        "MH 111a Gastroesophageal Junction"
+      ]
+    },
+    {
+      "en": "Stomach",
+      "specimenCount": 8,
+      "specimenNames": [
+        "MH 111a Stomach Wall",
+        "MH 111a Cardiac Stomach",
+        "MHS 247 Fundic Stomach",
+        "UCSF 234 Fundic Stomach",
+        "MH 112 Fundic Stomach",
+        "MH 113 Fundic Stomach",
+        "MHS 251 Fundic Stomach",
+        "MH 115 Pyloric Stomach"
+      ]
+    },
+    {
+      "en": "Vasculature of the Gastric Mucosa",
+      "specimenCount": 1,
+      "specimenNames": [
+        "MHS 292 Fundic Stomach"
+      ]
+    },
+    {
+      "en": "Gastroduodenal Junction",
+      "specimenCount": 2,
+      "specimenNames": [
+        "MH 116 Gastroduodenal Junction",
+        "MHS 225 Gastroduodenal Junction"
+      ]
+    },
+    {
+      "en": "Small Intestine",
+      "specimenCount": 7,
+      "specimenNames": [
+        "MH 118 Small Intestine",
+        "MHS 272 Duodenum",
+        "MHS 219 Jejunum",
+        "MHS 248 Jejunum",
+        "MH 119 Ileum",
+        "MH 120 Ileum",
+        "MHS 273 Ileum"
+      ]
+    },
+    {
+      "en": "Vasculature of the Small Intestine",
+      "specimenCount": 1,
+      "specimenNames": [
+        "MHS 295 Ileum"
+      ]
+    },
+    {
+      "en": "Large Intestine",
+      "specimenCount": 5,
+      "specimenNames": [
+        "MH 123 Colon",
+        "MHS 274 Colon",
+        "MHS 282 Colon",
+        "MH 122 Appendix",
+        "MHS 221 Appendix"
+      ]
+    },
+    {
+      "en": "Rectum",
+      "specimenCount": 2,
+      "specimenNames": [
+        "MHS 275 Rectum",
+        "MHS 258 Recto-Anal Junction"
+      ]
+    }
+  ],
+  "specimens": [
+    {
+      "name": "Fig 003 Gastrointestinal Tract",
+      "caption": "",
+      "stain": "",
+      "kind": "figure",
+      "section": null,
+      "href": "/figureview/fig-003-gastrointestinal-tract/14-figure-1.html"
+    },
+    {
+      "name": "MHS 246 Hard Palate",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Hard Palate",
+      "href": "/slideview/MHS-246-hard-palate/14-slide-1.html"
+    },
+    {
+      "name": "MH 108 Tongue",
+      "caption": "Foliate Papillae and Taste Buds",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Tongue",
+      "href": "/slideview/MH-108-tongue/14-slide-1.html"
+    },
+    {
+      "name": "MHS 208 Tongue",
+      "caption": "Filiform Papillae",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Tongue",
+      "href": "/slideview/MHS-208-tongue/14-slide-1.html"
+    },
+    {
+      "name": "MHS 201 Tongue",
+      "caption": "Filiform Papillae",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Tongue",
+      "href": "/slideview/MHS-201-tongue/14-slide-1.html"
+    },
+    {
+      "name": "MHS 264 Tongue",
+      "caption": "Circumvallate Papillae",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Tongue",
+      "href": "/slideview/MHS-264-tongue/14-slide-1.html"
+    },
+    {
+      "name": "MHS 266 Tongue",
+      "caption": "Fungiform Papillae",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Tongue",
+      "href": "/slideview/MHS-266-tongue/14-slide-1.html"
+    },
+    {
+      "name": "MH 109 Esophagus",
+      "caption": "Middle Third",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Esophagus",
+      "href": "/slideview/MH-109-esophagus/14-slide-1.html"
+    },
+    {
+      "name": "MHS 234 Esophagus",
+      "caption": "Lower Third",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Esophagus",
+      "href": "/slideview/MHS-234-esophagus/14-slide-1.html"
+    },
+    {
+      "name": "MH 111a Gastroesophageal Junction",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Gastroesophageal Junction",
+      "href": "/slideview/MH-111a-cardioesophageal-junction/14-slide-1.html"
+    },
+    {
+      "name": "MH 111a Stomach Wall",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Stomach",
+      "href": "/slideview/MH-111a-cardioesophageal-junction/14-slide-2.html"
+    },
+    {
+      "name": "MH 111a Cardiac Stomach",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Stomach",
+      "href": "/slideview/MH-111a-cardioesophageal-junction/14-slide-3.html"
+    },
+    {
+      "name": "MHS 247 Fundic Stomach",
+      "caption": "Periodic Acid-Schiff’s/H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Stomach",
+      "href": "/slideview/MHS-247-fundic-stomach/14-slide-1.html"
+    },
+    {
+      "name": "UCSF 234 Fundic Stomach",
+      "caption": "Iron Hematoxylin & Aniline Blue (IHAB)",
+      "stain": "",
+      "kind": "slide",
+      "section": "Stomach",
+      "href": "/slideview/UCSF-234-fundic-stomach/14-slide-1.html"
+    },
+    {
+      "name": "MH 112 Fundic Stomach",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Stomach",
+      "href": "/slideview/MH-112-fundic-stomach/14-slide-1.html"
+    },
+    {
+      "name": "MH 113 Fundic Stomach",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Stomach",
+      "href": "/slideview/MH-113-fundic-stomach/14-slide-1.html"
+    },
+    {
+      "name": "MHS 251 Fundic Stomach",
+      "caption": "Thin Section",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Stomach",
+      "href": "/slideview/MHS-251-fundic-stomach/14-slide-1.html"
+    },
+    {
+      "name": "MH 115 Pyloric Stomach",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Stomach",
+      "href": "/slideview/MH-115-pyloric-stomach/14-slide-1.html"
+    },
+    {
+      "name": "MHS 292 Fundic Stomach",
+      "caption": "Dye Injection",
+      "stain": "",
+      "kind": "slide",
+      "section": "Vasculature of the Gastric Mucosa",
+      "href": "/slideview/MHS-292-fundic-stomach/14-slide-1.html"
+    },
+    {
+      "name": "MH 116 Gastroduodenal Junction",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Gastroduodenal Junction",
+      "href": "/slideview/MH-116-pyloroduodenal-junction/14-slide-1.html"
+    },
+    {
+      "name": "MHS 225 Gastroduodenal Junction",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Gastroduodenal Junction",
+      "href": "/slideview/MHS-225-pyloroduodenal-junction/14-slide-1.html"
+    },
+    {
+      "name": "MH 118 Small Intestine",
+      "caption": "Ileum, Jejunum, and Duodenum",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Small Intestine",
+      "href": "/slideview/MH-118-small-intestine/14-slide-1.html"
+    },
+    {
+      "name": "MHS 272 Duodenum",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Small Intestine",
+      "href": "/slideview/MHS-272-duodenum/14-slide-1.html"
+    },
+    {
+      "name": "MHS 219 Jejunum",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Small Intestine",
+      "href": "/slideview/MHS-219-jejunum/14-slide-1.html"
+    },
+    {
+      "name": "MHS 248 Jejunum",
+      "caption": "Masson's Trichrome",
+      "stain": "",
+      "kind": "slide",
+      "section": "Small Intestine",
+      "href": "/slideview/MHS-248-jejunum/14-slide-1.html"
+    },
+    {
+      "name": "MH 119 Ileum",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Small Intestine",
+      "href": "/slideview/MH-119-ileum/14-slide-1.html"
+    },
+    {
+      "name": "MH 120 Ileum",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Small Intestine",
+      "href": "/slideview/MH-120-ileum/14-slide-1.html"
+    },
+    {
+      "name": "MHS 273 Ileum",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Small Intestine",
+      "href": "/slideview/MHS-273-ileum/14-slide-1.html"
+    },
+    {
+      "name": "MHS 295 Ileum",
+      "caption": "Dye Injection",
+      "stain": "",
+      "kind": "slide",
+      "section": "Vasculature of the Small Intestine",
+      "href": "/slideview/MHS-295-ileum/14-slide-1.html"
+    },
+    {
+      "name": "MH 123 Colon",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Large Intestine",
+      "href": "/slideview/MH-123-colon/14-slide-1.html"
+    },
+    {
+      "name": "MHS 274 Colon",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Large Intestine",
+      "href": "/slideview/MHS-274-colon/14-slide-1.html"
+    },
+    {
+      "name": "MHS 282 Colon",
+      "caption": "",
+      "stain": "",
+      "kind": "slide",
+      "section": "Large Intestine",
+      "href": "/slideview/MHS-282-colon/14-slide-1.html"
+    },
+    {
+      "name": "MH 122 Appendix",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Large Intestine",
+      "href": "/slideview/MH-122-appendix/14-slide-1.html"
+    },
+    {
+      "name": "MHS 221 Appendix",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Large Intestine",
+      "href": "/slideview/MHS-221-appendix/14-slide-1.html"
+    },
+    {
+      "name": "MHS 275 Rectum",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Rectum",
+      "href": "/slideview/MHS-275-rectum/14-slide-1.html"
+    },
+    {
+      "name": "MHS 258 Recto-Anal Junction",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Rectum",
+      "href": "/slideview/MHS-258-recto-anal-junction/14-slide-1.html"
+    }
+  ],
+  "emItems": [
+    {
+      "name": "Fig 003 Gastrointestinal Tract",
+      "caption": "",
+      "technique": "",
+      "section": null,
+      "href": "/figureview/fig-003-gastrointestinal-tract/14-figure-2.html"
+    },
+    {
+      "name": "EM 031 Gastric Mucosa",
+      "caption": "Stomach",
+      "technique": "SEM",
+      "section": "STOMACH",
+      "href": "/EM-view/EM-031-gastric-mucosa/14-photo-1.html"
+    },
+    {
+      "name": "EM 023 Gastric Glands",
+      "caption": "Fundic Stomach",
+      "technique": "SEM",
+      "section": "Fundic Stomach",
+      "href": "/EM-view/EM-023-gastric-glands/14-photo-1.html"
+    },
+    {
+      "name": "RD 101 Mucous Neck Cell",
+      "caption": "Fundic Stomach",
+      "technique": "TEM",
+      "section": "Fundic Stomach",
+      "href": "/EM-view/RD-101-mucous-neck-cell/14-photo-1.html"
+    },
+    {
+      "name": "EM 025 Parietal Cell",
+      "caption": "Stimulated",
+      "technique": "TEM",
+      "section": "Fundic Stomach",
+      "href": "/EM-view/EM-025-parietal-cell/14-photo-1.html"
+    },
+    {
+      "name": "EM 030 Parietal Cell",
+      "caption": "Unstimulated",
+      "technique": "TEM",
+      "section": "Fundic Stomach",
+      "href": "/EM-view/EM-030-parietal-cell/14-photo-1.html"
+    },
+    {
+      "name": "EM 035 Gastric Gland",
+      "caption": "Fundic Stomach",
+      "technique": "TEM",
+      "section": "Fundic Stomach",
+      "href": "/EM-view/EM-035-gastric-gland/14-photo-1.html"
+    },
+    {
+      "name": "EM 026 Chief Cell",
+      "caption": "Fundic Stomach",
+      "technique": "TEM",
+      "section": "Fundic Stomach",
+      "href": "/EM-view/EM-026-chief-cell/14-photo-1.html"
+    },
+    {
+      "name": "EM 018 Gastric Gland",
+      "caption": "Enteroendocrine cell / Parietal Cells / Chief Cells",
+      "technique": "TEM",
+      "section": "Fundic Stomach",
+      "href": "/EM-view/EM-018-gastric-gland/14-photo-1.html"
+    },
+    {
+      "name": "EM 032 Pyloric Mucosa",
+      "caption": "Pyloric Stomach",
+      "technique": "SEM",
+      "section": "Pyloric Stomach",
+      "href": "/EM-view/EM-032-pyloric-mucosa/14-photo-1.html"
+    },
+    {
+      "name": "EM 062 Pyloric Glands",
+      "caption": "Pyloric Stomach",
+      "technique": "SEM",
+      "section": "Pyloric Stomach",
+      "href": "/EM-view/EM-062-pyloric-glands/14-photo-1.html"
+    },
+    {
+      "name": "EM 033 Gastroduodenal Junction",
+      "caption": "SEM",
+      "technique": "",
+      "section": "GASTRODUODENAL JUNCTION",
+      "href": "/EM-view/EM-033-gastroduodenal-junction/14-photo-1.html"
+    },
+    {
+      "name": "EM 036 Small Intestine",
+      "caption": "Villi",
+      "technique": "SEM",
+      "section": "SMALL INTESTINE",
+      "href": "/EM-view/EM-036-small-intestine/14-photo-1.html"
+    },
+    {
+      "name": "EM 039 Small Intestine",
+      "caption": "Villi / Crypts",
+      "technique": "SEM",
+      "section": "SMALL INTESTINE",
+      "href": "/EM-view/EM-039-small-intestine/14-photo-1.html"
+    },
+    {
+      "name": "EM 090 Small Intestine",
+      "caption": "Lamina Propria of Villi",
+      "technique": "SEM",
+      "section": "SMALL INTESTINE",
+      "href": "/EM-view/EM-090-small-intestine/14-photo-1.html"
+    },
+    {
+      "name": "EM 041 Small Intestine",
+      "caption": "Shedding of Epithelial Cells",
+      "technique": "SEM",
+      "section": "SMALL INTESTINE",
+      "href": "/EM-view/EM-041-small-intestine/14-photo-1.html"
+    },
+    {
+      "name": "EM 045 Small Intestine",
+      "caption": "Epithelium",
+      "technique": "SEM",
+      "section": "SMALL INTESTINE",
+      "href": "/EM-view/EM-045-small-intestine/14-photo-1.html"
+    },
+    {
+      "name": "EM 017 Small Intestine",
+      "caption": "Goblet Cell",
+      "technique": "TEM",
+      "section": "SMALL INTESTINE",
+      "href": "/EM-view/EM-017-small-intestine/14-photo-1.html"
+    },
+    {
+      "name": "EM 034 Small Intestine",
+      "caption": "Goblet Cells",
+      "technique": "TEM",
+      "section": "SMALL INTESTINE",
+      "href": "/EM-view/EM-034-small-intestine/14-photo-1.html"
+    },
+    {
+      "name": "EM 019 Small Intestine",
+      "caption": "Goblet Cell / Immune Cells",
+      "technique": "TEM",
+      "section": "SMALL INTESTINE",
+      "href": "/EM-view/EM-019-small-intestine/14-photo-1.html"
+    },
+    {
+      "name": "EM 043 Intestinal Gland",
+      "caption": "TEM",
+      "technique": "",
+      "section": "Intestinal Glands",
+      "href": "/EM-view/EM-043-intestinal-gland/14-photo-1.html"
+    },
+    {
+      "name": "EM 020 Paneth Cells",
+      "caption": "Intestinal Gland",
+      "technique": "TEM",
+      "section": "Intestinal Glands",
+      "href": "/EM-view/EM-020-paneth-cells/14-photo-1.html"
+    },
+    {
+      "name": "EM 394 Paneth Cells",
+      "caption": "Intestinal Gland",
+      "technique": "TEM",
+      "section": "Intestinal Glands",
+      "href": "/EM-view/EM-394-paneth-cells/14-photo-1.html"
+    },
+    {
+      "name": "EM 355 Small Intestine",
+      "caption": "Vascular Cast",
+      "technique": "SEM",
+      "section": "Blood Supply",
+      "href": "/EM-view/EM-355-small-intestine/14-photo-1.html"
+    },
+    {
+      "name": "EM 356 Small Intestine",
+      "caption": "Vascular Cast",
+      "technique": "SEM",
+      "section": "Blood Supply",
+      "href": "/EM-view/EM-356-small-intestine/14-photo-1.html"
+    },
+    {
+      "name": "EM 313 Lacteals",
+      "caption": "Vascular / Lymphatic Cast",
+      "technique": "SEM",
+      "section": "Lacteals",
+      "href": "/EM-view/EM-313-lacteals/14-photo-1.html"
+    },
+    {
+      "name": "EM 357 Lacteals",
+      "caption": "SEM",
+      "technique": "",
+      "section": "Lacteals",
+      "href": "/EM-view/EM-357-lacteals/14-photo-1.html"
+    },
+    {
+      "name": "EM 223 Lymphoid Follicle",
+      "caption": "Peyer's Patch",
+      "technique": "SEM",
+      "section": "Mucosa-Associated Lymphoid Tissue (MALT)",
+      "href": "/EM-view/EM-223-lymphoid-follicle/14-photo-1.html"
+    },
+    {
+      "name": "EM 056 M Cells",
+      "caption": "Peyer's Patch",
+      "technique": "SEM",
+      "section": "Mucosa-Associated Lymphoid Tissue (MALT)",
+      "href": "/EM-view/EM-056-m-cells/14-photo-1.html"
+    },
+    {
+      "name": "EM 054 M Cell",
+      "caption": "Peyer's Patch",
+      "technique": "TEM",
+      "section": "Mucosa-Associated Lymphoid Tissue (MALT)",
+      "href": "/EM-view/EM-054-m-cell/14-photo-1.html"
+    },
+    {
+      "name": "EM 048 Ileocecal Junction",
+      "caption": "SEM",
+      "technique": "",
+      "section": "ILEOCECAL JUNCTION",
+      "href": "/EM-view/EM-048-ileocecal-junction/14-photo-1.html"
+    },
+    {
+      "name": "EM 292 Appendix",
+      "caption": "SEM",
+      "technique": "",
+      "section": "LARGE INTESTINE",
+      "href": "/EM-view/EM-292-appendix/14-photo-1.html"
+    },
+    {
+      "name": "EM 050 Colon",
+      "caption": "SEM",
+      "technique": "",
+      "section": "LARGE INTESTINE",
+      "href": "/EM-view/EM-050-colon/14-photo-1.html"
+    },
+    {
+      "name": "EM 021 Enteroendocrine Cell",
+      "caption": "Colon",
+      "technique": "TEM",
+      "section": "LARGE INTESTINE",
+      "href": "/EM-view/EM-021-enteroendocrine-cell/14-photo-1.html"
+    }
+  ]
+}

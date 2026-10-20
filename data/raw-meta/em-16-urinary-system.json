@@ -1,0 +1,232 @@
+{
+  "schema": 1,
+  "source": {
+    "url": "https://histologyguide.com/EM-atlas/16-urinary-system.html",
+    "finalUrl": "https://histologyguide.com/EM-atlas/16-urinary-system.html",
+    "fetchedAt": "2026-10-18T11:29:59.888Z",
+    "httpStatus": 200,
+    "bytes": 24671,
+    "sha256": "fb24e3af623ecbfab7328dbd9617e70f15785f90299824265a6b3419a415e290",
+    "userAgent": "HistologyGuideCNStudyIndex/0.1 (+personal non-commercial study index; metadata extraction only; contact: local user)",
+    "note": "仅保存导航元数据；正文段落与图片未保存，遵循原站使用条款"
+  },
+  "chapter": 16,
+  "pageType": "em",
+  "pageTitle": "Chapter 16 - Urinary System",
+  "hasIntroProse": true,
+  "headings": [
+    {
+      "level": 2,
+      "id": null,
+      "text": "Chapter 16 - Urinary System"
+    },
+    {
+      "level": 3,
+      "id": null,
+      "text": "KIDNEY"
+    },
+    {
+      "level": 3,
+      "id": "corpuscle",
+      "text": "Renal Corpuscle"
+    },
+    {
+      "level": 3,
+      "id": "tubule",
+      "text": "Renal Tubule"
+    },
+    {
+      "level": 3,
+      "id": "vasculature",
+      "text": "Blood Supply"
+    },
+    {
+      "level": 3,
+      "id": "bladder",
+      "text": "URINARY BLADDER"
+    },
+    {
+      "level": 2,
+      "id": null,
+      "text": "CELL AND TISSUES"
+    },
+    {
+      "level": 2,
+      "id": null,
+      "text": "ORGAN SYSTEMS"
+    }
+  ],
+  "items": [
+    {
+      "kind": "em",
+      "name": "EM 232 Kidney",
+      "caption": "Renal Corpuscles",
+      "stain": "SEM",
+      "href": "/EM-view/EM-232-kidney/16-photo-1.html",
+      "thumbPath": "/EM-view/EM-232-kidney/imgs/photo-2c.png",
+      "section": "Renal Corpuscle"
+    },
+    {
+      "kind": "em",
+      "name": "EM 225 Kidney Glomerulus",
+      "caption": "Renal Corpuscles",
+      "stain": "SEM",
+      "href": "/EM-view/EM-225-kidney-glomerulus/16-photo-1.html",
+      "thumbPath": "/EM-view/EM-225-kidney-glomerulus/imgs/photo-2c.png",
+      "section": "Renal Corpuscle"
+    },
+    {
+      "kind": "em",
+      "name": "EM 080 Bowman's Capsule",
+      "caption": "SEM",
+      "stain": "",
+      "href": "/EM-view/EM-080-bowmans-capsule/16-photo-1.html",
+      "thumbPath": "/EM-view/EM-080-bowmans-capsule/imgs/photo-2c.png",
+      "section": "Renal Corpuscle"
+    },
+    {
+      "kind": "em",
+      "name": "EM 364 Renal Corpuscle",
+      "caption": "Kidney",
+      "stain": "TEM",
+      "href": "/EM-view/EM-364-renal-corpuscle/16-photo-1.html",
+      "thumbPath": "/EM-view/EM-364-renal-corpuscle/imgs/photo-2c.png",
+      "section": "Renal Corpuscle"
+    },
+    {
+      "kind": "em",
+      "name": "EM 195 Podocytes",
+      "caption": "Kidney",
+      "stain": "SEM",
+      "href": "/EM-view/EM-195-podocytes/16-photo-1.html",
+      "thumbPath": "/EM-view/EM-195-podocytes/imgs/photo-2c.png",
+      "section": "Renal Corpuscle"
+    },
+    {
+      "kind": "em",
+      "name": "EM 194 Podocytes",
+      "caption": "Kidney",
+      "stain": "SEM",
+      "href": "/EM-view/EM-194-podocytes/16-photo-1.html",
+      "thumbPath": "/EM-view/EM-194-podocytes/imgs/photo-2c.png",
+      "section": "Renal Corpuscle"
+    },
+    {
+      "kind": "em",
+      "name": "EM 234 Kidney",
+      "caption": "Fenestrated Capillaries",
+      "stain": "SEM",
+      "href": "/EM-view/EM-234-kidney-glomerulus/16-photo-1.html",
+      "thumbPath": "/EM-view/EM-234-kidney-glomerulus/imgs/photo-2c.png",
+      "section": "Renal Corpuscle"
+    },
+    {
+      "kind": "em",
+      "name": "EM 235 Kidney",
+      "caption": "Fenestrated Capillaries",
+      "stain": "SEM",
+      "href": "/EM-view/EM-235-kidney-glomerulus/16-photo-1.html",
+      "thumbPath": "/EM-view/EM-235-kidney-glomerulus/imgs/photo-2c.png",
+      "section": "Renal Corpuscle"
+    },
+    {
+      "kind": "em",
+      "name": "EM 365 Kidney",
+      "caption": "",
+      "stain": "Filtration Barrier",
+      "href": "/EM-view/EM-365-kidney-glomerulus/16-photo-1.html",
+      "thumbPath": "/EM-view/EM-365-kidney-glomerulus/imgs/photo-2c.png",
+      "section": "Renal Corpuscle"
+    },
+    {
+      "kind": "em",
+      "name": "EM 233 Kidney",
+      "caption": "Filtration Barrier",
+      "stain": "TEM",
+      "href": "/EM-view/EM-233-kidney/16-photo-1.html",
+      "thumbPath": "/EM-view/EM-233-kidney/imgs/photo-2c.png",
+      "section": "Renal Corpuscle"
+    },
+    {
+      "kind": "em",
+      "name": "EM 193 Kidney",
+      "caption": "Filtration Barrier",
+      "stain": "TEM",
+      "href": "/EM-view/EM-193-kidney/16-photo-1.html",
+      "thumbPath": "/EM-view/EM-193-kidney/imgs/photo-2c.png",
+      "section": "Renal Corpuscle"
+    },
+    {
+      "kind": "em",
+      "name": "EM 366 Loop of Henle",
+      "caption": "Kidney",
+      "stain": "TEM",
+      "href": "/EM-view/EM-366-loop-of-henle/16-photo-1.html",
+      "thumbPath": "/EM-view/EM-366-loop-of-henle/imgs/photo-2c.png",
+      "section": "Renal Tubule"
+    },
+    {
+      "kind": "em",
+      "name": "EM 197 Distal Convoluted Tubule",
+      "caption": "Kidney",
+      "stain": "TEM",
+      "href": "/EM-view/EM-197-renal-tubule/16-photo-1.html",
+      "thumbPath": "/EM-view/EM-197-renal-tubule/imgs/photo-2c.png",
+      "section": "Renal Tubule"
+    },
+    {
+      "kind": "em",
+      "name": "RD 025 Distal Convoluted Tubule",
+      "caption": "Kidney / Basal Infoldings",
+      "stain": "TEM",
+      "href": "/EM-view/RD-025-basal-infoldings/16-photo-1.html",
+      "thumbPath": "/EM-view/RD-025-basal-infoldings/imgs/photo-2c.png",
+      "section": "Renal Tubule"
+    },
+    {
+      "kind": "em",
+      "name": "EM 192 Kidney",
+      "caption": "Glomerulus",
+      "stain": "SEM",
+      "href": "/EM-view/EM-192-kidney/16-photo-1.html",
+      "thumbPath": "/EM-view/EM-192-kidney/imgs/photo-2c.png",
+      "section": "Blood Supply"
+    },
+    {
+      "kind": "em",
+      "name": "EM 228 Kidney",
+      "caption": "Peritubular Capillaries",
+      "stain": "SEM",
+      "href": "/EM-view/EM-228-kidney-blood-vessels/16-photo-1.html",
+      "thumbPath": "/EM-view/EM-228-kidney-blood-vessels/imgs/photo-2c.png",
+      "section": "Blood Supply"
+    },
+    {
+      "kind": "em",
+      "name": "EM 237 Bladder",
+      "caption": "SEM",
+      "stain": "",
+      "href": "/EM-view/EM-237-bladder/16-photo-1.html",
+      "thumbPath": "/EM-view/EM-237-bladder/imgs/photo-2c.png",
+      "section": "URINARY BLADDER"
+    },
+    {
+      "kind": "em",
+      "name": "EM 238 Bladder",
+      "caption": "Stretched",
+      "stain": "SEM",
+      "href": "/EM-view/EM-238-bladder-stretched/16-photo-1.html",
+      "thumbPath": "/EM-view/EM-238-bladder-stretched/imgs/photo-2c.png",
+      "section": "URINARY BLADDER"
+    },
+    {
+      "kind": "em",
+      "name": "EM 239 Bladder",
+      "caption": "Relaxed",
+      "stain": "SEM",
+      "href": "/EM-view/EM-239-bladder-relaxed/16-photo-1.html",
+      "thumbPath": "/EM-view/EM-239-bladder-relaxed/imgs/photo-2c.png",
+      "section": "URINARY BLADDER"
+    }
+  ]
+}

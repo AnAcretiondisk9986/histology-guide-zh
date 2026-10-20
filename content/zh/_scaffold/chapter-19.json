@@ -1,0 +1,223 @@
+{
+  "schema": 1,
+  "n": 19,
+  "titleEn": "Male Reproductive System",
+  "group": "organ-systems",
+  "originalPage": "https://histologyguide.com/slidebox/19-male-reproductive-system.html",
+  "note": "此文件由 scripts/scaffold.mjs 生成，仅供内容编写参考；请把中文写入 content/zh/chapters/NN.json，不要修改本文件。",
+  "sections": [
+    {
+      "en": "Testis",
+      "specimenCount": 4,
+      "specimenNames": [
+        "MHS 267 Testis and Epididymis",
+        "MH 178a Testis",
+        "MH 178b Testis",
+        "MHS 204 Testis and Epididymis"
+      ]
+    },
+    {
+      "en": "Epididymis",
+      "specimenCount": 3,
+      "specimenNames": [
+        "MHS 204 Testis and Epididymis",
+        "MHS 267 Testis and Epididymis",
+        "MH 185 Epididymis"
+      ]
+    },
+    {
+      "en": "Ductus Deferens",
+      "specimenCount": 2,
+      "specimenNames": [
+        "MH 181 Ductus Deferens",
+        "MH 182 Seminal Vesicle and Ductus Deferens"
+      ]
+    },
+    {
+      "en": "Seminal Vesicles",
+      "specimenCount": 2,
+      "specimenNames": [
+        "MH 182 Seminal Vesicle and Ductus Deferens",
+        "MHS 256 Seminal Vesicle"
+      ]
+    },
+    {
+      "en": "Prostate",
+      "specimenCount": 1,
+      "specimenNames": [
+        "MH 183 Prostate"
+      ]
+    },
+    {
+      "en": "Penis",
+      "specimenCount": 1,
+      "specimenNames": [
+        "MH 184 Penis"
+      ]
+    }
+  ],
+  "specimens": [
+    {
+      "name": "MHS 267 Testis and Epididymis",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Testis",
+      "href": "/slideview/MHS-267-testis-and-epididymis/19-slide-1.html"
+    },
+    {
+      "name": "MH 178a Testis",
+      "caption": "Neonatal and Adult",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Testis",
+      "href": "/slideview/MH-178a-testis/19-slide-1.html"
+    },
+    {
+      "name": "MH 178b Testis",
+      "caption": "Neonatal and Adult",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Testis",
+      "href": "/slideview/MH-178b-testis/19-slide-1.html"
+    },
+    {
+      "name": "MHS 204 Testis and Epididymis",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Testis",
+      "href": "/slideview/MHS-204-testis-and-epididymis/19-slide-1.html"
+    },
+    {
+      "name": "MHS 204 Testis and Epididymis",
+      "caption": "Rete Testis and Efferent Ductules",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Epididymis",
+      "href": "/slideview/MHS-204-testis-and-epididymis/19-slide-2.html"
+    },
+    {
+      "name": "MHS 267 Testis and Epididymis",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Epididymis",
+      "href": "/slideview/MHS-267-testis-and-epididymis/19-slide-2.html"
+    },
+    {
+      "name": "MH 185 Epididymis",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Epididymis",
+      "href": "/slideview/MH-185-epididymis/19-slide-1.html"
+    },
+    {
+      "name": "MH 181 Ductus Deferens",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Ductus Deferens",
+      "href": "/slideview/MH-181-ductus-deferens/19-slide-1.html"
+    },
+    {
+      "name": "MH 182 Seminal Vesicle and Ductus Deferens",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Ductus Deferens",
+      "href": "/slideview/MH-182-seminal-vesicle-and-ductus-deferens/19-slide-1.html"
+    },
+    {
+      "name": "MH 182 Seminal Vesicle and Ductus Deferens",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Seminal Vesicles",
+      "href": "/slideview/MH-182-seminal-vesicle-and-ductus-deferens/19-slide-2.html"
+    },
+    {
+      "name": "MHS 256 Seminal Vesicle",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Seminal Vesicles",
+      "href": "/slideview/MHS-256-seminal-vesicle/19-slide-1.html"
+    },
+    {
+      "name": "MH 183 Prostate",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Prostate",
+      "href": "/slideview/MH-183-prostate/19-slide-1.html"
+    },
+    {
+      "name": "MH 184 Penis",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Penis",
+      "href": "/slideview/MH-184-penis/19-slide-1.html"
+    }
+  ],
+  "emItems": [
+    {
+      "name": "EM 395 Testis",
+      "caption": "SEM",
+      "technique": "",
+      "section": "Testes",
+      "href": "/EM-view/EM-395-testis/19-photo-1.html"
+    },
+    {
+      "name": "EM 318 Spermatozoa",
+      "caption": "SEM",
+      "technique": "",
+      "section": "Spermatozoa",
+      "href": "/EM-view/EM-318-spermatozoa/19-photo-1.html"
+    },
+    {
+      "name": "EM 393 Spermatozoa",
+      "caption": "TEM",
+      "technique": "",
+      "section": "Spermatozoa",
+      "href": "/EM-view/EM-393-spermatozoa/19-photo-1.html"
+    },
+    {
+      "name": "EM 388 Spermatozoa",
+      "caption": "Uterus",
+      "technique": "SEM",
+      "section": "Spermatozoa",
+      "href": "/EM-view/EM-388-spermatozoa/19-photo-1.html"
+    },
+    {
+      "name": "EM 362 Spermatozoa",
+      "caption": "Uterus",
+      "technique": "SEM",
+      "section": "Spermatozoa",
+      "href": "/EM-view/EM-362-spermatozoa/19-photo-1.html"
+    },
+    {
+      "name": "EM 319 Spermatogonium",
+      "caption": "Blood-Testis Barrier",
+      "technique": "TEM",
+      "section": "Spermatogenesis",
+      "href": "/EM-view/EM-319-spermatogonium/19-photo-1.html"
+    },
+    {
+      "name": "EM 320 Spermatids",
+      "caption": "TEM",
+      "technique": "",
+      "section": "Spermatogenesis",
+      "href": "/EM-view/EM-320-spermatids/19-photo-1.html"
+    },
+    {
+      "name": "EM 335 Acrosome",
+      "caption": "Spermatid",
+      "technique": "TEM",
+      "section": "Spermatogenesis",
+      "href": "/EM-view/EM-335-acrosome/19-photo-1.html"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "schema": 1,
+  "source": {
+    "url": "https://histologyguide.com/slidebox/20-organs-of-special-sense.html",
+    "finalUrl": "https://histologyguide.com/slidebox/20-organs-of-special-sense.html",
+    "fetchedAt": "2026-10-18T11:30:12.830Z",
+    "httpStatus": 200,
+    "bytes": 13255,
+    "sha256": "6ac4e0ff331e551db38ea6ac8a0595e6d41a311a637cb9dbee91e2f084ff938b",
+    "userAgent": "HistologyGuideCNStudyIndex/0.1 (+personal non-commercial study index; metadata extraction only; contact: local user)",
+    "note": "仅保存导航元数据；正文段落与图片未保存，遵循原站使用条款"
+  },
+  "chapter": 20,
+  "pageType": "slidebox",
+  "pageTitle": "Chapter 20 - Organs of Special Sense",
+  "hasIntroProse": true,
+  "headings": [
+    {
+      "level": 2,
+      "id": "eye",
+      "text": "Chapter 20 - Organs of Special Sense"
+    },
+    {
+      "level": 3,
+      "id": null,
+      "text": "Eye"
+    },
+    {
+      "level": 3,
+      "id": "eyelid",
+      "text": "Eyelid and Conjunctiva"
+    },
+    {
+      "level": 3,
+      "id": "ear",
+      "text": "Ear"
+    },
+    {
+      "level": 2,
+      "id": null,
+      "text": "CELL AND TISSUES"
+    },
+    {
+      "level": 2,
+      "id": null,
+      "text": "ORGAN SYSTEMS"
+    }
+  ],
+  "items": [
+    {
+      "kind": "slide",
+      "name": "MHS 227a Eye",
+      "caption": "H&E",
+      "stain": "",
+      "href": "/slideview/MHS-227a-eye/20-slide-1.html",
+      "thumbPath": "/slideview/MHS-227a-eye/imgs/slide.png",
+      "section": "Eye"
+    },
+    {
+      "kind": "slide",
+      "name": "MHS 229 Eye",
+      "caption": "H&E",
+      "stain": "",
+      "href": "/slideview/MHS-229-eye/20-slide-1.html",
+      "thumbPath": "/slideview/MHS-229-eye/imgs/slide.png",
+      "section": "Eye"
+    },
+    {
+      "kind": "slide",
+      "name": "MHS 226 Eye",
+      "caption": "Optic Nerve",
+      "stain": "H&E",
+      "href": "/slideview/MHS-226-eye/20-slide-1.html",
+      "thumbPath": "/slideview/MHS-226-eye/imgs/slide.png",
+      "section": "Eye"
+    },
+    {
+      "kind": "slide",
+      "name": "MHS 302 Eye",
+      "caption": "H&E",
+      "stain": "",
+      "href": "/slideview/MHS-302-eye/20-slide-1.html",
+      "thumbPath": "/slideview/MHS-302-eye/imgs/slide.png",
+      "section": "Eye"
+    },
+    {
+      "kind": "slide",
+      "name": "MHS 231 Eyelid",
+      "caption": "H&E",
+      "stain": "",
+      "href": "/slideview/MHS-231-eyelid/20-slide-1.html",
+      "thumbPath": "/slideview/MHS-231-eyelid/imgs/slide.png",
+      "section": "Eyelid and Conjunctiva"
+    },
+    {
+      "kind": "slide",
+      "name": "MHS 227b Eye",
+      "caption": "H&E",
+      "stain": "",
+      "href": "/slideview/MHS-227b-eye/20-slide-1.html",
+      "thumbPath": "/slideview/MHS-227b-eye/imgs/slide.png",
+      "section": "Eyelid and Conjunctiva"
+    },
+    {
+      "kind": "slide",
+      "name": "MHS 230 Inner Ear",
+      "caption": "H&E",
+      "stain": "",
+      "href": "/slideview/MHS-230-inner-ear/20-slide-1.html",
+      "thumbPath": "/slideview/MHS-230-inner-ear/imgs/slide.png",
+      "section": "Ear"
+    }
+  ]
+}

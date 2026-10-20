@@ -1,0 +1,146 @@
+{
+  "schema": 1,
+  "source": {
+    "url": "https://histologyguide.com/slidebox/16-urinary-system.html",
+    "finalUrl": "https://histologyguide.com/slidebox/16-urinary-system.html",
+    "fetchedAt": "2026-10-18T11:29:57.758Z",
+    "httpStatus": 200,
+    "bytes": 18374,
+    "sha256": "450c39f8b50f3ab28f2eb4dcfde5f09e78bdb3d4c42080945f26a3c7b2163589",
+    "userAgent": "HistologyGuideCNStudyIndex/0.1 (+personal non-commercial study index; metadata extraction only; contact: local user)",
+    "note": "仅保存导航元数据；正文段落与图片未保存，遵循原站使用条款"
+  },
+  "chapter": 16,
+  "pageType": "slidebox",
+  "pageTitle": "Chapter 16 - Urinary System",
+  "hasIntroProse": true,
+  "headings": [
+    {
+      "level": 2,
+      "id": "kidney",
+      "text": "Chapter 16 - Urinary System"
+    },
+    {
+      "level": 3,
+      "id": null,
+      "text": "Kidney"
+    },
+    {
+      "level": 3,
+      "id": "kidney-fetal",
+      "text": "Fetal Kidney"
+    },
+    {
+      "level": 3,
+      "id": "ureter",
+      "text": "Ureter"
+    },
+    {
+      "level": 3,
+      "id": "bladder",
+      "text": "Urinary Bladder"
+    },
+    {
+      "level": 2,
+      "id": null,
+      "text": "CELL AND TISSUES"
+    },
+    {
+      "level": 2,
+      "id": null,
+      "text": "ORGAN SYSTEMS"
+    }
+  ],
+  "items": [
+    {
+      "kind": "slide",
+      "name": "MH 143 Kidney",
+      "caption": "H&E",
+      "stain": "",
+      "href": "/slideview/MH-143-kidney/16-slide-1.html",
+      "thumbPath": "/slideview/MH-143-kidney/imgs/slide.png",
+      "section": "Kidney"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 141a Kidney",
+      "caption": "Nephron",
+      "stain": "H&E",
+      "href": "/slideview/MH-141a-kidney/16-slide-1.html",
+      "thumbPath": "/slideview/MH-141a-kidney/imgs/slide.png",
+      "section": "Kidney"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 141b Kidney",
+      "caption": "Nephron",
+      "stain": "H&E",
+      "href": "/slideview/MH-141b-kidney/16-slide-1.html",
+      "thumbPath": "/slideview/MH-141b-kidney/imgs/slide.png",
+      "section": "Kidney"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 142 Kidney",
+      "caption": "Nephron",
+      "stain": "Azan",
+      "href": "/slideview/MH-142-kidney/16-slide-1.html",
+      "thumbPath": "/slideview/MH-142-kidney/imgs/slide.png",
+      "section": "Kidney"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 140 Kidney Fetal",
+      "caption": "H&E",
+      "stain": "",
+      "href": "/slideview/MH-140-kidney-fetal/16-slide-1.html",
+      "thumbPath": "/slideview/MH-140-kidney-fetal/imgs/slide.png",
+      "section": "Fetal Kidney"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 146 Ureter",
+      "caption": "H&E",
+      "stain": "",
+      "href": "/slideview/MH-146-ureter/16-slide-1.html",
+      "thumbPath": "/slideview/MH-146-ureter/imgs/slide.png",
+      "section": "Ureter"
+    },
+    {
+      "kind": "slide",
+      "name": "MHS 215 Ureter",
+      "caption": "H&E",
+      "stain": "",
+      "href": "/slideview/MHS-215-ureter/16-slide-1.html",
+      "thumbPath": "/slideview/MHS-215-ureter/imgs/slide.png",
+      "section": "Ureter"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 147 Bladder",
+      "caption": "H&E",
+      "stain": "",
+      "href": "/slideview/MH-147-bladder/16-slide-1.html",
+      "thumbPath": "/slideview/MH-147-bladder/imgs/slide.png",
+      "section": "Urinary Bladder"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 018 Transitional Epithelia",
+      "caption": "Relaxed and Stretched Bladder",
+      "stain": "H&E",
+      "href": "/slideview/MH-018-transitional-epithelia/16-slide-1.html",
+      "thumbPath": "/slideview/MH-018-transitional-epithelia/imgs/slide.png",
+      "section": "Urinary Bladder"
+    },
+    {
+      "kind": "slide",
+      "name": "MHS 214 Bladder",
+      "caption": "H&E",
+      "stain": "",
+      "href": "/slideview/MHS-214-bladder/16-slide-1.html",
+      "thumbPath": "/slideview/MHS-214-bladder/imgs/slide.png",
+      "section": "Urinary Bladder"
+    }
+  ]
+}

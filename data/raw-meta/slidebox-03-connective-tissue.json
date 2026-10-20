@@ -1,0 +1,309 @@
+{
+  "schema": 1,
+  "source": {
+    "url": "https://histologyguide.com/slidebox/03-connective-tissue.html",
+    "finalUrl": "https://histologyguide.com/slidebox/03-connective-tissue.html",
+    "fetchedAt": "2026-10-18T11:29:05.497Z",
+    "httpStatus": 200,
+    "bytes": 33813,
+    "sha256": "5e2dce97a16e355292106fe0beaba65b2cbdf9b54e84f68a4cb71ac4e6597428",
+    "userAgent": "HistologyGuideCNStudyIndex/0.1 (+personal non-commercial study index; metadata extraction only; contact: local user)",
+    "note": "仅保存导航元数据；正文段落与图片未保存，遵循原站使用条款"
+  },
+  "chapter": 3,
+  "pageType": "slidebox",
+  "pageTitle": "Chapter 3 - Connective Tissue",
+  "hasIntroProse": true,
+  "headings": [
+    {
+      "level": 2,
+      "id": null,
+      "text": "Chapter 3 - Connective Tissue"
+    },
+    {
+      "level": 3,
+      "id": "connective-tissue-fibers",
+      "text": "Connective Tissue Fibers"
+    },
+    {
+      "level": 3,
+      "id": "connective-tissue-types",
+      "text": "CONNECTIVE TISSUE PROPER"
+    },
+    {
+      "level": 3,
+      "id": "loose-connective-tissue",
+      "text": "Loose Connective Tissue"
+    },
+    {
+      "level": 3,
+      "id": "dense-regular-connective-tissue",
+      "text": "Dense Regular Connective Tissue"
+    },
+    {
+      "level": 3,
+      "id": "dense-irregular-connective-tissue",
+      "text": "Dense Irregular Connective Tissue"
+    },
+    {
+      "level": 3,
+      "id": "mesenchyme",
+      "text": "Embryonic Connective Tissue"
+    },
+    {
+      "level": 3,
+      "id": null,
+      "text": "CONNECTIVE TISSUE CELLS"
+    },
+    {
+      "level": 3,
+      "id": null,
+      "text": "FIXED CELLS"
+    },
+    {
+      "level": 3,
+      "id": "fibroblast",
+      "text": "Fibroblasts"
+    },
+    {
+      "level": 3,
+      "id": "adipocyte",
+      "text": "Adipocytes"
+    },
+    {
+      "level": 3,
+      "id": "macrophage",
+      "text": "Macrophages"
+    },
+    {
+      "level": 3,
+      "id": "mast-cell",
+      "text": "Mast Cells"
+    },
+    {
+      "level": 3,
+      "id": null,
+      "text": "TRANSIENT CELLS"
+    },
+    {
+      "level": 3,
+      "id": "plasma-cell",
+      "text": "Plasma Cells"
+    },
+    {
+      "level": 3,
+      "id": "eosinophil",
+      "text": "Eosinophils"
+    },
+    {
+      "level": 2,
+      "id": null,
+      "text": "CELL AND TISSUES"
+    },
+    {
+      "level": 2,
+      "id": null,
+      "text": "ORGAN SYSTEMS"
+    }
+  ],
+  "items": [
+    {
+      "kind": "slide",
+      "name": "MH 024-025-026 Mesentery",
+      "caption": "Collagen and Elastic Fibers",
+      "stain": "H&E/Azan/Verhoeff",
+      "href": "/slideview/MH-024-025-026-mesentery/03-slide-1.html",
+      "thumbPath": "/slideview/MH-024-mesentery/imgs/slide.png",
+      "section": "Connective Tissue Fibers"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 078 Lymph Node",
+      "caption": "Reticular Fibers",
+      "stain": "Silver",
+      "href": "/slideview/MH-078-lymph-node/03-slide-1.html",
+      "thumbPath": "/slideview/MH-078-lymph-node/imgs/slide.png",
+      "section": "Connective Tissue Fibers"
+    },
+    {
+      "kind": "slide",
+      "name": "MHS 293 Spleen",
+      "caption": "Reticular Fibers",
+      "stain": "Silver",
+      "href": "/slideview/MHS-293-spleen/03-slide-1.html",
+      "thumbPath": "/slideview/MHS-293-spleen/imgs/slide.png",
+      "section": "Connective Tissue Fibers"
+    },
+    {
+      "kind": "figure",
+      "name": "Fig 024 Types of Connective Tissue",
+      "caption": "",
+      "stain": "",
+      "href": "/figureview/fig-024-connective-tissue/03-figure-1.html",
+      "thumbPath": "/figureview/fig-024-connective-tissue/imgs/figure.png",
+      "section": "CONNECTIVE TISSUE PROPER"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 021-022-023 Connective Tissue",
+      "caption": "H&E/Azan/Verhoeff",
+      "stain": "",
+      "href": "/slideview/MH-021-022-023-connective-tissue/03-slide-1.html",
+      "thumbPath": "/slideview/MH-021-connective-tissue/imgs/slide.png",
+      "section": "CONNECTIVE TISSUE PROPER"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 024 Mesentery",
+      "caption": "Loose Connective Tissue",
+      "stain": "H&E",
+      "href": "/slideview/MH-024-mesentery/03-slide-2.html",
+      "thumbPath": "/slideview/MH-024-mesentery/imgs/slide.png",
+      "section": "Loose Connective Tissue"
+    },
+    {
+      "kind": "slide",
+      "name": "MHS 260 Mesentery",
+      "caption": "Loose Connective Tissue",
+      "stain": "H&E",
+      "href": "/slideview/MHS-260-mesentery/03-slide-1.html",
+      "thumbPath": "/slideview/MHS-260-mesentery/imgs/slide.png",
+      "section": "Loose Connective Tissue"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 029a Tendon",
+      "caption": "Dense Regular Connective Tissue",
+      "stain": "H&E",
+      "href": "/slideview/MH-029a-tendon/03-slide-1.html",
+      "thumbPath": "/slideview/MH-029a-tendon/imgs/slide.png",
+      "section": "Dense Regular Connective Tissue"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 091 Thick Skin",
+      "caption": "Dense Irregular Connective Tissue",
+      "stain": "H&E",
+      "href": "/slideview/MH-091-thick-skin/03-slide-1.html",
+      "thumbPath": "/slideview/MH-091-thick-skin/imgs/slide.png",
+      "section": "Dense Irregular Connective Tissue"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 020a Fetal Pig Snout",
+      "caption": "Embryonic Connective Tissue",
+      "stain": "H&E",
+      "href": "/slideview/MH-020a-fetal-snout/03-slide-1.html",
+      "thumbPath": "/slideview/MH-020a-fetal-snout/imgs/slide.png",
+      "section": "Embryonic Connective Tissue"
+    },
+    {
+      "kind": "slide",
+      "name": "MHS 241 Umbilical Cord",
+      "caption": "Embryonic Connective Tissue",
+      "stain": "H&E",
+      "href": "/slideview/MHS-241-umbilical-cord/03-slide-1.html",
+      "thumbPath": "/slideview/MHS-241-umbilical-cord/imgs/slide.png",
+      "section": "Embryonic Connective Tissue"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 020a Fetal Pig Snout",
+      "caption": "Fibroblasts",
+      "stain": "H&E",
+      "href": "/slideview/MH-020a-fetal-snout/03-slide-2.html",
+      "thumbPath": "/slideview/MH-020a-fetal-snout/imgs/slide.png",
+      "section": "Fibroblasts"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 021 Connective Tissue",
+      "caption": "Fibroblasts",
+      "stain": "H&E",
+      "href": "/slideview/MH-021-connective-tissue/03-slide-2.html",
+      "thumbPath": "/slideview/MH-021-connective-tissue/imgs/slide.png",
+      "section": "Fibroblasts"
+    },
+    {
+      "kind": "slide",
+      "name": "MHS 227b Eye",
+      "caption": "Fibroblasts",
+      "stain": "H&E",
+      "href": "/slideview/MHS-227b-eye/03-slide-1.html",
+      "thumbPath": "/slideview/MHS-227b-eye/imgs/slide.png",
+      "section": "Fibroblasts"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 024 Mesentery",
+      "caption": "White Adipocytes",
+      "stain": "H&E",
+      "href": "/slideview/MH-024-mesentery/03-slide-3.html",
+      "thumbPath": "/slideview/MH-024-mesentery/imgs/slide.png",
+      "section": "Adipocytes"
+    },
+    {
+      "kind": "slide",
+      "name": "MHS 213 Lymph Nodes",
+      "caption": "White Adipocytes",
+      "stain": "H&E",
+      "href": "/slideview/MHS-213-lymph-nodes/03-slide-1.html",
+      "thumbPath": "/slideview/MHS-213-lymph-nodes/imgs/slide.png",
+      "section": "Adipocytes"
+    },
+    {
+      "kind": "slide",
+      "name": "VH 010 Brown Fat",
+      "caption": "Brown Adipocytes",
+      "stain": "H&E",
+      "href": "/slideview/VH-010-brown-fat/03-slide-1.html",
+      "thumbPath": "/slideview/VH-010-brown-fat/imgs/slide.png",
+      "section": "Adipocytes"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 024-026 Mesentery",
+      "caption": "Macrophages",
+      "stain": "H&E/Azan",
+      "href": "/slideview/MH-024-026-mesentery/03-slide-1.html",
+      "thumbPath": "/slideview/MH-024-mesentery/imgs/slide.png",
+      "section": "Macrophages"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 008 Pancreas",
+      "caption": "Mast Cells",
+      "stain": "Aldehyde Fuchsin",
+      "href": "/slideview/MH-008-pancreas/03-slide-1.html",
+      "thumbPath": "/slideview/MH-008-pancreas/imgs/slide.png",
+      "section": "Mast Cells"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 003 Toluidine Blue",
+      "caption": "Mast Cells",
+      "stain": "Toluidine Blue",
+      "href": "/slideview/MH-003-toluidine-blue/03-slide-1.html",
+      "thumbPath": "/slideview/MH-003-toluidine-blue/imgs/slide.png",
+      "section": "Mast Cells"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 016 Simple Epithelia",
+      "caption": "Plasma Cells",
+      "stain": "H&E",
+      "href": "/slideview/MH-016-simple-epithelia/03-slide-1.html",
+      "thumbPath": "/slideview/MH-016-simple-epithelia/imgs/slide.png",
+      "section": "Plasma Cells"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 094 Parotid",
+      "caption": "Eosinophils",
+      "stain": "H&E",
+      "href": "/slideview/MH-094-parotid/03-slide-1.html",
+      "thumbPath": "/slideview/MH-094-parotid/imgs/slide.png",
+      "section": "Eosinophils"
+    }
+  ]
+}

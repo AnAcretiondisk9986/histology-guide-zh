@@ -1,0 +1,182 @@
+{
+  "schema": 1,
+  "source": {
+    "url": "https://histologyguide.com/EM-atlas/17-respiratory-system.html",
+    "finalUrl": "https://histologyguide.com/EM-atlas/17-respiratory-system.html",
+    "fetchedAt": "2026-10-18T11:30:04.303Z",
+    "httpStatus": 200,
+    "bytes": 20464,
+    "sha256": "5bd061de43e312d7d066d80f785c396f12c51e1324a5892eaf4e38eccc533611",
+    "userAgent": "HistologyGuideCNStudyIndex/0.1 (+personal non-commercial study index; metadata extraction only; contact: local user)",
+    "note": "仅保存导航元数据；正文段落与图片未保存，遵循原站使用条款"
+  },
+  "chapter": 17,
+  "pageType": "em",
+  "pageTitle": "Chapter 17 - Respiratory System",
+  "hasIntroProse": true,
+  "headings": [
+    {
+      "level": 2,
+      "id": null,
+      "text": "Chapter 17 - Respiratory System"
+    },
+    {
+      "level": 3,
+      "id": "respiratory-epithelium",
+      "text": "Respiratory Epithelium"
+    },
+    {
+      "level": 3,
+      "id": "lung",
+      "text": "LUNG"
+    },
+    {
+      "level": 3,
+      "id": "bronchioles",
+      "text": "Respiratory Bronchiole"
+    },
+    {
+      "level": 3,
+      "id": "alveoli",
+      "text": "Alveoli"
+    },
+    {
+      "level": 2,
+      "id": null,
+      "text": "CELL AND TISSUES"
+    },
+    {
+      "level": 2,
+      "id": null,
+      "text": "ORGAN SYSTEMS"
+    }
+  ],
+  "items": [
+    {
+      "kind": "figure",
+      "name": "Fig 013 Respiratory System",
+      "caption": "",
+      "stain": "",
+      "href": "/figureview/fig-013-respiratory-system/17-figure-1.html",
+      "thumbPath": "/figureview/fig-013-respiratory-system/imgs/figure.png",
+      "section": null
+    },
+    {
+      "kind": "em",
+      "name": "EM 070 Respiratory Epithelium",
+      "caption": "Lung",
+      "stain": "TEM",
+      "href": "/EM-view/EM-070-respiratory-epithelium/17-photo-1.html",
+      "thumbPath": "/EM-view/EM-070-respiratory-epithelium/imgs/photo-2c.png",
+      "section": "Respiratory Epithelium"
+    },
+    {
+      "kind": "em",
+      "name": "EM 076 Respiratory Epithelium",
+      "caption": "Lung",
+      "stain": "SEM",
+      "href": "/EM-view/EM-076-respiratory-epithelium/17-photo-1.html",
+      "thumbPath": "/EM-view/EM-076-respiratory-epithelium/imgs/photo-2c.png",
+      "section": "Respiratory Epithelium"
+    },
+    {
+      "kind": "em",
+      "name": "EM 077 Respiratory Epithelium",
+      "caption": "Lung",
+      "stain": "SEM",
+      "href": "/EM-view/EM-077-respiratory-epithelium/17-photo-1.html",
+      "thumbPath": "/EM-view/EM-077-respiratory-epithelium/imgs/photo-2c.png",
+      "section": "Respiratory Epithelium"
+    },
+    {
+      "kind": "em",
+      "name": "EM 266 Lung",
+      "caption": "Pleural Surface",
+      "stain": "SEM",
+      "href": "/EM-view/EM-266-lung/17-photo-1.html",
+      "thumbPath": "/EM-view/EM-266-lung/imgs/photo-2c.png",
+      "section": "LUNG"
+    },
+    {
+      "kind": "em",
+      "name": "EM 273 Lung",
+      "caption": "SEM",
+      "stain": "",
+      "href": "/EM-view/EM-273-lung/17-photo-1.html",
+      "thumbPath": "/EM-view/EM-273-lung/imgs/photo-2c.png",
+      "section": "LUNG"
+    },
+    {
+      "kind": "em",
+      "name": "EM 267 Terminal Bronchiole",
+      "caption": "Lung",
+      "stain": "SEM",
+      "href": "/EM-view/EM-267-respiratory-bronchiole/17-photo-1.html",
+      "thumbPath": "/EM-view/EM-267-respiratory-bronchiole/imgs/photo-2c.png",
+      "section": "LUNG"
+    },
+    {
+      "kind": "em",
+      "name": "EM 268 Terminal and Respiratory Bronchioles",
+      "caption": "Lung",
+      "stain": "SEM",
+      "href": "/EM-view/EM-268-respiratory-bronchiole/17-photo-1.html",
+      "thumbPath": "/EM-view/EM-268-respiratory-bronchiole/imgs/photo-2c.png",
+      "section": "Respiratory Bronchiole"
+    },
+    {
+      "kind": "em",
+      "name": "EM 270 Respiratory Bronchiole",
+      "caption": "Lung",
+      "stain": "SEM",
+      "href": "/EM-view/EM-270-respiratory-bronchiole/17-photo-1.html",
+      "thumbPath": "/EM-view/EM-270-respiratory-bronchiole/imgs/photo-2c.png",
+      "section": "Respiratory Bronchiole"
+    },
+    {
+      "kind": "em",
+      "name": "EM 322 Lung",
+      "caption": "Alveoli",
+      "stain": "SEM",
+      "href": "/EM-view/EM-322-lung/17-photo-1.html",
+      "thumbPath": "/EM-view/EM-322-lung/imgs/photo-2c.png",
+      "section": "Alveoli"
+    },
+    {
+      "kind": "em",
+      "name": "EM 269 Lung",
+      "caption": "Alveoli",
+      "stain": "SEM",
+      "href": "/EM-view/EM-269-lung/17-photo-1.html",
+      "thumbPath": "/EM-view/EM-269-lung/imgs/photo-2c.png",
+      "section": "Alveoli"
+    },
+    {
+      "kind": "em",
+      "name": "RD 189 Alveoli",
+      "caption": "Lung / Type I Alveolar Cell",
+      "stain": "SEM",
+      "href": "/EM-view/RD-189-alveoli/17-photo-1.html",
+      "thumbPath": "/EM-view/RD-189-alveoli/imgs/photo-2c.png",
+      "section": "Alveoli"
+    },
+    {
+      "kind": "em",
+      "name": "RD 182 Alveoli",
+      "caption": "Lung / Type I Alveolar Cell",
+      "stain": "SEM",
+      "href": "/EM-view/RD-182-alveoli/17-photo-1.html",
+      "thumbPath": "/EM-view/RD-182-alveoli/imgs/photo-2c.png",
+      "section": "Alveoli"
+    },
+    {
+      "kind": "em",
+      "name": "RD 179 Alveoli",
+      "caption": "Type II Alveolar Cell",
+      "stain": "Lung",
+      "href": "/EM-view/RD-179-alveoli/17-photo-1.html",
+      "thumbPath": "/EM-view/RD-179-alveoli/imgs/photo-2c.png",
+      "section": "Alveoli"
+    }
+  ]
+}

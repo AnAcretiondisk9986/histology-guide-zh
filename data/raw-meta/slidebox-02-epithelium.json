@@ -1,0 +1,365 @@
+{
+  "schema": 1,
+  "source": {
+    "url": "https://histologyguide.com/slidebox/02-epithelium.html",
+    "finalUrl": "https://histologyguide.com/slidebox/02-epithelium.html",
+    "fetchedAt": "2026-10-18T11:28:55.034Z",
+    "httpStatus": 200,
+    "bytes": 41129,
+    "sha256": "db55e80474d9ac3f887b234542dd5fad7258ce0dd9471c385c7597731656e081",
+    "userAgent": "HistologyGuideCNStudyIndex/0.1 (+personal non-commercial study index; metadata extraction only; contact: local user)",
+    "note": "仅保存导航元数据；正文段落与图片未保存，遵循原站使用条款"
+  },
+  "chapter": 2,
+  "pageType": "slidebox",
+  "pageTitle": "Chapter 2 - Epithelium",
+  "hasIntroProse": true,
+  "headings": [
+    {
+      "level": 2,
+      "id": null,
+      "text": "Chapter 2 - Epithelium"
+    },
+    {
+      "level": 3,
+      "id": "classification",
+      "text": "Epithelia Classification"
+    },
+    {
+      "level": 3,
+      "id": null,
+      "text": "Cellular Polarization"
+    },
+    {
+      "level": 3,
+      "id": "simple-squamous",
+      "text": "Simple Squamous Epithelium"
+    },
+    {
+      "level": 3,
+      "id": "simple-cuboidal-epithelium",
+      "text": "Simple Cuboidal Epithelium"
+    },
+    {
+      "level": 3,
+      "id": "simple-columnar-epithelium",
+      "text": "Simple Columnar Epithelium"
+    },
+    {
+      "level": 3,
+      "id": "pseudostratified-columnar-epithelium",
+      "text": "Pseudostratified Columnar Epithelium"
+    },
+    {
+      "level": 3,
+      "id": "stratified-squamous-epithelium",
+      "text": "Stratified Squamous Epithelium"
+    },
+    {
+      "level": 3,
+      "id": "stratified-cuboidal-epithelium",
+      "text": "Stratified Cuboidal Epithelium"
+    },
+    {
+      "level": 3,
+      "id": "stratified-columnar-epithelium",
+      "text": "Stratified Columnar Epithelium"
+    },
+    {
+      "level": 3,
+      "id": "transitional-epithelium",
+      "text": "Transitional Epithelium"
+    },
+    {
+      "level": 2,
+      "id": null,
+      "text": "CELL AND TISSUES"
+    },
+    {
+      "level": 2,
+      "id": null,
+      "text": "ORGAN SYSTEMS"
+    }
+  ],
+  "items": [
+    {
+      "kind": "figure",
+      "name": "Fig 008 Epithelial Tissue Classification",
+      "caption": "",
+      "stain": "",
+      "href": "/figureview/fig-008-epithelium/02a-figure-1.html",
+      "thumbPath": "/figureview/fig-008-epithelium/imgs/figure.png",
+      "section": "Epithelia Classification"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 016 Simple Epithelia",
+      "caption": "Simple Squamous Epithelium",
+      "stain": "H&E",
+      "href": "/slideview/MH-016-simple-epithelia/02-slide-1.html",
+      "thumbPath": "/slideview/MH-016-simple-epithelia/imgs/slide.png",
+      "section": "Simple Squamous Epithelium"
+    },
+    {
+      "kind": "slide",
+      "name": "MHS 261 Common Bile Duct",
+      "caption": "Simple Squamous Epithelium",
+      "stain": "H&E",
+      "href": "/slideview/MHS-261-common-bile-duct/02-slide-1.html",
+      "thumbPath": "/slideview/MHS-261-common-bile-duct/imgs/slide.png",
+      "section": "Simple Squamous Epithelium"
+    },
+    {
+      "kind": "slide",
+      "name": "MHS 227a Eye",
+      "caption": "Simple Squamous Epithelium",
+      "stain": "H&E",
+      "href": "/slideview/MHS-227a-eye/02-slide-1.html",
+      "thumbPath": "/slideview/MHS-227a-eye/imgs/slide.png",
+      "section": "Simple Squamous Epithelium"
+    },
+    {
+      "kind": "slide",
+      "name": "MHS 224 Ovary and Oviduct",
+      "caption": "Simple Squamous Epithelium",
+      "stain": "H&E",
+      "href": "/slideview/MHS-224-ovary-and-oviduct/02-slide-1.html",
+      "thumbPath": "/slideview/MHS-224-ovary-and-oviduct/imgs/slide.png",
+      "section": "Simple Squamous Epithelium"
+    },
+    {
+      "kind": "slide",
+      "name": "MHS 281 Pavement Epithelium",
+      "caption": "Simple Squamous Epithelium",
+      "stain": "H&E",
+      "href": "/slideview/MHS-281-pavement-epithelium/02-slide-1.html",
+      "thumbPath": "/slideview/MHS-281-pavement-epithelium/imgs/slide.png",
+      "section": "Simple Squamous Epithelium"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 016 Simple Epithelia",
+      "caption": "Simple Cuboidal Epithelium",
+      "stain": "H&E",
+      "href": "/slideview/MH-016-simple-epithelia/02-slide-2.html",
+      "thumbPath": "/slideview/MH-016-simple-epithelia/imgs/slide.png",
+      "section": "Simple Cuboidal Epithelium"
+    },
+    {
+      "kind": "slide",
+      "name": "MHS 211 Pancreas",
+      "caption": "Simple Cuboidal Epithelium",
+      "stain": "H&E",
+      "href": "/slideview/MHS-211-pancreas/02-slide-1.html",
+      "thumbPath": "/slideview/MHS-211-pancreas/imgs/slide.png",
+      "section": "Simple Cuboidal Epithelium"
+    },
+    {
+      "kind": "slide",
+      "name": "MHS 224 Ovary and Oviduct",
+      "caption": "Simple Cuboidal Epithelium",
+      "stain": "H&E",
+      "href": "/slideview/MHS-224-ovary-and-oviduct/02-slide-2.html",
+      "thumbPath": "/slideview/MHS-224-ovary-and-oviduct/imgs/slide.png",
+      "section": "Simple Cuboidal Epithelium"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 016 Simple Epithelia",
+      "caption": "Simple Columnar Epithelium",
+      "stain": "H&E",
+      "href": "/slideview/MH-016-simple-epithelia/02-slide-3.html",
+      "thumbPath": "/slideview/MH-016-simple-epithelia/imgs/slide.png",
+      "section": "Simple Columnar Epithelium"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 119 Ileum",
+      "caption": "Simple Columnar Epithelium",
+      "stain": "H&E",
+      "href": "/slideview/MH-119-ileum/02-slide-1.html",
+      "thumbPath": "/slideview/MH-119-ileum/imgs/slide.png",
+      "section": "Simple Columnar Epithelium"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 120 Ileum",
+      "caption": "Simple Columnar Epithelium",
+      "stain": "H&E",
+      "href": "/slideview/MH-120-ileum/02-slide-1.html",
+      "thumbPath": "/slideview/MH-120-ileum/imgs/slide.png",
+      "section": "Simple Columnar Epithelium"
+    },
+    {
+      "kind": "slide",
+      "name": "MHS 219 Jejunum",
+      "caption": "Simple Columnar Epithelium",
+      "stain": "H&E",
+      "href": "/slideview/MHS-219-jejunum/02-slide-1.html",
+      "thumbPath": "/slideview/MHS-219-jejunum/imgs/slide.png",
+      "section": "Simple Columnar Epithelium"
+    },
+    {
+      "kind": "slide",
+      "name": "MHS 261 Common Bile Duct",
+      "caption": "Simple Columnar Epithelium",
+      "stain": "H&E",
+      "href": "/slideview/MHS-261-common-bile-duct/02-slide-2.html",
+      "thumbPath": "/slideview/MHS-261-common-bile-duct/imgs/slide.png",
+      "section": "Simple Columnar Epithelium"
+    },
+    {
+      "kind": "slide",
+      "name": "MHS 224 Ovary and Oviduct",
+      "caption": "Simple Columnar Epithelium",
+      "stain": "H&E",
+      "href": "/slideview/MHS-224-ovary-and-oviduct/02-slide-3.html",
+      "thumbPath": "/slideview/MHS-224-ovary-and-oviduct/imgs/slide.png",
+      "section": "Simple Columnar Epithelium"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 016 Simple Epithelia",
+      "caption": "Simple Pseudostratified Epithelium",
+      "stain": "H&E",
+      "href": "/slideview/MH-016-simple-epithelia/02-slide-4.html",
+      "thumbPath": "/slideview/MH-016-simple-epithelia/imgs/slide.png",
+      "section": "Pseudostratified Columnar Epithelium"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 135 Larynx",
+      "caption": "Simple Pseudostratified Epithelium",
+      "stain": "H&E",
+      "href": "/slideview/MH-135-larynx/02-slide-1.html",
+      "thumbPath": "/slideview/MH-135-larynx/imgs/slide.png",
+      "section": "Pseudostratified Columnar Epithelium"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 136 Trachea",
+      "caption": "Simple Pseudostratified Epithelium",
+      "stain": "H&E",
+      "href": "/slideview/MH-136-trachea/02-slide-1.html",
+      "thumbPath": "/slideview/MH-136-trachea/imgs/slide.png",
+      "section": "Pseudostratified Columnar Epithelium"
+    },
+    {
+      "kind": "slide",
+      "name": "MHS 222 Trachea",
+      "caption": "Simple Pseudostratified Epithelium",
+      "stain": "H&E",
+      "href": "/slideview/MHS-222-trachea/02-slide-1.html",
+      "thumbPath": "/slideview/MHS-222-trachea/imgs/slide.png",
+      "section": "Pseudostratified Columnar Epithelium"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 017 Stratified Epithelia",
+      "caption": "Stratified Squamous Epithelium (non-keratinized)",
+      "stain": "H&E",
+      "href": "/slideview/MH-017-stratified-epithelia/02-slide-1.html",
+      "thumbPath": "/slideview/MH-017-stratified-epithelia/imgs/slide.png",
+      "section": "Stratified Squamous Epithelium"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 109 Esophagus",
+      "caption": "Stratified Squamous Epithelium (non-keratinized)",
+      "stain": "H&E",
+      "href": "/slideview/MH-109-esophagus/02-slide-1.html",
+      "thumbPath": "/slideview/MH-109-esophagus/imgs/slide.png",
+      "section": "Stratified Squamous Epithelium"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 038 Epiglottis",
+      "caption": "Stratified Squamous Epithelium (non-keratinized)",
+      "stain": "H&E",
+      "href": "/slideview/MH-038-epiglottis/02-slide-1.html",
+      "thumbPath": "/slideview/MH-038-epiglottis/imgs/slide.png",
+      "section": "Stratified Squamous Epithelium"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 090 Thin Skin",
+      "caption": "Stratified Squamous Epithelium (keratinized)",
+      "stain": "H&E",
+      "href": "/slideview/MH-090-thin-skin/02-slide-1.html",
+      "thumbPath": "/slideview/MH-090-thin-skin/imgs/slide.png",
+      "section": "Stratified Squamous Epithelium"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 091 Thick Skin",
+      "caption": "Stratified Squamous Epithelium (keratinized)",
+      "stain": "H&E",
+      "href": "/slideview/MH-091-thick-skin/02-slide-1.html",
+      "thumbPath": "/slideview/MH-091-thick-skin/imgs/slide.png",
+      "section": "Stratified Squamous Epithelium"
+    },
+    {
+      "kind": "slide",
+      "name": "MHS 235 Thick Skin",
+      "caption": "Stratified Squamous Epithelium (keratinized)",
+      "stain": "H&E",
+      "href": "/slideview/MHS-235-thick-skin/02-slide-1.html",
+      "thumbPath": "/slideview/MHS-235-thick-skin/imgs/slide.png",
+      "section": "Stratified Squamous Epithelium"
+    },
+    {
+      "kind": "slide",
+      "name": "MHS 227a Eye",
+      "caption": "Stratified Squamous Epithelium (non-keratinized)",
+      "stain": "H&E",
+      "href": "/slideview/MHS-227a-eye/02-slide-2.html",
+      "thumbPath": "/slideview/MHS-227a-eye/imgs/slide.png",
+      "section": "Stratified Squamous Epithelium"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 109 Esophagus",
+      "caption": "Stratified Cuboidal Epithelium",
+      "stain": "H&E",
+      "href": "/slideview/MH-109-esophagus/02-slide-2.html",
+      "thumbPath": "/slideview/MH-109-esophagus/imgs/slide.png",
+      "section": "Stratified Cuboidal Epithelium"
+    },
+    {
+      "kind": "slide",
+      "name": "MHS 234 Esophagus",
+      "caption": "Stratified Cuboidal Epithelium",
+      "stain": "H&E",
+      "href": "/slideview/MHS-234-esophagus/02-slide-1.html",
+      "thumbPath": "/slideview/MHS-234-esophagus/imgs/slide.png",
+      "section": "Stratified Cuboidal Epithelium"
+    },
+    {
+      "kind": "slide",
+      "name": "MHS 231 Eyelid",
+      "caption": "Stratified Columnar Epithelium",
+      "stain": "H&E",
+      "href": "/slideview/MHS-231-eyelid/02-slide-1.html",
+      "thumbPath": "/slideview/MHS-231-eyelid/imgs/slide.png",
+      "section": "Stratified Columnar Epithelium"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 018 Transitional Epithelia",
+      "caption": "Transitional Epithelium (relaxed and stretched)",
+      "stain": "H&E",
+      "href": "/slideview/MH-018-transitional-epithelia/02-slide-1.html",
+      "thumbPath": "/slideview/MH-018-transitional-epithelia/imgs/slide.png",
+      "section": "Transitional Epithelium"
+    },
+    {
+      "kind": "slide",
+      "name": "MHS 214 Bladder",
+      "caption": "Transitional Epithelium (relaxed and stretched)",
+      "stain": "H&E",
+      "href": "/slideview/MHS-214-bladder/02-slide-1.html",
+      "thumbPath": "/slideview/MHS-214-bladder/imgs/slide.png",
+      "section": "Transitional Epithelium"
+    }
+  ]
+}

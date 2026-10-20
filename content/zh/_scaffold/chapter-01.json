@@ -1,0 +1,415 @@
+{
+  "schema": 1,
+  "n": 1,
+  "titleEn": "The Cell",
+  "group": "cells-tissues",
+  "originalPage": "https://histologyguide.com/slidebox/01-introduction.html",
+  "note": "此文件由 scripts/scaffold.mjs 生成，仅供内容编写参考；请把中文写入 content/zh/chapters/NN.json，不要修改本文件。",
+  "sections": [
+    {
+      "en": "Objectives",
+      "specimenCount": 0,
+      "specimenNames": []
+    },
+    {
+      "en": "Characteristics to Observe and Notice",
+      "specimenCount": 0,
+      "specimenNames": []
+    },
+    {
+      "en": "Light Microscope",
+      "specimenCount": 1,
+      "specimenNames": [
+        "Fig 002 Light Microscope"
+      ]
+    },
+    {
+      "en": "Histological Stains",
+      "specimenCount": 1,
+      "specimenNames": [
+        "Fig 001 Acidic/Basic Dyes"
+      ]
+    },
+    {
+      "en": "H&E Staining",
+      "specimenCount": 2,
+      "specimenNames": [
+        "MHS 268-269-270 Pancreas",
+        "TLL 084x Acinar Cell"
+      ]
+    },
+    {
+      "en": "Cellular Diversity",
+      "specimenCount": 2,
+      "specimenNames": [
+        "MH 001 Nuclear Morphology",
+        "MH 002 Cells and Tissues"
+      ]
+    },
+    {
+      "en": "Specialized Histological Stains",
+      "specimenCount": 6,
+      "specimenNames": [
+        "MH 003 Toluidine Blue",
+        "MH 009 Golgi Apparatus",
+        "MH 010 Mitochondria",
+        "MH 012 Nucleic Acids",
+        "MH 128 Liver",
+        "MHS 247 Fundic Stomach"
+      ]
+    },
+    {
+      "en": "Purkinje Cells",
+      "specimenCount": 1,
+      "specimenNames": [
+        "MH/MHS/RnD Cerebellum"
+      ]
+    },
+    {
+      "en": "Mitosis",
+      "specimenCount": 0,
+      "specimenNames": []
+    },
+    {
+      "en": "Animal Mitosis",
+      "specimenCount": 1,
+      "specimenNames": [
+        "MHS 400 Mammalian Mitosis"
+      ]
+    },
+    {
+      "en": "Plant Mitosis",
+      "specimenCount": 1,
+      "specimenNames": [
+        "MH 015 Onion Root Tip"
+      ]
+    }
+  ],
+  "specimens": [
+    {
+      "name": "Fig 002 Light Microscope",
+      "caption": "",
+      "stain": "",
+      "kind": "figure",
+      "section": "Light Microscope",
+      "href": "/figureview/fig-002-microscopes/01-figure-LM.html"
+    },
+    {
+      "name": "Fig 001 Acidic/Basic Dyes",
+      "caption": "",
+      "stain": "",
+      "kind": "figure",
+      "section": "Histological Stains",
+      "href": "/figureview/fig-001-acidic-basic-dyes/01-figure-1.html"
+    },
+    {
+      "name": "MHS 268-269-270 Pancreas",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "H&E Staining",
+      "href": "/slideview/MHS-268-269-270-pancreas/01-slide-1.html"
+    },
+    {
+      "name": "TLL 084x Acinar Cell",
+      "caption": "Cell Ultrastructure/H&E",
+      "stain": "",
+      "kind": "figure",
+      "section": "H&E Staining",
+      "href": "/figureview/TLL-084x-acinar-cell/01-figure-1.html"
+    },
+    {
+      "name": "MH 001 Nuclear Morphology",
+      "caption": "Heterochromatin/Euchromatin",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Cellular Diversity",
+      "href": "/slideview/MH-001-nuclear-morphology/01-slide-1.html"
+    },
+    {
+      "name": "MH 002 Cells and Tissues",
+      "caption": "Acidophilic/Basophilic",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Cellular Diversity",
+      "href": "/slideview/MH-002-cells-and-tissues/01-slide-1.html"
+    },
+    {
+      "name": "MH 003 Toluidine Blue",
+      "caption": "Orthochromatic/Metachromatic Staining",
+      "stain": "Toluidine Blue",
+      "kind": "slide",
+      "section": "Specialized Histological Stains",
+      "href": "/slideview/MH-003-toluidine-blue/01-slide-1.html"
+    },
+    {
+      "name": "MH 009 Golgi Apparatus",
+      "caption": "Golgi's Method",
+      "stain": "",
+      "kind": "slide",
+      "section": "Specialized Histological Stains",
+      "href": "/slideview/MH-009-golgi-apparatus/01-slide-1.html"
+    },
+    {
+      "name": "MH 010 Mitochondria",
+      "caption": "Iron Hematoxylin",
+      "stain": "",
+      "kind": "slide",
+      "section": "Specialized Histological Stains",
+      "href": "/slideview/MH-010-mitochondria/01-slide-1.html"
+    },
+    {
+      "name": "MH 012 Nucleic Acids",
+      "caption": "Feulgen Stain",
+      "stain": "",
+      "kind": "slide",
+      "section": "Specialized Histological Stains",
+      "href": "/slideview/MH-012-nucleic-acids/01-slide-1.html"
+    },
+    {
+      "name": "MH 128 Liver",
+      "caption": "Glycogen",
+      "stain": "Periodic Acid-Schiff Reagent",
+      "kind": "slide",
+      "section": "Specialized Histological Stains",
+      "href": "/slideview/MH-128-liver/01-slide-1.html"
+    },
+    {
+      "name": "MHS 247 Fundic Stomach",
+      "caption": "Glycoproteins (mucus)",
+      "stain": "Periodic Acid-Schiff Reagent",
+      "kind": "slide",
+      "section": "Specialized Histological Stains",
+      "href": "/slideview/MHS-247-fundic-stomach/01-slide-1.html"
+    },
+    {
+      "name": "MH/MHS/RnD Cerebellum",
+      "caption": "H&E, Toluidine Blue, Golgi's Method",
+      "stain": "Immunohistochemistry, Immunofluorescence",
+      "kind": "slide",
+      "section": "Purkinje Cells",
+      "href": "/slideview/MH-MHS-RnD-cerebellum/01-slide-1.html"
+    },
+    {
+      "name": "MHS 400 Mammalian Mitosis",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Animal Mitosis",
+      "href": "/slideview/MHS-400-mitosis/01-slide-1.html"
+    },
+    {
+      "name": "MH 015 Onion Root Tip",
+      "caption": "Iron Hematoxylin",
+      "stain": "",
+      "kind": "slide",
+      "section": "Plant Mitosis",
+      "href": "/slideview/MH-015-mitosis/01-slide-1.html"
+    }
+  ],
+  "emItems": [
+    {
+      "name": "Fig 002 Light and Electron Microscopes",
+      "caption": "",
+      "technique": "",
+      "section": null,
+      "href": "/figureview/fig-002-microscopes/01-figure-EM.html"
+    },
+    {
+      "name": "EM 006 Fibroblast",
+      "caption": "TEM",
+      "technique": "",
+      "section": "Transmission Electron Microscopy",
+      "href": "/EM-view/EM-006-fibroblast/01-photo-1.html"
+    },
+    {
+      "name": "Fig 007 Cell Structures",
+      "caption": "",
+      "technique": "",
+      "section": "Transmission Electron Microscopy",
+      "href": "/figureview/fig-007-cell-structure/01-figure-1.html"
+    },
+    {
+      "name": "Fig 009 Cell Structures",
+      "caption": "",
+      "technique": "",
+      "section": "Illustrations",
+      "href": "/figureview/fig-009-cell-structure/01-figure-1.html"
+    },
+    {
+      "name": "Fig 010 Nucleus",
+      "caption": "",
+      "technique": "",
+      "section": "Illustrations",
+      "href": "/figureview/fig-010-nucleus/01-figure-1.html"
+    },
+    {
+      "name": "Fig 014 Mitochondria",
+      "caption": "",
+      "technique": "",
+      "section": "Illustrations",
+      "href": "/figureview/fig-014-mitochondria/01-figure-1.html"
+    },
+    {
+      "name": "EM 001 Cell Structures",
+      "caption": "Nucleus, Golgi Apparatus, Mitochondria",
+      "technique": "Endoplasmic Reticulum",
+      "section": "Ultrastructure of Cells",
+      "href": "/EM-view/EM-001-cell-structures/01-photo-1.html"
+    },
+    {
+      "name": "EM 007 Nucleus",
+      "caption": "Chromatin, Nuclear Envelope, Nuclear Pores",
+      "technique": "TEM",
+      "section": "Ultrastructure of Cells",
+      "href": "/EM-view/EM-007-nucleus/01-photo-1.html"
+    },
+    {
+      "name": "EM 004 Cell Structures",
+      "caption": "Nucleus, Centrosome, Microtubules",
+      "technique": "TEM",
+      "section": "Ultrastructure of Cells",
+      "href": "/EM-view/EM-004-cell-structures/01-photo-1.html"
+    },
+    {
+      "name": "EM 383 Centrosome",
+      "caption": "TEM",
+      "technique": "",
+      "section": "Ultrastructure of Cells",
+      "href": "/EM-view/EM-383-centrosome/01-photo-1.html"
+    },
+    {
+      "name": "EM 003 Centriole",
+      "caption": "TEM",
+      "technique": "",
+      "section": "Ultrastructure of Cells",
+      "href": "/EM-view/EM-003-centriole/01-photo-1.html"
+    },
+    {
+      "name": "EM 008 Golgi Apparatus",
+      "caption": "Beta Cell, Pancreatic Islet of Langerhans",
+      "technique": "TEM",
+      "section": "Ultrastructure of Cells",
+      "href": "/EM-view/EM-008-golgi-apparatus/01-photo-1.html"
+    },
+    {
+      "name": "EM 306 Endoplasmic Reticulum",
+      "caption": "Adrenal Cortex",
+      "technique": "TEM",
+      "section": "Ultrastructure of Cells",
+      "href": "/EM-view/EM-306-adrenal-cortex/01-photo-1.html"
+    },
+    {
+      "name": "EM 304 Rough and Smooth Endoplasmic Reticulum",
+      "caption": "Hepatocyte, Liver",
+      "technique": "TEM",
+      "section": "Ultrastructure of Cells",
+      "href": "/EM-view/EM-304-endoplasmic-reticulum/01-photo-1.html"
+    },
+    {
+      "name": "EM 026 Rough Endoplasmic Reticulum",
+      "caption": "Chief Cells, Stomach",
+      "technique": "TEM",
+      "section": "Ultrastructure of Cells",
+      "href": "/EM-view/EM-026-chief-cell/01-photo-1.html"
+    },
+    {
+      "name": "RD 006 Smooth Endoplasmic Reticulum",
+      "caption": "TEM",
+      "technique": "",
+      "section": "Ultrastructure of Cells",
+      "href": "/EM-view/RD-006-endoplasmic-reticulum/01-photo-1.html"
+    },
+    {
+      "name": "EM 206 Red Blood Cells",
+      "caption": "SEM",
+      "technique": "",
+      "section": "Scanning Electron Microscopy",
+      "href": "/EM-view/EM-206-red-blood-cells/01-photo-1.html"
+    },
+    {
+      "name": "EM 195 Podocytes",
+      "caption": "SEM",
+      "technique": "",
+      "section": "Scanning Electron Microscopy",
+      "href": "/EM-view/EM-195-podocytes/01-photo-1.html"
+    },
+    {
+      "name": "Fig 011 Freeze Fracture",
+      "caption": "TEM",
+      "technique": "",
+      "section": "Freeze Fracture",
+      "href": "/figureview/fig-011-freeze-fracture/01-figure-1.html"
+    },
+    {
+      "name": "EM 009 Freeze Fracture",
+      "caption": "TEM",
+      "technique": "",
+      "section": "Freeze Fracture",
+      "href": "/EM-view/EM-009-freeze-fracture/01-photo-1.html"
+    },
+    {
+      "name": "EM 014 Mast Cell",
+      "caption": "TEM",
+      "technique": "",
+      "section": "Thin Section versus Freeze Fracture",
+      "href": "/EM-view/EM-014-mast-cell/01-photo-1.html"
+    },
+    {
+      "name": "EM 015 Mast Cell",
+      "caption": "Freeze Fracture",
+      "technique": "TEM",
+      "section": "Thin Section versus Freeze Fracture",
+      "href": "/EM-view/EM-015-mast-cell/01-photo-1.html"
+    },
+    {
+      "name": "EM 046 Small Intestine",
+      "caption": "Organelles",
+      "technique": "TEM",
+      "section": "Ultrastructure of Cells",
+      "href": "/EM-view/EM-046-small-intestine/01-photo-1.html"
+    },
+    {
+      "name": "EM 011 Nuclear Envelope",
+      "caption": "TEM",
+      "technique": "",
+      "section": "Ultrastructure of Cells",
+      "href": "/EM-view/EM-011-nuclear-envelope/01-photo-1.html"
+    },
+    {
+      "name": "EM 295 Plasma Membranes",
+      "caption": "TEM",
+      "technique": "",
+      "section": "Ultrastructure of Cells",
+      "href": "/EM-view/EM-295-plasma-membranes/01-photo-1.html"
+    },
+    {
+      "name": "EM 010 Plasma Membrane",
+      "caption": "TEM",
+      "technique": "",
+      "section": "Ultrastructure of Cells",
+      "href": "/EM-view/EM-010-plasma-membrane/01-photo-1.html"
+    },
+    {
+      "name": "EM 013 Endoplasmic Reticulum",
+      "caption": "TEM",
+      "technique": "",
+      "section": "Ultrastructure of Cells",
+      "href": "/EM-view/EM-013-endoplasmic-reticulum/01-photo-1.html"
+    },
+    {
+      "name": "EM 207 Mitosis",
+      "caption": "Early Prophase",
+      "technique": "TEM",
+      "section": "Mitosis",
+      "href": "/EM-view/EM-207-mitosis/01-photo-1.html"
+    },
+    {
+      "name": "EM 115 Mitosis",
+      "caption": "Late Prophase",
+      "technique": "TEM",
+      "section": "Mitosis",
+      "href": "/EM-view/EM-115-mitosis/01-photo-1.html"
+    }
+  ]
+}

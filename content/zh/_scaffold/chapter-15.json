@@ -1,0 +1,318 @@
+{
+  "schema": 1,
+  "n": 15,
+  "titleEn": "Liver and Gallbladder",
+  "group": "organ-systems",
+  "originalPage": "https://histologyguide.com/slidebox/15-liver-and-gallbladder.html",
+  "note": "此文件由 scripts/scaffold.mjs 生成，仅供内容编写参考；请把中文写入 content/zh/chapters/NN.json，不要修改本文件。",
+  "sections": [
+    {
+      "en": "Liver",
+      "specimenCount": 3,
+      "specimenNames": [
+        "MH 126b Liver",
+        "UCSF 278 Liver",
+        "MHS 206 Liver"
+      ]
+    },
+    {
+      "en": "Bile Canaliculi",
+      "specimenCount": 2,
+      "specimenNames": [
+        "MHS 249 Liver",
+        "MH 127 Liver"
+      ]
+    },
+    {
+      "en": "Kupffer Cells",
+      "specimenCount": 1,
+      "specimenNames": [
+        "MH 031 Liver"
+      ]
+    },
+    {
+      "en": "Hepatic Vasculature",
+      "specimenCount": 1,
+      "specimenNames": [
+        "UCSF 286 Liver"
+      ]
+    },
+    {
+      "en": "Liver - Glycogen",
+      "specimenCount": 1,
+      "specimenNames": [
+        "MH 128 Liver"
+      ]
+    },
+    {
+      "en": "Liver - Lipids",
+      "specimenCount": 1,
+      "specimenNames": [
+        "UCSF 280 Liver"
+      ]
+    },
+    {
+      "en": "Liver Fetal",
+      "specimenCount": 1,
+      "specimenNames": [
+        "MH 125 Liver Fetal"
+      ]
+    },
+    {
+      "en": "Gallbladder",
+      "specimenCount": 2,
+      "specimenNames": [
+        "MH 130a Gallbladder",
+        "MHS 261 Common Bile Duct"
+      ]
+    }
+  ],
+  "specimens": [
+    {
+      "name": "Fig 004 Liver and Gallbladder",
+      "caption": "",
+      "stain": "",
+      "kind": "figure",
+      "section": null,
+      "href": "/figureview/fig-004-liver-and-gallbladder/15-figure-1.html"
+    },
+    {
+      "name": "MH 126b Liver",
+      "caption": "Human",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Liver",
+      "href": "/slideview/MH-126b-liver/15-slide-1.html"
+    },
+    {
+      "name": "UCSF 278 Liver",
+      "caption": "Pig",
+      "stain": "Azan",
+      "kind": "slide",
+      "section": "Liver",
+      "href": "/slideview/UCSF-278-liver/15-slide-1.html"
+    },
+    {
+      "name": "MHS 206 Liver",
+      "caption": "Pig",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Liver",
+      "href": "/slideview/MHS-206-liver/15-slide-1.html"
+    },
+    {
+      "name": "MHS 249 Liver",
+      "caption": "Bile Canaliculi",
+      "stain": "ATPase/Lead Phosphate",
+      "kind": "slide",
+      "section": "Bile Canaliculi",
+      "href": "/slideview/MHS-249-liver/15-slide-1.html"
+    },
+    {
+      "name": "MH 127 Liver",
+      "caption": "Bile Canaliculi",
+      "stain": "Azan",
+      "kind": "slide",
+      "section": "Bile Canaliculi",
+      "href": "/slideview/MH-127-liver/15-slide-1.html"
+    },
+    {
+      "name": "MH 031 Liver",
+      "caption": "Kupffer Cells",
+      "stain": "Trypan Blue Uptake",
+      "kind": "slide",
+      "section": "Kupffer Cells",
+      "href": "/slideview/MH-031-liver/15-slide-1.html"
+    },
+    {
+      "name": "UCSF 286 Liver",
+      "caption": "Ink Injection",
+      "stain": "",
+      "kind": "slide",
+      "section": "Hepatic Vasculature",
+      "href": "/slideview/UCSF-286-liver/15-slide-1.html"
+    },
+    {
+      "name": "MH 128 Liver",
+      "caption": "Glycogen",
+      "stain": "Periodic-Acid Schiff Stain",
+      "kind": "slide",
+      "section": "Liver - Glycogen",
+      "href": "/slideview/MH-128-liver/15-slide-1.html"
+    },
+    {
+      "name": "UCSF 280 Liver",
+      "caption": "Lipids",
+      "stain": "Osmic Acid/Mallory Azan",
+      "kind": "slide",
+      "section": "Liver - Lipids",
+      "href": "/slideview/UCSF-280-liver/15-slide-1.html"
+    },
+    {
+      "name": "MH 125 Liver Fetal",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Liver Fetal",
+      "href": "/slideview/MH-125-liver-fetal/15-slide-1.html"
+    },
+    {
+      "name": "MH 130a Gallbladder",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Gallbladder",
+      "href": "/slideview/MH-130a-gallbladder/15-slide-1.html"
+    },
+    {
+      "name": "MHS 261 Common Bile Duct",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Gallbladder",
+      "href": "/slideview/MHS-261-common-bile-duct/15-slide-1.html"
+    }
+  ],
+  "emItems": [
+    {
+      "name": "EM 240 Hepatocytes",
+      "caption": "Liver",
+      "technique": "TEM",
+      "section": "LIVER",
+      "href": "/EM-view/EM-240-hepatocytes/15-photo-1.html"
+    },
+    {
+      "name": "EM 243 Liver",
+      "caption": "Liver / Central Vein",
+      "technique": "SEM",
+      "section": "LIVER",
+      "href": "/EM-view/EM-243-liver-central-vein/15-photo-1.html"
+    },
+    {
+      "name": "EM 361 Portal Triad",
+      "caption": "Liver",
+      "technique": "SEM",
+      "section": "LIVER",
+      "href": "/EM-view/EM-361-portal-triad/15-photo-1.html"
+    },
+    {
+      "name": "EM 245 Liver",
+      "caption": "Glycogen",
+      "technique": "TEM",
+      "section": "LIVER",
+      "href": "/EM-view/EM-245-hepatocyte-glycogen/15-photo-1.html"
+    },
+    {
+      "name": "EM 363 Liver",
+      "caption": "Glycogen",
+      "technique": "TEM",
+      "section": "LIVER",
+      "href": "/EM-view/EM-363-glycogen/15-photo-1.html"
+    },
+    {
+      "name": "EM 384 Bile Canaliculi",
+      "caption": "Liver",
+      "technique": "SEM",
+      "section": "Bile Canaliculi",
+      "href": "/EM-view/EM-384-bile-canaliculi/15-photo-1.html"
+    },
+    {
+      "name": "EM 241 Bile Canaliculi",
+      "caption": "Liver",
+      "technique": "SEM",
+      "section": "Bile Canaliculi",
+      "href": "/EM-view/EM-241-bile-canaliculi/15-photo-1.html"
+    },
+    {
+      "name": "EM 353 Hepatic Sinusoids",
+      "caption": "SEM",
+      "technique": "",
+      "section": "Sinusoids",
+      "href": "/EM-view/EM-353-liver-endothelium/15-photo-1.html"
+    },
+    {
+      "name": "EM 244 Hepatic Sinusoids",
+      "caption": "SEM",
+      "technique": "",
+      "section": "Sinusoids",
+      "href": "/EM-view/EM-244-liver-endothelium/15-photo-1.html"
+    },
+    {
+      "name": "EM 354 Kupffer Cell",
+      "caption": "Liver",
+      "technique": "SEM",
+      "section": "Kupffer Cell",
+      "href": "/EM-view/EM-354-kupffer-cell/15-photo-1.html"
+    },
+    {
+      "name": "EM 242 Kupffer Cell",
+      "caption": "Liver",
+      "technique": "TEM",
+      "section": "Kupffer Cell",
+      "href": "/EM-view/EM-242-kupffer-cell/15-photo-1.html"
+    },
+    {
+      "name": "EM 250 Kupffer Cell",
+      "caption": "Liver / Ingesting Red Blood Cell",
+      "technique": "SEM",
+      "section": "Kupffer Cell",
+      "href": "/EM-view/EM-250-kupffer-cell/15-photo-1.html"
+    },
+    {
+      "name": "EM 252 Hepatic Stellate Cell (Ito Cell)",
+      "caption": "Liver",
+      "technique": "SEM",
+      "section": "Hepatic Stellate Cell",
+      "href": "/EM-view/EM-252-lipocyte/15-photo-1.html"
+    },
+    {
+      "name": "EM 229 Gallbladder",
+      "caption": "SEM",
+      "technique": "",
+      "section": "GALLBLADDER",
+      "href": "/EM-view/EM-229-gallbladder/15-photo-1.html"
+    },
+    {
+      "name": "EM 081 Gallbladder",
+      "caption": "SEM",
+      "technique": "",
+      "section": "GALLBLADDER",
+      "href": "/EM-view/EM-081-gallbladder/15-photo-1.html"
+    },
+    {
+      "name": "EM 082 Gallbladder",
+      "caption": "SEM",
+      "technique": "",
+      "section": "GALLBLADDER",
+      "href": "/EM-view/EM-082-gallbladder/15-photo-1.html"
+    },
+    {
+      "name": "EM 078 Gallbladder",
+      "caption": "SEM",
+      "technique": "",
+      "section": "GALLBLADDER",
+      "href": "/EM-view/EM-078-gallbladder/15-photo-1.html"
+    },
+    {
+      "name": "EM 075 Gallbladder",
+      "caption": "SEM",
+      "technique": "",
+      "section": "GALLBLADDER",
+      "href": "/EM-view/EM-075-gallbladder/15-photo-1.html"
+    },
+    {
+      "name": "EM 083 Gallbladder",
+      "caption": "Inactive Epithelial Cells",
+      "technique": "TEM",
+      "section": "Reabsorption",
+      "href": "/EM-view/EM-083-gallbladder/15-photo-1.html"
+    },
+    {
+      "name": "EM 092 Gallbladder",
+      "caption": "Active Epithelial Cells",
+      "technique": "TEM",
+      "section": "Reabsorption",
+      "href": "/EM-view/EM-092-gallbladder/15-photo-1.html"
+    }
+  ]
+}

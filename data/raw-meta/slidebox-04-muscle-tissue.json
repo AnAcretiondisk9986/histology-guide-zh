@@ -1,0 +1,218 @@
+{
+  "schema": 1,
+  "source": {
+    "url": "https://histologyguide.com/slidebox/04-muscle-tissue.html",
+    "finalUrl": "https://histologyguide.com/slidebox/04-muscle-tissue.html",
+    "fetchedAt": "2026-10-18T11:29:09.489Z",
+    "httpStatus": 200,
+    "bytes": 25769,
+    "sha256": "6870f325f4f55dc808764928904c8b81f63b0056d685fa4b9cbcc47088aca5d1",
+    "userAgent": "HistologyGuideCNStudyIndex/0.1 (+personal non-commercial study index; metadata extraction only; contact: local user)",
+    "note": "仅保存导航元数据；正文段落与图片未保存，遵循原站使用条款"
+  },
+  "chapter": 4,
+  "pageType": "slidebox",
+  "pageTitle": "Chapter 4 - Muscle Tissue",
+  "hasIntroProse": true,
+  "headings": [
+    {
+      "level": 2,
+      "id": null,
+      "text": "Chapter 4 - Muscle Tissue"
+    },
+    {
+      "level": 3,
+      "id": "skeletal-muscle",
+      "text": "Skeletal Muscle"
+    },
+    {
+      "level": 3,
+      "id": "muscle-insertion",
+      "text": "Muscle Bone Junctions"
+    },
+    {
+      "level": 3,
+      "id": "cardiac-muscle",
+      "text": "Cardiac Muscle"
+    },
+    {
+      "level": 3,
+      "id": "smooth-muscle",
+      "text": "Smooth Muscle"
+    },
+    {
+      "level": 2,
+      "id": null,
+      "text": "CELL AND TISSUES"
+    },
+    {
+      "level": 2,
+      "id": null,
+      "text": "ORGAN SYSTEMS"
+    }
+  ],
+  "items": [
+    {
+      "kind": "figure",
+      "name": "Fig 021 Muscle Types",
+      "caption": "",
+      "stain": "",
+      "href": "/figureview/fig-021-muscle-types/04-figure-1.html",
+      "thumbPath": "/figureview/fig-021-muscle-types/imgs/figure.png",
+      "section": null
+    },
+    {
+      "kind": "slide",
+      "name": "MH 055a Skeletal Muscle",
+      "caption": "Longitudinal and Cross-section",
+      "stain": "H&E",
+      "href": "/slideview/MH-055a-skeletal-muscle/04-slide-1.html",
+      "thumbPath": "/slideview/MH-055a-skeletal-muscle/imgs/slide.png",
+      "section": "Skeletal Muscle"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 055ahr Skeletal Muscle",
+      "caption": "Longitudinal Section",
+      "stain": "H&E",
+      "href": "/slideview/MH-055ahr-skeletal-muscle/04-slide-1.html",
+      "thumbPath": "/slideview/MH-055ahr-skeletal-muscle/imgs/slide.png",
+      "section": "Skeletal Muscle"
+    },
+    {
+      "kind": "slide",
+      "name": "UCSF 118 Skeletal Muscle",
+      "caption": "Longitudinal Section",
+      "stain": "Phosphotungstic Acid/Hematoxylin",
+      "href": "/slideview/UCSF-118-skeletal-muscle/04-slide-1.html",
+      "thumbPath": "/slideview/UCSF-118-skeletal-muscle/imgs/slide.png",
+      "section": "Skeletal Muscle"
+    },
+    {
+      "kind": "slide",
+      "name": "MHS 237 Skeletal Muscle",
+      "caption": "Longitudinal Section",
+      "stain": "H&E",
+      "href": "/slideview/MHS-237-skeletal-muscle/04-slide-1.html",
+      "thumbPath": "/slideview/MHS-237-skeletal-muscle/imgs/slide.png",
+      "section": "Skeletal Muscle"
+    },
+    {
+      "kind": "slide",
+      "name": "MHS 262 Skeletal Muscle",
+      "caption": "Cross-section",
+      "stain": "H&E",
+      "href": "/slideview/MHS-262-skeletal-muscle/04-slide-1.html",
+      "thumbPath": "/slideview/MHS-262-skeletal-muscle/imgs/slide.png",
+      "section": "Skeletal Muscle"
+    },
+    {
+      "kind": "slide",
+      "name": "MHS 238 Teased Muscle",
+      "caption": "Skeletal Muscle Cells",
+      "stain": "H&E",
+      "href": "/slideview/MHS-238-teased-muscle/04-slide-1.html",
+      "thumbPath": "/slideview/MHS-238-teased-muscle/imgs/slide.png",
+      "section": "Skeletal Muscle"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 030 Tendon",
+      "caption": "Muscle-Tendon Junction",
+      "stain": "H&E",
+      "href": "/slideview/MH-030-tendon/04-slide-1.html",
+      "thumbPath": "/slideview/MH-030-tendon/imgs/slide.png",
+      "section": "Muscle Bone Junctions"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 023bx Fascia Lata",
+      "caption": "Muscle-Tendon Junction",
+      "stain": "Azan",
+      "href": "/slideview/MH-023bx-fascia-lata/04-slide-1.html",
+      "thumbPath": "/slideview/MH-023bx-fascia-lata/imgs/slide.png",
+      "section": "Muscle Bone Junctions"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 029b Bone",
+      "caption": "Muscle Insertion",
+      "stain": "H&E",
+      "href": "/slideview/MH-029b-bone/04-slide-1.html",
+      "thumbPath": "/slideview/MH-029b-bone/imgs/slide.png",
+      "section": "Muscle Bone Junctions"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 054 Cardiac Muscle",
+      "caption": "H&E",
+      "stain": "",
+      "href": "/slideview/MH-054-cardiac-muscle/04-slide-1.html",
+      "thumbPath": "/slideview/MH-054-cardiac-muscle/imgs/slide.png",
+      "section": "Cardiac Muscle"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 056 Muscle Types",
+      "caption": "Intercalated Discs",
+      "stain": "Phosphotungstic Acid/Hematoxylin",
+      "href": "/slideview/MH-056-muscle-types/04-slide-1.html",
+      "thumbPath": "/slideview/MH-056-muscle-types/imgs/slide.png",
+      "section": "Cardiac Muscle"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 058a Heart",
+      "caption": "Purkinje Fibers",
+      "stain": "Periodic Acid-Schiff Reagent",
+      "href": "/slideview/MH-058a-heart/04-slide-1.html",
+      "thumbPath": "/slideview/MH-058a-heart/imgs/slide.png",
+      "section": "Cardiac Muscle"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 074 Heart",
+      "caption": "Purkinje Fibers",
+      "stain": "Phosphotungstic Acid/Hematoxylin",
+      "href": "/slideview/MH-074-heart/04-slide-1.html",
+      "thumbPath": "/slideview/MH-074-heart/imgs/slide.png",
+      "section": "Cardiac Muscle"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 053 Smooth Muscle",
+      "caption": "H&E",
+      "stain": "",
+      "href": "/slideview/MH-053-smooth-muscle/04-slide-1.html",
+      "thumbPath": "/slideview/MH-053-smooth-muscle/imgs/slide.png",
+      "section": "Smooth Muscle"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 024 Mesentery",
+      "caption": "Smooth Muscle",
+      "stain": "H&E",
+      "href": "/slideview/MH-024-mesentery/04-slide-1.html",
+      "thumbPath": "/slideview/MH-024-mesentery/imgs/slide.png",
+      "section": "Smooth Muscle"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 016x Small Intestine",
+      "caption": "Smooth Muscle",
+      "stain": "H&E",
+      "href": "/slideview/MH-016x-small-intestine/04-slide-1.html",
+      "thumbPath": "/slideview/MH-016x-small-intestine/imgs/slide.png",
+      "section": "Smooth Muscle"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 130a Gallbladder",
+      "caption": "Smooth Muscle",
+      "stain": "H&E",
+      "href": "/slideview/MH-130a-gallbladder/04-slide-1.html",
+      "thumbPath": "/slideview/MH-130a-gallbladder/imgs/slide.png",
+      "section": "Smooth Muscle"
+    }
+  ]
+}

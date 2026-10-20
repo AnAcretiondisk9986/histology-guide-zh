@@ -1,0 +1,165 @@
+{
+  "schema": 1,
+  "source": {
+    "url": "https://histologyguide.com/slidebox/17-respiratory-system.html",
+    "finalUrl": "https://histologyguide.com/slidebox/17-respiratory-system.html",
+    "fetchedAt": "2026-10-18T11:30:02.311Z",
+    "httpStatus": 200,
+    "bytes": 17838,
+    "sha256": "e21b87615c35edc121adb7bd6c567712feaa77f5775378ec3758da4e16f547f4",
+    "userAgent": "HistologyGuideCNStudyIndex/0.1 (+personal non-commercial study index; metadata extraction only; contact: local user)",
+    "note": "仅保存导航元数据；正文段落与图片未保存，遵循原站使用条款"
+  },
+  "chapter": 17,
+  "pageType": "slidebox",
+  "pageTitle": "Chapter 17 - Respiratory System",
+  "hasIntroProse": true,
+  "headings": [
+    {
+      "level": 2,
+      "id": null,
+      "text": "Chapter 17 - Respiratory System"
+    },
+    {
+      "level": 3,
+      "id": null,
+      "text": "Nasal and Oral Cavities"
+    },
+    {
+      "level": 3,
+      "id": "epiglottis",
+      "text": "Epiglottis"
+    },
+    {
+      "level": 3,
+      "id": "larynx",
+      "text": "Larynx"
+    },
+    {
+      "level": 3,
+      "id": "trachea",
+      "text": "Trachea"
+    },
+    {
+      "level": 3,
+      "id": "lung",
+      "text": "Lungs"
+    },
+    {
+      "level": 3,
+      "id": "lung-fetal",
+      "text": "Fetal Lung"
+    },
+    {
+      "level": 2,
+      "id": null,
+      "text": "CELL AND TISSUES"
+    },
+    {
+      "level": 2,
+      "id": null,
+      "text": "ORGAN SYSTEMS"
+    }
+  ],
+  "items": [
+    {
+      "kind": "figure",
+      "name": "Fig 013 Respiratory System",
+      "caption": "",
+      "stain": "",
+      "href": "/figureview/fig-013-respiratory-system/17-figure-2.html",
+      "thumbPath": "/figureview/fig-013-respiratory-system/imgs/figure.png",
+      "section": null
+    },
+    {
+      "kind": "slide",
+      "name": "MH 134 Nasal Conchae and Palate",
+      "caption": "H&E",
+      "stain": "",
+      "href": "/slideview/MH-134-nasal-conchae-and-palate/17-slide-1.html",
+      "thumbPath": "/slideview/MH-134-nasal-conchae-and-palate/imgs/slide.png",
+      "section": "Nasal and Oral Cavities"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 038-039 Epiglottis",
+      "caption": "H&E/Verhoeff",
+      "stain": "",
+      "href": "/slideview/MH-038-039-epiglottis/17-slide-1.html",
+      "thumbPath": "/slideview/MH-038-epiglottis/imgs/slide.png",
+      "section": "Epiglottis"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 135 Larynx",
+      "caption": "H&E",
+      "stain": "",
+      "href": "/slideview/MH-135-larynx/17-slide-1.html",
+      "thumbPath": "/slideview/MH-135-larynx/imgs/slide.png",
+      "section": "Larynx"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 110 Trachea and Esophagus",
+      "caption": "H&E",
+      "stain": "",
+      "href": "/slideview/MH-110-trachea-and-esophagus/17-slide-1.html",
+      "thumbPath": "/slideview/MH-110-trachea-and-esophagus/imgs/slide.png",
+      "section": "Trachea"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 136 Trachea",
+      "caption": "H&E",
+      "stain": "",
+      "href": "/slideview/MH-136-trachea/17-slide-1.html",
+      "thumbPath": "/slideview/MH-136-trachea/imgs/slide.png",
+      "section": "Trachea"
+    },
+    {
+      "kind": "slide",
+      "name": "MHS 222 Trachea",
+      "caption": "H&E",
+      "stain": "",
+      "href": "/slideview/MHS-222-trachea/17-slide-1.html",
+      "thumbPath": "/slideview/MHS-222-trachea/imgs/slide.png",
+      "section": "Trachea"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 138 Lung",
+      "caption": "H&E",
+      "stain": "",
+      "href": "/slideview/MH-138-lung/17-slide-1.html",
+      "thumbPath": "/slideview/MH-138-lung/imgs/slide.png",
+      "section": "Lungs"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 139 Lung",
+      "caption": "H&E",
+      "stain": "",
+      "href": "/slideview/MH-139-lung/17-slide-1.html",
+      "thumbPath": "/slideview/MH-139-lung/imgs/slide.png",
+      "section": "Lungs"
+    },
+    {
+      "kind": "slide",
+      "name": "MHS 205 Lung",
+      "caption": "H&E",
+      "stain": "",
+      "href": "/slideview/MHS-205-lung/17-slide-1.html",
+      "thumbPath": "/slideview/MHS-205-lung/imgs/slide.png",
+      "section": "Lungs"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 137 Lung Fetal",
+      "caption": "H&E",
+      "stain": "",
+      "href": "/slideview/MH-137-lung-fetal/17-slide-1.html",
+      "thumbPath": "/slideview/MH-137-lung-fetal/imgs/slide.png",
+      "section": "Fetal Lung"
+    }
+  ]
+}

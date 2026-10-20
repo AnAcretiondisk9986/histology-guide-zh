@@ -1,0 +1,92 @@
+{
+  "schema": 1,
+  "source": {
+    "url": "https://histologyguide.com/slidebox/07-peripheral-blood.html",
+    "finalUrl": "https://histologyguide.com/slidebox/07-peripheral-blood.html",
+    "fetchedAt": "2026-10-18T11:29:20.783Z",
+    "httpStatus": 200,
+    "bytes": 15042,
+    "sha256": "7ac627235a72bb6b70e9b9e4a17d1f5961dbe9a2bbd8b900376e6d7f8458c72e",
+    "userAgent": "HistologyGuideCNStudyIndex/0.1 (+personal non-commercial study index; metadata extraction only; contact: local user)",
+    "note": "仅保存导航元数据；正文段落与图片未保存，遵循原站使用条款"
+  },
+  "chapter": 7,
+  "pageType": "slidebox",
+  "pageTitle": "Chapter 7 - Peripheral Blood",
+  "hasIntroProse": true,
+  "headings": [
+    {
+      "level": 2,
+      "id": null,
+      "text": "Chapter 7 - Peripheral Blood"
+    },
+    {
+      "level": 3,
+      "id": null,
+      "text": "Blood"
+    },
+    {
+      "level": 3,
+      "id": "blood-smear",
+      "text": "Blood Smear"
+    },
+    {
+      "level": 3,
+      "id": "blood-cells",
+      "text": "Blood Cells"
+    },
+    {
+      "level": 3,
+      "id": "review",
+      "text": "Review"
+    },
+    {
+      "level": 2,
+      "id": null,
+      "text": "CELL AND TISSUES"
+    },
+    {
+      "level": 2,
+      "id": null,
+      "text": "ORGAN SYSTEMS"
+    }
+  ],
+  "items": [
+    {
+      "kind": "slide",
+      "name": "MH 033 Blood Smear",
+      "caption": "Wright's Stain",
+      "stain": "",
+      "href": "/slideview/MH-033-blood-smear/07-slide-1.html",
+      "thumbPath": "/slideview/MH-033-blood-smear/imgs/slide.png",
+      "section": "Blood Smear"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 033hr Blood Smear",
+      "caption": "Wright's Stain",
+      "stain": "",
+      "href": "/slideview/MH-033hr-blood-smear/07-slide-1.html",
+      "thumbPath": "/slideview/MH-033hr-blood-smear/imgs/slide.png",
+      "section": "Blood Cells"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 033hr Blood Smear",
+      "caption": "Wright's Stain",
+      "stain": "",
+      "href": "/slideview/MH-033hr-blood-smear/07-slide-2.html",
+      "thumbPath": "/slideview/MH-033hr-blood-smear/imgs/slide.png",
+      "section": "Blood Cells"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 033hr Blood Smear",
+      "caption": "Wright's Stain",
+      "stain": "",
+      "href": "/slideview/MH-033hr-summary/07-slide-1.html",
+      "thumbPath": "/slideview/MH-033hr-summary/imgs/slide.png",
+      "section": "Review"
+    }
+  ]
+}

@@ -1,0 +1,290 @@
+{
+  "schema": 1,
+  "source": {
+    "url": "https://histologyguide.com/EM-atlas/07-peripheral-blood.html",
+    "finalUrl": "https://histologyguide.com/EM-atlas/07-peripheral-blood.html",
+    "fetchedAt": "2026-10-18T11:29:22.931Z",
+    "httpStatus": 200,
+    "bytes": 26739,
+    "sha256": "459be257eaf4dae40e783d720eb4b3ba7aa9f6705d46d84eba7d70f9a582ae44",
+    "userAgent": "HistologyGuideCNStudyIndex/0.1 (+personal non-commercial study index; metadata extraction only; contact: local user)",
+    "note": "仅保存导航元数据；正文段落与图片未保存，遵循原站使用条款"
+  },
+  "chapter": 7,
+  "pageType": "em",
+  "pageTitle": "Chapter 7 - Peripheral Blood",
+  "hasIntroProse": true,
+  "headings": [
+    {
+      "level": 2,
+      "id": null,
+      "text": "Chapter 7 - Peripheral Blood"
+    },
+    {
+      "level": 3,
+      "id": "rbc",
+      "text": "RED BLOOD CELL"
+    },
+    {
+      "level": 3,
+      "id": null,
+      "text": "Sickle Cell Anemia"
+    },
+    {
+      "level": 3,
+      "id": "platelet",
+      "text": "PLATELET"
+    },
+    {
+      "level": 3,
+      "id": "wbc",
+      "text": "WHITE BLOOD CELL"
+    },
+    {
+      "level": 3,
+      "id": null,
+      "text": "GRANULOCYTE"
+    },
+    {
+      "level": 3,
+      "id": "neutrophil",
+      "text": "Neutrophil"
+    },
+    {
+      "level": 3,
+      "id": "eosinophil",
+      "text": "Eosinophil"
+    },
+    {
+      "level": 3,
+      "id": "basophil",
+      "text": "Basophil"
+    },
+    {
+      "level": 3,
+      "id": null,
+      "text": "AGRANULOCYTES"
+    },
+    {
+      "level": 3,
+      "id": "lymphocyte",
+      "text": "Lymphocyte"
+    },
+    {
+      "level": 3,
+      "id": "monocyte",
+      "text": "Monocyte"
+    },
+    {
+      "level": 3,
+      "id": "plasma-cell",
+      "text": "Plasma Cell"
+    },
+    {
+      "level": 3,
+      "id": "blood-clot",
+      "text": "BLOOD CLOT"
+    },
+    {
+      "level": 2,
+      "id": null,
+      "text": "CELL AND TISSUES"
+    },
+    {
+      "level": 2,
+      "id": null,
+      "text": "ORGAN SYSTEMS"
+    }
+  ],
+  "items": [
+    {
+      "kind": "em",
+      "name": "EM 206 Red Blood Cells",
+      "caption": "SEM",
+      "stain": "",
+      "href": "/EM-view/EM-206-red-blood-cells/07-photo-1.html",
+      "thumbPath": "/EM-view/EM-206-red-blood-cells/imgs/photo-2c.png",
+      "section": "RED BLOOD CELL"
+    },
+    {
+      "kind": "em",
+      "name": "RD 120 Red Blood Cells",
+      "caption": "TEM",
+      "stain": "",
+      "href": "/EM-view/RD-120-red-blood-cells/07-photo-1.html",
+      "thumbPath": "/EM-view/RD-120-red-blood-cells/imgs/photo-2c.png",
+      "section": "RED BLOOD CELL"
+    },
+    {
+      "kind": "em",
+      "name": "EM 159 Red Blood Cells",
+      "caption": "TEM",
+      "stain": "",
+      "href": "/EM-view/EM-159-platelet/07-photo-1.html",
+      "thumbPath": "/EM-view/EM-159-platelet/imgs/photo-2c.png",
+      "section": "RED BLOOD CELL"
+    },
+    {
+      "kind": "em",
+      "name": "EM 345 Red Blood Cells",
+      "caption": "Sickle Cell Anemia",
+      "stain": "SEM",
+      "href": "/EM-view/EM-345-sickle-cells/07-photo-1.html",
+      "thumbPath": "/EM-view/EM-345-sickle-cells/imgs/photo-2c.png",
+      "section": "Sickle Cell Anemia"
+    },
+    {
+      "kind": "em",
+      "name": "EM 159 Platelet",
+      "caption": "TEM",
+      "stain": "",
+      "href": "/EM-view/EM-159-platelet/07-photo-2.html",
+      "thumbPath": "/EM-view/EM-159-platelet/imgs/photo-2c.png",
+      "section": "PLATELET"
+    },
+    {
+      "kind": "em",
+      "name": "EM 227 Blood Cells",
+      "caption": "SEM",
+      "stain": "",
+      "href": "/EM-view/EM-227-blood-cells/07-photo-1.html",
+      "thumbPath": "/EM-view/EM-227-blood-cells/imgs/photo-2c.png",
+      "section": "WHITE BLOOD CELL"
+    },
+    {
+      "kind": "em",
+      "name": "EM 330 Neutrophil",
+      "caption": "SEM",
+      "stain": "",
+      "href": "/EM-view/EM-330-neutrophil/07-photo-1.html",
+      "thumbPath": "/EM-view/EM-330-neutrophil/imgs/photo-2c.png",
+      "section": "Neutrophil"
+    },
+    {
+      "kind": "em",
+      "name": "EM 331 Neutrophils",
+      "caption": "TEM",
+      "stain": "",
+      "href": "/EM-view/EM-331-neutrophils/07-photo-1.html",
+      "thumbPath": "/EM-view/EM-331-neutrophils/imgs/photo-2c.png",
+      "section": "Neutrophil"
+    },
+    {
+      "kind": "em",
+      "name": "EM 169 Neutrophil",
+      "caption": "Structure and Activation",
+      "stain": "TEM",
+      "href": "/EM-view/EM-169-neutrophil/07-photo-1.html",
+      "thumbPath": "/EM-view/EM-169-neutrophil/imgs/photo-2c.png",
+      "section": "Neutrophil"
+    },
+    {
+      "kind": "em",
+      "name": "EM 386 Eosinophil",
+      "caption": "TEM",
+      "stain": "",
+      "href": "/EM-view/EM-386-eosinophil/07-photo-1.html",
+      "thumbPath": "/EM-view/EM-386-eosinophil/imgs/photo-2c.png",
+      "section": "Eosinophil"
+    },
+    {
+      "kind": "em",
+      "name": "EM 161 Eosinophil",
+      "caption": "TEM",
+      "stain": "",
+      "href": "/EM-view/EM-161-eosinophil/07-photo-1.html",
+      "thumbPath": "/EM-view/EM-161-eosinophil/imgs/photo-2c.png",
+      "section": "Eosinophil"
+    },
+    {
+      "kind": "em",
+      "name": "EM 119 Eosinophil",
+      "caption": "Structure and Activation",
+      "stain": "TEM",
+      "href": "/EM-view/EM-119-eosinophil/07-photo-1.html",
+      "thumbPath": "/EM-view/EM-119-eosinophil/imgs/photo-2c.png",
+      "section": "Eosinophil"
+    },
+    {
+      "kind": "em",
+      "name": "EM 392 Basophil",
+      "caption": "TEM",
+      "stain": "",
+      "href": "/EM-view/EM-392-basophil/07-photo-1.html",
+      "thumbPath": "/EM-view/EM-392-basophil/imgs/photo-2c.png",
+      "section": "Basophil"
+    },
+    {
+      "kind": "em",
+      "name": "EM 168 Basophil",
+      "caption": "Structure and Activation",
+      "stain": "TEM",
+      "href": "/EM-view/EM-168-basophil/07-photo-1.html",
+      "thumbPath": "/EM-view/EM-168-basophil/imgs/photo-2c.png",
+      "section": "Basophil"
+    },
+    {
+      "kind": "em",
+      "name": "EM 199 Lymphocyte",
+      "caption": "TEM",
+      "stain": "",
+      "href": "/EM-view/EM-199-lymphocyte/07-photo-1.html",
+      "thumbPath": "/EM-view/EM-199-lymphocyte/imgs/photo-2c.png",
+      "section": "Lymphocyte"
+    },
+    {
+      "kind": "em",
+      "name": "EM 171 Lymphocyte",
+      "caption": "TEM",
+      "stain": "",
+      "href": "/EM-view/EM-171-lymphocyte/07-photo-1.html",
+      "thumbPath": "/EM-view/EM-171-lymphocyte/imgs/photo-2c.png",
+      "section": "Lymphocyte"
+    },
+    {
+      "kind": "em",
+      "name": "EM 170 Monocyte",
+      "caption": "TEM",
+      "stain": "",
+      "href": "/EM-view/EM-170-monocyte/07-photo-1.html",
+      "thumbPath": "/EM-view/EM-170-monocyte/imgs/photo-2c.png",
+      "section": "Monocyte"
+    },
+    {
+      "kind": "em",
+      "name": "EM 226 Monocyte",
+      "caption": "TEM",
+      "stain": "",
+      "href": "/EM-view/EM-226-monocyte/07-photo-1.html",
+      "thumbPath": "/EM-view/EM-226-monocyte/imgs/photo-2c.png",
+      "section": "Monocyte"
+    },
+    {
+      "kind": "em",
+      "name": "EM 205 Plasma Cell",
+      "caption": "TEM",
+      "stain": "",
+      "href": "/EM-view/EM-205-plasma-cell/07-photo-1.html",
+      "thumbPath": "/EM-view/EM-205-plasma-cell/imgs/photo-2c.png",
+      "section": "Plasma Cell"
+    },
+    {
+      "kind": "em",
+      "name": "EM 333 Blood Clot",
+      "caption": "TEM",
+      "stain": "",
+      "href": "/EM-view/EM-333-blood-clot/07-photo-1.html",
+      "thumbPath": "/EM-view/EM-333-blood-clot/imgs/photo-2c.png",
+      "section": "BLOOD CLOT"
+    },
+    {
+      "kind": "em",
+      "name": "EM 329 Blood Clot",
+      "caption": "TEM",
+      "stain": "",
+      "href": "/EM-view/EM-329-blood-clot/07-photo-1.html",
+      "thumbPath": "/EM-view/EM-329-blood-clot/imgs/photo-2c.png",
+      "section": "BLOOD CLOT"
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "schema": 1,
+  "source": {
+    "url": "https://histologyguide.com/EM-atlas/10-lymphoid-system.html",
+    "finalUrl": "https://histologyguide.com/EM-atlas/10-lymphoid-system.html",
+    "fetchedAt": "2026-10-18T11:29:35.063Z",
+    "httpStatus": 200,
+    "bytes": 17863,
+    "sha256": "a81f90c57c8d8fefa4bf1b5dab22d1c196f55f6d30059a31a6cc8f8fb6a1cf30",
+    "userAgent": "HistologyGuideCNStudyIndex/0.1 (+personal non-commercial study index; metadata extraction only; contact: local user)",
+    "note": "仅保存导航元数据；正文段落与图片未保存，遵循原站使用条款"
+  },
+  "chapter": 10,
+  "pageType": "em",
+  "pageTitle": "Chapter 10 - Lymphoid System",
+  "hasIntroProse": true,
+  "headings": [
+    {
+      "level": 2,
+      "id": null,
+      "text": "Chapter 10 - Lymphoid System"
+    },
+    {
+      "level": 3,
+      "id": "lymph-node",
+      "text": "Lymph Node"
+    },
+    {
+      "level": 3,
+      "id": "lymphatics",
+      "text": "Lymphatic Vessels"
+    },
+    {
+      "level": 3,
+      "id": "thymus",
+      "text": "Thymus"
+    },
+    {
+      "level": 3,
+      "id": "spleen",
+      "text": "Spleen"
+    },
+    {
+      "level": 2,
+      "id": null,
+      "text": "CELL AND TISSUES"
+    },
+    {
+      "level": 2,
+      "id": null,
+      "text": "ORGAN SYSTEMS"
+    }
+  ],
+  "items": [
+    {
+      "kind": "em",
+      "name": "RD 107 Lymph Node",
+      "caption": "TEM",
+      "stain": "",
+      "href": "/EM-view/RD-107-lymph-node/10-photo-1.html",
+      "thumbPath": "/EM-view/RD-107-lymph-node/imgs/photo-2c.png",
+      "section": "Lymph Node"
+    },
+    {
+      "kind": "em",
+      "name": "EM 309 Lymph Node",
+      "caption": "Reticular Fibers",
+      "stain": "SEM",
+      "href": "/EM-view/EM-309-lymph-node/10-photo-1.html",
+      "thumbPath": "/EM-view/EM-309-lymph-node/imgs/photo-2c.png",
+      "section": "Lymph Node"
+    },
+    {
+      "kind": "em",
+      "name": "EM 182 Lymphatic Vessel",
+      "caption": "TEM",
+      "stain": "",
+      "href": "/EM-view/EM-182-lymphatic-vessel/10-photo-1.html",
+      "thumbPath": "/EM-view/EM-182-lymphatic-vessel/imgs/photo-2c.png",
+      "section": "Lymphatic Vessels"
+    },
+    {
+      "kind": "em",
+      "name": "EM 313 Lacteals",
+      "caption": "Vascular / Lymphatic Cast",
+      "stain": "SEM",
+      "href": "/EM-view/EM-313-lacteals/10-photo-1.html",
+      "thumbPath": "/EM-view/EM-313-lacteals/imgs/photo-2c.png",
+      "section": "Lymphatic Vessels"
+    },
+    {
+      "kind": "em",
+      "name": "EM 379 Thymus",
+      "caption": "Hassall's Corpuscle",
+      "stain": "TEM",
+      "href": "/EM-view/EM-379-thymus/10-photo-1.html",
+      "thumbPath": "/EM-view/EM-379-thymus/imgs/photo-2c.png",
+      "section": "Thymus"
+    },
+    {
+      "kind": "em",
+      "name": "EM 380 Spleen",
+      "caption": "White Pulp",
+      "stain": "TEM",
+      "href": "/EM-view/EM-380-spleen/10-photo-1.html",
+      "thumbPath": "/EM-view/EM-380-spleen/imgs/photo-2c.png",
+      "section": "Spleen"
+    },
+    {
+      "kind": "em",
+      "name": "RD 115 Spleen",
+      "caption": "Red Pulp",
+      "stain": "TEM",
+      "href": "/EM-view/RD-115-spleen/10-photo-1.html",
+      "thumbPath": "/EM-view/RD-115-spleen/imgs/photo-2c.png",
+      "section": "Spleen"
+    },
+    {
+      "kind": "em",
+      "name": "RD 114 Spleen",
+      "caption": "Red Pulp",
+      "stain": "TEM",
+      "href": "/EM-view/RD-114-spleen/10-photo-1.html",
+      "thumbPath": "/EM-view/RD-114-spleen/imgs/photo-2c.png",
+      "section": "Spleen"
+    },
+    {
+      "kind": "em",
+      "name": "EM 187 Spleen",
+      "caption": "Red Pulp",
+      "stain": "SEM",
+      "href": "/EM-view/EM-187-spleen/10-photo-1.html",
+      "thumbPath": "/EM-view/EM-187-spleen/imgs/photo-2c.png",
+      "section": "Spleen"
+    },
+    {
+      "kind": "em",
+      "name": "EM 310 Spleen",
+      "caption": "Red Pulp",
+      "stain": "SEM",
+      "href": "/EM-view/EM-310-spleen/10-photo-1.html",
+      "thumbPath": "/EM-view/EM-310-spleen/imgs/photo-2c.png",
+      "section": "Spleen"
+    },
+    {
+      "kind": "em",
+      "name": "EM 311 Spleen",
+      "caption": "Sheathed Arteriole",
+      "stain": "SEM",
+      "href": "/EM-view/EM-311-spleen/10-photo-1.html",
+      "thumbPath": "/EM-view/EM-311-spleen/imgs/photo-2c.png",
+      "section": "Spleen"
+    },
+    {
+      "kind": "em",
+      "name": "EM 312 Spleen",
+      "caption": "Sinusoidal Capillaries",
+      "stain": "SEM",
+      "href": "/EM-view/EM-312-spleen/10-photo-1.html",
+      "thumbPath": "/EM-view/EM-312-spleen/imgs/photo-2c.png",
+      "section": "Spleen"
+    }
+  ]
+}

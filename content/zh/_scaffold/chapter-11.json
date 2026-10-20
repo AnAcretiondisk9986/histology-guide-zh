@@ -1,0 +1,215 @@
+{
+  "schema": 1,
+  "n": 11,
+  "titleEn": "Skin",
+  "group": "organ-systems",
+  "originalPage": "https://histologyguide.com/slidebox/11-skin.html",
+  "note": "此文件由 scripts/scaffold.mjs 生成，仅供内容编写参考；请把中文写入 content/zh/chapters/NN.json，不要修改本文件。",
+  "sections": [
+    {
+      "en": "Thick Skin",
+      "specimenCount": 3,
+      "specimenNames": [
+        "MH 091 Thick Skin",
+        "MH 091bhr Thick Skin",
+        "MHS 235 Thick Skin"
+      ]
+    },
+    {
+      "en": "Thin Skin",
+      "specimenCount": 2,
+      "specimenNames": [
+        "MH 090 Thin Skin",
+        "MH 277-278 Thin Skin"
+      ]
+    },
+    {
+      "en": "Pigmented Skin",
+      "specimenCount": 2,
+      "specimenNames": [
+        "MH 088 Thick and Thin Skin",
+        "MHS 236 Thin Skin"
+      ]
+    },
+    {
+      "en": "Hair Follicles",
+      "specimenCount": 3,
+      "specimenNames": [
+        "MH 086b Scalp",
+        "MH 086c Scalp",
+        "MH 087b Scalp"
+      ]
+    },
+    {
+      "en": "Meissner and Pacinian Corpuscles",
+      "specimenCount": 2,
+      "specimenNames": [
+        "MH 091 Thick Skin",
+        "MH 091ahr Thick Skin"
+      ]
+    }
+  ],
+  "specimens": [
+    {
+      "name": "MH 091 Thick Skin",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Thick Skin",
+      "href": "/slideview/MH-091-thick-skin/11-slide-1.html"
+    },
+    {
+      "name": "MH 091bhr Thick Skin",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Thick Skin",
+      "href": "/slideview/MH-091bhr-thick-skin/11-slide-1.html"
+    },
+    {
+      "name": "MHS 235 Thick Skin",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Thick Skin",
+      "href": "/slideview/MHS-235-thick-skin/11-slide-1.html"
+    },
+    {
+      "name": "MH 090 Thin Skin",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Thin Skin",
+      "href": "/slideview/MH-090-thin-skin/11-slide-1.html"
+    },
+    {
+      "name": "MH 277-278 Thin Skin",
+      "caption": "Elastic Fibers",
+      "stain": "H&E/Verhoeff",
+      "kind": "slide",
+      "section": "Thin Skin",
+      "href": "/slideview/MHS-277-278-skin/11-slide-1.html"
+    },
+    {
+      "name": "MH 088 Thick and Thin Skin",
+      "caption": "Melanin",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Pigmented Skin",
+      "href": "/slideview/MH-088-skin/11-slide-1.html"
+    },
+    {
+      "name": "MHS 236 Thin Skin",
+      "caption": "Melanin",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Pigmented Skin",
+      "href": "/slideview/MHS-236-thin-skin/11-slide-1.html"
+    },
+    {
+      "name": "MH 086b Scalp",
+      "caption": "Hair Follicles",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Hair Follicles",
+      "href": "/slideview/MH-086b-scalp/11-slide-1.html"
+    },
+    {
+      "name": "MH 086c Scalp",
+      "caption": "Hair Follicles (cross section)",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Hair Follicles",
+      "href": "/slideview/MH-086c-scalp/11-slide-1.html"
+    },
+    {
+      "name": "MH 087b Scalp",
+      "caption": "Hair Follicles (longitudinal section)",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Hair Follicles",
+      "href": "/slideview/MH-087b-scalp/11-slide-1.html"
+    },
+    {
+      "name": "MH 091 Thick Skin",
+      "caption": "Meissner and Pacinian Corpuscles",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Meissner and Pacinian Corpuscles",
+      "href": "/slideview/MH-091-thick-skin/11-slide-2.html"
+    },
+    {
+      "name": "MH 091ahr Thick Skin",
+      "caption": "Meissner Corpuscle",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Meissner and Pacinian Corpuscles",
+      "href": "/slideview/MH-091ahr-thick-skin/11-slide-1.html"
+    }
+  ],
+  "emItems": [
+    {
+      "name": "EM 260 Thin Skin",
+      "caption": "SEM",
+      "technique": "",
+      "section": "Thin Skin",
+      "href": "/EM-view/EM-260-thin-skin/11-photo-1.html"
+    },
+    {
+      "name": "EM 084 Thin Skin",
+      "caption": "TEM",
+      "technique": "",
+      "section": "Thin Skin",
+      "href": "/EM-view/EM-084-thin-skin/11-photo-1.html"
+    },
+    {
+      "name": "EM 367 Stratum Spinosum",
+      "caption": "TEM",
+      "technique": "",
+      "section": "Thin Skin",
+      "href": "/EM-view/EM-367-langerhans-cells/11-photo-2.html"
+    },
+    {
+      "name": "EM 372 Desmosomes",
+      "caption": "TEM",
+      "technique": "",
+      "section": "Thin Skin",
+      "href": "/EM-view/EM-372-desmosomes/11-photo-1.html"
+    },
+    {
+      "name": "EM 302 Thin Skin",
+      "caption": "Hemi-Desmosomes",
+      "technique": "TEM",
+      "section": "Thin Skin",
+      "href": "/EM-view/EM-302-thin-skin/11-photo-1.html"
+    },
+    {
+      "name": "EM 314 Pigmented Skin",
+      "caption": "TEM",
+      "technique": "",
+      "section": "Pigmented Skin",
+      "href": "/EM-view/EM-314-pigmented-skin/11-photo-1.html"
+    },
+    {
+      "name": "EM 315 Melanocyte",
+      "caption": "TEM",
+      "technique": "",
+      "section": "Pigmented Skin",
+      "href": "/EM-view/EM-315-melanocyte/11-photo-1.html"
+    },
+    {
+      "name": "EM 367 Langerhans Cells",
+      "caption": "TEM",
+      "technique": "",
+      "section": "Langerhans Cells",
+      "href": "/EM-view/EM-367-langerhans-cells/11-photo-1.html"
+    },
+    {
+      "name": "EM 350 Hair Shaft",
+      "caption": "TEM",
+      "technique": "",
+      "section": "Hair",
+      "href": "/EM-view/EM-350-hair-shaft/11-photo-1.html"
+    }
+  ]
+}

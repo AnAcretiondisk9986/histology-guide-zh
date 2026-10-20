@@ -1,0 +1,183 @@
+{
+  "schema": 1,
+  "source": {
+    "url": "https://histologyguide.com/slidebox/13-endocrine-glands.html",
+    "finalUrl": "https://histologyguide.com/slidebox/13-endocrine-glands.html",
+    "fetchedAt": "2026-10-18T11:29:44.259Z",
+    "httpStatus": 200,
+    "bytes": 21441,
+    "sha256": "49117fcf5aed32375cdc23de5963f2425fe8d153898181992202ae6aae18c73f",
+    "userAgent": "HistologyGuideCNStudyIndex/0.1 (+personal non-commercial study index; metadata extraction only; contact: local user)",
+    "note": "仅保存导航元数据；正文段落与图片未保存，遵循原站使用条款"
+  },
+  "chapter": 13,
+  "pageType": "slidebox",
+  "pageTitle": "Chapter 13 - Endocrine Glands",
+  "hasIntroProse": true,
+  "headings": [
+    {
+      "level": 2,
+      "id": null,
+      "text": "Chapter 13 - Endocrine Glands"
+    },
+    {
+      "level": 3,
+      "id": "pituitary",
+      "text": "Pituitary"
+    },
+    {
+      "level": 3,
+      "id": "thyroid",
+      "text": "Thyroid"
+    },
+    {
+      "level": 3,
+      "id": "parathyroid",
+      "text": "Parathyroid"
+    },
+    {
+      "level": 3,
+      "id": "thyroid-parathyroid-thymus",
+      "text": "Thyroid-Parathyroid-Thymus"
+    },
+    {
+      "level": 3,
+      "id": "adrenal",
+      "text": "Adrenal Glands"
+    },
+    {
+      "level": 3,
+      "id": "islets",
+      "text": "Pancreatic Islets"
+    },
+    {
+      "level": 2,
+      "id": null,
+      "text": "CELL AND TISSUES"
+    },
+    {
+      "level": 2,
+      "id": null,
+      "text": "ORGAN SYSTEMS"
+    }
+  ],
+  "items": [
+    {
+      "kind": "figure",
+      "name": "Fig 006 Endocrine Glands",
+      "caption": "",
+      "stain": "",
+      "href": "/figureview/fig-006-endocrine-glands/13-figure-1.html",
+      "thumbPath": "/figureview/fig-006-endocrine-glands/imgs/figure.png",
+      "section": null
+    },
+    {
+      "kind": "figure",
+      "name": "Fig 025 Pituitary Hormones",
+      "caption": "",
+      "stain": "",
+      "href": "/figureview/fig-025-pituitary-hormones/13-figure-1.html",
+      "thumbPath": "/figureview/fig-025-pituitary-hormones/imgs/figure.png",
+      "section": "Pituitary"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 149 Pituitary",
+      "caption": "H&E",
+      "stain": "",
+      "href": "/slideview/MH-149-pituitary/13-slide-1.html",
+      "thumbPath": "/slideview/MH-149-pituitary/imgs/slide.png",
+      "section": "Pituitary"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 150a Pituitary",
+      "caption": "Azan",
+      "stain": "",
+      "href": "/slideview/MH-150a-pituitary/13-slide-1.html",
+      "thumbPath": "/slideview/MH-150a-pituitary/imgs/slide.png",
+      "section": "Pituitary"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 151 Thyroid",
+      "caption": "H&E",
+      "stain": "",
+      "href": "/slideview/MH-151-thyroid/13-slide-1.html",
+      "thumbPath": "/slideview/MH-151-thyroid/imgs/slide.png",
+      "section": "Thyroid"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 154 Parathyroid",
+      "caption": "H&E",
+      "stain": "",
+      "href": "/slideview/MH-154-parathyroid/13-slide-1.html",
+      "thumbPath": "/slideview/MH-154-parathyroid/imgs/slide.png",
+      "section": "Parathyroid"
+    },
+    {
+      "kind": "slide",
+      "name": "MHS 209 Thyroid-Parathyroid-Thymus",
+      "caption": "H&E",
+      "stain": "",
+      "href": "/slideview/MHS-209-thyroid-parathyroid-thymus/13-slide-1.html",
+      "thumbPath": "/slideview/MHS-209-thyroid-parathyroid-thymus/imgs/slide.png",
+      "section": "Thyroid-Parathyroid-Thymus"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 155a Adrenal Gland",
+      "caption": "H&E",
+      "stain": "",
+      "href": "/slideview/MH-155a-adrenal/13-slide-1.html",
+      "thumbPath": "/slideview/MH-155a-adrenal/imgs/slide.png",
+      "section": "Adrenal Glands"
+    },
+    {
+      "kind": "slide",
+      "name": "MHS 216 Adrenal Gland",
+      "caption": "H&E",
+      "stain": "",
+      "href": "/slideview/MHS-216-adrenal/13-slide-1.html",
+      "thumbPath": "/slideview/MHS-216-adrenal/imgs/slide.png",
+      "section": "Adrenal Glands"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 131 Pancreas",
+      "caption": "Endocrine Pancreas",
+      "stain": "H&E",
+      "href": "/slideview/MH-131-pancreas/13-slide-1.html",
+      "thumbPath": "/slideview/MH-131-pancreas/imgs/slide.png",
+      "section": "Pancreatic Islets"
+    },
+    {
+      "kind": "slide",
+      "name": "MHS 211 Pancreas",
+      "caption": "Endocrine Pancreas",
+      "stain": "H&E",
+      "href": "/slideview/MHS-211-pancreas/13-slide-1.html",
+      "thumbPath": "/slideview/MHS-211-pancreas/imgs/slide.png",
+      "section": "Pancreatic Islets"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 133 Pancreas",
+      "caption": "Endocrine Pancreas",
+      "stain": "Aldehyde Fuchsin",
+      "href": "/slideview/MH-133-pancreas/13-slide-1.html",
+      "thumbPath": "/slideview/MH-133-pancreas/imgs/slide.png",
+      "section": "Pancreatic Islets"
+    },
+    {
+      "kind": "slide",
+      "name": "UCSF 295 Pancreas",
+      "caption": "Endocrine Pancreas",
+      "stain": "Gomori's Stain",
+      "href": "/slideview/UCSF-295-pancreas/13-slide-1.html",
+      "thumbPath": "/slideview/UCSF-295-pancreas/imgs/slide.png",
+      "section": "Pancreatic Islets"
+    }
+  ]
+}

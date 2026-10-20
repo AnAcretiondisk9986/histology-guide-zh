@@ -1,0 +1,155 @@
+{
+  "schema": 1,
+  "source": {
+    "url": "https://histologyguide.com/EM-atlas/18-female-reproductive-system.html",
+    "finalUrl": "https://histologyguide.com/EM-atlas/18-female-reproductive-system.html",
+    "fetchedAt": "2026-10-18T11:30:08.086Z",
+    "httpStatus": 200,
+    "bytes": 17374,
+    "sha256": "2fcb238b49ab7e73c079abe49651844f7a277a1b1e51846165b4570cb54f4325",
+    "userAgent": "HistologyGuideCNStudyIndex/0.1 (+personal non-commercial study index; metadata extraction only; contact: local user)",
+    "note": "仅保存导航元数据；正文段落与图片未保存，遵循原站使用条款"
+  },
+  "chapter": 18,
+  "pageType": "em",
+  "pageTitle": "Chapter 18 - Female Reproductive System",
+  "hasIntroProse": true,
+  "headings": [
+    {
+      "level": 2,
+      "id": null,
+      "text": "Chapter 18 - Female Reproductive System"
+    },
+    {
+      "level": 3,
+      "id": "ovary",
+      "text": "Ovary"
+    },
+    {
+      "level": 3,
+      "id": "fertilization",
+      "text": "Fertilization"
+    },
+    {
+      "level": 3,
+      "id": "oviduct",
+      "text": "Oviduct"
+    },
+    {
+      "level": 3,
+      "id": "uterus",
+      "text": "Uterus"
+    },
+    {
+      "level": 2,
+      "id": null,
+      "text": "CELL AND TISSUES"
+    },
+    {
+      "level": 2,
+      "id": null,
+      "text": "ORGAN SYSTEMS"
+    }
+  ],
+  "items": [
+    {
+      "kind": "em",
+      "name": "EM 323 Primordial Follicle",
+      "caption": "Ovary",
+      "stain": "TEM",
+      "href": "/EM-view/EM-323-primordial-follicle/18-photo-1.html",
+      "thumbPath": "/EM-view/EM-323-primordial-follicle/imgs/photo-2c.png",
+      "section": "Ovary"
+    },
+    {
+      "kind": "em",
+      "name": "EM 324 Primary Follicle",
+      "caption": "Oocyte",
+      "stain": "TEM",
+      "href": "/EM-view/EM-324-primary-follicle/18-photo-1.html",
+      "thumbPath": "/EM-view/EM-324-primary-follicle/imgs/photo-2c.png",
+      "section": "Ovary"
+    },
+    {
+      "kind": "em",
+      "name": "EM 325 Secondary Follicle",
+      "caption": "Corona Radiata and Zona Pellucida",
+      "stain": "TEM",
+      "href": "/EM-view/EM-325-oocyte/18-photo-1.html",
+      "thumbPath": "/EM-view/EM-325-oocyte/imgs/photo-2c.png",
+      "section": "Ovary"
+    },
+    {
+      "kind": "em",
+      "name": "EM 264 Oocyte",
+      "caption": "Secondary Follicle",
+      "stain": "SEM",
+      "href": "/EM-view/EM-264-oocyte/18-photo-1.html",
+      "thumbPath": "/EM-view/EM-264-oocyte/imgs/photo-2c.png",
+      "section": "Ovary"
+    },
+    {
+      "kind": "em",
+      "name": "EM 265 Oocyte",
+      "caption": "Graafian Follicle",
+      "stain": "SEM",
+      "href": "/EM-view/EM-265-oocyte/18-photo-1.html",
+      "thumbPath": "/EM-view/EM-265-oocyte/imgs/photo-2c.png",
+      "section": "Ovary"
+    },
+    {
+      "kind": "em",
+      "name": "EM 334 Zona Pellucida",
+      "caption": "Oocyte",
+      "stain": "SEM",
+      "href": "/EM-view/EM-334-zona-pellucida/18-photo-1.html",
+      "thumbPath": "/EM-view/EM-334-zona-pellucida/imgs/photo-2c.png",
+      "section": "Ovary"
+    },
+    {
+      "kind": "em",
+      "name": "EM 276 Oocyte",
+      "caption": "SEM",
+      "stain": "",
+      "href": "/EM-view/EM-276-oocyte/18-photo-1.html",
+      "thumbPath": "/EM-view/EM-276-oocyte/imgs/photo-2c.png",
+      "section": "Fertilization"
+    },
+    {
+      "kind": "em",
+      "name": "EM 326 Oocyte",
+      "caption": "SEM",
+      "stain": "",
+      "href": "/EM-view/EM-326-oocyte/18-photo-1.html",
+      "thumbPath": "/EM-view/EM-326-oocyte/imgs/photo-2c.png",
+      "section": "Fertilization"
+    },
+    {
+      "kind": "em",
+      "name": "EM 277 Oviduct",
+      "caption": "SEM",
+      "stain": "",
+      "href": "/EM-view/EM-277-oviduct/18-photo-1.html",
+      "thumbPath": "/EM-view/EM-277-oviduct/imgs/photo-2c.png",
+      "section": "Oviduct"
+    },
+    {
+      "kind": "em",
+      "name": "EM 327 Uterus",
+      "caption": "Proliferative Phase",
+      "stain": "SEM",
+      "href": "/EM-view/EM-327-uterus/18-photo-1.html",
+      "thumbPath": "/EM-view/EM-327-uterus/imgs/photo-2c.png",
+      "section": "Uterus"
+    },
+    {
+      "kind": "em",
+      "name": "EM 328 Uterus",
+      "caption": "Menstruation",
+      "stain": "SEM",
+      "href": "/EM-view/EM-328-uterus/18-photo-1.html",
+      "thumbPath": "/EM-view/EM-328-uterus/imgs/photo-2c.png",
+      "section": "Uterus"
+    }
+  ]
+}

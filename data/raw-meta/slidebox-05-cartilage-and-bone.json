@@ -1,0 +1,276 @@
+{
+  "schema": 1,
+  "source": {
+    "url": "https://histologyguide.com/slidebox/05-cartilage-and-bone.html",
+    "finalUrl": "https://histologyguide.com/slidebox/05-cartilage-and-bone.html",
+    "fetchedAt": "2026-10-18T11:29:13.417Z",
+    "httpStatus": 200,
+    "bytes": 32950,
+    "sha256": "c8a10767e1c8c34a024f525db3e941de94d3efb203b9740532f27d58a6c0d501",
+    "userAgent": "HistologyGuideCNStudyIndex/0.1 (+personal non-commercial study index; metadata extraction only; contact: local user)",
+    "note": "仅保存导航元数据；正文段落与图片未保存，遵循原站使用条款"
+  },
+  "chapter": 5,
+  "pageType": "slidebox",
+  "pageTitle": "Chapter 5 - Cartilage and Bone",
+  "hasIntroProse": true,
+  "headings": [
+    {
+      "level": 2,
+      "id": null,
+      "text": "Chapter 5 - Cartilage and Bone"
+    },
+    {
+      "level": 3,
+      "id": "cartilage",
+      "text": "CARTILAGE"
+    },
+    {
+      "level": 3,
+      "id": "hyaline-cartilage",
+      "text": "Hyaline Cartilage"
+    },
+    {
+      "level": 3,
+      "id": "elastic-cartilage",
+      "text": "Elastic Cartilage"
+    },
+    {
+      "level": 3,
+      "id": "fibrocartilage",
+      "text": "Fibrocartilage"
+    },
+    {
+      "level": 3,
+      "id": "cartilage-histogenesis",
+      "text": "CARTILAGE DEVELOPMENT"
+    },
+    {
+      "level": 3,
+      "id": "bone",
+      "text": "BONE"
+    },
+    {
+      "level": 3,
+      "id": "spongy-bone",
+      "text": "Spongy Bone"
+    },
+    {
+      "level": 3,
+      "id": "compact-bone",
+      "text": "Compact Bone"
+    },
+    {
+      "level": 3,
+      "id": null,
+      "text": "BONE DEVELOPMENT"
+    },
+    {
+      "level": 3,
+      "id": "intramembranous-ossification",
+      "text": "Intramembranous Ossification"
+    },
+    {
+      "level": 3,
+      "id": "endochondral-ossification",
+      "text": "Endochondral Ossification"
+    },
+    {
+      "level": 3,
+      "id": "tooth-development",
+      "text": "TOOTH DEVELOPMENT"
+    },
+    {
+      "level": 2,
+      "id": null,
+      "text": "CELL AND TISSUES"
+    },
+    {
+      "level": 2,
+      "id": null,
+      "text": "ORGAN SYSTEMS"
+    }
+  ],
+  "items": [
+    {
+      "kind": "slide",
+      "name": "MH 136 Trachea",
+      "caption": "Hyaline Cartilage",
+      "stain": "H&E",
+      "href": "/slideview/MH-136-trachea/05-slide-1.html",
+      "thumbPath": "/slideview/MH-136-trachea/imgs/slide.png",
+      "section": "Hyaline Cartilage"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 046 Hyaline Articular Cartilage",
+      "caption": "H&E",
+      "stain": "",
+      "href": "/slideview/MH-046-bone-development/05-slide-1.html",
+      "thumbPath": "/slideview/MH-046-bone-development/imgs/slide.png",
+      "section": "Hyaline Cartilage"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 038-039 Epiglottis",
+      "caption": "Elastic Cartilage",
+      "stain": "H&E/Verhoeff",
+      "href": "/slideview/MH-038-039-epiglottis/05-slide-1.html",
+      "thumbPath": "/slideview/MH-038-epiglottis/imgs/slide.png",
+      "section": "Elastic Cartilage"
+    },
+    {
+      "kind": "slide",
+      "name": "VH 040 Ear",
+      "caption": "Elastic Cartilage",
+      "stain": "Masson's Trichrome/Aldehyde Fuchsin",
+      "href": "/slideview/VH-040-ear/05-slide-1.html",
+      "thumbPath": "/slideview/VH-040-ear/imgs/slide.png",
+      "section": "Elastic Cartilage"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 040 Intervertebral Disc",
+      "caption": "Fibrocartilage Cartilage",
+      "stain": "H&E",
+      "href": "/slideview/MH-040-intervertebral-disk/05-slide-1.html",
+      "thumbPath": "/slideview/MH-040-intervertebral-disk/imgs/slide.png",
+      "section": "Fibrocartilage"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 020b Pig Snout Fetal",
+      "caption": "Chondrogenesis",
+      "stain": "H&E",
+      "href": "/slideview/MH-020b-fetal-snout/05-slide-1.html",
+      "thumbPath": "/slideview/MH-020b-fetal-snout/imgs/slide.png",
+      "section": "CARTILAGE DEVELOPMENT"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 043 Cancellous and Compact Bone",
+      "caption": "H&E",
+      "stain": "",
+      "href": "/slideview/MH-043-cancellous-and-compact-bone/05-slide-1.html",
+      "thumbPath": "/slideview/MH-043-cancellous-and-compact-bone/imgs/slide.png",
+      "section": "BONE"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 047 Spinal Cord",
+      "caption": "Spongy Bone",
+      "stain": "H&E",
+      "href": "/slideview/MH-047-spinal-cord/05-slide-1.html",
+      "thumbPath": "/slideview/MH-047-spinal-cord/imgs/slide.png",
+      "section": "Spongy Bone"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 045 Bone",
+      "caption": "Compact Bone",
+      "stain": "H&E",
+      "href": "/slideview/MH-045-bone/05-slide-1.html",
+      "thumbPath": "/slideview/MH-045-bone/imgs/slide.png",
+      "section": "Compact Bone"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 044 Ground Bone",
+      "caption": "Compact Bone",
+      "stain": "",
+      "href": "/slideview/MH-044-ground-bone/05-slide-1.html",
+      "thumbPath": "/slideview/MH-044-ground-bone/imgs/slide.png",
+      "section": "Compact Bone"
+    },
+    {
+      "kind": "slide",
+      "name": "MHS 202 Ground Bone",
+      "caption": "Compact Bone",
+      "stain": "Schmorl's Stain",
+      "href": "/slideview/MHS-202-ground-bone/05-slide-1.html",
+      "thumbPath": "/slideview/MHS-202-ground-bone/imgs/slide.png",
+      "section": "Compact Bone"
+    },
+    {
+      "kind": "slide",
+      "name": "MHS 233 Ground Bone",
+      "caption": "Compact Bone",
+      "stain": "India Ink",
+      "href": "/slideview/MHS-233-ground-bone/05-slide-1.html",
+      "thumbPath": "/slideview/MHS-233-ground-bone/imgs/slide.png",
+      "section": "Compact Bone"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 046 Bone Development",
+      "caption": "Intramembranous Ossification",
+      "stain": "H&E",
+      "href": "/slideview/MH-046-bone-development/05-slide-2.html",
+      "thumbPath": "/slideview/MH-046-bone-development/imgs/slide.png",
+      "section": "Intramembranous Ossification"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 020b Fetal Pig Snout",
+      "caption": "Intramembranous Ossification",
+      "stain": "H&E",
+      "href": "/slideview/MH-020b-fetal-snout/05-slide-2.html",
+      "thumbPath": "/slideview/MH-020b-fetal-snout/imgs/slide.png",
+      "section": "Intramembranous Ossification"
+    },
+    {
+      "kind": "slide",
+      "name": "MHS 242 Face Embryo",
+      "caption": "Intramembranous Ossification",
+      "stain": "H&E",
+      "href": "/slideview/MHS-242-face-fetal/05-slide-1.html",
+      "thumbPath": "/slideview/MHS-242-face-fetal/imgs/slide.png",
+      "section": "Intramembranous Ossification"
+    },
+    {
+      "kind": "slide",
+      "name": "MHS 287 Bone Development",
+      "caption": "Endochondral Ossification (Embryo)",
+      "stain": "H&E",
+      "href": "/slideview/MHS-287-bone-development/05-slide-1.html",
+      "thumbPath": "/slideview/MHS-287-bone-development/imgs/slide.png",
+      "section": "Endochondral Ossification"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 029b Bone",
+      "caption": "Endochondral Ossification (Epiphyseal Plate)",
+      "stain": "H&E",
+      "href": "/slideview/MH-029b-bone/05-slide-1.html",
+      "thumbPath": "/slideview/MH-029b-bone/imgs/slide.png",
+      "section": "Endochondral Ossification"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 046 Bone Development",
+      "caption": "Endochondral Ossification (Epiphyseal Plate)",
+      "stain": "H&E",
+      "href": "/slideview/MH-046-bone-development/05-slide-3.html",
+      "thumbPath": "/slideview/MH-046-bone-development/imgs/slide.png",
+      "section": "Endochondral Ossification"
+    },
+    {
+      "kind": "slide",
+      "name": "MHS 203 Bone",
+      "caption": "Endochondral Ossification",
+      "stain": "H&E",
+      "href": "/slideview/MHS-203-bone/05-slide-1.html",
+      "thumbPath": "/slideview/MHS-203-bone/imgs/slide.png",
+      "section": "Endochondral Ossification"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 020a Fetal Pig Snout",
+      "caption": "H&E",
+      "stain": "",
+      "href": "/slideview/MH-020a-fetal-snout/05-slide-1.html",
+      "thumbPath": "/slideview/MH-020a-fetal-snout/imgs/slide.png",
+      "section": "TOOTH DEVELOPMENT"
+    }
+  ]
+}

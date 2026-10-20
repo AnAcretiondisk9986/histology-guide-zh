@@ -1,0 +1,203 @@
+{
+  "schema": 1,
+  "n": 10,
+  "titleEn": "Lymphoid System",
+  "group": "organ-systems",
+  "originalPage": "https://histologyguide.com/slidebox/10-lymphoid-system.html",
+  "note": "此文件由 scripts/scaffold.mjs 生成，仅供内容编写参考；请把中文写入 content/zh/chapters/NN.json，不要修改本文件。",
+  "sections": [
+    {
+      "en": "Lymph Node",
+      "specimenCount": 3,
+      "specimenNames": [
+        "MH 024-026 Mesentery",
+        "MH 076-077-078 Lymph Node",
+        "MHS 213 Lymph Nodes"
+      ]
+    },
+    {
+      "en": "Tonsils",
+      "specimenCount": 2,
+      "specimenNames": [
+        "MH 081a Palatine Tonsil",
+        "MHS 276 Tonsil"
+      ]
+    },
+    {
+      "en": "Spleen",
+      "specimenCount": 2,
+      "specimenNames": [
+        "MH 084-MHS 212-MHS 293 Spleen",
+        "MH 085 Spleen"
+      ]
+    },
+    {
+      "en": "Thymus",
+      "specimenCount": 2,
+      "specimenNames": [
+        "MH 079 Thymus",
+        "MHS 210 Thymus"
+      ]
+    }
+  ],
+  "specimens": [
+    {
+      "name": "MH 024-026 Mesentery",
+      "caption": "Lymph Nodes",
+      "stain": "H&E/Azan",
+      "kind": "slide",
+      "section": "Lymph Node",
+      "href": "/slideview/MH-024-026-mesentery/10-slide-1.html"
+    },
+    {
+      "name": "MH 076-077-078 Lymph Node",
+      "caption": "Lymph Node",
+      "stain": "H&E/Azan/Silver",
+      "kind": "slide",
+      "section": "Lymph Node",
+      "href": "/slideview/MH-076-077-078-lymph-node/10-slide-1.html"
+    },
+    {
+      "name": "MHS 213 Lymph Nodes",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Lymph Node",
+      "href": "/slideview/MHS-213-lymph-nodes/10-slide-1.html"
+    },
+    {
+      "name": "MH 081a Palatine Tonsil",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Tonsils",
+      "href": "/slideview/MH-081a-palatine-tonsil/10-slide-1.html"
+    },
+    {
+      "name": "MHS 276 Tonsil",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Tonsils",
+      "href": "/slideview/MHS-276-tonsil/10-slide-1.html"
+    },
+    {
+      "name": "MH 084-MHS 212-MHS 293 Spleen",
+      "caption": "H&E/Azan/Silver",
+      "stain": "",
+      "kind": "slide",
+      "section": "Spleen",
+      "href": "/slideview/MH-MHS-spleen/10-slide-1.html"
+    },
+    {
+      "name": "MH 085 Spleen",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Spleen",
+      "href": "/slideview/MH-085-spleen/10-slide-1.html"
+    },
+    {
+      "name": "MH 079 Thymus",
+      "caption": "Adult and Neonatal",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Thymus",
+      "href": "/slideview/MH-079-thymus/10-slide-1.html"
+    },
+    {
+      "name": "MHS 210 Thymus",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Thymus",
+      "href": "/slideview/MHS-210-thymus/10-slide-1.html"
+    }
+  ],
+  "emItems": [
+    {
+      "name": "RD 107 Lymph Node",
+      "caption": "TEM",
+      "technique": "",
+      "section": "Lymph Node",
+      "href": "/EM-view/RD-107-lymph-node/10-photo-1.html"
+    },
+    {
+      "name": "EM 309 Lymph Node",
+      "caption": "Reticular Fibers",
+      "technique": "SEM",
+      "section": "Lymph Node",
+      "href": "/EM-view/EM-309-lymph-node/10-photo-1.html"
+    },
+    {
+      "name": "EM 182 Lymphatic Vessel",
+      "caption": "TEM",
+      "technique": "",
+      "section": "Lymphatic Vessels",
+      "href": "/EM-view/EM-182-lymphatic-vessel/10-photo-1.html"
+    },
+    {
+      "name": "EM 313 Lacteals",
+      "caption": "Vascular / Lymphatic Cast",
+      "technique": "SEM",
+      "section": "Lymphatic Vessels",
+      "href": "/EM-view/EM-313-lacteals/10-photo-1.html"
+    },
+    {
+      "name": "EM 379 Thymus",
+      "caption": "Hassall's Corpuscle",
+      "technique": "TEM",
+      "section": "Thymus",
+      "href": "/EM-view/EM-379-thymus/10-photo-1.html"
+    },
+    {
+      "name": "EM 380 Spleen",
+      "caption": "White Pulp",
+      "technique": "TEM",
+      "section": "Spleen",
+      "href": "/EM-view/EM-380-spleen/10-photo-1.html"
+    },
+    {
+      "name": "RD 115 Spleen",
+      "caption": "Red Pulp",
+      "technique": "TEM",
+      "section": "Spleen",
+      "href": "/EM-view/RD-115-spleen/10-photo-1.html"
+    },
+    {
+      "name": "RD 114 Spleen",
+      "caption": "Red Pulp",
+      "technique": "TEM",
+      "section": "Spleen",
+      "href": "/EM-view/RD-114-spleen/10-photo-1.html"
+    },
+    {
+      "name": "EM 187 Spleen",
+      "caption": "Red Pulp",
+      "technique": "SEM",
+      "section": "Spleen",
+      "href": "/EM-view/EM-187-spleen/10-photo-1.html"
+    },
+    {
+      "name": "EM 310 Spleen",
+      "caption": "Red Pulp",
+      "technique": "SEM",
+      "section": "Spleen",
+      "href": "/EM-view/EM-310-spleen/10-photo-1.html"
+    },
+    {
+      "name": "EM 311 Spleen",
+      "caption": "Sheathed Arteriole",
+      "technique": "SEM",
+      "section": "Spleen",
+      "href": "/EM-view/EM-311-spleen/10-photo-1.html"
+    },
+    {
+      "name": "EM 312 Spleen",
+      "caption": "Sinusoidal Capillaries",
+      "technique": "SEM",
+      "section": "Spleen",
+      "href": "/EM-view/EM-312-spleen/10-photo-1.html"
+    }
+  ]
+}

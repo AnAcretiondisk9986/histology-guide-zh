@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "source": {
+    "url": "https://histologyguide.com/EM-atlas/20-organs-of-special-sense.html",
+    "finalUrl": "https://histologyguide.com/EM-atlas/20-organs-of-special-sense.html",
+    "fetchedAt": "2026-10-18T11:30:14.358Z",
+    "httpStatus": 200,
+    "bytes": 7250,
+    "sha256": "2a5de8777a41c42eadb0049df00cb5420f7ce288a0ced7569055a9bdb80a2516",
+    "userAgent": "HistologyGuideCNStudyIndex/0.1 (+personal non-commercial study index; metadata extraction only; contact: local user)",
+    "note": "仅保存导航元数据；正文段落与图片未保存，遵循原站使用条款"
+  },
+  "chapter": 20,
+  "pageType": "em",
+  "pageTitle": "Chapter 20 - Organs of Special Sense",
+  "hasIntroProse": true,
+  "headings": [
+    {
+      "level": 2,
+      "id": null,
+      "text": "Chapter 20 - Organs of Special Sense"
+    },
+    {
+      "level": 2,
+      "id": null,
+      "text": "CELL AND TISSUES"
+    },
+    {
+      "level": 2,
+      "id": null,
+      "text": "ORGAN SYSTEMS"
+    }
+  ],
+  "items": []
+}

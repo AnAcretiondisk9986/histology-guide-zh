@@ -1,0 +1,123 @@
+{
+  "schema": 1,
+  "source": {
+    "url": "https://histologyguide.com/EM-atlas/19-male-reproductive-system.html",
+    "finalUrl": "https://histologyguide.com/EM-atlas/19-male-reproductive-system.html",
+    "fetchedAt": "2026-10-18T11:30:11.352Z",
+    "httpStatus": 200,
+    "bytes": 14324,
+    "sha256": "d45bf8862746392b90d006384796fa0b60e61f6c6aea9fde22196e8b2e6d2d08",
+    "userAgent": "HistologyGuideCNStudyIndex/0.1 (+personal non-commercial study index; metadata extraction only; contact: local user)",
+    "note": "仅保存导航元数据；正文段落与图片未保存，遵循原站使用条款"
+  },
+  "chapter": 19,
+  "pageType": "em",
+  "pageTitle": "Chapter 19 - Male Reproductive System",
+  "hasIntroProse": true,
+  "headings": [
+    {
+      "level": 2,
+      "id": null,
+      "text": "Chapter 19 - Male Reproductive System"
+    },
+    {
+      "level": 3,
+      "id": "testis",
+      "text": "Testes"
+    },
+    {
+      "level": 3,
+      "id": "sperm",
+      "text": "Spermatozoa"
+    },
+    {
+      "level": 3,
+      "id": "spermatogenesis",
+      "text": "Spermatogenesis"
+    },
+    {
+      "level": 2,
+      "id": null,
+      "text": "CELL AND TISSUES"
+    },
+    {
+      "level": 2,
+      "id": null,
+      "text": "ORGAN SYSTEMS"
+    }
+  ],
+  "items": [
+    {
+      "kind": "em",
+      "name": "EM 395 Testis",
+      "caption": "SEM",
+      "stain": "",
+      "href": "/EM-view/EM-395-testis/19-photo-1.html",
+      "thumbPath": "/EM-view/EM-395-testis/imgs/photo-2c.png",
+      "section": "Testes"
+    },
+    {
+      "kind": "em",
+      "name": "EM 318 Spermatozoa",
+      "caption": "SEM",
+      "stain": "",
+      "href": "/EM-view/EM-318-spermatozoa/19-photo-1.html",
+      "thumbPath": "/EM-view/EM-318-spermatozoa/imgs/photo-2c.png",
+      "section": "Spermatozoa"
+    },
+    {
+      "kind": "em",
+      "name": "EM 393 Spermatozoa",
+      "caption": "TEM",
+      "stain": "",
+      "href": "/EM-view/EM-393-spermatozoa/19-photo-1.html",
+      "thumbPath": "/EM-view/EM-393-spermatozoa/imgs/photo-2c.png",
+      "section": "Spermatozoa"
+    },
+    {
+      "kind": "em",
+      "name": "EM 388 Spermatozoa",
+      "caption": "Uterus",
+      "stain": "SEM",
+      "href": "/EM-view/EM-388-spermatozoa/19-photo-1.html",
+      "thumbPath": "/EM-view/EM-388-spermatozoa/imgs/photo-2c.png",
+      "section": "Spermatozoa"
+    },
+    {
+      "kind": "em",
+      "name": "EM 362 Spermatozoa",
+      "caption": "Uterus",
+      "stain": "SEM",
+      "href": "/EM-view/EM-362-spermatozoa/19-photo-1.html",
+      "thumbPath": "/EM-view/EM-362-spermatozoa/imgs/photo-2c.png",
+      "section": "Spermatozoa"
+    },
+    {
+      "kind": "em",
+      "name": "EM 319 Spermatogonium",
+      "caption": "Blood-Testis Barrier",
+      "stain": "TEM",
+      "href": "/EM-view/EM-319-spermatogonium/19-photo-1.html",
+      "thumbPath": "/EM-view/EM-319-spermatogonium/imgs/photo-2c.png",
+      "section": "Spermatogenesis"
+    },
+    {
+      "kind": "em",
+      "name": "EM 320 Spermatids",
+      "caption": "TEM",
+      "stain": "",
+      "href": "/EM-view/EM-320-spermatids/19-photo-1.html",
+      "thumbPath": "/EM-view/EM-320-spermatids/imgs/photo-2c.png",
+      "section": "Spermatogenesis"
+    },
+    {
+      "kind": "em",
+      "name": "EM 335 Acrosome",
+      "caption": "Spermatid",
+      "stain": "TEM",
+      "href": "/EM-view/EM-335-acrosome/19-photo-1.html",
+      "thumbPath": "/EM-view/EM-335-acrosome/imgs/photo-2c.png",
+      "section": "Spermatogenesis"
+    }
+  ]
+}

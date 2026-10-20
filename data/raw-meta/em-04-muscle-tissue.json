@@ -1,0 +1,213 @@
+{
+  "schema": 1,
+  "source": {
+    "url": "https://histologyguide.com/EM-atlas/04-muscle-tissue.html",
+    "finalUrl": "https://histologyguide.com/EM-atlas/04-muscle-tissue.html",
+    "fetchedAt": "2026-10-18T11:29:11.340Z",
+    "httpStatus": 200,
+    "bytes": 23850,
+    "sha256": "4d29e6ea839b2468c904b721265ed4c0a83e43c0fded26fc0c32671d4d426b8d",
+    "userAgent": "HistologyGuideCNStudyIndex/0.1 (+personal non-commercial study index; metadata extraction only; contact: local user)",
+    "note": "仅保存导航元数据；正文段落与图片未保存，遵循原站使用条款"
+  },
+  "chapter": 4,
+  "pageType": "em",
+  "pageTitle": "Chapter 4 - Muscle Tissue",
+  "hasIntroProse": true,
+  "headings": [
+    {
+      "level": 2,
+      "id": null,
+      "text": "Chapter 4 - Muscle Tissue"
+    },
+    {
+      "level": 3,
+      "id": "skeletal-muscle",
+      "text": "Skeletal Muscle"
+    },
+    {
+      "level": 3,
+      "id": "cardiac-muscle",
+      "text": "Cardiac Muscle"
+    },
+    {
+      "level": 3,
+      "id": "smooth-muscle",
+      "text": "Smooth Muscle"
+    },
+    {
+      "level": 2,
+      "id": null,
+      "text": "CELL AND TISSUES"
+    },
+    {
+      "level": 2,
+      "id": null,
+      "text": "ORGAN SYSTEMS"
+    }
+  ],
+  "items": [
+    {
+      "kind": "em",
+      "name": "EM 358 Skeletal Muscle Fibers",
+      "caption": "TEM",
+      "stain": "",
+      "href": "/EM-view/EM-358-skeletal-muscle/04-photo-1.html",
+      "thumbPath": "/EM-view/EM-358-skeletal-muscle/imgs/photo-2c.png",
+      "section": "Skeletal Muscle"
+    },
+    {
+      "kind": "em",
+      "name": "EM 222 Skeletal Muscle",
+      "caption": "Banding",
+      "stain": "TEM",
+      "href": "/EM-view/EM-222-skeletal-muscle/04-photo-1.html",
+      "thumbPath": "/EM-view/EM-222-skeletal-muscle/imgs/photo-2c.png",
+      "section": "Skeletal Muscle"
+    },
+    {
+      "kind": "em",
+      "name": "EM 123 Skeletal Muscle",
+      "caption": "Banding",
+      "stain": "TEM",
+      "href": "/EM-view/EM-123-skeletal-muscle/04-photo-1.html",
+      "thumbPath": "/EM-view/EM-123-skeletal-muscle/imgs/photo-2c.png",
+      "section": "Skeletal Muscle"
+    },
+    {
+      "kind": "em",
+      "name": "EM 385 Skeletal Muscle",
+      "caption": "Banding",
+      "stain": "TEM",
+      "href": "/EM-view/EM-385-skeletal-muscle/04-photo-1.html",
+      "thumbPath": "/EM-view/EM-385-skeletal-muscle/imgs/photo-2c.png",
+      "section": "Skeletal Muscle"
+    },
+    {
+      "kind": "em",
+      "name": "EM 390 Sarcomere",
+      "caption": "Sarcomere",
+      "stain": "Longitudinal Section",
+      "href": "/EM-view/EM-390-sarcomere/04-photo-1.html",
+      "thumbPath": "/EM-view/EM-390-sarcomere/imgs/photo-2c.png",
+      "section": "Skeletal Muscle"
+    },
+    {
+      "kind": "em",
+      "name": "EM 143 Sarcomere",
+      "caption": "Sarcomere",
+      "stain": "Cross Section",
+      "href": "/EM-view/EM-143-sarcomere/04-photo-1.html",
+      "thumbPath": "/EM-view/EM-143-sarcomere/imgs/photo-2c.png",
+      "section": "Skeletal Muscle"
+    },
+    {
+      "kind": "em",
+      "name": "EM 368 Sarcomere",
+      "caption": "Sarcomere",
+      "stain": "SEM (deep etching)",
+      "href": "/EM-view/EM-368-sarcomere/04-photo-1.html",
+      "thumbPath": "/EM-view/EM-368-sarcomere/imgs/photo-2c.png",
+      "section": "Skeletal Muscle"
+    },
+    {
+      "kind": "em",
+      "name": "EM 351 Cardiac Muscle",
+      "caption": "SEM",
+      "stain": "",
+      "href": "/EM-view/EM-351-cardiac-muscle/04-photo-1.html",
+      "thumbPath": "/EM-view/EM-351-cardiac-muscle/imgs/photo-2c.png",
+      "section": "Cardiac Muscle"
+    },
+    {
+      "kind": "em",
+      "name": "EM 137 Cardiac Muscle",
+      "caption": "Longitudinal Section",
+      "stain": "TEM",
+      "href": "/EM-view/EM-137-cardiac-muscle/04-photo-1.html",
+      "thumbPath": "/EM-view/EM-137-cardiac-muscle/imgs/photo-2c.png",
+      "section": "Cardiac Muscle"
+    },
+    {
+      "kind": "em",
+      "name": "EM 133 Cardiac Muscle",
+      "caption": "Cross-Section",
+      "stain": "TEM",
+      "href": "/EM-view/EM-133-cardiac-muscle/04-photo-1.html",
+      "thumbPath": "/EM-view/EM-133-cardiac-muscle/imgs/photo-2c.png",
+      "section": "Cardiac Muscle"
+    },
+    {
+      "kind": "em",
+      "name": "EM 122 Cardiac Muscle",
+      "caption": "Sarcomere / Intercalated Disc",
+      "stain": "TEM",
+      "href": "/EM-view/EM-122-cardiac-muscle/04-photo-1.html",
+      "thumbPath": "/EM-view/EM-122-cardiac-muscle/imgs/photo-2c.png",
+      "section": "Cardiac Muscle"
+    },
+    {
+      "kind": "em",
+      "name": "EM 138 Cardiac Muscle",
+      "caption": "Sarcomere / Intercalated Disc",
+      "stain": "SEM",
+      "href": "/EM-view/EM-138-cardiac-muscle/04-photo-1.html",
+      "thumbPath": "/EM-view/EM-138-cardiac-muscle/imgs/photo-2c.png",
+      "section": "Cardiac Muscle"
+    },
+    {
+      "kind": "em",
+      "name": "EM 141 Cardiac Muscle",
+      "caption": "Sarcomere / Intercalated Disc",
+      "stain": "SEM",
+      "href": "/EM-view/EM-141-cardiac-muscle/04-photo-1.html",
+      "thumbPath": "/EM-view/EM-141-cardiac-muscle/imgs/photo-2c.png",
+      "section": "Cardiac Muscle"
+    },
+    {
+      "kind": "em",
+      "name": "EM 236 Smooth Muscle Cell",
+      "caption": "Relaxed and Contracted",
+      "stain": "SEM",
+      "href": "/EM-view/EM-236-smooth-muscle-cell/04-photo-1.html",
+      "thumbPath": "/EM-view/EM-236-smooth-muscle-cell/imgs/photo-2c.png",
+      "section": "Smooth Muscle"
+    },
+    {
+      "kind": "em",
+      "name": "EM 132 Smooth Muscle",
+      "caption": "Longitudinal Section",
+      "stain": "TEM",
+      "href": "/EM-view/EM-132-smooth-muscle-cell/04-photo-1.html",
+      "thumbPath": "/EM-view/EM-132-smooth-muscle-cell/imgs/photo-2c.png",
+      "section": "Smooth Muscle"
+    },
+    {
+      "kind": "em",
+      "name": "EM 121 Smooth Muscle",
+      "caption": "Cross-Section",
+      "stain": "TEM",
+      "href": "/EM-view/EM-121-smooth-muscle/04-photo-1.html",
+      "thumbPath": "/EM-view/EM-121-smooth-muscle/imgs/photo-2c.png",
+      "section": "Smooth Muscle"
+    },
+    {
+      "kind": "em",
+      "name": "EM 128 Smooth Muscle",
+      "caption": "Cross-Section",
+      "stain": "TEM",
+      "href": "/EM-view/EM-128-smooth-muscle/04-photo-1.html",
+      "thumbPath": "/EM-view/EM-128-smooth-muscle/imgs/photo-2c.png",
+      "section": "Smooth Muscle"
+    },
+    {
+      "kind": "em",
+      "name": "EM 126 Smooth Muscle",
+      "caption": "TEM",
+      "stain": "",
+      "href": "/EM-view/EM-126-smooth-muscle/04-photo-1.html",
+      "thumbPath": "/EM-view/EM-126-smooth-muscle/imgs/photo-2c.png",
+      "section": "Smooth Muscle"
+    }
+  ]
+}

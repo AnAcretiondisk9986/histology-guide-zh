@@ -1,0 +1,320 @@
+{
+  "schema": 1,
+  "source": {
+    "url": "https://histologyguide.com/slidebox/09-cardiovascular-system.html",
+    "finalUrl": "https://histologyguide.com/slidebox/09-cardiovascular-system.html",
+    "fetchedAt": "2026-10-18T11:29:29.286Z",
+    "httpStatus": 200,
+    "bytes": 39697,
+    "sha256": "432362b7339e297d887e23438d7bb76cc354eafd1abcc61849f961eb5f145957",
+    "userAgent": "HistologyGuideCNStudyIndex/0.1 (+personal non-commercial study index; metadata extraction only; contact: local user)",
+    "note": "仅保存导航元数据；正文段落与图片未保存，遵循原站使用条款"
+  },
+  "chapter": 9,
+  "pageType": "slidebox",
+  "pageTitle": "Chapter 9 - Cardiovascular System",
+  "hasIntroProse": true,
+  "headings": [
+    {
+      "level": 2,
+      "id": null,
+      "text": "Chapter 9 - Cardiovascular System"
+    },
+    {
+      "level": 3,
+      "id": "heart",
+      "text": "HEART"
+    },
+    {
+      "level": 3,
+      "id": "hv-cs",
+      "text": "Heart Valves and Cardiac Skeleton"
+    },
+    {
+      "level": 3,
+      "id": "purkinje-fibers",
+      "text": "Purkinje Fibers"
+    },
+    {
+      "level": 3,
+      "id": "vessels",
+      "text": "BLOOD CIRCULATION"
+    },
+    {
+      "level": 3,
+      "id": "elastic_AV",
+      "text": "Elastic Arteries and Large Veins"
+    },
+    {
+      "level": 3,
+      "id": "muscular_AV",
+      "text": "Muscular Arteries and Medium Veins"
+    },
+    {
+      "level": 3,
+      "id": "arteriole",
+      "text": "Arterioles and Venules"
+    },
+    {
+      "level": 3,
+      "id": "microvasculature",
+      "text": "Capillaries"
+    },
+    {
+      "level": 3,
+      "id": "valve",
+      "text": "Venous Valve"
+    },
+    {
+      "level": 3,
+      "id": "femoral-artery",
+      "text": "ATHEROSCLEROSIS"
+    },
+    {
+      "level": 2,
+      "id": null,
+      "text": "CELL AND TISSUES"
+    },
+    {
+      "level": 2,
+      "id": null,
+      "text": "ORGAN SYSTEMS"
+    }
+  ],
+  "items": [
+    {
+      "kind": "slide",
+      "name": "MH 070 Cardiac Muscle Cells",
+      "caption": "H&E",
+      "stain": "",
+      "href": "/slideview/MH-070-heart/09-slide-2.html",
+      "thumbPath": "/slideview/MH-070-heart/imgs/slide.png",
+      "section": "HEART"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 069 Heart Atria",
+      "caption": "H&E",
+      "stain": "",
+      "href": "/slideview/MH-069-heart/09-slide-1.html",
+      "thumbPath": "/slideview/MH-069-heart/imgs/slide.png",
+      "section": "HEART"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 070 Heart Ventricles",
+      "caption": "H&E",
+      "stain": "",
+      "href": "/slideview/MH-070-heart/09-slide-1.html",
+      "thumbPath": "/slideview/MH-070-heart/imgs/slide.png",
+      "section": "HEART"
+    },
+    {
+      "kind": "slide",
+      "name": "EBL 039 Heart H05",
+      "caption": "Right Ventricle",
+      "stain": "H&E",
+      "href": "/slideview/EBL-039-heart-H05/09-slide-1.html",
+      "thumbPath": "/slideview/EBL-039-heart-H05/imgs/slide.png",
+      "section": "HEART"
+    },
+    {
+      "kind": "slide",
+      "name": "EBL 042 Heart H08",
+      "caption": "Left Ventricle",
+      "stain": "H&E",
+      "href": "/slideview/EBL-042-heart-H08/09-slide-1.html",
+      "thumbPath": "/slideview/EBL-042-heart-H08/imgs/slide.png",
+      "section": "HEART"
+    },
+    {
+      "kind": "figure",
+      "name": "Fig 019 Cardiac Valves and Skeleton",
+      "caption": "",
+      "stain": "",
+      "href": "/figureview/fig-019-cardiac-valves-and-skeleton/09-figure-1.html",
+      "thumbPath": "/figureview/fig-019-cardiac-valves-and-skeleton/imgs/figure.png",
+      "section": "Heart Valves and Cardiac Skeleton"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 071 Heart",
+      "caption": "Tricuspid Valve / Coronary Artery",
+      "stain": "H&E",
+      "href": "/slideview/MH-071-heart/09-slide-1.html",
+      "thumbPath": "/slideview/MH-071-heart/imgs/slide.png",
+      "section": "Heart Valves and Cardiac Skeleton"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 073-074 Heart",
+      "caption": "Aortic Valve / Cardiac Skeleton",
+      "stain": "H&E/Phosphotungstic Acid",
+      "href": "/slideview/MH-073-074-heart/09-slide-1.html",
+      "thumbPath": "/slideview/MH-073-heart/imgs/slide.png",
+      "section": "Heart Valves and Cardiac Skeleton"
+    },
+    {
+      "kind": "figure",
+      "name": "Fig 020 Purkinje Fibers",
+      "caption": "",
+      "stain": "",
+      "href": "/figureview/fig-020-purkinje-fibers/09-figure-1.html",
+      "thumbPath": "/figureview/fig-020-purkinje-fibers/imgs/figure.png",
+      "section": "Purkinje Fibers"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 073-074 Heart",
+      "caption": "Purkinje Fibers",
+      "stain": "H&E/Phosphotungstic Acid",
+      "href": "/slideview/MH-073-074-heart/09-slide-2.html",
+      "thumbPath": "/slideview/MH-073-heart/imgs/slide.png",
+      "section": "Purkinje Fibers"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 058a Heart",
+      "caption": "Purkinje Fibers",
+      "stain": "Periodic-Acid Schiff Stain",
+      "href": "/slideview/MH-058a-heart/09-slide-1.html",
+      "thumbPath": "/slideview/MH-058a-heart/imgs/slide.png",
+      "section": "Purkinje Fibers"
+    },
+    {
+      "kind": "slide",
+      "name": "MHS 245 Heart",
+      "caption": "Purkinje Fibers",
+      "stain": "H&E",
+      "href": "/slideview/MHS-245-heart/09-slide-1.html",
+      "thumbPath": "/slideview/MHS-245-heart/imgs/slide.png",
+      "section": "Purkinje Fibers"
+    },
+    {
+      "kind": "figure",
+      "name": "Fig 018 Blood Circulation",
+      "caption": "",
+      "stain": "",
+      "href": "/figureview/fig-018-blood-circulation/09-figure-1.html",
+      "thumbPath": "/figureview/fig-018-blood-circulation/imgs/figure.png",
+      "section": "BLOOD CIRCULATION"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 063 Carotid Artery and Brachiocephalic Vein",
+      "caption": "Elastic Artery and Large Vein",
+      "stain": "H&E",
+      "href": "/slideview/MH-063-carotid-artery-and-brachiocephalic-vein/09-slide-1.html",
+      "thumbPath": "/slideview/MH-063-carotid-artery-and-brachiocephalic-vein/imgs/slide.png",
+      "section": "Elastic Arteries and Large Veins"
+    },
+    {
+      "kind": "slide",
+      "name": "MHS 244 Elastic Artery",
+      "caption": "Aldehyde Fuchsin",
+      "stain": "",
+      "href": "/slideview/MHS-244-elastic-artery/09-slide-1.html",
+      "thumbPath": "/slideview/MHS-244-elastic-artery/imgs/slide.png",
+      "section": "Elastic Arteries and Large Veins"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 065-066 Aorta and Vena Cava",
+      "caption": "Elastic Artery and Large Vein",
+      "stain": "H&E/Verhoeff",
+      "href": "/slideview/MH-065-066-aorta-and-vena-cava/09-slide-1.html",
+      "thumbPath": "/slideview/MH-065-aorta-and-vena-cava/imgs/slide.png",
+      "section": "Elastic Arteries and Large Veins"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 024-025-026 Mesentery",
+      "caption": "Muscular Artery and Medium Vein",
+      "stain": "H&E/Azan/Verhoeff",
+      "href": "/slideview/MH-024-025-026-mesentery/09-slide-1.html",
+      "thumbPath": "/slideview/MH-024-mesentery/imgs/slide.png",
+      "section": "Muscular Arteries and Medium Veins"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 061-062 Popliteal Artery and Vein",
+      "caption": "Muscular Artery and Medium Vein",
+      "stain": "H&E/Verhoeff",
+      "href": "/slideview/MH-061-062-popliteal-artery-and-vein/09-slide-1.html",
+      "thumbPath": "/slideview/MH-061-popliteal-artery-and-vein/imgs/slide.png",
+      "section": "Muscular Arteries and Medium Veins"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 067 Vein Valve",
+      "caption": "H&E",
+      "stain": "",
+      "href": "/slideview/MH-067-vein-valve/09-slide-1.html",
+      "thumbPath": "/slideview/MH-067-vein-valve/imgs/slide.png",
+      "section": "Muscular Arteries and Medium Veins"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 071 Heart",
+      "caption": "Coronary Artery",
+      "stain": "H&E",
+      "href": "/slideview/MH-071-heart/09-slide-2.html",
+      "thumbPath": "/slideview/MH-071-heart/imgs/slide.png",
+      "section": "Muscular Arteries and Medium Veins"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 024-025 Mesentery",
+      "caption": "Arterioles and Venules",
+      "stain": "H&E/Verhoeff",
+      "href": "/slideview/MH-024-025-mesentery/09-slide-1.html",
+      "thumbPath": "/slideview/MH-024-mesentery/imgs/slide.png",
+      "section": "Arterioles and Venules"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 024 Mesentery",
+      "caption": "Continuous Capillaries",
+      "stain": "H&E",
+      "href": "/slideview/MH-024-mesentery/09-slide-3.html",
+      "thumbPath": "/slideview/MH-024-mesentery/imgs/slide.png",
+      "section": "Capillaries"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 155a Adrenal",
+      "caption": "Fenestrated Capillaries",
+      "stain": "H&E",
+      "href": "/slideview/MH-155a-adrenal/09-slide-1.html",
+      "thumbPath": "/slideview/MH-155a-adrenal/imgs/slide.png",
+      "section": "Capillaries"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 060 Microvasculature",
+      "caption": "Mesentery",
+      "stain": "Silver",
+      "href": "/slideview/MH-060-microvasculature/09-slide-1.html",
+      "thumbPath": "/slideview/MH-060-microvasculature/imgs/slide.png",
+      "section": "Capillaries"
+    },
+    {
+      "kind": "slide",
+      "name": "VH 062 Vein Valve",
+      "caption": "Masson's Trichrome",
+      "stain": "",
+      "href": "/slideview/VH-062-vein-valve/09-slide-1.html",
+      "thumbPath": "/slideview/VH-062-vein-valve/imgs/slide.png",
+      "section": "Venous Valve"
+    },
+    {
+      "kind": "slide",
+      "name": "MHS 279-280 Femoral Artery",
+      "caption": "Atherosclerosis",
+      "stain": "Masson's Trichrome/Verhoeff",
+      "href": "/slideview/MHS-279-280-femoral-artery/09-slide-1.html",
+      "thumbPath": "/slideview/MHS-279-280-femoral-artery/imgs/slide-01a.png",
+      "section": "ATHEROSCLEROSIS"
+    }
+  ]
+}

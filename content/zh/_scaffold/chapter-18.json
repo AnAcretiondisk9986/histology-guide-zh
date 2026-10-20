@@ -1,0 +1,364 @@
+{
+  "schema": 1,
+  "n": 18,
+  "titleEn": "Female Reproductive System",
+  "group": "organ-systems",
+  "originalPage": "https://histologyguide.com/slidebox/18-female-reproductive-system.html",
+  "note": "此文件由 scripts/scaffold.mjs 生成，仅供内容编写参考；请把中文写入 content/zh/chapters/NN.json，不要修改本文件。",
+  "sections": [
+    {
+      "en": "Ovary",
+      "specimenCount": 6,
+      "specimenNames": [
+        "MHS 259 Ovary",
+        "MH 160a Ovary",
+        "MH 161 Ovary",
+        "MH 162 Ovary",
+        "MH 163 Ovary",
+        "MHS 224 Ovary and Oviduct"
+      ]
+    },
+    {
+      "en": "Oviduct",
+      "specimenCount": 4,
+      "specimenNames": [
+        "MH 171 Oviduct",
+        "MHS 217 Oviduct",
+        "MHS 220 Oviduct",
+        "MHS 224 Ovary and Oviduct"
+      ]
+    },
+    {
+      "en": "Uterus",
+      "specimenCount": 2,
+      "specimenNames": [
+        "MHS 223 Uterus",
+        "MH 170 Uterus"
+      ]
+    },
+    {
+      "en": "Uterine (menstrual) Cycle",
+      "specimenCount": 5,
+      "specimenNames": [
+        "MH 165 Uterus",
+        "MHS 253 Uterus",
+        "MHS 254 Uterus",
+        "MH 166 Uterus",
+        "MH 167 Uterus"
+      ]
+    },
+    {
+      "en": "Cervix",
+      "specimenCount": 2,
+      "specimenNames": [
+        "MHS 207 Cervix",
+        "MH 172 Cervix"
+      ]
+    },
+    {
+      "en": "Vagina",
+      "specimenCount": 1,
+      "specimenNames": [
+        "MH 173 Vagina"
+      ]
+    },
+    {
+      "en": "Placenta",
+      "specimenCount": 2,
+      "specimenNames": [
+        "MH 175 Placenta",
+        "MHS 241 Umbilical Cord"
+      ]
+    },
+    {
+      "en": "Mammary Gland",
+      "specimenCount": 3,
+      "specimenNames": [
+        "MH 174a Mammary Gland",
+        "MH 174b Mammary Gland",
+        "MHS 218 Mammary Gland"
+      ]
+    }
+  ],
+  "specimens": [
+    {
+      "name": "MHS 259 Ovary",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Ovary",
+      "href": "/slideview/MHS-259-ovary/18-slide-1.html"
+    },
+    {
+      "name": "MH 160a Ovary",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Ovary",
+      "href": "/slideview/MH-160a-ovary/18-slide-1.html"
+    },
+    {
+      "name": "MH 161 Ovary",
+      "caption": "Mature or Graafian Follicle",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Ovary",
+      "href": "/slideview/MH-161-ovary/18-slide-1.html"
+    },
+    {
+      "name": "MH 162 Ovary",
+      "caption": "Corpus Hemorrhagicum",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Ovary",
+      "href": "/slideview/MH-162-ovary/18-slide-1.html"
+    },
+    {
+      "name": "MH 163 Ovary",
+      "caption": "Corpus Luteum",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Ovary",
+      "href": "/slideview/MH-163-ovary/18-slide-1.html"
+    },
+    {
+      "name": "MHS 224 Ovary and Oviduct",
+      "caption": "Corpus Luteum",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Ovary",
+      "href": "/slideview/MHS-224-ovary-and-oviduct/18-slide-1.html"
+    },
+    {
+      "name": "MH 171 Oviduct",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Oviduct",
+      "href": "/slideview/MH-171-oviduct/18-slide-1.html"
+    },
+    {
+      "name": "MHS 217 Oviduct",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Oviduct",
+      "href": "/slideview/MHS-217-oviduct/18-slide-1.html"
+    },
+    {
+      "name": "MHS 220 Oviduct",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Oviduct",
+      "href": "/slideview/MHS-220-oviduct/18-slide-1.html"
+    },
+    {
+      "name": "MHS 224 Ovary and Oviduct",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Oviduct",
+      "href": "/slideview/MHS-224-ovary-and-oviduct/18-slide-2.html"
+    },
+    {
+      "name": "MHS 223 Uterus",
+      "caption": "Cycling",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Uterus",
+      "href": "/slideview/MHS-223-uterus/18-slide-1.html"
+    },
+    {
+      "name": "MH 170 Uterus",
+      "caption": "Menopausal",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Uterus",
+      "href": "/slideview/MH-170-uterus/18-slide-1.html"
+    },
+    {
+      "name": "MH 165 Uterus",
+      "caption": "Proliferative (Follicular) Phase",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Uterine (menstrual) Cycle",
+      "href": "/slideview/MH-165-uterus/18-slide-1.html"
+    },
+    {
+      "name": "MHS 253 Uterus",
+      "caption": "Early Secretory (Luteal) Phase",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Uterine (menstrual) Cycle",
+      "href": "/slideview/MHS-253-uterus/18-slide-1.html"
+    },
+    {
+      "name": "MHS 254 Uterus",
+      "caption": "Mid-Secretory (Luteal) Phase",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Uterine (menstrual) Cycle",
+      "href": "/slideview/MHS-254-uterus/18-slide-1.html"
+    },
+    {
+      "name": "MH 166 Uterus",
+      "caption": "Late Secretory (Luteal) Phase",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Uterine (menstrual) Cycle",
+      "href": "/slideview/MH-166-uterus/18-slide-1.html"
+    },
+    {
+      "name": "MH 167 Uterus",
+      "caption": "Menstrual Phase",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Uterine (menstrual) Cycle",
+      "href": "/slideview/MH-167-uterus/18-slide-1.html"
+    },
+    {
+      "name": "MHS 207 Cervix",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Cervix",
+      "href": "/slideview/MHS-207-cervix/18-slide-1.html"
+    },
+    {
+      "name": "MH 172 Cervix",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Cervix",
+      "href": "/slideview/MH-172-cervix/18-slide-1.html"
+    },
+    {
+      "name": "MH 173 Vagina",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Vagina",
+      "href": "/slideview/MH-173-vagina/18-slide-1.html"
+    },
+    {
+      "name": "MH 175 Placenta",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Placenta",
+      "href": "/slideview/MH-175-placenta/18-slide-1.html"
+    },
+    {
+      "name": "MHS 241 Umbilical Cord",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "Placenta",
+      "href": "/slideview/MHS-241-umbilical-cord/18-slide-1.html"
+    },
+    {
+      "name": "MH 174a Mammary Gland",
+      "caption": "Lactating",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Mammary Gland",
+      "href": "/slideview/MH-174a-mammary-gland/18-slide-1.html"
+    },
+    {
+      "name": "MH 174b Mammary Gland",
+      "caption": "Resting and Lactating",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Mammary Gland",
+      "href": "/slideview/MH-174b-mammary-gland/18-slide-1.html"
+    },
+    {
+      "name": "MHS 218 Mammary Gland",
+      "caption": "Lactating",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": "Mammary Gland",
+      "href": "/slideview/MHS-218-mammary-gland/18-slide-1.html"
+    }
+  ],
+  "emItems": [
+    {
+      "name": "EM 323 Primordial Follicle",
+      "caption": "Ovary",
+      "technique": "TEM",
+      "section": "Ovary",
+      "href": "/EM-view/EM-323-primordial-follicle/18-photo-1.html"
+    },
+    {
+      "name": "EM 324 Primary Follicle",
+      "caption": "Oocyte",
+      "technique": "TEM",
+      "section": "Ovary",
+      "href": "/EM-view/EM-324-primary-follicle/18-photo-1.html"
+    },
+    {
+      "name": "EM 325 Secondary Follicle",
+      "caption": "Corona Radiata and Zona Pellucida",
+      "technique": "TEM",
+      "section": "Ovary",
+      "href": "/EM-view/EM-325-oocyte/18-photo-1.html"
+    },
+    {
+      "name": "EM 264 Oocyte",
+      "caption": "Secondary Follicle",
+      "technique": "SEM",
+      "section": "Ovary",
+      "href": "/EM-view/EM-264-oocyte/18-photo-1.html"
+    },
+    {
+      "name": "EM 265 Oocyte",
+      "caption": "Graafian Follicle",
+      "technique": "SEM",
+      "section": "Ovary",
+      "href": "/EM-view/EM-265-oocyte/18-photo-1.html"
+    },
+    {
+      "name": "EM 334 Zona Pellucida",
+      "caption": "Oocyte",
+      "technique": "SEM",
+      "section": "Ovary",
+      "href": "/EM-view/EM-334-zona-pellucida/18-photo-1.html"
+    },
+    {
+      "name": "EM 276 Oocyte",
+      "caption": "SEM",
+      "technique": "",
+      "section": "Fertilization",
+      "href": "/EM-view/EM-276-oocyte/18-photo-1.html"
+    },
+    {
+      "name": "EM 326 Oocyte",
+      "caption": "SEM",
+      "technique": "",
+      "section": "Fertilization",
+      "href": "/EM-view/EM-326-oocyte/18-photo-1.html"
+    },
+    {
+      "name": "EM 277 Oviduct",
+      "caption": "SEM",
+      "technique": "",
+      "section": "Oviduct",
+      "href": "/EM-view/EM-277-oviduct/18-photo-1.html"
+    },
+    {
+      "name": "EM 327 Uterus",
+      "caption": "Proliferative Phase",
+      "technique": "SEM",
+      "section": "Uterus",
+      "href": "/EM-view/EM-327-uterus/18-photo-1.html"
+    },
+    {
+      "name": "EM 328 Uterus",
+      "caption": "Menstruation",
+      "technique": "SEM",
+      "section": "Uterus",
+      "href": "/EM-view/EM-328-uterus/18-photo-1.html"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "schema": 1,
+  "source": {
+    "url": "https://histologyguide.com/slidebox/10-lymphoid-system.html",
+    "finalUrl": "https://histologyguide.com/slidebox/10-lymphoid-system.html",
+    "fetchedAt": "2026-10-18T11:29:33.200Z",
+    "httpStatus": 200,
+    "bytes": 17735,
+    "sha256": "69d360a30de029bd0d72ca15a3a05340e80d5f658095c373274758f3d6525044",
+    "userAgent": "HistologyGuideCNStudyIndex/0.1 (+personal non-commercial study index; metadata extraction only; contact: local user)",
+    "note": "仅保存导航元数据；正文段落与图片未保存，遵循原站使用条款"
+  },
+  "chapter": 10,
+  "pageType": "slidebox",
+  "pageTitle": "Chapter 10 - Lymphoid System",
+  "hasIntroProse": true,
+  "headings": [
+    {
+      "level": 2,
+      "id": "lymph-node",
+      "text": "Chapter 10 - Lymphoid System"
+    },
+    {
+      "level": 3,
+      "id": null,
+      "text": "Lymph Node"
+    },
+    {
+      "level": 3,
+      "id": "tonsil",
+      "text": "Tonsils"
+    },
+    {
+      "level": 3,
+      "id": "spleen",
+      "text": "Spleen"
+    },
+    {
+      "level": 3,
+      "id": "thymus",
+      "text": "Thymus"
+    },
+    {
+      "level": 2,
+      "id": null,
+      "text": "CELL AND TISSUES"
+    },
+    {
+      "level": 2,
+      "id": null,
+      "text": "ORGAN SYSTEMS"
+    }
+  ],
+  "items": [
+    {
+      "kind": "slide",
+      "name": "MH 024-026 Mesentery",
+      "caption": "Lymph Nodes",
+      "stain": "H&E/Azan",
+      "href": "/slideview/MH-024-026-mesentery/10-slide-1.html",
+      "thumbPath": "/slideview/MH-024-mesentery/imgs/slide.png",
+      "section": "Lymph Node"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 076-077-078 Lymph Node",
+      "caption": "Lymph Node",
+      "stain": "H&E/Azan/Silver",
+      "href": "/slideview/MH-076-077-078-lymph-node/10-slide-1.html",
+      "thumbPath": "/slideview/MH-076-lymph-node/imgs/slide.png",
+      "section": "Lymph Node"
+    },
+    {
+      "kind": "slide",
+      "name": "MHS 213 Lymph Nodes",
+      "caption": "H&E",
+      "stain": "",
+      "href": "/slideview/MHS-213-lymph-nodes/10-slide-1.html",
+      "thumbPath": "/slideview/MHS-213-lymph-nodes/imgs/slide.png",
+      "section": "Lymph Node"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 081a Palatine Tonsil",
+      "caption": "H&E",
+      "stain": "",
+      "href": "/slideview/MH-081a-palatine-tonsil/10-slide-1.html",
+      "thumbPath": "/slideview/MH-081a-palatine-tonsil/imgs/slide.png",
+      "section": "Tonsils"
+    },
+    {
+      "kind": "slide",
+      "name": "MHS 276 Tonsil",
+      "caption": "H&E",
+      "stain": "",
+      "href": "/slideview/MHS-276-tonsil/10-slide-1.html",
+      "thumbPath": "/slideview/MHS-276-tonsil/imgs/slide.png",
+      "section": "Tonsils"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 084-MHS 212-MHS 293 Spleen",
+      "caption": "H&E/Azan/Silver",
+      "stain": "",
+      "href": "/slideview/MH-MHS-spleen/10-slide-1.html",
+      "thumbPath": "/slideview/MHS-212-spleen/imgs/slide.png",
+      "section": "Spleen"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 085 Spleen",
+      "caption": "H&E",
+      "stain": "",
+      "href": "/slideview/MH-085-spleen/10-slide-1.html",
+      "thumbPath": "/slideview/MH-085-spleen/imgs/slide.png",
+      "section": "Spleen"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 079 Thymus",
+      "caption": "Adult and Neonatal",
+      "stain": "H&E",
+      "href": "/slideview/MH-079-thymus/10-slide-1.html",
+      "thumbPath": "/slideview/MH-079-thymus/imgs/slide.png",
+      "section": "Thymus"
+    },
+    {
+      "kind": "slide",
+      "name": "MHS 210 Thymus",
+      "caption": "H&E",
+      "stain": "",
+      "href": "/slideview/MHS-210-thymus/10-slide-1.html",
+      "thumbPath": "/slideview/MHS-210-thymus/imgs/slide.png",
+      "section": "Thymus"
+    }
+  ]
+}

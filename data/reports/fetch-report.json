@@ -1,0 +1,25 @@
+{
+  "startedAt": "2026-10-18T11:30:46.348Z",
+  "targets": [
+    {
+      "kind": "slidebox",
+      "n": 21,
+      "slug": "21-look-alikes",
+      "url": "https://histologyguide.com/slidebox/21-look-alikes.html",
+      "outPath": "data\\raw-meta\\slidebox-21-look-alikes.json",
+      "state": "ok",
+      "status": 200,
+      "bytes": 26149,
+      "itemCount": 27,
+      "headings": 3
+    }
+  ],
+  "summary": {
+    "total": 1,
+    "fetched": 1,
+    "skipped": 0,
+    "failed": 0,
+    "delayMs": 800
+  },
+  "finishedAt": "2026-10-18T11:30:49.787Z"
+}

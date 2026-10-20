@@ -1,0 +1,32 @@
+{
+  "site": "https://histologyguide.com",
+  "note": "审计得到的页面清单（仅用于元数据采集）。robots.txt 禁止 /assets /css /js /EMs /figures /slides /atlas-of-human-histology，采集器必须跳过这些前缀。",
+  "chapters": [
+    { "n": 1, "slug": "01-introduction", "en": "The Cell", "group": "cells-tissues" },
+    { "n": 2, "slug": "02-epithelium", "en": "Epithelium", "group": "cells-tissues" },
+    { "n": 3, "slug": "03-connective-tissue", "en": "Connective Tissue", "group": "cells-tissues" },
+    { "n": 4, "slug": "04-muscle-tissue", "en": "Muscle Tissue", "group": "cells-tissues" },
+    { "n": 5, "slug": "05-cartilage-and-bone", "en": "Cartilage and Bone", "group": "cells-tissues" },
+    { "n": 6, "slug": "06-nervous-tissue", "en": "Nervous Tissue", "group": "cells-tissues" },
+    { "n": 7, "slug": "07-peripheral-blood", "en": "Peripheral Blood", "group": "cells-tissues" },
+    { "n": 8, "slug": "08-hematopoiesis", "en": "Hematopoiesis", "group": "cells-tissues" },
+    { "n": 9, "slug": "09-cardiovascular-system", "en": "Cardiovascular System", "group": "organ-systems" },
+    { "n": 10, "slug": "10-lymphoid-system", "en": "Lymphoid System", "group": "organ-systems" },
+    { "n": 11, "slug": "11-skin", "en": "Skin", "group": "organ-systems" },
+    { "n": 12, "slug": "12-exocrine-glands", "en": "Exocrine Glands", "group": "organ-systems" },
+    { "n": 13, "slug": "13-endocrine-glands", "en": "Endocrine Glands", "group": "organ-systems" },
+    { "n": 14, "slug": "14-gastrointestinal-tract", "en": "Gastrointestinal Tract", "group": "organ-systems" },
+    { "n": 15, "slug": "15-liver-and-gallbladder", "en": "Liver and Gallbladder", "group": "organ-systems" },
+    { "n": 16, "slug": "16-urinary-system", "en": "Urinary System", "group": "organ-systems" },
+    { "n": 17, "slug": "17-respiratory-system", "en": "Respiratory System", "group": "organ-systems" },
+    { "n": 18, "slug": "18-female-reproductive-system", "en": "Female Reproductive System", "group": "organ-systems" },
+    { "n": 19, "slug": "19-male-reproductive-system", "en": "Male Reproductive System", "group": "organ-systems" },
+    { "n": 20, "slug": "20-organs-of-special-sense", "en": "Organs of Special Sense", "group": "organ-systems" },
+    { "n": 21, "slug": "21-look-alikes", "en": "Tissue Look-Alikes", "group": "quiz", "em": false }
+  ],
+  "pageTypes": [
+    { "type": "slidebox-chapter", "pattern": "/slidebox/{slug}.html", "desc": "章节正文 + 切片卡片" },
+    { "type": "em-chapter", "pattern": "/EM-atlas/{slug}.html", "desc": "电镜章节 + 电镜照片卡片" }
+  ],
+  "disallowedPrefixes": ["/assets", "/css", "/js", "/EMs", "/figures", "/slides", "/atlas-of-human-histology"]
+}

@@ -1,0 +1,169 @@
+{
+  "schema": 1,
+  "source": {
+    "url": "https://histologyguide.com/EM-atlas/08-hematopoiesis.html",
+    "finalUrl": "https://histologyguide.com/EM-atlas/08-hematopoiesis.html",
+    "fetchedAt": "2026-10-18T11:29:26.829Z",
+    "httpStatus": 200,
+    "bytes": 17744,
+    "sha256": "4afbe67327b2f991a8145694814a121af9cce5df857252179391fa9bc378afc8",
+    "userAgent": "HistologyGuideCNStudyIndex/0.1 (+personal non-commercial study index; metadata extraction only; contact: local user)",
+    "note": "仅保存导航元数据；正文段落与图片未保存，遵循原站使用条款"
+  },
+  "chapter": 8,
+  "pageType": "em",
+  "pageTitle": "Chapter 8 - Hematopoiesis",
+  "hasIntroProse": true,
+  "headings": [
+    {
+      "level": 2,
+      "id": null,
+      "text": "Chapter 8 - Hematopoiesis"
+    },
+    {
+      "level": 3,
+      "id": null,
+      "text": "Bone Marrow"
+    },
+    {
+      "level": 3,
+      "id": "erythropoiesis",
+      "text": "Erythropoiesis"
+    },
+    {
+      "level": 3,
+      "id": "neutrophil",
+      "text": "Granulopoiesis"
+    },
+    {
+      "level": 3,
+      "id": "platelets",
+      "text": "Thrombopoiesis"
+    },
+    {
+      "level": 3,
+      "id": "plasma-cell",
+      "text": "Plasma Cell"
+    },
+    {
+      "level": 2,
+      "id": null,
+      "text": "CELL AND TISSUES"
+    },
+    {
+      "level": 2,
+      "id": null,
+      "text": "ORGAN SYSTEMS"
+    }
+  ],
+  "items": [
+    {
+      "kind": "em",
+      "name": "EM 300 Bone Marrow",
+      "caption": "SEM",
+      "stain": "",
+      "href": "/EM-view/EM-300-bone-marrow/08-photo-1.html",
+      "thumbPath": "/EM-view/EM-300-bone-marrow/imgs/photo-2c.png",
+      "section": "Bone Marrow"
+    },
+    {
+      "kind": "em",
+      "name": "EM 209 Basophilic Erythroblast",
+      "caption": "TEM",
+      "stain": "",
+      "href": "/EM-view/EM-209-proerythroblast/08-photo-1.html",
+      "thumbPath": "/EM-view/EM-209-proerythroblast/imgs/photo-2c.png",
+      "section": "Erythropoiesis"
+    },
+    {
+      "kind": "em",
+      "name": "EM 210 Polychromatic Erythroblast",
+      "caption": "TEM",
+      "stain": "",
+      "href": "/EM-view/EM-210-polychromatic-erythroblast/08-photo-1.html",
+      "thumbPath": "/EM-view/EM-210-polychromatic-erythroblast/imgs/photo-2c.png",
+      "section": "Erythropoiesis"
+    },
+    {
+      "kind": "em",
+      "name": "EM 348 Orthochromatic Erythroblast",
+      "caption": "TEM",
+      "stain": "",
+      "href": "/EM-view/EM-348-orthochromatic-erythroblast/08-photo-1.html",
+      "thumbPath": "/EM-view/EM-348-orthochromatic-erythroblast/imgs/photo-2c.png",
+      "section": "Erythropoiesis"
+    },
+    {
+      "kind": "em",
+      "name": "EM 211 Orthochromatic Erythroblast",
+      "caption": "TEM",
+      "stain": "",
+      "href": "/EM-view/EM-211-orthochromatic-erythroblast/08-photo-1.html",
+      "thumbPath": "/EM-view/EM-211-orthochromatic-erythroblast/imgs/photo-2c.png",
+      "section": "Erythropoiesis"
+    },
+    {
+      "kind": "em",
+      "name": "EM 206 Red Blood Cells",
+      "caption": "SEM",
+      "stain": "",
+      "href": "/EM-view/EM-206-red-blood-cells/08-photo-1.html",
+      "thumbPath": "/EM-view/EM-206-red-blood-cells/imgs/photo-2c.png",
+      "section": "Erythropoiesis"
+    },
+    {
+      "kind": "em",
+      "name": "EM 212 Macrophage",
+      "caption": "TEM",
+      "stain": "",
+      "href": "/EM-view/EM-212-macrophage/08-photo-1.html",
+      "thumbPath": "/EM-view/EM-212-macrophage/imgs/photo-2c.png",
+      "section": "Erythropoiesis"
+    },
+    {
+      "kind": "em",
+      "name": "EM 381 Myeloblast",
+      "caption": "TEM",
+      "stain": "",
+      "href": "/EM-view/EM-381-myeloblast/08-photo-1.html",
+      "thumbPath": "/EM-view/EM-381-myeloblast/imgs/photo-2c.png",
+      "section": "Granulopoiesis"
+    },
+    {
+      "kind": "em",
+      "name": "EM 344 Neutrophil Development",
+      "caption": "TEM",
+      "stain": "",
+      "href": "/EM-view/EM-344-bone-marrow/08-photo-1.html",
+      "thumbPath": "/EM-view/EM-344-bone-marrow/imgs/photo-2c.png",
+      "section": "Granulopoiesis"
+    },
+    {
+      "kind": "em",
+      "name": "EM 346 Megakaryoblast",
+      "caption": "TEM",
+      "stain": "",
+      "href": "/EM-view/EM-346-megakaryoblast/08-photo-1.html",
+      "thumbPath": "/EM-view/EM-346-megakaryoblast/imgs/photo-2c.png",
+      "section": "Thrombopoiesis"
+    },
+    {
+      "kind": "em",
+      "name": "EM 347 Megakaryocyte",
+      "caption": "TEM",
+      "stain": "",
+      "href": "/EM-view/EM-347-megakaryocyte/08-photo-1.html",
+      "thumbPath": "/EM-view/EM-347-megakaryocyte/imgs/photo-2c.png",
+      "section": "Thrombopoiesis"
+    },
+    {
+      "kind": "em",
+      "name": "EM 349 Plasma Cell",
+      "caption": "TEM",
+      "stain": "",
+      "href": "/EM-view/EM-349-plasma-cell/08-photo-1.html",
+      "thumbPath": "/EM-view/EM-349-plasma-cell/imgs/photo-2c.png",
+      "section": "Plasma Cell"
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "schema": 1,
+  "source": {
+    "url": "https://histologyguide.com/slidebox/11-skin.html",
+    "finalUrl": "https://histologyguide.com/slidebox/11-skin.html",
+    "fetchedAt": "2026-10-18T11:29:36.812Z",
+    "httpStatus": 200,
+    "bytes": 19580,
+    "sha256": "ec92b4805868f2a7c278782d2584d0d156b7b3c08b51f4f4078154e3d8f0aa4d",
+    "userAgent": "HistologyGuideCNStudyIndex/0.1 (+personal non-commercial study index; metadata extraction only; contact: local user)",
+    "note": "仅保存导航元数据；正文段落与图片未保存，遵循原站使用条款"
+  },
+  "chapter": 11,
+  "pageType": "slidebox",
+  "pageTitle": "Chapter 11 - Skin",
+  "hasIntroProse": true,
+  "headings": [
+    {
+      "level": 2,
+      "id": null,
+      "text": "Chapter 11 - Skin"
+    },
+    {
+      "level": 3,
+      "id": "thick-skin",
+      "text": "Thick Skin"
+    },
+    {
+      "level": 3,
+      "id": "thin-skin",
+      "text": "Thin Skin"
+    },
+    {
+      "level": 3,
+      "id": "melanin",
+      "text": "Pigmented Skin"
+    },
+    {
+      "level": 3,
+      "id": "scalp",
+      "text": "Hair Follicles"
+    },
+    {
+      "level": 3,
+      "id": "corpuscles",
+      "text": "Meissner and Pacinian Corpuscles"
+    },
+    {
+      "level": 2,
+      "id": null,
+      "text": "CELL AND TISSUES"
+    },
+    {
+      "level": 2,
+      "id": null,
+      "text": "ORGAN SYSTEMS"
+    }
+  ],
+  "items": [
+    {
+      "kind": "slide",
+      "name": "MH 091 Thick Skin",
+      "caption": "H&E",
+      "stain": "",
+      "href": "/slideview/MH-091-thick-skin/11-slide-1.html",
+      "thumbPath": "/slideview/MH-091-thick-skin/imgs/slide.png",
+      "section": "Thick Skin"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 091bhr Thick Skin",
+      "caption": "H&E",
+      "stain": "",
+      "href": "/slideview/MH-091bhr-thick-skin/11-slide-1.html",
+      "thumbPath": "/slideview/MH-091bhr-thick-skin/imgs/slide.png",
+      "section": "Thick Skin"
+    },
+    {
+      "kind": "slide",
+      "name": "MHS 235 Thick Skin",
+      "caption": "H&E",
+      "stain": "",
+      "href": "/slideview/MHS-235-thick-skin/11-slide-1.html",
+      "thumbPath": "/slideview/MHS-235-thick-skin/imgs/slide.png",
+      "section": "Thick Skin"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 090 Thin Skin",
+      "caption": "H&E",
+      "stain": "",
+      "href": "/slideview/MH-090-thin-skin/11-slide-1.html",
+      "thumbPath": "/slideview/MH-090-thin-skin/imgs/slide.png",
+      "section": "Thin Skin"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 277-278 Thin Skin",
+      "caption": "Elastic Fibers",
+      "stain": "H&E/Verhoeff",
+      "href": "/slideview/MHS-277-278-skin/11-slide-1.html",
+      "thumbPath": "/slideview/MHS-277-skin/imgs/slide.png",
+      "section": "Thin Skin"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 088 Thick and Thin Skin",
+      "caption": "Melanin",
+      "stain": "H&E",
+      "href": "/slideview/MH-088-skin/11-slide-1.html",
+      "thumbPath": "/slideview/MH-088-skin/imgs/slide.png",
+      "section": "Pigmented Skin"
+    },
+    {
+      "kind": "slide",
+      "name": "MHS 236 Thin Skin",
+      "caption": "Melanin",
+      "stain": "H&E",
+      "href": "/slideview/MHS-236-thin-skin/11-slide-1.html",
+      "thumbPath": "/slideview/MHS-236-thin-skin/imgs/slide.png",
+      "section": "Pigmented Skin"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 086b Scalp",
+      "caption": "Hair Follicles",
+      "stain": "H&E",
+      "href": "/slideview/MH-086b-scalp/11-slide-1.html",
+      "thumbPath": "/slideview/MH-086b-scalp/imgs/slide.png",
+      "section": "Hair Follicles"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 086c Scalp",
+      "caption": "Hair Follicles (cross section)",
+      "stain": "H&E",
+      "href": "/slideview/MH-086c-scalp/11-slide-1.html",
+      "thumbPath": "/slideview/MH-086c-scalp/imgs/slide.png",
+      "section": "Hair Follicles"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 087b Scalp",
+      "caption": "Hair Follicles (longitudinal section)",
+      "stain": "H&E",
+      "href": "/slideview/MH-087b-scalp/11-slide-1.html",
+      "thumbPath": "/slideview/MH-087b-scalp/imgs/slide.png",
+      "section": "Hair Follicles"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 091 Thick Skin",
+      "caption": "Meissner and Pacinian Corpuscles",
+      "stain": "H&E",
+      "href": "/slideview/MH-091-thick-skin/11-slide-2.html",
+      "thumbPath": "/slideview/MH-091-thick-skin/imgs/slide.png",
+      "section": "Meissner and Pacinian Corpuscles"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 091ahr Thick Skin",
+      "caption": "Meissner Corpuscle",
+      "stain": "H&E",
+      "href": "/slideview/MH-091ahr-thick-skin/11-slide-1.html",
+      "thumbPath": "/slideview/MH-091ahr-thick-skin/imgs/slide.png",
+      "section": "Meissner and Pacinian Corpuscles"
+    }
+  ]
+}

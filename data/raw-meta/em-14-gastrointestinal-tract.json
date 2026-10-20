@@ -1,0 +1,397 @@
+{
+  "schema": 1,
+  "source": {
+    "url": "https://histologyguide.com/EM-atlas/14-gastrointestinal-tract.html",
+    "finalUrl": "https://histologyguide.com/EM-atlas/14-gastrointestinal-tract.html",
+    "fetchedAt": "2026-10-18T11:29:52.148Z",
+    "httpStatus": 200,
+    "bytes": 41640,
+    "sha256": "a41bda25a6cf46087d14cbc23f5bc892a6e4680cf5d3ffcb5c64174a697bf2d5",
+    "userAgent": "HistologyGuideCNStudyIndex/0.1 (+personal non-commercial study index; metadata extraction only; contact: local user)",
+    "note": "仅保存导航元数据；正文段落与图片未保存，遵循原站使用条款"
+  },
+  "chapter": 14,
+  "pageType": "em",
+  "pageTitle": "Chapter 14 - Gastrointestinal Tract",
+  "hasIntroProse": true,
+  "headings": [
+    {
+      "level": 2,
+      "id": null,
+      "text": "Chapter 14 - Gastrointestinal Tract"
+    },
+    {
+      "level": 3,
+      "id": "stomach",
+      "text": "STOMACH"
+    },
+    {
+      "level": 3,
+      "id": "fundic-stomach",
+      "text": "Fundic Stomach"
+    },
+    {
+      "level": 3,
+      "id": "pyloric-stomach",
+      "text": "Pyloric Stomach"
+    },
+    {
+      "level": 3,
+      "id": "gastroduodenal-junction",
+      "text": "GASTRODUODENAL JUNCTION"
+    },
+    {
+      "level": 3,
+      "id": "small-intestine",
+      "text": "SMALL INTESTINE"
+    },
+    {
+      "level": 3,
+      "id": "crypts",
+      "text": "Intestinal Glands"
+    },
+    {
+      "level": 3,
+      "id": "blood-vessels-intestine",
+      "text": "Blood Supply"
+    },
+    {
+      "level": 3,
+      "id": "lacteals",
+      "text": "Lacteals"
+    },
+    {
+      "level": 3,
+      "id": "GALT",
+      "text": "Mucosa-Associated Lymphoid Tissue (MALT)"
+    },
+    {
+      "level": 3,
+      "id": null,
+      "text": "ILEOCECAL JUNCTION"
+    },
+    {
+      "level": 3,
+      "id": "large-intestine",
+      "text": "LARGE INTESTINE"
+    },
+    {
+      "level": 2,
+      "id": null,
+      "text": "CELL AND TISSUES"
+    },
+    {
+      "level": 2,
+      "id": null,
+      "text": "ORGAN SYSTEMS"
+    }
+  ],
+  "items": [
+    {
+      "kind": "figure",
+      "name": "Fig 003 Gastrointestinal Tract",
+      "caption": "",
+      "stain": "",
+      "href": "/figureview/fig-003-gastrointestinal-tract/14-figure-2.html",
+      "thumbPath": "/figureview/fig-003-gastrointestinal-tract/imgs/figure.png",
+      "section": null
+    },
+    {
+      "kind": "em",
+      "name": "EM 031 Gastric Mucosa",
+      "caption": "Stomach",
+      "stain": "SEM",
+      "href": "/EM-view/EM-031-gastric-mucosa/14-photo-1.html",
+      "thumbPath": "/EM-view/EM-031-gastric-mucosa/imgs/photo-2c.png",
+      "section": "STOMACH"
+    },
+    {
+      "kind": "em",
+      "name": "EM 023 Gastric Glands",
+      "caption": "Fundic Stomach",
+      "stain": "SEM",
+      "href": "/EM-view/EM-023-gastric-glands/14-photo-1.html",
+      "thumbPath": "/EM-view/EM-023-gastric-glands/imgs/photo-2c.png",
+      "section": "Fundic Stomach"
+    },
+    {
+      "kind": "em",
+      "name": "RD 101 Mucous Neck Cell",
+      "caption": "Fundic Stomach",
+      "stain": "TEM",
+      "href": "/EM-view/RD-101-mucous-neck-cell/14-photo-1.html",
+      "thumbPath": "/EM-view/RD-101-mucous-neck-cell/imgs/photo-2c.png",
+      "section": "Fundic Stomach"
+    },
+    {
+      "kind": "em",
+      "name": "EM 025 Parietal Cell",
+      "caption": "Stimulated",
+      "stain": "TEM",
+      "href": "/EM-view/EM-025-parietal-cell/14-photo-1.html",
+      "thumbPath": "/EM-view/EM-025-parietal-cell/imgs/photo-2c.png",
+      "section": "Fundic Stomach"
+    },
+    {
+      "kind": "em",
+      "name": "EM 030 Parietal Cell",
+      "caption": "Unstimulated",
+      "stain": "TEM",
+      "href": "/EM-view/EM-030-parietal-cell/14-photo-1.html",
+      "thumbPath": "/EM-view/EM-030-parietal-cell/imgs/photo-2c.png",
+      "section": "Fundic Stomach"
+    },
+    {
+      "kind": "em",
+      "name": "EM 035 Gastric Gland",
+      "caption": "Fundic Stomach",
+      "stain": "TEM",
+      "href": "/EM-view/EM-035-gastric-gland/14-photo-1.html",
+      "thumbPath": "/EM-view/EM-035-gastric-gland/imgs/photo-2c.png",
+      "section": "Fundic Stomach"
+    },
+    {
+      "kind": "em",
+      "name": "EM 026 Chief Cell",
+      "caption": "Fundic Stomach",
+      "stain": "TEM",
+      "href": "/EM-view/EM-026-chief-cell/14-photo-1.html",
+      "thumbPath": "/EM-view/EM-026-chief-cell/imgs/photo-2c.png",
+      "section": "Fundic Stomach"
+    },
+    {
+      "kind": "em",
+      "name": "EM 018 Gastric Gland",
+      "caption": "Enteroendocrine cell / Parietal Cells / Chief Cells",
+      "stain": "TEM",
+      "href": "/EM-view/EM-018-gastric-gland/14-photo-1.html",
+      "thumbPath": "/EM-view/EM-018-gastric-gland/imgs/photo-2c.png",
+      "section": "Fundic Stomach"
+    },
+    {
+      "kind": "em",
+      "name": "EM 032 Pyloric Mucosa",
+      "caption": "Pyloric Stomach",
+      "stain": "SEM",
+      "href": "/EM-view/EM-032-pyloric-mucosa/14-photo-1.html",
+      "thumbPath": "/EM-view/EM-032-pyloric-mucosa/imgs/photo-2c.png",
+      "section": "Pyloric Stomach"
+    },
+    {
+      "kind": "em",
+      "name": "EM 062 Pyloric Glands",
+      "caption": "Pyloric Stomach",
+      "stain": "SEM",
+      "href": "/EM-view/EM-062-pyloric-glands/14-photo-1.html",
+      "thumbPath": "/EM-view/EM-062-pyloric-glands/imgs/photo-2c.png",
+      "section": "Pyloric Stomach"
+    },
+    {
+      "kind": "em",
+      "name": "EM 033 Gastroduodenal Junction",
+      "caption": "SEM",
+      "stain": "",
+      "href": "/EM-view/EM-033-gastroduodenal-junction/14-photo-1.html",
+      "thumbPath": "/EM-view/EM-033-gastroduodenal-junction/imgs/photo-2c.png",
+      "section": "GASTRODUODENAL JUNCTION"
+    },
+    {
+      "kind": "em",
+      "name": "EM 036 Small Intestine",
+      "caption": "Villi",
+      "stain": "SEM",
+      "href": "/EM-view/EM-036-small-intestine/14-photo-1.html",
+      "thumbPath": "/EM-view/EM-036-small-intestine/imgs/photo-2c.png",
+      "section": "SMALL INTESTINE"
+    },
+    {
+      "kind": "em",
+      "name": "EM 039 Small Intestine",
+      "caption": "Villi / Crypts",
+      "stain": "SEM",
+      "href": "/EM-view/EM-039-small-intestine/14-photo-1.html",
+      "thumbPath": "/EM-view/EM-039-small-intestine/imgs/photo-2c.png",
+      "section": "SMALL INTESTINE"
+    },
+    {
+      "kind": "em",
+      "name": "EM 090 Small Intestine",
+      "caption": "Lamina Propria of Villi",
+      "stain": "SEM",
+      "href": "/EM-view/EM-090-small-intestine/14-photo-1.html",
+      "thumbPath": "/EM-view/EM-090-small-intestine/imgs/photo-2c.png",
+      "section": "SMALL INTESTINE"
+    },
+    {
+      "kind": "em",
+      "name": "EM 041 Small Intestine",
+      "caption": "Shedding of Epithelial Cells",
+      "stain": "SEM",
+      "href": "/EM-view/EM-041-small-intestine/14-photo-1.html",
+      "thumbPath": "/EM-view/EM-041-small-intestine/imgs/photo-2c.png",
+      "section": "SMALL INTESTINE"
+    },
+    {
+      "kind": "em",
+      "name": "EM 045 Small Intestine",
+      "caption": "Epithelium",
+      "stain": "SEM",
+      "href": "/EM-view/EM-045-small-intestine/14-photo-1.html",
+      "thumbPath": "/EM-view/EM-045-small-intestine/imgs/photo-2c.png",
+      "section": "SMALL INTESTINE"
+    },
+    {
+      "kind": "em",
+      "name": "EM 017 Small Intestine",
+      "caption": "Goblet Cell",
+      "stain": "TEM",
+      "href": "/EM-view/EM-017-small-intestine/14-photo-1.html",
+      "thumbPath": "/EM-view/EM-017-small-intestine/imgs/photo-2c.png",
+      "section": "SMALL INTESTINE"
+    },
+    {
+      "kind": "em",
+      "name": "EM 034 Small Intestine",
+      "caption": "Goblet Cells",
+      "stain": "TEM",
+      "href": "/EM-view/EM-034-small-intestine/14-photo-1.html",
+      "thumbPath": "/EM-view/EM-034-small-intestine/imgs/photo-2c.png",
+      "section": "SMALL INTESTINE"
+    },
+    {
+      "kind": "em",
+      "name": "EM 019 Small Intestine",
+      "caption": "Goblet Cell / Immune Cells",
+      "stain": "TEM",
+      "href": "/EM-view/EM-019-small-intestine/14-photo-1.html",
+      "thumbPath": "/EM-view/EM-019-small-intestine/imgs/photo-2c.png",
+      "section": "SMALL INTESTINE"
+    },
+    {
+      "kind": "em",
+      "name": "EM 043 Intestinal Gland",
+      "caption": "TEM",
+      "stain": "",
+      "href": "/EM-view/EM-043-intestinal-gland/14-photo-1.html",
+      "thumbPath": "/EM-view/EM-043-intestinal-gland/imgs/photo-2c.png",
+      "section": "Intestinal Glands"
+    },
+    {
+      "kind": "em",
+      "name": "EM 020 Paneth Cells",
+      "caption": "Intestinal Gland",
+      "stain": "TEM",
+      "href": "/EM-view/EM-020-paneth-cells/14-photo-1.html",
+      "thumbPath": "/EM-view/EM-020-paneth-cells/imgs/photo-2c.png",
+      "section": "Intestinal Glands"
+    },
+    {
+      "kind": "em",
+      "name": "EM 394 Paneth Cells",
+      "caption": "Intestinal Gland",
+      "stain": "TEM",
+      "href": "/EM-view/EM-394-paneth-cells/14-photo-1.html",
+      "thumbPath": "/EM-view/EM-394-paneth-cells/imgs/photo-2c.png",
+      "section": "Intestinal Glands"
+    },
+    {
+      "kind": "em",
+      "name": "EM 355 Small Intestine",
+      "caption": "Vascular Cast",
+      "stain": "SEM",
+      "href": "/EM-view/EM-355-small-intestine/14-photo-1.html",
+      "thumbPath": "/EM-view/EM-355-small-intestine/imgs/photo-2c.png",
+      "section": "Blood Supply"
+    },
+    {
+      "kind": "em",
+      "name": "EM 356 Small Intestine",
+      "caption": "Vascular Cast",
+      "stain": "SEM",
+      "href": "/EM-view/EM-356-small-intestine/14-photo-1.html",
+      "thumbPath": "/EM-view/EM-356-small-intestine/imgs/photo-2c.png",
+      "section": "Blood Supply"
+    },
+    {
+      "kind": "em",
+      "name": "EM 313 Lacteals",
+      "caption": "Vascular / Lymphatic Cast",
+      "stain": "SEM",
+      "href": "/EM-view/EM-313-lacteals/14-photo-1.html",
+      "thumbPath": "/EM-view/EM-313-lacteals/imgs/photo-2c.png",
+      "section": "Lacteals"
+    },
+    {
+      "kind": "em",
+      "name": "EM 357 Lacteals",
+      "caption": "SEM",
+      "stain": "",
+      "href": "/EM-view/EM-357-lacteals/14-photo-1.html",
+      "thumbPath": "/EM-view/EM-357-lacteals/imgs/photo-2c.png",
+      "section": "Lacteals"
+    },
+    {
+      "kind": "em",
+      "name": "EM 223 Lymphoid Follicle",
+      "caption": "Peyer's Patch",
+      "stain": "SEM",
+      "href": "/EM-view/EM-223-lymphoid-follicle/14-photo-1.html",
+      "thumbPath": "/EM-view/EM-223-lymphoid-follicle/imgs/photo-2c.png",
+      "section": "Mucosa-Associated Lymphoid Tissue (MALT)"
+    },
+    {
+      "kind": "em",
+      "name": "EM 056 M Cells",
+      "caption": "Peyer's Patch",
+      "stain": "SEM",
+      "href": "/EM-view/EM-056-m-cells/14-photo-1.html",
+      "thumbPath": "/EM-view/EM-056-m-cells/imgs/photo-2c.png",
+      "section": "Mucosa-Associated Lymphoid Tissue (MALT)"
+    },
+    {
+      "kind": "em",
+      "name": "EM 054 M Cell",
+      "caption": "Peyer's Patch",
+      "stain": "TEM",
+      "href": "/EM-view/EM-054-m-cell/14-photo-1.html",
+      "thumbPath": "/EM-view/EM-054-m-cell/imgs/photo-2c.png",
+      "section": "Mucosa-Associated Lymphoid Tissue (MALT)"
+    },
+    {
+      "kind": "em",
+      "name": "EM 048 Ileocecal Junction",
+      "caption": "SEM",
+      "stain": "",
+      "href": "/EM-view/EM-048-ileocecal-junction/14-photo-1.html",
+      "thumbPath": "/EM-view/EM-048-ileocecal-junction/imgs/photo-2c.png",
+      "section": "ILEOCECAL JUNCTION"
+    },
+    {
+      "kind": "em",
+      "name": "EM 292 Appendix",
+      "caption": "SEM",
+      "stain": "",
+      "href": "/EM-view/EM-292-appendix/14-photo-1.html",
+      "thumbPath": "/EM-view/EM-292-appendix/imgs/photo-2c.png",
+      "section": "LARGE INTESTINE"
+    },
+    {
+      "kind": "em",
+      "name": "EM 050 Colon",
+      "caption": "SEM",
+      "stain": "",
+      "href": "/EM-view/EM-050-colon/14-photo-1.html",
+      "thumbPath": "/EM-view/EM-050-colon/imgs/photo-2c.png",
+      "section": "LARGE INTESTINE"
+    },
+    {
+      "kind": "em",
+      "name": "EM 021 Enteroendocrine Cell",
+      "caption": "Colon",
+      "stain": "TEM",
+      "href": "/EM-view/EM-021-enteroendocrine-cell/14-photo-1.html",
+      "thumbPath": "/EM-view/EM-021-enteroendocrine-cell/imgs/photo-2c.png",
+      "section": "LARGE INTESTINE"
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "schema": 1,
+  "source": {
+    "url": "https://histologyguide.com/slidebox/01-introduction.html",
+    "finalUrl": "https://histologyguide.com/slidebox/01-introduction.html",
+    "fetchedAt": "2026-10-18T11:29:01.551Z",
+    "httpStatus": 200,
+    "bytes": 30634,
+    "sha256": "faeeffa5bca8964c71fdce6d17db2eb4f5e8a180bd123ba893b1732e07311799",
+    "userAgent": "HistologyGuideCNStudyIndex/0.1 (+personal non-commercial study index; metadata extraction only; contact: local user)",
+    "note": "仅保存导航元数据；正文段落与图片未保存，遵循原站使用条款"
+  },
+  "chapter": 1,
+  "pageType": "slidebox",
+  "pageTitle": "Chapter 1 - The Cell",
+  "hasIntroProse": true,
+  "headings": [
+    {
+      "level": 2,
+      "id": null,
+      "text": "Chapter 1 - The Cell"
+    },
+    {
+      "level": 3,
+      "id": null,
+      "text": "Objectives"
+    },
+    {
+      "level": 3,
+      "id": null,
+      "text": "Characteristics to Observe and Notice"
+    },
+    {
+      "level": 3,
+      "id": "microscope",
+      "text": "Light Microscope"
+    },
+    {
+      "level": 3,
+      "id": "stains",
+      "text": "Histological Stains"
+    },
+    {
+      "level": 3,
+      "id": "H&E",
+      "text": "H&E Staining"
+    },
+    {
+      "level": 3,
+      "id": "cells",
+      "text": "Cellular Diversity"
+    },
+    {
+      "level": 3,
+      "id": null,
+      "text": "Specialized Histological Stains"
+    },
+    {
+      "level": 3,
+      "id": "purkinje",
+      "text": "Purkinje Cells"
+    },
+    {
+      "level": 3,
+      "id": "mitosis",
+      "text": "Mitosis"
+    },
+    {
+      "level": 4,
+      "id": null,
+      "text": "Animal Mitosis"
+    },
+    {
+      "level": 4,
+      "id": null,
+      "text": "Plant Mitosis"
+    },
+    {
+      "level": 2,
+      "id": null,
+      "text": "CELL AND TISSUES"
+    },
+    {
+      "level": 2,
+      "id": null,
+      "text": "ORGAN SYSTEMS"
+    }
+  ],
+  "items": [
+    {
+      "kind": "figure",
+      "name": "Fig 002 Light Microscope",
+      "caption": "",
+      "stain": "",
+      "href": "/figureview/fig-002-microscopes/01-figure-LM.html",
+      "thumbPath": "/figureview/fig-002-microscopes/imgs/figure-LM.png",
+      "section": "Light Microscope"
+    },
+    {
+      "kind": "figure",
+      "name": "Fig 001 Acidic/Basic Dyes",
+      "caption": "",
+      "stain": "",
+      "href": "/figureview/fig-001-acidic-basic-dyes/01-figure-1.html",
+      "thumbPath": "/figureview/fig-001-acidic-basic-dyes/imgs/figure.png",
+      "section": "Histological Stains"
+    },
+    {
+      "kind": "slide",
+      "name": "MHS 268-269-270 Pancreas",
+      "caption": "H&E",
+      "stain": "",
+      "href": "/slideview/MHS-268-269-270-pancreas/01-slide-1.html",
+      "thumbPath": "/slideview/MHS-268-pancreas/imgs/slide.png",
+      "section": "H&E Staining"
+    },
+    {
+      "kind": "figure",
+      "name": "TLL 084x Acinar Cell",
+      "caption": "Cell Ultrastructure/H&E",
+      "stain": "",
+      "href": "/figureview/TLL-084x-acinar-cell/01-figure-1.html",
+      "thumbPath": "/figureview/TLL-084x-acinar-cell/imgs/photo.png",
+      "section": "H&E Staining"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 001 Nuclear Morphology",
+      "caption": "Heterochromatin/Euchromatin",
+      "stain": "H&E",
+      "href": "/slideview/MH-001-nuclear-morphology/01-slide-1.html",
+      "thumbPath": "/slideview/MH-001-nuclear-morphology/imgs/slide.png",
+      "section": "Cellular Diversity"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 002 Cells and Tissues",
+      "caption": "Acidophilic/Basophilic",
+      "stain": "H&E",
+      "href": "/slideview/MH-002-cells-and-tissues/01-slide-1.html",
+      "thumbPath": "/slideview/MH-002-cells-and-tissues/imgs/slide.png",
+      "section": "Cellular Diversity"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 003 Toluidine Blue",
+      "caption": "Orthochromatic/Metachromatic Staining",
+      "stain": "Toluidine Blue",
+      "href": "/slideview/MH-003-toluidine-blue/01-slide-1.html",
+      "thumbPath": "/slideview/MH-003-toluidine-blue/imgs/slide.png",
+      "section": "Specialized Histological Stains"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 009 Golgi Apparatus",
+      "caption": "Golgi's Method",
+      "stain": "",
+      "href": "/slideview/MH-009-golgi-apparatus/01-slide-1.html",
+      "thumbPath": "/slideview/MH-009-golgi-apparatus/imgs/slide.png",
+      "section": "Specialized Histological Stains"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 010 Mitochondria",
+      "caption": "Iron Hematoxylin",
+      "stain": "",
+      "href": "/slideview/MH-010-mitochondria/01-slide-1.html",
+      "thumbPath": "/slideview/MH-010-mitochondria/imgs/slide.png",
+      "section": "Specialized Histological Stains"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 012 Nucleic Acids",
+      "caption": "Feulgen Stain",
+      "stain": "",
+      "href": "/slideview/MH-012-nucleic-acids/01-slide-1.html",
+      "thumbPath": "/slideview/MH-012-nucleic-acids/imgs/slide.png",
+      "section": "Specialized Histological Stains"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 128 Liver",
+      "caption": "Glycogen",
+      "stain": "Periodic Acid-Schiff Reagent",
+      "href": "/slideview/MH-128-liver/01-slide-1.html",
+      "thumbPath": "/slideview/MH-128-liver/imgs/slide.png",
+      "section": "Specialized Histological Stains"
+    },
+    {
+      "kind": "slide",
+      "name": "MHS 247 Fundic Stomach",
+      "caption": "Glycoproteins (mucus)",
+      "stain": "Periodic Acid-Schiff Reagent",
+      "href": "/slideview/MHS-247-fundic-stomach/01-slide-1.html",
+      "thumbPath": "/slideview/MHS-247-fundic-stomach/imgs/slide.png",
+      "section": "Specialized Histological Stains"
+    },
+    {
+      "kind": "slide",
+      "name": "MH/MHS/RnD Cerebellum",
+      "caption": "H&E, Toluidine Blue, Golgi's Method",
+      "stain": "Immunohistochemistry, Immunofluorescence",
+      "href": "/slideview/MH-MHS-RnD-cerebellum/01-slide-1.html",
+      "thumbPath": "/slideview/MHS-289-cerebellum/imgs/slide.png",
+      "section": "Purkinje Cells"
+    },
+    {
+      "kind": "slide",
+      "name": "MHS 400 Mammalian Mitosis",
+      "caption": "H&E",
+      "stain": "",
+      "href": "/slideview/MHS-400-mitosis/01-slide-1.html",
+      "thumbPath": "/slideview/MHS-400-mitosis/imgs/slide.png",
+      "section": "Animal Mitosis"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 015 Onion Root Tip",
+      "caption": "Iron Hematoxylin",
+      "stain": "",
+      "href": "/slideview/MH-015-mitosis/01-slide-1.html",
+      "thumbPath": "/slideview/MH-015-mitosis/imgs/slide.png",
+      "section": "Plant Mitosis"
+    }
+  ]
+}

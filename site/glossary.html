@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>中英术语表 · 组织学复习</title>
+<meta name="description" content="组织学中英术语对照表，支持双向搜索、分类与章节筛选。">
+<link rel="canonical" href="https://anacreationdisk9986.github.io/histology-guide-zh/glossary.html">
+<meta name="theme-color" content="#f7f6f3">
+<link rel="stylesheet" href="assets/app.css">
+</head>
+<body>
+<a class="skip-link" href="#main">跳到正文</a>
+<div class="license-bar" role="note" aria-label="非官方声明与内容来源署名">
+  <div class="license-bar-inner">
+    <p class="license-bar-zh"><strong>非官方中文学习改编版</strong> · 与 Histology Guide 无隶属关系，未经其认可或背书 · 仅限非商业教育用途</p>
+    <p class="license-bar-en">Source: <a href="https://histologyguide.com/" target="_blank" rel="noopener noreferrer">Histology Guide</a> (histologyguide.com). Original content © Histology Guide and/or original contributors. This is an unofficial Chinese-language educational adaptation.</p>
+    <a class="license-bar-more" href="sources.html">署名与许可条件 →</a>
+  </div>
+</div>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html"><span class="logo-dot"></span>组织学复习<span style="font-weight:400;color:var(--text-faint)">·</span><small>Histology Guide 中文学习层</small></a>
+    <nav class="main-nav" aria-label="主导航"><a href="index.html">首页</a><a href="chapters.html">章节目录</a><a href="atlas.html">组织学图谱</a><a href="glossary.html" aria-current="page">术语表</a><a href="review.html">复习模式</a><a href="sources.html">来源与许可</a></nav>
+    <div class="header-tools">
+      <button class="icon-btn search-btn" id="open-search" type="button" aria-label="打开搜索">搜索 <kbd>/</kbd></button>
+      <button class="icon-btn" id="theme-toggle" type="button" aria-label="切换主题">☾</button>
+    </div>
+  </div>
+</header>
+<main id="main" class="page ">
+<div class="breadcrumb"><a href="index.html">首页</a><span>/</span><span aria-current="page">术语表</span></div>
+    <h1 style="font-family:var(--serif)">中英术语表</h1>
+    <p class="muted" style="max-width:72ch">以人卫版《组织学与胚胎学》术语体系为参照整理，支持中英文双向搜索。标注“待核验”的词条表示译名或释义仍有分歧，使用时请以教材为准。</p>
+    <div class="toolbar">
+      <input class="input" id="gloss-q" type="search" placeholder="搜索中文 / English / 别名" aria-label="搜索术语">
+      <select class="input" id="gloss-cat" aria-label="按分类筛选"></select>
+      <select class="input" id="gloss-chapter" aria-label="按章节筛选"></select>
+      <label class="small muted" style="display:flex;gap:6px;align-items:center"><input type="checkbox" id="gloss-verified"> 仅看待核验</label>
+      <span class="spacer"></span>
+      <span class="small faint" id="gloss-count"></span>
+    </div>
+    <div class="card flush" style="overflow-x:auto">
+      <table class="term-table">
+        <thead><tr><th style="width:22%">中文 / English</th><th style="width:10%">分类</th><th>释义</th><th style="width:12%">章节</th></tr></thead>
+        <tbody id="term-tbody"></tbody>
+      </table>
+    </div>
+    <p class="small faint" style="margin-top:14px">分类说明：组织 · 细胞外基质 · 细胞器 · 细胞 · 器官结构 · 其他 · 染色与技术。释义为自编，不含原站原文。</p>
+</main>
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-main">
+      <p><strong>非官方中文学习改编版</strong>：本站是 Histology Guide 的非官方中文学习改编版，与 Histology Guide 无隶属关系，未经其认可或背书。 Source: Histology Guide (histologyguide.com). Original content © Histology Guide and/or original contributors. This is an unofficial Chinese-language educational adaptation.</p>
+      <p>本站按作者 2026-10-20 书面许可公开托管于 GitHub Pages，仅限非商业教育用途并免费访问；不得出售、许可或其他商业利用，不得在本站之外再分发本站保存的原始材料。中文要点、术语与自测题为自编；每张本地图像均保留 © 署名与原页面链接，且不改变原图内容与水印。</p>
+    </div>
+    <div class="footer-links"><a href="sources.html">署名与许可条件</a> · <a href="help.html">使用说明</a> · <a href="https://histologyguide.com/" target="_blank" rel="noopener noreferrer">原站 Histology Guide ↗</a></div>
+  </div>
+</footer>
+<div class="search-overlay" id="search-overlay" role="dialog" aria-modal="true" aria-label="站内搜索">
+  <div class="search-panel">
+    <div class="search-row">
+      <span aria-hidden="true" style="color:var(--text-faint)">⌕</span>
+      <input id="search-input" type="search" placeholder="搜索章节、小节、标本编号或中英术语…" aria-label="站内搜索" autocomplete="off">
+      <button class="btn small ghost" type="button" id="search-close" aria-label="关闭搜索">Esc</button>
+    </div>
+    <div class="search-results" id="search-results" role="listbox" aria-label="搜索结果"></div>
+  </div>
+</div>
+<script>window.HG_BASE='';</script>
+<script src="assets/data.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

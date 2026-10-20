@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>组织学显微镜复习站 · Histology Guide 非官方中文学习改编版</title>
+<meta name="description" content="Histology Guide 非官方中文学习改编站：章节导航、术语表、标本索引、自测与学习进度；仅限非商业教育用途。">
+<link rel="canonical" href="https://anacreationdisk9986.github.io/histology-guide-zh/index.html">
+<meta name="theme-color" content="#f7f6f3">
+<link rel="stylesheet" href="assets/app.css">
+</head>
+<body>
+<a class="skip-link" href="#main">跳到正文</a>
+<div class="license-bar" role="note" aria-label="非官方声明与内容来源署名">
+  <div class="license-bar-inner">
+    <p class="license-bar-zh"><strong>非官方中文学习改编版</strong> · 与 Histology Guide 无隶属关系，未经其认可或背书 · 仅限非商业教育用途</p>
+    <p class="license-bar-en">Source: <a href="https://histologyguide.com/" target="_blank" rel="noopener noreferrer">Histology Guide</a> (histologyguide.com). Original content © Histology Guide and/or original contributors. This is an unofficial Chinese-language educational adaptation.</p>
+    <a class="license-bar-more" href="sources.html">署名与许可条件 →</a>
+  </div>
+</div>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html"><span class="logo-dot"></span>组织学复习<span style="font-weight:400;color:var(--text-faint)">·</span><small>Histology Guide 中文学习层</small></a>
+    <nav class="main-nav" aria-label="主导航"><a href="index.html" aria-current="page">首页</a><a href="chapters.html">章节目录</a><a href="atlas.html">组织学图谱</a><a href="glossary.html">术语表</a><a href="review.html">复习模式</a><a href="sources.html">来源与许可</a></nav>
+    <div class="header-tools">
+      <button class="icon-btn search-btn" id="open-search" type="button" aria-label="打开搜索">搜索 <kbd>/</kbd></button>
+      <button class="icon-btn" id="theme-toggle" type="button" aria-label="切换主题">☾</button>
+    </div>
+  </div>
+</header>
+<main id="main" class="page ">
+<section class="hero">
+    <p class="eyebrow">Histology Guide · 非官方中文学习改编版</p>
+    <h1>组织学显微镜复习站</h1>
+    <p class="lede">以 Histology Guide 的章节体系与标本编号为索引，提供中文术语、复习要点、标本对照与自测。284 张所选切片/示意图按作者书面许可保存为中分辨率概览并公开托管于本站，可直接放大；其余图像、完整分辨率与结构标注通过每张卡片的“原站切片”链接在线查看。</p>
+    <p class="small muted" style="margin-top:12px;max-width:78ch">本站是 Histology Guide 的非官方中文学习改编版，与 Histology Guide 无隶属关系，未经其认可或背书。原始图像与文字的版权归 Histology Guide 及/或原始贡献者所有，本站不以公有领域材料对待；仅限非商业教育用途并免费访问，不提供出售、许可或其他商业利用。详见 <a href="sources.html">署名与许可条件</a>。</p>
+    <div class="meta">
+      <span class="badge accent">21 章</span>
+      <span class="badge">152 个小节</span>
+      <span class="badge">347 张光镜切片索引</span>
+      <span class="badge">363 张电镜照片索引</span>
+      <span class="badge">335 条术语</span>
+      <span class="badge ok">284 张本地概览图</span>
+    </div>
+  </section>
+
+  <div class="grid cols-2" style="align-items:start">
+    <div class="card">
+      <h2 style="font-size:16px">学习进度</h2>
+      <div id="progress-summary" class="muted"></div>
+      <h2 style="font-size:16px;margin-top:20px">最近学习</h2>
+      <div id="recent-list"></div>
+      <div class="btn-row" style="margin-top:16px">
+        <a class="btn primary" href="chapters.html">开始复习</a>
+        <a class="btn" href="review.html">抽认卡片</a>
+      </div>
+    </div>
+    <div class="card">
+      <h2 style="font-size:16px">怎么用</h2>
+      <ol class="small" style="padding-left:20px;margin:0;color:var(--text-dim)">
+        <li>先读章节页的中文要点，建立结构—功能对应。</li>
+        <li>点开标本卡片，在原站虚拟显微镜里按“低倍→高倍”顺序观察。</li>
+        <li>回到本页用自测与复习模式检验，标记易错项。</li>
+        <li>进度与易错本保存在本机浏览器（localStorage），不上传。</li>
+      </ol>
+      <hr class="sep">
+      <p class="small faint" style="margin:0">离线可用：章节索引、术语表、自测、进度。<br>需要网络：原站图像与虚拟显微镜。详见 <a href="help.html">使用说明</a>。</p>
+    </div>
+  </div>
+
+  <div id="chapter-grid" style="margin-top:34px"></div>
+</main>
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-main">
+      <p><strong>非官方中文学习改编版</strong>：本站是 Histology Guide 的非官方中文学习改编版，与 Histology Guide 无隶属关系，未经其认可或背书。 Source: Histology Guide (histologyguide.com). Original content © Histology Guide and/or original contributors. This is an unofficial Chinese-language educational adaptation.</p>
+      <p>本站按作者 2026-10-20 书面许可公开托管于 GitHub Pages，仅限非商业教育用途并免费访问；不得出售、许可或其他商业利用，不得在本站之外再分发本站保存的原始材料。中文要点、术语与自测题为自编；每张本地图像均保留 © 署名与原页面链接，且不改变原图内容与水印。</p>
+    </div>
+    <div class="footer-links"><a href="sources.html">署名与许可条件</a> · <a href="help.html">使用说明</a> · <a href="https://histologyguide.com/" target="_blank" rel="noopener noreferrer">原站 Histology Guide ↗</a></div>
+  </div>
+</footer>
+<div class="search-overlay" id="search-overlay" role="dialog" aria-modal="true" aria-label="站内搜索">
+  <div class="search-panel">
+    <div class="search-row">
+      <span aria-hidden="true" style="color:var(--text-faint)">⌕</span>
+      <input id="search-input" type="search" placeholder="搜索章节、小节、标本编号或中英术语…" aria-label="站内搜索" autocomplete="off">
+      <button class="btn small ghost" type="button" id="search-close" aria-label="关闭搜索">Esc</button>
+    </div>
+    <div class="search-results" id="search-results" role="listbox" aria-label="搜索结果"></div>
+  </div>
+</div>
+<script>window.HG_BASE='';</script>
+<script src="assets/data.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

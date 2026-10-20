@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://anacreationdisk9986.github.io/histology-guide-zh/sitemap.xml

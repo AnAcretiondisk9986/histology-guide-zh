@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>使用说明 · 组织学复习</title>
+<meta name="description" content="本站在线地址、本地启动方式、离线与在线功能对照、署名与许可、键盘操作与已知限制。">
+<link rel="canonical" href="https://anacreationdisk9986.github.io/histology-guide-zh/help.html">
+<meta name="theme-color" content="#f7f6f3">
+<link rel="stylesheet" href="assets/app.css">
+</head>
+<body>
+<a class="skip-link" href="#main">跳到正文</a>
+<div class="license-bar" role="note" aria-label="非官方声明与内容来源署名">
+  <div class="license-bar-inner">
+    <p class="license-bar-zh"><strong>非官方中文学习改编版</strong> · 与 Histology Guide 无隶属关系，未经其认可或背书 · 仅限非商业教育用途</p>
+    <p class="license-bar-en">Source: <a href="https://histologyguide.com/" target="_blank" rel="noopener noreferrer">Histology Guide</a> (histologyguide.com). Original content © Histology Guide and/or original contributors. This is an unofficial Chinese-language educational adaptation.</p>
+    <a class="license-bar-more" href="sources.html">署名与许可条件 →</a>
+  </div>
+</div>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html"><span class="logo-dot"></span>组织学复习<span style="font-weight:400;color:var(--text-faint)">·</span><small>Histology Guide 中文学习层</small></a>
+    <nav class="main-nav" aria-label="主导航"><a href="index.html">首页</a><a href="chapters.html">章节目录</a><a href="atlas.html">组织学图谱</a><a href="glossary.html">术语表</a><a href="review.html">复习模式</a><a href="sources.html">来源与许可</a></nav>
+    <div class="header-tools">
+      <button class="icon-btn search-btn" id="open-search" type="button" aria-label="打开搜索">搜索 <kbd>/</kbd></button>
+      <button class="icon-btn" id="theme-toggle" type="button" aria-label="切换主题">☾</button>
+    </div>
+  </div>
+</header>
+<main id="main" class="page narrow">
+<div class="breadcrumb"><a href="index.html">首页</a><span>/</span><span aria-current="page">使用说明</span></div>
+    <h1 style="font-family:var(--serif)">使用说明与已知限制</h1>
+    <p class="muted" style="max-width:75ch">本站是 Histology Guide 的非官方中文学习改编版，与 Histology Guide 无隶属关系、未经其认可或背书。原始图像与文字版权归 Histology Guide 及/或原始贡献者所有；本站按作者 2026-10-20 书面许可公开托管，仅限非商业教育用途并免费访问。</p>
+
+    <h2 style="font-size:18px">在线访问（推荐）</h2>
+    <p>公开地址：<a href="https://anacreationdisk9986.github.io/histology-guide-zh/" target="_blank" rel="noopener noreferrer">https://anacreationdisk9986.github.io/histology-guide-zh/</a>。无需安装，直接用浏览器打开；学习进度只保存在你自己的浏览器里。</p>
+
+    <h2 style="font-size:18px">本地打开与重新生成</h2>
+    <p>项目克隆到本机后，也可直接打开或本地起服务：</p>
+    <ol>
+      <li><strong>直接打开：</strong>双击 <code class="mono">site/index.html</code>，用浏览器打开即可（Chrome / Edge / Firefox / Safari 均可）。所有数据随页面内嵌，离线可用。</li>
+      <li><strong>本地静态服务器（可选）：</strong>在项目根目录运行 <code class="mono">npx serve site</code> 或 <code class="mono">python -m http.server 8080 -d site</code>，再访问 <code class="mono">http://localhost:8080</code>。</li>
+    </ol>
+
+    <h2 style="font-size:18px">离线 / 在线功能对照</h2>
+    <div class="card flush" style="overflow-x:auto">
+      <table class="data-table">
+        <thead><tr><th>功能</th><th>离线可用</th><th>说明</th></tr></thead>
+        <tbody>
+          <tr><td>章节导航、小节要点、术语表、搜索、自测、抽认卡、进度与易错本</td><td><span class="badge ok">是</span></td><td>数据内嵌于 assets/data.js；进度存 localStorage</td></tr>
+          <tr><td><strong>已下载的本地概览图</strong>（284 张所选切片/示意图），点击放大</td><td><span class="badge ok">是</span></td><td>经作者书面许可保存的中分辨率概览，见“署名与许可”页清单与署名</td></tr>
+          <tr><td>其余切片 / 电镜图像、完整分辨率、标注</td><td><span class="badge online">否</span></td><td>原站切片为 BigTIFF 金字塔；点击“原站切片”在线查看高倍与标注（需网络）</td></tr>
+          <tr><td>原站 Quiz 互动题</td><td><span class="badge online">否</span></td><td>本站提供自编自测题；原站 Quiz 需在线访问</td></tr>
+          <tr><td>原站 Gallery / Index / Search</td><td><span class="badge online">否</span></td><td>已在“署名与许可”页保留入口</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2 style="font-size:18px">署名与许可（重要）</h2>
+    <div class="callout warn">
+      <p style="margin:0 0 8px"><strong>本站是 Histology Guide 的非官方中文学习改编版，与 Histology Guide 无隶属关系，未经其认可或背书。</strong>本站按作者 2026-10-20 书面许可公开托管于 GitHub Pages，仅限非商业教育用途并免费访问；不得出售、许可或其他商业利用，不得在本站之外再分发本站保存的原始材料。</p>
+      <blockquote style="margin:10px 0;padding:10px 14px;border-left:3px solid var(--accent);background:var(--bg-sunken);font-size:13px;line-height:1.6">Source: <a href="https://histologyguide.com/" target="_blank" rel="noopener noreferrer">Histology Guide</a> (histologyguide.com). Original content © Histology Guide and/or original contributors. This is an unofficial Chinese-language educational adaptation.</blockquote>
+      <ul class="small" style="margin:0;padding-left:20px">
+        <li>每张图像保留 © 署名与原页面链接；<strong>不得</strong>去除或篡改版权声明、水印、来源署名。</li>
+        <li>仅限非商业教育用途、免费访问；<strong>不得</strong>出售、许可或以其他方式商业利用。</li>
+        <li>除本站（GitHub Pages）这一学习资源外，<strong>不得</strong>再分发本站保存的原始材料；本仓库仅用于发布本站，克隆、镜像、转存均需作者另行书面许可。</li>
+        <li>原始材料不属于公有领域；如你是权利人，认为某处署名或使用方式不符合许可，请联系更正或删除。</li>
+      </ul>
+      <p style="margin:8px 0 0">完整条件、逐条落实证据与联系渠道见 <a href="sources.html">署名与许可</a> 页。</p>
+    </div>
+
+    <h2 style="font-size:18px">键盘操作</h2>
+    <dl class="kv">
+      <dt><kbd>/</kbd></dt><dd>打开搜索</dd>
+      <dt><kbd>↑</kbd> <kbd>↓</kbd> <kbd>Enter</kbd></dt><dd>搜索结果选择与跳转</dd>
+      <dt><kbd>Esc</kbd></dt><dd>关闭搜索</dd>
+      <dt><kbd>空格</kbd></dt><dd>复习模式：显示答案 / 记为记住</dd>
+      <dt><kbd>→</kbd> / <kbd>←</kbd></dt><dd>复习模式：记住 / 再练</dd>
+    </dl>
+
+    <h2 style="font-size:18px">已知限制</h2>
+    <ul>
+      <li><strong>本地图像是概览：</strong>已保存 284 张所选图像的中分辨率概览（约 4000–5200 px 宽），完整分辨率与结构标注需在原站查看；“不冒充完整切片”是刻意设计。</li>
+      <li><strong>许可范围：</strong>公开托管于 GitHub Pages 已获作者 2026-10-20 书面许可，但<strong>仅限非商业教育用途并免费访问</strong>；不得出售、许可或其他商业利用，不得在本站之外再分发；图像署名与原页面链接见每张卡片及“署名与许可”页。</li>
+      <li><strong>术语共 335 条：</strong>释义与译名为自编，个别条目标注“待核验”，请以人卫版教材为准。</li>
+      <li><strong>内容完成度：</strong>21/21 章中文要点已写完，界面不会把未完成章节标为已完成。当前覆盖 152/152 个小节。</li>
+      <li><strong>第 20 章电镜：</strong>原站该章电镜页本身无内容；第 21 章原站无电镜页。</li>
+      <li><strong>不抓取：</strong>原站英文正文段落、测验题、关键词索引与搜索页均未采集，仅保留入口链接。</li>
+    </ul>
+
+    <h2 style="font-size:18px">目录结构与重新生成</h2>
+    <pre class="card" style="overflow-x:auto;font:12.5px/1.7 var(--mono);margin:0"><code>scripts/fetch.mjs        元数据采集（限速 / 可增量 / 遵守 robots）
+scripts/scaffold.mjs     汇总 inventory + 生成内容脚手架
+scripts/check-content.mjs 校验中文内容与术语一致性
+scripts/fetch-images.mjs 按书面许可下载所选图像的概览层级（可增量）
+scripts/stitch_tiles.py  本地拼接瓦片（Pillow）
+scripts/build.mjs        生成 site/ 静态页面与内嵌数据
+content/zh/chapters/     每章中文内容 JSON
+content/zh/terms.json    术语表
+data/inventory.json      章节 / 小节 / 标本清单
+data/local-images.json   本地图像清单（含来源、尺寸、SHA-256、署名）
+site/                    生成后的网站（可直接打开）</code></pre>
+    <p class="small muted" style="margin-top:10px">重新生成：<code class="mono">node scripts/fetch.mjs</code> → <code class="mono">node scripts/scaffold.mjs</code> → <code class="mono">node scripts/build.mjs</code>；图像：<code class="mono">node scripts/fetch-images.mjs --per-chapter=1</code>（可断点续跑，已存在则跳过）。</p>
+</main>
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-main">
+      <p><strong>非官方中文学习改编版</strong>：本站是 Histology Guide 的非官方中文学习改编版，与 Histology Guide 无隶属关系，未经其认可或背书。 Source: Histology Guide (histologyguide.com). Original content © Histology Guide and/or original contributors. This is an unofficial Chinese-language educational adaptation.</p>
+      <p>本站按作者 2026-10-20 书面许可公开托管于 GitHub Pages，仅限非商业教育用途并免费访问；不得出售、许可或其他商业利用，不得在本站之外再分发本站保存的原始材料。中文要点、术语与自测题为自编；每张本地图像均保留 © 署名与原页面链接，且不改变原图内容与水印。</p>
+    </div>
+    <div class="footer-links"><a href="sources.html">署名与许可条件</a> · <a href="help.html">使用说明</a> · <a href="https://histologyguide.com/" target="_blank" rel="noopener noreferrer">原站 Histology Guide ↗</a></div>
+  </div>
+</footer>
+<div class="search-overlay" id="search-overlay" role="dialog" aria-modal="true" aria-label="站内搜索">
+  <div class="search-panel">
+    <div class="search-row">
+      <span aria-hidden="true" style="color:var(--text-faint)">⌕</span>
+      <input id="search-input" type="search" placeholder="搜索章节、小节、标本编号或中英术语…" aria-label="站内搜索" autocomplete="off">
+      <button class="btn small ghost" type="button" id="search-close" aria-label="关闭搜索">Esc</button>
+    </div>
+    <div class="search-results" id="search-results" role="listbox" aria-label="搜索结果"></div>
+  </div>
+</div>
+<script>window.HG_BASE='';</script>
+<script src="assets/data.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

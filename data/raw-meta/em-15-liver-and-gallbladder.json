@@ -1,0 +1,251 @@
+{
+  "schema": 1,
+  "source": {
+    "url": "https://histologyguide.com/EM-atlas/15-liver-and-gallbladder.html",
+    "finalUrl": "https://histologyguide.com/EM-atlas/15-liver-and-gallbladder.html",
+    "fetchedAt": "2026-10-18T11:29:55.679Z",
+    "httpStatus": 200,
+    "bytes": 24680,
+    "sha256": "45c250aa6870bf70ba95b07ab886a90ea866e591aa58a36d4e1344fd2582cd30",
+    "userAgent": "HistologyGuideCNStudyIndex/0.1 (+personal non-commercial study index; metadata extraction only; contact: local user)",
+    "note": "仅保存导航元数据；正文段落与图片未保存，遵循原站使用条款"
+  },
+  "chapter": 15,
+  "pageType": "em",
+  "pageTitle": "Chapter 15 - Liver and Gallbladder",
+  "hasIntroProse": true,
+  "headings": [
+    {
+      "level": 2,
+      "id": null,
+      "text": "Chapter 15 - Liver and Gallbladder"
+    },
+    {
+      "level": 3,
+      "id": "liver",
+      "text": "LIVER"
+    },
+    {
+      "level": 3,
+      "id": "bile-canaliculi",
+      "text": "Bile Canaliculi"
+    },
+    {
+      "level": 3,
+      "id": "sinusoids",
+      "text": "Sinusoids"
+    },
+    {
+      "level": 3,
+      "id": "kupffer-cell",
+      "text": "Kupffer Cell"
+    },
+    {
+      "level": 3,
+      "id": "lipocyte",
+      "text": "Hepatic Stellate Cell"
+    },
+    {
+      "level": 3,
+      "id": "gallbladder",
+      "text": "GALLBLADDER"
+    },
+    {
+      "level": 3,
+      "id": "reabsorption",
+      "text": "Reabsorption"
+    },
+    {
+      "level": 2,
+      "id": null,
+      "text": "CELL AND TISSUES"
+    },
+    {
+      "level": 2,
+      "id": null,
+      "text": "ORGAN SYSTEMS"
+    }
+  ],
+  "items": [
+    {
+      "kind": "em",
+      "name": "EM 240 Hepatocytes",
+      "caption": "Liver",
+      "stain": "TEM",
+      "href": "/EM-view/EM-240-hepatocytes/15-photo-1.html",
+      "thumbPath": "/EM-view/EM-240-hepatocytes/imgs/photo-2c.png",
+      "section": "LIVER"
+    },
+    {
+      "kind": "em",
+      "name": "EM 243 Liver",
+      "caption": "Liver / Central Vein",
+      "stain": "SEM",
+      "href": "/EM-view/EM-243-liver-central-vein/15-photo-1.html",
+      "thumbPath": "/EM-view/EM-243-liver-central-vein/imgs/photo-2c.png",
+      "section": "LIVER"
+    },
+    {
+      "kind": "em",
+      "name": "EM 361 Portal Triad",
+      "caption": "Liver",
+      "stain": "SEM",
+      "href": "/EM-view/EM-361-portal-triad/15-photo-1.html",
+      "thumbPath": "/EM-view/EM-361-portal-triad/imgs/photo-2c.png",
+      "section": "LIVER"
+    },
+    {
+      "kind": "em",
+      "name": "EM 245 Liver",
+      "caption": "Glycogen",
+      "stain": "TEM",
+      "href": "/EM-view/EM-245-hepatocyte-glycogen/15-photo-1.html",
+      "thumbPath": "/EM-view/EM-245-hepatocyte-glycogen/imgs/photo-2c.png",
+      "section": "LIVER"
+    },
+    {
+      "kind": "em",
+      "name": "EM 363 Liver",
+      "caption": "Glycogen",
+      "stain": "TEM",
+      "href": "/EM-view/EM-363-glycogen/15-photo-1.html",
+      "thumbPath": "/EM-view/EM-363-glycogen/imgs/photo-2c.png",
+      "section": "LIVER"
+    },
+    {
+      "kind": "em",
+      "name": "EM 384 Bile Canaliculi",
+      "caption": "Liver",
+      "stain": "SEM",
+      "href": "/EM-view/EM-384-bile-canaliculi/15-photo-1.html",
+      "thumbPath": "/EM-view/EM-384-bile-canaliculi/imgs/photo-2c.png",
+      "section": "Bile Canaliculi"
+    },
+    {
+      "kind": "em",
+      "name": "EM 241 Bile Canaliculi",
+      "caption": "Liver",
+      "stain": "SEM",
+      "href": "/EM-view/EM-241-bile-canaliculi/15-photo-1.html",
+      "thumbPath": "/EM-view/EM-241-bile-canaliculi/imgs/photo-2c.png",
+      "section": "Bile Canaliculi"
+    },
+    {
+      "kind": "em",
+      "name": "EM 353 Hepatic Sinusoids",
+      "caption": "SEM",
+      "stain": "",
+      "href": "/EM-view/EM-353-liver-endothelium/15-photo-1.html",
+      "thumbPath": "/EM-view/EM-353-liver-endothelium/imgs/photo-2c.png",
+      "section": "Sinusoids"
+    },
+    {
+      "kind": "em",
+      "name": "EM 244 Hepatic Sinusoids",
+      "caption": "SEM",
+      "stain": "",
+      "href": "/EM-view/EM-244-liver-endothelium/15-photo-1.html",
+      "thumbPath": "/EM-view/EM-244-liver-endothelium/imgs/photo-2c.png",
+      "section": "Sinusoids"
+    },
+    {
+      "kind": "em",
+      "name": "EM 354 Kupffer Cell",
+      "caption": "Liver",
+      "stain": "SEM",
+      "href": "/EM-view/EM-354-kupffer-cell/15-photo-1.html",
+      "thumbPath": "/EM-view/EM-354-kupffer-cell/imgs/photo-2c.png",
+      "section": "Kupffer Cell"
+    },
+    {
+      "kind": "em",
+      "name": "EM 242 Kupffer Cell",
+      "caption": "Liver",
+      "stain": "TEM",
+      "href": "/EM-view/EM-242-kupffer-cell/15-photo-1.html",
+      "thumbPath": "/EM-view/EM-242-kupffer-cell/imgs/photo-2c.png",
+      "section": "Kupffer Cell"
+    },
+    {
+      "kind": "em",
+      "name": "EM 250 Kupffer Cell",
+      "caption": "Liver / Ingesting Red Blood Cell",
+      "stain": "SEM",
+      "href": "/EM-view/EM-250-kupffer-cell/15-photo-1.html",
+      "thumbPath": "/EM-view/EM-250-kupffer-cell/imgs/photo-2c.png",
+      "section": "Kupffer Cell"
+    },
+    {
+      "kind": "em",
+      "name": "EM 252 Hepatic Stellate Cell (Ito Cell)",
+      "caption": "Liver",
+      "stain": "SEM",
+      "href": "/EM-view/EM-252-lipocyte/15-photo-1.html",
+      "thumbPath": "/EM-view/EM-252-lipocyte/imgs/photo-2c.png",
+      "section": "Hepatic Stellate Cell"
+    },
+    {
+      "kind": "em",
+      "name": "EM 229 Gallbladder",
+      "caption": "SEM",
+      "stain": "",
+      "href": "/EM-view/EM-229-gallbladder/15-photo-1.html",
+      "thumbPath": "/EM-view/EM-229-gallbladder/imgs/photo-2c.png",
+      "section": "GALLBLADDER"
+    },
+    {
+      "kind": "em",
+      "name": "EM 081 Gallbladder",
+      "caption": "SEM",
+      "stain": "",
+      "href": "/EM-view/EM-081-gallbladder/15-photo-1.html",
+      "thumbPath": "/EM-view/EM-081-gallbladder/imgs/photo-2c.png",
+      "section": "GALLBLADDER"
+    },
+    {
+      "kind": "em",
+      "name": "EM 082 Gallbladder",
+      "caption": "SEM",
+      "stain": "",
+      "href": "/EM-view/EM-082-gallbladder/15-photo-1.html",
+      "thumbPath": "/EM-view/EM-082-gallbladder/imgs/photo-2c.png",
+      "section": "GALLBLADDER"
+    },
+    {
+      "kind": "em",
+      "name": "EM 078 Gallbladder",
+      "caption": "SEM",
+      "stain": "",
+      "href": "/EM-view/EM-078-gallbladder/15-photo-1.html",
+      "thumbPath": "/EM-view/EM-078-gallbladder/imgs/photo-2c.png",
+      "section": "GALLBLADDER"
+    },
+    {
+      "kind": "em",
+      "name": "EM 075 Gallbladder",
+      "caption": "SEM",
+      "stain": "",
+      "href": "/EM-view/EM-075-gallbladder/15-photo-1.html",
+      "thumbPath": "/EM-view/EM-075-gallbladder/imgs/photo-2c.png",
+      "section": "GALLBLADDER"
+    },
+    {
+      "kind": "em",
+      "name": "EM 083 Gallbladder",
+      "caption": "Inactive Epithelial Cells",
+      "stain": "TEM",
+      "href": "/EM-view/EM-083-gallbladder/15-photo-1.html",
+      "thumbPath": "/EM-view/EM-083-gallbladder/imgs/photo-2c.png",
+      "section": "Reabsorption"
+    },
+    {
+      "kind": "em",
+      "name": "EM 092 Gallbladder",
+      "caption": "Active Epithelial Cells",
+      "stain": "TEM",
+      "href": "/EM-view/EM-092-gallbladder/15-photo-1.html",
+      "thumbPath": "/EM-view/EM-092-gallbladder/imgs/photo-2c.png",
+      "section": "Reabsorption"
+    }
+  ]
+}

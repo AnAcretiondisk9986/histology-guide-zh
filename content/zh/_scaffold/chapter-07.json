@@ -1,0 +1,220 @@
+{
+  "schema": 1,
+  "n": 7,
+  "titleEn": "Peripheral Blood",
+  "group": "cells-tissues",
+  "originalPage": "https://histologyguide.com/slidebox/07-peripheral-blood.html",
+  "note": "此文件由 scripts/scaffold.mjs 生成，仅供内容编写参考；请把中文写入 content/zh/chapters/NN.json，不要修改本文件。",
+  "sections": [
+    {
+      "en": "Blood",
+      "specimenCount": 0,
+      "specimenNames": []
+    },
+    {
+      "en": "Blood Smear",
+      "specimenCount": 1,
+      "specimenNames": [
+        "MH 033 Blood Smear"
+      ]
+    },
+    {
+      "en": "Blood Cells",
+      "specimenCount": 2,
+      "specimenNames": [
+        "MH 033hr Blood Smear",
+        "MH 033hr Blood Smear"
+      ]
+    },
+    {
+      "en": "Review",
+      "specimenCount": 1,
+      "specimenNames": [
+        "MH 033hr Blood Smear"
+      ]
+    }
+  ],
+  "specimens": [
+    {
+      "name": "MH 033 Blood Smear",
+      "caption": "Wright's Stain",
+      "stain": "",
+      "kind": "slide",
+      "section": "Blood Smear",
+      "href": "/slideview/MH-033-blood-smear/07-slide-1.html"
+    },
+    {
+      "name": "MH 033hr Blood Smear",
+      "caption": "Wright's Stain",
+      "stain": "",
+      "kind": "slide",
+      "section": "Blood Cells",
+      "href": "/slideview/MH-033hr-blood-smear/07-slide-1.html"
+    },
+    {
+      "name": "MH 033hr Blood Smear",
+      "caption": "Wright's Stain",
+      "stain": "",
+      "kind": "slide",
+      "section": "Blood Cells",
+      "href": "/slideview/MH-033hr-blood-smear/07-slide-2.html"
+    },
+    {
+      "name": "MH 033hr Blood Smear",
+      "caption": "Wright's Stain",
+      "stain": "",
+      "kind": "slide",
+      "section": "Review",
+      "href": "/slideview/MH-033hr-summary/07-slide-1.html"
+    }
+  ],
+  "emItems": [
+    {
+      "name": "EM 206 Red Blood Cells",
+      "caption": "SEM",
+      "technique": "",
+      "section": "RED BLOOD CELL",
+      "href": "/EM-view/EM-206-red-blood-cells/07-photo-1.html"
+    },
+    {
+      "name": "RD 120 Red Blood Cells",
+      "caption": "TEM",
+      "technique": "",
+      "section": "RED BLOOD CELL",
+      "href": "/EM-view/RD-120-red-blood-cells/07-photo-1.html"
+    },
+    {
+      "name": "EM 159 Red Blood Cells",
+      "caption": "TEM",
+      "technique": "",
+      "section": "RED BLOOD CELL",
+      "href": "/EM-view/EM-159-platelet/07-photo-1.html"
+    },
+    {
+      "name": "EM 345 Red Blood Cells",
+      "caption": "Sickle Cell Anemia",
+      "technique": "SEM",
+      "section": "Sickle Cell Anemia",
+      "href": "/EM-view/EM-345-sickle-cells/07-photo-1.html"
+    },
+    {
+      "name": "EM 159 Platelet",
+      "caption": "TEM",
+      "technique": "",
+      "section": "PLATELET",
+      "href": "/EM-view/EM-159-platelet/07-photo-2.html"
+    },
+    {
+      "name": "EM 227 Blood Cells",
+      "caption": "SEM",
+      "technique": "",
+      "section": "WHITE BLOOD CELL",
+      "href": "/EM-view/EM-227-blood-cells/07-photo-1.html"
+    },
+    {
+      "name": "EM 330 Neutrophil",
+      "caption": "SEM",
+      "technique": "",
+      "section": "Neutrophil",
+      "href": "/EM-view/EM-330-neutrophil/07-photo-1.html"
+    },
+    {
+      "name": "EM 331 Neutrophils",
+      "caption": "TEM",
+      "technique": "",
+      "section": "Neutrophil",
+      "href": "/EM-view/EM-331-neutrophils/07-photo-1.html"
+    },
+    {
+      "name": "EM 169 Neutrophil",
+      "caption": "Structure and Activation",
+      "technique": "TEM",
+      "section": "Neutrophil",
+      "href": "/EM-view/EM-169-neutrophil/07-photo-1.html"
+    },
+    {
+      "name": "EM 386 Eosinophil",
+      "caption": "TEM",
+      "technique": "",
+      "section": "Eosinophil",
+      "href": "/EM-view/EM-386-eosinophil/07-photo-1.html"
+    },
+    {
+      "name": "EM 161 Eosinophil",
+      "caption": "TEM",
+      "technique": "",
+      "section": "Eosinophil",
+      "href": "/EM-view/EM-161-eosinophil/07-photo-1.html"
+    },
+    {
+      "name": "EM 119 Eosinophil",
+      "caption": "Structure and Activation",
+      "technique": "TEM",
+      "section": "Eosinophil",
+      "href": "/EM-view/EM-119-eosinophil/07-photo-1.html"
+    },
+    {
+      "name": "EM 392 Basophil",
+      "caption": "TEM",
+      "technique": "",
+      "section": "Basophil",
+      "href": "/EM-view/EM-392-basophil/07-photo-1.html"
+    },
+    {
+      "name": "EM 168 Basophil",
+      "caption": "Structure and Activation",
+      "technique": "TEM",
+      "section": "Basophil",
+      "href": "/EM-view/EM-168-basophil/07-photo-1.html"
+    },
+    {
+      "name": "EM 199 Lymphocyte",
+      "caption": "TEM",
+      "technique": "",
+      "section": "Lymphocyte",
+      "href": "/EM-view/EM-199-lymphocyte/07-photo-1.html"
+    },
+    {
+      "name": "EM 171 Lymphocyte",
+      "caption": "TEM",
+      "technique": "",
+      "section": "Lymphocyte",
+      "href": "/EM-view/EM-171-lymphocyte/07-photo-1.html"
+    },
+    {
+      "name": "EM 170 Monocyte",
+      "caption": "TEM",
+      "technique": "",
+      "section": "Monocyte",
+      "href": "/EM-view/EM-170-monocyte/07-photo-1.html"
+    },
+    {
+      "name": "EM 226 Monocyte",
+      "caption": "TEM",
+      "technique": "",
+      "section": "Monocyte",
+      "href": "/EM-view/EM-226-monocyte/07-photo-1.html"
+    },
+    {
+      "name": "EM 205 Plasma Cell",
+      "caption": "TEM",
+      "technique": "",
+      "section": "Plasma Cell",
+      "href": "/EM-view/EM-205-plasma-cell/07-photo-1.html"
+    },
+    {
+      "name": "EM 333 Blood Clot",
+      "caption": "TEM",
+      "technique": "",
+      "section": "BLOOD CLOT",
+      "href": "/EM-view/EM-333-blood-clot/07-photo-1.html"
+    },
+    {
+      "name": "EM 329 Blood Clot",
+      "caption": "TEM",
+      "technique": "",
+      "section": "BLOOD CLOT",
+      "href": "/EM-view/EM-329-blood-clot/07-photo-1.html"
+    }
+  ]
+}

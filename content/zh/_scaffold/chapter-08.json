@@ -1,0 +1,339 @@
+{
+  "schema": 1,
+  "n": 8,
+  "titleEn": "Hematopoiesis",
+  "group": "cells-tissues",
+  "originalPage": "https://histologyguide.com/slidebox/08-hematopoiesis.html",
+  "note": "此文件由 scripts/scaffold.mjs 生成，仅供内容编写参考；请把中文写入 content/zh/chapters/NN.json，不要修改本文件。",
+  "sections": [
+    {
+      "en": "BONE MARROW",
+      "specimenCount": 1,
+      "specimenNames": [
+        "MHS 304 Red Bone Marrow"
+      ]
+    },
+    {
+      "en": "Bone Marrow Smear",
+      "specimenCount": 1,
+      "specimenNames": [
+        "MH 034a Bone Marrow Smear"
+      ]
+    },
+    {
+      "en": "HEMATOPOIESIS",
+      "specimenCount": 0,
+      "specimenNames": []
+    },
+    {
+      "en": "Erythrocytes",
+      "specimenCount": 1,
+      "specimenNames": [
+        "MH 034bhr Red Blood Cell Development"
+      ]
+    },
+    {
+      "en": "Granulocytes",
+      "specimenCount": 3,
+      "specimenNames": [
+        "MH 034bhr Neutrophil Development",
+        "MH 034bhr Eosinophil Development",
+        "MH 034bhr Basophil Development"
+      ]
+    },
+    {
+      "en": "Agranulocytes",
+      "specimenCount": 2,
+      "specimenNames": [
+        "MH 034bhr Lymphocytes",
+        "MH 034bhr Monocytes"
+      ]
+    },
+    {
+      "en": "Platelets",
+      "specimenCount": 1,
+      "specimenNames": [
+        "MH 034a-MH 034bhr Megakaryocytes and Platelet Formation"
+      ]
+    },
+    {
+      "en": "REVIEW",
+      "specimenCount": 1,
+      "specimenNames": [
+        "MH 034bhr Bone Marrow Smear"
+      ]
+    },
+    {
+      "en": "QUIZ",
+      "specimenCount": 1,
+      "specimenNames": [
+        "Bone Marrow Review"
+      ]
+    },
+    {
+      "en": "PLASMA CELL",
+      "specimenCount": 1,
+      "specimenNames": [
+        "MH 034bhr Plasma Cells"
+      ]
+    },
+    {
+      "en": "OSTEOCLAST",
+      "specimenCount": 1,
+      "specimenNames": [
+        "MH 034f Osteoclasts"
+      ]
+    },
+    {
+      "en": "ADDITIONAL EXAMPLES",
+      "specimenCount": 5,
+      "specimenNames": [
+        "MH 034ahr Bone Marrow Smear",
+        "MH 034chr Bone Marrow Smear",
+        "MH 034dhr Bone Marrow Smear",
+        "MH 034ehr Bone Marrow Smear",
+        "MH 034fhr Bone Marrow Smear"
+      ]
+    }
+  ],
+  "specimens": [
+    {
+      "name": "Fig 027 Hematopoiesis",
+      "caption": "",
+      "stain": "",
+      "kind": "figure",
+      "section": null,
+      "href": "/figureview/fig-027-hematopoiesis/08-figure-1.html"
+    },
+    {
+      "name": "MHS 304 Red Bone Marrow",
+      "caption": "H&E",
+      "stain": "",
+      "kind": "slide",
+      "section": "BONE MARROW",
+      "href": "/slideview/MHS-304-bone-marrow/08-slide-1.html"
+    },
+    {
+      "name": "MH 034a Bone Marrow Smear",
+      "caption": "Wright's Stain",
+      "stain": "",
+      "kind": "slide",
+      "section": "Bone Marrow Smear",
+      "href": "/slideview/MH-034a-bone-marrow-smear/08-slide-1.html"
+    },
+    {
+      "name": "MH 034bhr Red Blood Cell Development",
+      "caption": "Wright's Stain",
+      "stain": "",
+      "kind": "slide",
+      "section": "Erythrocytes",
+      "href": "/slideview/MH-034bhr-bone-marrow-smear/08-slide-1.html"
+    },
+    {
+      "name": "MH 034bhr Neutrophil Development",
+      "caption": "Wright's Stain",
+      "stain": "",
+      "kind": "slide",
+      "section": "Granulocytes",
+      "href": "/slideview/MH-034bhr-bone-marrow-smear/08-slide-2.html"
+    },
+    {
+      "name": "MH 034bhr Eosinophil Development",
+      "caption": "Wright's Stain",
+      "stain": "",
+      "kind": "slide",
+      "section": "Granulocytes",
+      "href": "/slideview/MH-034bhr-bone-marrow-smear/08-slide-3.html"
+    },
+    {
+      "name": "MH 034bhr Basophil Development",
+      "caption": "Wright's Stain",
+      "stain": "",
+      "kind": "slide",
+      "section": "Granulocytes",
+      "href": "/slideview/MH-034bhr-bone-marrow-smear/08-slide-4.html"
+    },
+    {
+      "name": "MH 034bhr Lymphocytes",
+      "caption": "Wright's Stain",
+      "stain": "",
+      "kind": "slide",
+      "section": "Agranulocytes",
+      "href": "/slideview/MH-034bhr-bone-marrow-smear/08-slide-5.html"
+    },
+    {
+      "name": "MH 034bhr Monocytes",
+      "caption": "Wright's Stain",
+      "stain": "",
+      "kind": "slide",
+      "section": "Agranulocytes",
+      "href": "/slideview/MH-034bhr-bone-marrow-smear/08-slide-7.html"
+    },
+    {
+      "name": "MH 034a-MH 034bhr Megakaryocytes and Platelet Formation",
+      "caption": "Wright's Stain",
+      "stain": "",
+      "kind": "slide",
+      "section": "Platelets",
+      "href": "/slideview/MH-034a-034bhr-bone-marrow-smear/08-slide-1.html"
+    },
+    {
+      "name": "MH 034bhr Bone Marrow Smear",
+      "caption": "Wright's Stain",
+      "stain": "",
+      "kind": "slide",
+      "section": "REVIEW",
+      "href": "/slideview/MH-034bhr-summary/08-slide-1.html"
+    },
+    {
+      "name": "Bone Marrow Review",
+      "caption": "Wright's Stain",
+      "stain": "",
+      "kind": "slide",
+      "section": "QUIZ",
+      "href": "/slideview/MH-034bhr-bone-marrow-smear/08-slide-20.html"
+    },
+    {
+      "name": "MH 034bhr Plasma Cells",
+      "caption": "Wright's Stain",
+      "stain": "",
+      "kind": "slide",
+      "section": "PLASMA CELL",
+      "href": "/slideview/MH-034bhr-bone-marrow-smear/08-slide-6.html"
+    },
+    {
+      "name": "MH 034f Osteoclasts",
+      "caption": "Wright's Stain",
+      "stain": "",
+      "kind": "slide",
+      "section": "OSTEOCLAST",
+      "href": "/slideview/MH-034f-bone-marrow-smear/08-slide-1.html"
+    },
+    {
+      "name": "MH 034ahr Bone Marrow Smear",
+      "caption": "Wright's Stain",
+      "stain": "",
+      "kind": "slide",
+      "section": "ADDITIONAL EXAMPLES",
+      "href": "/slideview/MH-034ahr-bone-marrow-smear/08-slide-1.html"
+    },
+    {
+      "name": "MH 034chr Bone Marrow Smear",
+      "caption": "Wright's Stain",
+      "stain": "",
+      "kind": "slide",
+      "section": "ADDITIONAL EXAMPLES",
+      "href": "/slideview/MH-034chr-bone-marrow-smear/08-slide-1.html"
+    },
+    {
+      "name": "MH 034dhr Bone Marrow Smear",
+      "caption": "Wright's Stain",
+      "stain": "",
+      "kind": "slide",
+      "section": "ADDITIONAL EXAMPLES",
+      "href": "/slideview/MH-034dhr-bone-marrow-smear/08-slide-1.html"
+    },
+    {
+      "name": "MH 034ehr Bone Marrow Smear",
+      "caption": "Wright's Stain",
+      "stain": "",
+      "kind": "slide",
+      "section": "ADDITIONAL EXAMPLES",
+      "href": "/slideview/MH-034ehr-bone-marrow-smear/08-slide-1.html"
+    },
+    {
+      "name": "MH 034fhr Bone Marrow Smear",
+      "caption": "Wright's Stain",
+      "stain": "",
+      "kind": "slide",
+      "section": "ADDITIONAL EXAMPLES",
+      "href": "/slideview/MH-034fhr-bone-marrow-smear/08-slide-1.html"
+    }
+  ],
+  "emItems": [
+    {
+      "name": "EM 300 Bone Marrow",
+      "caption": "SEM",
+      "technique": "",
+      "section": "Bone Marrow",
+      "href": "/EM-view/EM-300-bone-marrow/08-photo-1.html"
+    },
+    {
+      "name": "EM 209 Basophilic Erythroblast",
+      "caption": "TEM",
+      "technique": "",
+      "section": "Erythropoiesis",
+      "href": "/EM-view/EM-209-proerythroblast/08-photo-1.html"
+    },
+    {
+      "name": "EM 210 Polychromatic Erythroblast",
+      "caption": "TEM",
+      "technique": "",
+      "section": "Erythropoiesis",
+      "href": "/EM-view/EM-210-polychromatic-erythroblast/08-photo-1.html"
+    },
+    {
+      "name": "EM 348 Orthochromatic Erythroblast",
+      "caption": "TEM",
+      "technique": "",
+      "section": "Erythropoiesis",
+      "href": "/EM-view/EM-348-orthochromatic-erythroblast/08-photo-1.html"
+    },
+    {
+      "name": "EM 211 Orthochromatic Erythroblast",
+      "caption": "TEM",
+      "technique": "",
+      "section": "Erythropoiesis",
+      "href": "/EM-view/EM-211-orthochromatic-erythroblast/08-photo-1.html"
+    },
+    {
+      "name": "EM 206 Red Blood Cells",
+      "caption": "SEM",
+      "technique": "",
+      "section": "Erythropoiesis",
+      "href": "/EM-view/EM-206-red-blood-cells/08-photo-1.html"
+    },
+    {
+      "name": "EM 212 Macrophage",
+      "caption": "TEM",
+      "technique": "",
+      "section": "Erythropoiesis",
+      "href": "/EM-view/EM-212-macrophage/08-photo-1.html"
+    },
+    {
+      "name": "EM 381 Myeloblast",
+      "caption": "TEM",
+      "technique": "",
+      "section": "Granulopoiesis",
+      "href": "/EM-view/EM-381-myeloblast/08-photo-1.html"
+    },
+    {
+      "name": "EM 344 Neutrophil Development",
+      "caption": "TEM",
+      "technique": "",
+      "section": "Granulopoiesis",
+      "href": "/EM-view/EM-344-bone-marrow/08-photo-1.html"
+    },
+    {
+      "name": "EM 346 Megakaryoblast",
+      "caption": "TEM",
+      "technique": "",
+      "section": "Thrombopoiesis",
+      "href": "/EM-view/EM-346-megakaryoblast/08-photo-1.html"
+    },
+    {
+      "name": "EM 347 Megakaryocyte",
+      "caption": "TEM",
+      "technique": "",
+      "section": "Thrombopoiesis",
+      "href": "/EM-view/EM-347-megakaryocyte/08-photo-1.html"
+    },
+    {
+      "name": "EM 349 Plasma Cell",
+      "caption": "TEM",
+      "technique": "",
+      "section": "Plasma Cell",
+      "href": "/EM-view/EM-349-plasma-cell/08-photo-1.html"
+    }
+  ]
+}

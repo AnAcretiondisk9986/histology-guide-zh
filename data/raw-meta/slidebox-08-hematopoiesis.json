@@ -1,0 +1,267 @@
+{
+  "schema": 1,
+  "source": {
+    "url": "https://histologyguide.com/slidebox/08-hematopoiesis.html",
+    "finalUrl": "https://histologyguide.com/slidebox/08-hematopoiesis.html",
+    "fetchedAt": "2026-10-18T11:29:25.023Z",
+    "httpStatus": 200,
+    "bytes": 27345,
+    "sha256": "8c03d01c9a0486938eb946eb2a357d6bed9d66f10196df3ddbe32b53fc7085df",
+    "userAgent": "HistologyGuideCNStudyIndex/0.1 (+personal non-commercial study index; metadata extraction only; contact: local user)",
+    "note": "仅保存导航元数据；正文段落与图片未保存，遵循原站使用条款"
+  },
+  "chapter": 8,
+  "pageType": "slidebox",
+  "pageTitle": "Chapter 8 - Hematopoiesis",
+  "hasIntroProse": true,
+  "headings": [
+    {
+      "level": 2,
+      "id": null,
+      "text": "Chapter 8 - Hematopoiesis"
+    },
+    {
+      "level": 3,
+      "id": "bone-marrow",
+      "text": "BONE MARROW"
+    },
+    {
+      "level": 3,
+      "id": "bone-marrow-smear",
+      "text": "Bone Marrow Smear"
+    },
+    {
+      "level": 3,
+      "id": null,
+      "text": "HEMATOPOIESIS"
+    },
+    {
+      "level": 3,
+      "id": "erythropoiesis",
+      "text": "Erythrocytes"
+    },
+    {
+      "level": 3,
+      "id": "granulopoiesis",
+      "text": "Granulocytes"
+    },
+    {
+      "level": 3,
+      "id": "agranulocytes",
+      "text": "Agranulocytes"
+    },
+    {
+      "level": 3,
+      "id": "thrombopoiesis",
+      "text": "Platelets"
+    },
+    {
+      "level": 3,
+      "id": "review",
+      "text": "REVIEW"
+    },
+    {
+      "level": 3,
+      "id": null,
+      "text": "QUIZ"
+    },
+    {
+      "level": 3,
+      "id": "plasma-cell",
+      "text": "PLASMA CELL"
+    },
+    {
+      "level": 3,
+      "id": "osteoclast",
+      "text": "OSTEOCLAST"
+    },
+    {
+      "level": 3,
+      "id": "examples",
+      "text": "ADDITIONAL EXAMPLES"
+    },
+    {
+      "level": 2,
+      "id": null,
+      "text": "CELL AND TISSUES"
+    },
+    {
+      "level": 2,
+      "id": null,
+      "text": "ORGAN SYSTEMS"
+    }
+  ],
+  "items": [
+    {
+      "kind": "figure",
+      "name": "Fig 027 Hematopoiesis",
+      "caption": "",
+      "stain": "",
+      "href": "/figureview/fig-027-hematopoiesis/08-figure-1.html",
+      "thumbPath": "/figureview/fig-027-hematopoiesis/imgs/figure.png",
+      "section": null
+    },
+    {
+      "kind": "slide",
+      "name": "MHS 304 Red Bone Marrow",
+      "caption": "H&E",
+      "stain": "",
+      "href": "/slideview/MHS-304-bone-marrow/08-slide-1.html",
+      "thumbPath": "/slideview/MHS-304-bone-marrow/imgs/slide.png",
+      "section": "BONE MARROW"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 034a Bone Marrow Smear",
+      "caption": "Wright's Stain",
+      "stain": "",
+      "href": "/slideview/MH-034a-bone-marrow-smear/08-slide-1.html",
+      "thumbPath": "/slideview/MH-034a-bone-marrow-smear/imgs/slide.png",
+      "section": "Bone Marrow Smear"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 034bhr Red Blood Cell Development",
+      "caption": "Wright's Stain",
+      "stain": "",
+      "href": "/slideview/MH-034bhr-bone-marrow-smear/08-slide-1.html",
+      "thumbPath": "/slideview/MH-034bhr-bone-marrow-smear/imgs/slide.png",
+      "section": "Erythrocytes"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 034bhr Neutrophil Development",
+      "caption": "Wright's Stain",
+      "stain": "",
+      "href": "/slideview/MH-034bhr-bone-marrow-smear/08-slide-2.html",
+      "thumbPath": "/slideview/MH-034bhr-bone-marrow-smear/imgs/slide.png",
+      "section": "Granulocytes"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 034bhr Eosinophil Development",
+      "caption": "Wright's Stain",
+      "stain": "",
+      "href": "/slideview/MH-034bhr-bone-marrow-smear/08-slide-3.html",
+      "thumbPath": "/slideview/MH-034bhr-bone-marrow-smear/imgs/slide.png",
+      "section": "Granulocytes"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 034bhr Basophil Development",
+      "caption": "Wright's Stain",
+      "stain": "",
+      "href": "/slideview/MH-034bhr-bone-marrow-smear/08-slide-4.html",
+      "thumbPath": "/slideview/MH-034bhr-bone-marrow-smear/imgs/slide.png",
+      "section": "Granulocytes"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 034bhr Lymphocytes",
+      "caption": "Wright's Stain",
+      "stain": "",
+      "href": "/slideview/MH-034bhr-bone-marrow-smear/08-slide-5.html",
+      "thumbPath": "/slideview/MH-034bhr-bone-marrow-smear/imgs/slide.png",
+      "section": "Agranulocytes"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 034bhr Monocytes",
+      "caption": "Wright's Stain",
+      "stain": "",
+      "href": "/slideview/MH-034bhr-bone-marrow-smear/08-slide-7.html",
+      "thumbPath": "/slideview/MH-034bhr-bone-marrow-smear/imgs/slide.png",
+      "section": "Agranulocytes"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 034a-MH 034bhr Megakaryocytes and Platelet Formation",
+      "caption": "Wright's Stain",
+      "stain": "",
+      "href": "/slideview/MH-034a-034bhr-bone-marrow-smear/08-slide-1.html",
+      "thumbPath": "/slideview/MH-034a-bone-marrow-smear/imgs/slide.png",
+      "section": "Platelets"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 034bhr Bone Marrow Smear",
+      "caption": "Wright's Stain",
+      "stain": "",
+      "href": "/slideview/MH-034bhr-summary/08-slide-1.html",
+      "thumbPath": "/slideview/MH-034bhr-summary/imgs/slide.png",
+      "section": "REVIEW"
+    },
+    {
+      "kind": "slide",
+      "name": "Bone Marrow Review",
+      "caption": "Wright's Stain",
+      "stain": "",
+      "href": "/slideview/MH-034bhr-bone-marrow-smear/08-slide-20.html",
+      "thumbPath": "/slideview/MH-034bhr-bone-marrow-smear/imgs/slide.png",
+      "section": "QUIZ"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 034bhr Plasma Cells",
+      "caption": "Wright's Stain",
+      "stain": "",
+      "href": "/slideview/MH-034bhr-bone-marrow-smear/08-slide-6.html",
+      "thumbPath": "/slideview/MH-034bhr-bone-marrow-smear/imgs/slide.png",
+      "section": "PLASMA CELL"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 034f Osteoclasts",
+      "caption": "Wright's Stain",
+      "stain": "",
+      "href": "/slideview/MH-034f-bone-marrow-smear/08-slide-1.html",
+      "thumbPath": "/slideview/MH-034f-bone-marrow-smear/imgs/slide.png",
+      "section": "OSTEOCLAST"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 034ahr Bone Marrow Smear",
+      "caption": "Wright's Stain",
+      "stain": "",
+      "href": "/slideview/MH-034ahr-bone-marrow-smear/08-slide-1.html",
+      "thumbPath": "/slideview/MH-034ahr-bone-marrow-smear/imgs/slide.png",
+      "section": "ADDITIONAL EXAMPLES"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 034chr Bone Marrow Smear",
+      "caption": "Wright's Stain",
+      "stain": "",
+      "href": "/slideview/MH-034chr-bone-marrow-smear/08-slide-1.html",
+      "thumbPath": "/slideview/MH-034chr-bone-marrow-smear/imgs/slide.png",
+      "section": "ADDITIONAL EXAMPLES"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 034dhr Bone Marrow Smear",
+      "caption": "Wright's Stain",
+      "stain": "",
+      "href": "/slideview/MH-034dhr-bone-marrow-smear/08-slide-1.html",
+      "thumbPath": "/slideview/MH-034dhr-bone-marrow-smear/imgs/slide.png",
+      "section": "ADDITIONAL EXAMPLES"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 034ehr Bone Marrow Smear",
+      "caption": "Wright's Stain",
+      "stain": "",
+      "href": "/slideview/MH-034ehr-bone-marrow-smear/08-slide-1.html",
+      "thumbPath": "/slideview/MH-034ehr-bone-marrow-smear/imgs/slide.png",
+      "section": "ADDITIONAL EXAMPLES"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 034fhr Bone Marrow Smear",
+      "caption": "Wright's Stain",
+      "stain": "",
+      "href": "/slideview/MH-034fhr-bone-marrow-smear/08-slide-1.html",
+      "thumbPath": "/slideview/MH-034fhr-bone-marrow-smear/imgs/slide.png",
+      "section": "ADDITIONAL EXAMPLES"
+    }
+  ]
+}

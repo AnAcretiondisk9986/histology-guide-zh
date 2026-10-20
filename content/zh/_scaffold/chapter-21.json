@@ -1,0 +1,228 @@
+{
+  "schema": 1,
+  "n": 21,
+  "titleEn": "Tissue Look-Alikes",
+  "group": "quiz",
+  "originalPage": "https://histologyguide.com/slidebox/21-look-alikes.html",
+  "note": "此文件由 scripts/scaffold.mjs 生成，仅供内容编写参考；请把中文写入 content/zh/chapters/NN.json，不要修改本文件。",
+  "sections": [],
+  "specimens": [
+    {
+      "name": "LA 001 Tissue Look Alikes",
+      "caption": "",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": null,
+      "href": "/slideview/look-alike-01/21-slide-2.html"
+    },
+    {
+      "name": "LA 002 Tissue Look Alikes",
+      "caption": "",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": null,
+      "href": "/slideview/look-alike-02/21-slide-2.html"
+    },
+    {
+      "name": "LA 003 Tissue Look Alikes",
+      "caption": "",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": null,
+      "href": "/slideview/look-alike-03/21-slide-2.html"
+    },
+    {
+      "name": "LA 004 Tissue Look Alikes",
+      "caption": "",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": null,
+      "href": "/slideview/look-alike-04/21-slide-2.html"
+    },
+    {
+      "name": "LA 005 Tissue Look Alikes",
+      "caption": "",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": null,
+      "href": "/slideview/look-alike-05/21-slide-2.html"
+    },
+    {
+      "name": "LA 006 Tissue Look Alikes",
+      "caption": "",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": null,
+      "href": "/slideview/look-alike-06/21-slide-2.html"
+    },
+    {
+      "name": "LA 007 Tissue Look Alikes",
+      "caption": "",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": null,
+      "href": "/slideview/look-alike-07/21-slide-2.html"
+    },
+    {
+      "name": "LA 008 Tissue Look Alikes",
+      "caption": "",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": null,
+      "href": "/slideview/look-alike-08/21-slide-2.html"
+    },
+    {
+      "name": "LA 009 Tissue Look Alikes",
+      "caption": "",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": null,
+      "href": "/slideview/look-alike-09/21-slide-2.html"
+    },
+    {
+      "name": "LA 010 Tissue Look Alikes",
+      "caption": "",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": null,
+      "href": "/slideview/look-alike-10/21-slide-2.html"
+    },
+    {
+      "name": "LA 011 Tissue Look Alikes",
+      "caption": "",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": null,
+      "href": "/slideview/look-alike-11/21-slide-2.html"
+    },
+    {
+      "name": "LA 012 Tissue Look Alikes",
+      "caption": "",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": null,
+      "href": "/slideview/look-alike-12/21-slide-2.html"
+    },
+    {
+      "name": "LA 013 Tissue Look Alikes",
+      "caption": "",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": null,
+      "href": "/slideview/look-alike-13/21-slide-2.html"
+    },
+    {
+      "name": "LA 014 Tissue Look Alikes",
+      "caption": "",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": null,
+      "href": "/slideview/look-alike-14/21-slide-2.html"
+    },
+    {
+      "name": "LA 015 Tissue Look Alikes",
+      "caption": "",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": null,
+      "href": "/slideview/look-alike-15/21-slide-2.html"
+    },
+    {
+      "name": "LA 016 Tissue Look Alikes",
+      "caption": "",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": null,
+      "href": "/slideview/look-alike-16/21-slide-2.html"
+    },
+    {
+      "name": "LA 017 Tissue Look Alikes",
+      "caption": "",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": null,
+      "href": "/slideview/look-alike-17/21-slide-2.html"
+    },
+    {
+      "name": "LA 018 Tissue Look Alikes",
+      "caption": "",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": null,
+      "href": "/slideview/look-alike-18/21-slide-2.html"
+    },
+    {
+      "name": "LA 019 Tissue Look Alikes",
+      "caption": "",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": null,
+      "href": "/slideview/look-alike-19/21-slide-2.html"
+    },
+    {
+      "name": "LA 020 Tissue Look Alikes",
+      "caption": "",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": null,
+      "href": "/slideview/look-alike-20/21-slide-2.html"
+    },
+    {
+      "name": "LA 021 Tissue Look Alikes",
+      "caption": "",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": null,
+      "href": "/slideview/look-alike-21/21-slide-2.html"
+    },
+    {
+      "name": "LA 022 Tissue Look Alikes",
+      "caption": "",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": null,
+      "href": "/slideview/look-alike-22/21-slide-2.html"
+    },
+    {
+      "name": "LA 023 Tissue Look Alikes",
+      "caption": "",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": null,
+      "href": "/slideview/look-alike-23/21-slide-2.html"
+    },
+    {
+      "name": "LA 024 Tissue Look Alikes",
+      "caption": "",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": null,
+      "href": "/slideview/look-alike-24/21-slide-2.html"
+    },
+    {
+      "name": "LA 025 Tissue Look Alikes",
+      "caption": "",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": null,
+      "href": "/slideview/look-alike-25/21-slide-2.html"
+    },
+    {
+      "name": "LA 026 Tissue Look Alikes",
+      "caption": "",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": null,
+      "href": "/slideview/look-alike-26/21-slide-2.html"
+    },
+    {
+      "name": "LA 027 Tissue Look Alikes",
+      "caption": "",
+      "stain": "H&E",
+      "kind": "slide",
+      "section": null,
+      "href": "/slideview/look-alike-27/21-slide-2.html"
+    }
+  ],
+  "emItems": []
+}

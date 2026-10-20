@@ -1,0 +1,284 @@
+{
+  "schema": 1,
+  "source": {
+    "url": "https://histologyguide.com/slidebox/06-nervous-tissue.html",
+    "finalUrl": "https://histologyguide.com/slidebox/06-nervous-tissue.html",
+    "fetchedAt": "2026-10-18T11:29:16.959Z",
+    "httpStatus": 200,
+    "bytes": 29570,
+    "sha256": "b7d194d411cf9dcc55a6f75f1c0987992f0e578760e4491464da8af59b577a73",
+    "userAgent": "HistologyGuideCNStudyIndex/0.1 (+personal non-commercial study index; metadata extraction only; contact: local user)",
+    "note": "仅保存导航元数据；正文段落与图片未保存，遵循原站使用条款"
+  },
+  "chapter": 6,
+  "pageType": "slidebox",
+  "pageTitle": "Chapter 6 - Nervous Tissue",
+  "hasIntroProse": true,
+  "headings": [
+    {
+      "level": 2,
+      "id": null,
+      "text": "Chapter 6 - Nervous Tissue"
+    },
+    {
+      "level": 3,
+      "id": "neuron",
+      "text": "NEURON"
+    },
+    {
+      "level": 3,
+      "id": null,
+      "text": "CENTRAL NERVOUS SYSTEM"
+    },
+    {
+      "level": 3,
+      "id": "brain",
+      "text": "Brain"
+    },
+    {
+      "level": 3,
+      "id": "spinal-cord",
+      "text": "Spinal Cord"
+    },
+    {
+      "level": 3,
+      "id": null,
+      "text": "PERIPHERAL NERVOUS SYSTEM"
+    },
+    {
+      "level": 3,
+      "id": "dorsal-root-ganglion",
+      "text": "Dorsal Root Ganglion"
+    },
+    {
+      "level": 3,
+      "id": "sympathetic-ganglion",
+      "text": "Sympathetic Ganglion"
+    },
+    {
+      "level": 3,
+      "id": "parasympathetic-ganglion",
+      "text": "Parasympathetic Ganglion"
+    },
+    {
+      "level": 3,
+      "id": "peripheral-nerve",
+      "text": "Peripheral Nerve"
+    },
+    {
+      "level": 3,
+      "id": "sensory-nerve-endings",
+      "text": "Sensory Nerve Endings"
+    },
+    {
+      "level": 2,
+      "id": null,
+      "text": "CELL AND TISSUES"
+    },
+    {
+      "level": 2,
+      "id": null,
+      "text": "ORGAN SYSTEMS"
+    }
+  ],
+  "items": [
+    {
+      "kind": "figure",
+      "name": "Fig 017 Motor Neuron",
+      "caption": "",
+      "stain": "",
+      "href": "/figureview/fig-017-motor-neuron/06-figure-1.html",
+      "thumbPath": "/figureview/fig-017-motor-neuron/imgs/figure.png",
+      "section": "NEURON"
+    },
+    {
+      "kind": "slide",
+      "name": "MHS 284 Brain",
+      "caption": "Golgi's Method",
+      "stain": "",
+      "href": "/slideview/MHS-284-brain/06-slide-1.html",
+      "thumbPath": "/slideview/MHS-284-brain/imgs/slide.png",
+      "section": "Brain"
+    },
+    {
+      "kind": "slide",
+      "name": "MHS 283 Brain",
+      "caption": "Nissl/Chromophil Substance",
+      "stain": "Cresyl Violet",
+      "href": "/slideview/MHS-283-brain/06-slide-1.html",
+      "thumbPath": "/slideview/MHS-283-brain/imgs/slide.png",
+      "section": "Brain"
+    },
+    {
+      "kind": "slide",
+      "name": "MHS 240 Spinal Cord",
+      "caption": "H&E",
+      "stain": "",
+      "href": "/slideview/MHS-240-spinal-cord/06-slide-1.html",
+      "thumbPath": "/slideview/MHS-240-spinal-cord/imgs/slide.png",
+      "section": "Spinal Cord"
+    },
+    {
+      "kind": "slide",
+      "name": "UCSF 163 Spinal Cord",
+      "caption": "Nissl Substance",
+      "stain": "Cresyl Violet",
+      "href": "/slideview/UCSF-163-spinal-cord/06-slide-1.html",
+      "thumbPath": "/slideview/UCSF-163-spinal-cord/imgs/slide.png",
+      "section": "Spinal Cord"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 047 Spinal Cord",
+      "caption": "H&E",
+      "stain": "",
+      "href": "/slideview/MH-047-spinal-cord/06-slide-1.html",
+      "thumbPath": "/slideview/MH-047-spinal-cord/imgs/slide.png",
+      "section": "Spinal Cord"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 047 Spinal Cord",
+      "caption": "Dorsal Root Ganglion",
+      "stain": "H&E",
+      "href": "/slideview/MH-047-spinal-cord/06-slide-2.html",
+      "thumbPath": "/slideview/MH-047-spinal-cord/imgs/slide.png",
+      "section": "Dorsal Root Ganglion"
+    },
+    {
+      "kind": "slide",
+      "name": "MHS 285-286 Dorsal Root Ganglion",
+      "caption": "Toluidine Blue/Myelin Stain",
+      "stain": "",
+      "href": "/slideview/MHS-285-286-spinal-ganglion/06-slide-1.html",
+      "thumbPath": "/slideview/MHS-285-spinal-ganglion/imgs/slide.png",
+      "section": "Dorsal Root Ganglion"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 051 Dorsal Root Ganglion",
+      "caption": "Azan",
+      "stain": "",
+      "href": "/slideview/MH-051-dorsal-root-ganglion/06-slide-1.html",
+      "thumbPath": "/slideview/MH-051-dorsal-root-ganglion/imgs/slide.png",
+      "section": "Dorsal Root Ganglion"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 050 Dorsal Root Ganglion",
+      "caption": "H&E",
+      "stain": "",
+      "href": "/slideview/MH-050-dorsal-root-ganglion/06-slide-1.html",
+      "thumbPath": "/slideview/MH-050-dorsal-root-ganglion/imgs/slide.png",
+      "section": "Dorsal Root Ganglion"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 047 Spinal Cord",
+      "caption": "Sympathetic Ganglion",
+      "stain": "H&E",
+      "href": "/slideview/MH-047-spinal-cord/06-slide-3.html",
+      "thumbPath": "/slideview/MH-047-spinal-cord/imgs/slide.png",
+      "section": "Sympathetic Ganglion"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 059 Sympathetic Ganglion",
+      "caption": "H&E",
+      "stain": "",
+      "href": "/slideview/MH-059-sympathetic-ganglia/06-slide-1.html",
+      "thumbPath": "/slideview/MH-059-sympathetic-ganglia/imgs/slide.png",
+      "section": "Sympathetic Ganglion"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 109 Esophagus",
+      "caption": "Parasympathetic Ganglion",
+      "stain": "H&E",
+      "href": "/slideview/MH-109-esophagus/06-slide-1.html",
+      "thumbPath": "/slideview/MH-109-esophagus/imgs/slide.png",
+      "section": "Parasympathetic Ganglion"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 123 Colon",
+      "caption": "Parasympathetic Ganglion",
+      "stain": "H&E",
+      "href": "/slideview/MH-123-colon/06-slide-1.html",
+      "thumbPath": "/slideview/MH-123-colon/imgs/slide.png",
+      "section": "Parasympathetic Ganglion"
+    },
+    {
+      "kind": "slide",
+      "name": "MHS 211 Pancreas",
+      "caption": "Parasympathetic Ganglion",
+      "stain": "H&E",
+      "href": "/slideview/MHS-211-pancreas/06-slide-1.html",
+      "thumbPath": "/slideview/MHS-211-pancreas/imgs/slide.png",
+      "section": "Parasympathetic Ganglion"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 052 Peripheral Nerve",
+      "caption": "Longitudinal and Cross-section",
+      "stain": "H&E",
+      "href": "/slideview/MH-052-peripheral-nerve/06-slide-1.html",
+      "thumbPath": "/slideview/MH-052-peripheral-nerve/imgs/slide.png",
+      "section": "Peripheral Nerve"
+    },
+    {
+      "kind": "slide",
+      "name": "MHS 239 Peripheral Nerve",
+      "caption": "Masson's Trichrome",
+      "stain": "",
+      "href": "/slideview/MHS-239-peripheral-nerve/06-slide-1.html",
+      "thumbPath": "/slideview/MHS-239-peripheral-nerve/imgs/slide.png",
+      "section": "Peripheral Nerve"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 024 Mesentery",
+      "caption": "Peripheral Nerve",
+      "stain": "H&E",
+      "href": "/slideview/MH-024-mesentery/06-slide-1.html",
+      "thumbPath": "/slideview/MH-024-mesentery/imgs/slide.png",
+      "section": "Peripheral Nerve"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 091 Thick Skin",
+      "caption": "Meissner and Pacinian Corpuscles",
+      "stain": "H&E",
+      "href": "/slideview/MH-091-thick-skin/06-slide-1.html",
+      "thumbPath": "/slideview/MH-091-thick-skin/imgs/slide.png",
+      "section": "Sensory Nerve Endings"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 091ahr Thick Skin",
+      "caption": "Meissner Corpuscle",
+      "stain": "H&E",
+      "href": "/slideview/MH-091ahr-thick-skin/06-slide-1.html",
+      "thumbPath": "/slideview/MH-091ahr-thick-skin/imgs/slide.png",
+      "section": "Sensory Nerve Endings"
+    },
+    {
+      "kind": "slide",
+      "name": "MH 024 Mesentery",
+      "caption": "Pacinian Corpuscle",
+      "stain": "H&E",
+      "href": "/slideview/MH-024-mesentery/06-slide-2.html",
+      "thumbPath": "/slideview/MH-024-mesentery/imgs/slide.png",
+      "section": "Sensory Nerve Endings"
+    },
+    {
+      "kind": "slide",
+      "name": "MHS 294 Pancreas",
+      "caption": "Pacinian Corpuscle",
+      "stain": "Masson's Trichrome",
+      "href": "/slideview/MHS-294-pancreas/06-slide-1.html",
+      "thumbPath": "/slideview/MHS-294-pancreas/imgs/slide.png",
+      "section": "Sensory Nerve Endings"
+    }
+  ]
+}
