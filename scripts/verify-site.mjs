@@ -260,9 +260,27 @@ async function main() {
     const wrong = Object.keys(stored.quizWrong || {}).length;
     return { revealed, answerVisible, wrong };
   })()`);
+
+  // 锚点跳转：关闭平滑滚动后检查目标是否落在固定头部下方
+  const anchorJump = await cdp.eval(`(async function(){
+    document.documentElement.style.scrollBehavior = 'auto';
+    const link = document.querySelector('#chapter-toc a');
+    location.hash = link.getAttribute('href');
+    await new Promise(r => requestAnimationFrame(() => requestAnimationFrame(r)));
+    const el = document.querySelector(link.getAttribute('href'));
+    const headerBottom = document.querySelector('.site-header').getBoundingClientRect().bottom;
+    const targetTop = el.getBoundingClientRect().top;
+    return { targetTop: Math.round(targetTop), headerBottom: Math.round(headerBottom),
+      covered: Math.round(Math.max(0, headerBottom - targetTop)) };
+  })()`);
   record('章节页交互', [
     { name: '显示答案', ok: quiz.revealed && quiz.answerVisible },
-    { name: '易错写入 localStorage', ok: quiz.wrong > 0, detail: String(quiz.wrong) }
+    { name: '易错写入 localStorage', ok: quiz.wrong > 0, detail: String(quiz.wrong) },
+    {
+      name: '锚点跳转不被固定头部遮挡',
+      ok: anchorJump.covered <= 2,
+      detail: JSON.stringify(anchorJump)
+    }
   ]);
 
   // 完成标记
@@ -288,12 +306,19 @@ async function main() {
       lightbox = ov ? ov.classList.contains('open') : false;
       document.dispatchEvent(new KeyboardEvent('keydown', { key: 'Escape' }));
     }
-    return { count: imgs.length, credit: credit ? credit.textContent : null, lightbox, badge: /本地概览/.test(document.body.textContent), oldWording: /仅个人学习|请勿发布|不得发布/.test(document.body.textContent) };
+    return { count: imgs.length, credit: credit ? credit.textContent : null, lightbox, badge: /本地概览/.test(document.body.textContent), oldWording: /仅个人学习|请勿发布|不得发布/.test(document.body.textContent), noteOverlap: (function(){
+      const note = document.querySelector('.specimen .thumb-note');
+      const img = document.querySelector('.specimen .thumb img');
+      if (!note || !img) return true;
+      const a = note.getBoundingClientRect(), b = img.getBoundingClientRect();
+      return !(a.bottom <= b.top || b.bottom <= a.top || a.right <= b.left || b.right <= a.left);
+    })() };
   })()`);
   record('本地图像', [
     { name: '章节页有本地图像', ok: localImg.count > 0, detail: String(localImg.count) },
     { name: '显示版权署名', ok: !!localImg.credit, detail: localImg.credit && localImg.credit.slice(0, 60) },
     { name: '署名口径为公开非商业（无旧私有措辞）', ok: /非商业教育用途/.test(localImg.credit || '') && !localImg.oldWording, detail: localImg.credit && localImg.credit.slice(0, 60) },
+    { name: '缩略图说明不遮挡图片', ok: localImg.noteOverlap === false },
     { name: '点击可放大（灯箱）', ok: localImg.lightbox === true },
     { name: '显示本地概览徽标', ok: localImg.badge, detail: String(localImg.badge) }
   ]);
@@ -458,9 +483,42 @@ async function main() {
   /* ---------- 移动端 ---------- */
   await cdp.send('Emulation.setDeviceMetricsOverride', { width: 390, height: 844, deviceScaleFactor: 2, mobile: true });
   await navigate(cdp, 'index.html', 500);
+  const mobile = await cdp.eval(`(function(){
+    const h = document.querySelector('.site-header');
+    return { headerH: h ? Math.round(h.getBoundingClientRect().height) : 0,
+      overflow: document.documentElement.scrollWidth <= innerWidth + 2 };
+  })()`);
   record('移动端 390px', [
-    await check(cdp, '无横向溢出', `return document.documentElement.scrollWidth <= 392`, `return document.documentElement.scrollWidth`),
-    await check(cdp, '导航仍可见', `return getComputedStyle(document.querySelector('.main-nav')).display !== 'none'`)
+    { name: '无横向溢出', ok: mobile.overflow },
+    { name: '导航仍可见', ok: await cdp.eval(`getComputedStyle(document.querySelector('.main-nav')).display !== 'none'`) },
+    { name: '头部紧凑（≤120px）', ok: mobile.headerH > 0 && mobile.headerH <= 120, detail: String(mobile.headerH) }
+  ]);
+
+  /* ---------- 移动端表格可读性 ---------- */
+  await navigate(cdp, 'sources.html', 700);
+  const tablesMobile = await cdp.eval(`(function(){
+    const wide = document.querySelector('.table-scroll');
+    const cond = document.querySelector('.stack-cond tbody tr');
+    return {
+      wideOverflow: wide ? getComputedStyle(wide).overflowX : null,
+      wideScrollable: wide ? wide.scrollWidth > wide.clientWidth : false,
+      condDisplay: cond ? getComputedStyle(cond).display : null
+    };
+  })()`);
+  await navigate(cdp, 'glossary.html', 700);
+  const glossaryMobile = await cdp.eval(`(function(){
+    const tr = document.querySelector('.term-table tbody tr');
+    const wrap = document.querySelector('.term-wrap');
+    return {
+      rowDisplay: tr ? getComputedStyle(tr).display : null,
+      headDisplay: getComputedStyle(document.querySelector('.term-table thead')).display,
+      wrapOverflow: wrap ? getComputedStyle(wrap).overflowX : null
+    };
+  })()`);
+  record('移动端表格', [
+    { name: '宽表格可横向滚动', ok: tablesMobile.wideOverflow === 'auto' && tablesMobile.wideScrollable, detail: JSON.stringify(tablesMobile) },
+    { name: '许可条件表在窄屏堆叠为卡片', ok: tablesMobile.condDisplay === 'block', detail: String(tablesMobile.condDisplay) },
+    { name: '术语表在窄屏堆叠为卡片', ok: glossaryMobile.rowDisplay === 'block' && glossaryMobile.headDisplay === 'none' && glossaryMobile.wrapOverflow !== 'hidden', detail: JSON.stringify(glossaryMobile) }
   ]);
   if (SHOTS) await shot(cdp, 'mobile');
   await cdp.send('Emulation.clearDeviceMetricsOverride');

@@ -212,12 +212,14 @@
     function open() {
       if (!searchIndex) searchIndex = buildSearchIndex();
       overlay.classList.add('open');
+      document.body.style.overflow = 'hidden';
       input.value = '';
       render('');
       setTimeout(() => input.focus(), 10);
     }
     function close() {
       overlay.classList.remove('open');
+      document.body.style.overflow = '';
       input.blur();
     }
     $('#open-search') && $('#open-search').addEventListener('click', open);
@@ -494,9 +496,10 @@
     const hasImg = !!sp.img;
     const src = hasImg ? base + sp.img : '';
     return `<article class="specimen" data-slide-name="${esc(sp.name)}">
-      <div class="thumb">${hasImg
-        ? `<img src="${esc(src)}" alt="${esc(zh || sp.name)}（本地概览，© Histology Guide 及/或原始贡献者，经许可）" loading="lazy" data-zoom="${esc(src)}">`
-        : esc(code)}
+      <div class="thumb">
+        <div class="thumb-img">${hasImg
+          ? `<img src="${esc(src)}" alt="${esc(zh || sp.name)}（本地概览，© Histology Guide 及/或原始贡献者，经许可）" loading="lazy" data-zoom="${esc(src)}">`
+          : esc(code)}</div>
         <div class="thumb-note">${hasImg ? '点击图片放大 · 本地概览' : `${isEm ? '电镜图像' : '显微图像'}仅在线查看`}</div>
       </div>
       <div class="body">
@@ -511,7 +514,7 @@
           ${hasImg ? '<span class="badge ok">本地概览</span>' : ''}
           ${hasImg && sp.imgW ? `<span class="badge">${esc(sp.imgW)}×${esc(sp.imgH)}</span>` : ''}
         </div>
-        ${hasImg ? '<div class="img-credit">图像 © Histology Guide 及/或原始贡献者 · 非商业教育用途，经许可保存；原页面链接见下方</div>' : ''}
+        ${hasImg ? '<div class="img-credit">图像 © Histology Guide 及/或原始贡献者 · 非商业教育用途，经许可</div>' : ''}
         <div class="actions">
           <a class="btn small" data-open-slide="${esc(sp.name)}" href="${esc(HG_SITE + sp.url)}" target="_blank" rel="noopener noreferrer">原站切片 ↗</a>
           <a class="btn small ghost" href="${chapterHref(sp.chapter)}">本章</a>
@@ -861,9 +864,24 @@
     });
   }
 
+  /* ------------------------------ 头部高度（锚点滚动避让） ------------------------------ */
+  function syncHeaderMetrics() {
+    const header = document.querySelector('.site-header');
+    if (!header) return;
+    const h = Math.round(header.getBoundingClientRect().height);
+    if (h > 0) document.documentElement.style.setProperty('--header-h', h + 'px');
+  }
+
   /* ------------------------------ 启动 ------------------------------ */
   window.HG_SITE = (window.HG && window.HG.sourceSite) || 'https://histologyguide.com';
   document.addEventListener('DOMContentLoaded', () => {
+    syncHeaderMetrics();
+    window.addEventListener('resize', syncHeaderMetrics, { passive: true });
+    window.addEventListener('load', syncHeaderMetrics);
+    if (window.ResizeObserver) {
+      const header = document.querySelector('.site-header');
+      if (header) new ResizeObserver(syncHeaderMetrics).observe(header);
+    }
     initTheme();
     initSearch();
     initHome();

@@ -1,6 +1,7 @@
 # 临时目录与开发产物
 .tmp/
 node_modules/
+ui-audit/
 
 # 本机浏览器配置
 chrome-profile-*/

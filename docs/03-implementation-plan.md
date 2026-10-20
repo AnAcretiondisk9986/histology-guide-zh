@@ -99,11 +99,11 @@ node scripts/import-local-images.mjs <dir>  # 可选：导入授权图片
 
 ## 出版阶段（2026-10-20 起）
 
-> 2026-10-20 Histology Guide 作者团队授予「在 GitHub Pages 公开托管非商业中文改编版」的许可（8 条条件见 `docs/05-permission.md` 第 9 节）。以下为出版阶段里程碑；截至 2026-10-20，P1–P4 已完成（本地 19/19、线上 29/29 页验收），P5（向作者发送 live URL）尚未执行。
+> 2026-10-20 Histology Guide 作者团队授予「在 GitHub Pages 公开托管非商业中文改编版」的许可（8 条条件见 `docs/05-permission.md` 第 9 节）。以下为出版阶段里程碑；截至 2026-10-20，P1–P4 已完成（本地 20/20、线上 29/29 页验收），P5（向作者发送 live URL）尚未执行。
 
 | 里程碑 | 内容 | 状态 | 证据 / 验收方式 |
 | --- | --- | --- | --- |
-| P1 站点合规改造 | 全站署名栏（英文示例句 + 中文非官方声明）、页脚署名、来源页 8 条条件清单、逐图 © 署名与原页面链接 | **已完成（2026-10-20）** | `site/` 各页署名栏与页脚、`site/sources.html`；本地 `verify-site` 19/19 |
+| P1 站点合规改造 | 全站署名栏（英文示例句 + 中文非官方声明）、页脚署名、来源页 8 条条件清单、逐图 © 署名与原页面链接 | **已完成（2026-10-20）** | `site/` 各页署名栏与页脚、`site/sources.html`；本地 `verify-site` 20/20 |
 | P2 仓库与发布配置 | GitHub 仓库 `AnAcretiondisk9986/histology-guide-zh`、GitHub Actions 发布 `site/` | **已完成（2026-10-20）** | 仓库 284 张图全部推送；`.github/workflows/pages.yml` |
 | P3 GitHub Pages 部署 | 发布到 `https://blog.acretiondisk.top/histology-guide-zh/` | **已完成（2026-10-20）** | Actions 运行 #39433580696 成功；URL 已上线 |
 | P4 线上验收 | 逐项核对 8 条条件、全站署名与页脚、内部/原站链接、移动端、非商业声明 | **已完成（2026-10-20）** | 29/29 页面 200 且署名齐全；28 个 sitemap URL 200；图片抽查 200；404 正常；记录见 `docs/06-publication.md` §5/§8 |
@@ -115,4 +115,5 @@ node scripts/import-local-images.mjs <dir>  # 可选：导入授权图片
 - 内容边界不变：不采集原站英文正文、测验题、关键词索引；284 张概览图逐张保留 © 署名与原页面链接。
 - 站点免费、无广告、无付费入口；不得出售、许可或商业利用（条件 6）。
 - 条件 8 完成（向作者发送 live URL）前，不把「作者已复核/已认可」作为对外表述。
+
 

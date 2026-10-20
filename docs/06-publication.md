@@ -1,7 +1,7 @@
 # 出版记录与合规清单（GitHub Pages 非商业中文学习资源）
 
 - 记录日期：2026-10-20
-- 当前状态：**站点合规改造已完成（本地复验 19/19）；已部署到 GitHub Pages 并完成线上验收**（2026-10-20；条件 8 的 live URL 邮件尚未发送）
+- 当前状态：**站点合规改造已完成（本地复验 20/20）；已部署到 GitHub Pages 并完成线上验收**（2026-10-20；条件 8 的 live URL 邮件尚未发送）
 - 许可依据：`docs/05-permission.md` 第 9 节（2026-10-20 Histology Guide 作者团队回信，8 条条件）
 - 版权与许可声明：[`NOTICE.md`](../NOTICE.md)
 
@@ -119,7 +119,7 @@ GitHub: AnAcretiondisk9986
 
 | 项 | 状态 | 说明 |
 | --- | --- | --- |
-| 站点合规改造 | 已完成（本地 19/19 复验） | 全站署名栏、页脚署名、来源页 8 条条件清单；`site/` 已重建并复验 |
+| 站点合规改造 | 已完成（本地 20/20 复验） | 全站署名栏、页脚署名、来源页 8 条条件清单；`site/` 已重建并复验 |
 | 仓库与 Pages 配置 | 已完成 | `AnAcretiondisk9986/histology-guide-zh`；284 张图已全部推送；GitHub Actions 发布 `site/` |
 | 部署 | **已完成（2026-10-20）** | 运行 #39433580696 成功；线上地址 `https://blog.acretiondisk.top/histology-guide-zh/` |
 | 线上验收 | **已完成（2026-10-20）** | 29/29 页面 200 且署名齐全；28 个 sitemap URL 200；图片抽查 200；404 页面正常；详见 §8 |
@@ -132,10 +132,13 @@ GitHub: AnAcretiondisk9986
 | 日期 | 事项 | 记录人 | 结果 |
 | --- | --- | --- | --- |
 | 2026-10-20 | 建立本文档：记录新许可依据、仓库与 URL、部署方式、8 条条件落实与线上验收清单、邮件草稿 | 文档维护（docs-license） | 完成记录；部署与线上验收未执行 |
-| 2026-10-20 | 站点合规改造、图片分批推送、GitHub Pages 部署 | Lead | 本地 `verify-site` 19/19、`check-content` 0 error；仓库推送完成；Actions 部署成功 |
+| 2026-10-20 | 站点合规改造、图片分批推送、GitHub Pages 部署 | Lead | 本地 `verify-site` 20/20、`check-content` 0 error；仓库推送完成；Actions 部署成功 |
 | 2026-10-20 | 线上验收（`https://blog.acretiondisk.top/histology-guide-zh/`） | Lead | 29/29 页面 200 且含署名栏/逐字英文句/非官方声明/canonical；28 个 sitemap URL 200；5 张图片 200 且类型/体积正常；404 返回自定义页面；`*.github.io` 项目地址 404（使用账户自定义域名） |
 | 2026-10-20 | 启用 push 自动部署并复核 | Lead | Actions #39436654570 成功；线上首页、章节页、来源页、图片仍 200 且署名与 canonical 正常；仓库 About 主页指向 live URL |
+| 2026-10-20 | 前端遮挡与布局专项修复（移动端头部、锚点、缩略图说明、窄屏表格、灯箱、搜索滚动锁） | Lead | 10 页 × 4 视口遮挡审计 0 问题；`verify-site` 20/20；已重建待重新部署 |
 
 > 后续记录：部署日期、实际 URL、线上验收结论、live URL 发送日期与作者回复，均追加到本表。
+
+
 
 

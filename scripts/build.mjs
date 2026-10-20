@@ -324,11 +324,14 @@ function specimenCard(sp, base = '../') {
   const hasImg = !!sp.img;
   const dims = sp.imgW && sp.imgH ? `${sp.imgW}×${sp.imgH}` : '';
   return `<article class="specimen" data-specimen="${esc(sp.name)}">
-    <div class="thumb">${
-      hasImg
-        ? `<img src="${esc(base + sp.img)}" alt="${esc(sp.zh || sp.name)}（本地概览图，© Histology Guide 及/或原始贡献者，经许可）" loading="lazy" data-zoom="${esc(base + sp.img)}">`
-        : esc(code)
-    }<div class="thumb-note">${hasImg ? '点击图片放大 · 本地概览' : `${isEm ? '电镜' : '显微'}图像仅在线查看`}</div></div>
+    <div class="thumb">
+      <div class="thumb-img">${
+        hasImg
+          ? `<img src="${esc(base + sp.img)}" alt="${esc(sp.zh || sp.name)}（本地概览图，© Histology Guide 及/或原始贡献者，经许可）" loading="lazy" data-zoom="${esc(base + sp.img)}">`
+          : esc(code)
+      }</div>
+      <div class="thumb-note">${hasImg ? '点击图片放大 · 本地概览' : `${isEm ? '电镜' : '显微'}图像仅在线查看`}</div>
+    </div>
     <div class="body">
       <div class="code">${esc(sp.name)}</div>
       ${sp.zh ? `<div class="name-zh">${esc(sp.zh)}</div>` : '<div class="name-zh faint" style="font-weight:400">（中文名待编写）</div>'}
@@ -338,7 +341,7 @@ function specimenCard(sp, base = '../') {
         <span class="badge${hasImg ? ' ok' : ' online'}">${hasImg ? '本地概览' : '在线'}</span>
         ${hasImg && dims ? `<span class="badge">${dims}</span>` : ''}
       </div>
-      ${hasImg ? `<div class="img-credit">图像 © Histology Guide 及/或原始贡献者 · 非商业教育用途，经许可保存；原页面链接见下方</div>` : ''}
+      ${hasImg ? `<div class="img-credit">图像 © Histology Guide 及/或原始贡献者 · 非商业教育用途，经许可</div>` : ''}
       <div class="actions">
         <a class="btn small" data-open-slide="${esc(sp.name)}" href="${esc(link)}" target="_blank" rel="noopener noreferrer" aria-label="在新标签页打开原站切片 ${esc(sp.name)}">原站切片 ↗</a>
       </div>
@@ -635,7 +638,7 @@ function buildGlossaryPage() {
       <span class="spacer"></span>
       <span class="small faint" id="gloss-count"></span>
     </div>
-    <div class="card flush" style="overflow-x:auto">
+    <div class="card flush term-wrap">
       <table class="term-table">
         <thead><tr><th style="width:22%">中文 / English</th><th style="width:10%">分类</th><th>释义</th><th style="width:12%">章节</th></tr></thead>
         <tbody id="term-tbody"></tbody>
@@ -743,8 +746,8 @@ function buildSourcesPage() {
     </div>
 
     <h2 style="font-size:18px">8 条许可条件与本站落实</h2>
-    <div class="card flush" style="overflow-x:auto;margin-bottom:20px">
-      <table class="data-table">
+    <div class="card flush" style="margin-bottom:20px">
+      <table class="data-table stack-table stack-cond">
         <thead><tr><th style="width:30%">条件（作者原文要点）</th><th>本站落实</th><th style="width:22%">证据位置</th></tr></thead>
         <tbody>
           <tr><td>每页或显著的全站通知中提供清晰署名</td><td>每页顶部“非官方中文学习改编版”署名栏 + 页脚完整的英文示例句与中文说明；本站即全站统一通知页。</td><td>全部页面顶部与页脚；本页</td></tr>
@@ -777,16 +780,18 @@ function buildSourcesPage() {
 
     <h2 style="font-size:18px">本地图像清单（经许可公开托管）</h2>
     <p class="muted small">共 ${localImageList.length} 张。每张图由原站 BigTIFF 金字塔中的一个中分辨率层级拼接而来，不等同于原站完整分辨率；卡片上保留“原站切片”链接用于高倍观察。图像 © Histology Guide 及/或原始贡献者，仅限非商业教育用途，不得在本站之外再分发。</p>
+    <p class="scroll-hint small">表格较宽，可左右滑动查看 →</p>
     ${
       localImageList.length
-        ? `<div class="card flush" style="overflow-x:auto"><table class="data-table">
+        ? `<div class="card flush table-scroll"><table class="data-table">
         <thead><tr><th>类型</th><th>标本</th><th>章节</th><th>本地分辨率</th><th>体积</th><th>来源</th></tr></thead>
         <tbody>${imgRows}</tbody></table></div>`
         : '<div class="empty">尚未下载本地图像。运行 <code class="mono">node scripts/fetch-images.mjs</code> 按许可获取所选图像。</div>'
     }
     <h2 style="font-size:18px;margin-top:28px">页面清单与采集记录</h2>
     <p class="muted small">共 ${sourcesList.length} 条。元数据采集遵循 <a href="https://histologyguide.com/robots.txt" target="_blank" rel="noopener noreferrer">robots.txt</a>（避开 /assets /css /js 等目录），请求间隔 ≥1.2 秒；图像按许可以单文件或 Range 分层请求获取，限速并记录请求数。SHA-256 为抓取时的响应体摘要。</p>
-    <div class="card flush" style="overflow-x:auto">
+    <p class="scroll-hint small">表格较宽，可左右滑动查看 →</p>
+    <div class="card flush table-scroll">
       <table class="data-table">
         <thead><tr><th>类型</th><th>页面</th><th>状态</th><th>抓取时间</th><th>HTTP</th><th>SHA-256</th></tr></thead>
         <tbody>${rows}</tbody>
@@ -826,8 +831,8 @@ function buildHelpPage() {
     </ol>
 
     <h2 style="font-size:18px">离线 / 在线功能对照</h2>
-    <div class="card flush" style="overflow-x:auto">
-      <table class="data-table">
+    <div class="card flush">
+      <table class="data-table stack-table stack-help">
         <thead><tr><th>功能</th><th>离线可用</th><th>说明</th></tr></thead>
         <tbody>
           <tr><td>章节导航、小节要点、术语表、搜索、自测、抽认卡、进度与易错本</td><td><span class="badge ok">是</span></td><td>数据内嵌于 assets/data.js；进度存 localStorage</td></tr>
@@ -956,4 +961,5 @@ console.log('章节：', chapters.length, '| 已完成内容章节：', totals.a
 console.log('术语：', totals.terms, '| 自测题：', totals.quizzes, '| 来源条目：', sourcesList.length);
 const pending = chapters.filter((c) => c.contentStatus !== 'authored').map((c) => c.n);
 if (pending.length) console.log('仍待编写内容章节：', pending.join(', '));
+
 

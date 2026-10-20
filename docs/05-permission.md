@@ -101,7 +101,7 @@ node scripts/fetch-images.mjs --only-slug=<slug> --max-seconds=60
 | 请求内容 | 将已完成的非商业中文学习改编版（自编中文要点 / 术语 / 自测 + 经 2026-10-18 许可保存的 284 张中分辨率概览图）公开托管在 GitHub Pages，供免费学习访问 |
 | 授予范围 | 在 GitHub Pages 上创建并公开托管「所选教育内容」的**非商业中文版** |
 | 许可性质 | 附条件许可（8 条，见 9.3）；不转授、不得超出条件使用；原始内容版权仍归 Histology Guide 及/或原始贡献者 |
-| 本次记录状态 | 许可已取得；站点合规改造已完成（2026-10-20 复验 19/19）；**已部署到 GitHub Pages 并完成线上验收**（`https://blog.acretiondisk.top/histology-guide-zh/`）；仅剩向作者发送 live URL（条件 8） |
+| 本次记录状态 | 许可已取得；站点合规改造已完成（2026-10-20 复验 20/20）；**已部署到 GitHub Pages 并完成线上验收**（`https://blog.acretiondisk.top/histology-guide-zh/`）；仅剩向作者发送 live URL（条件 8） |
 
 ### 9.2 许可邮件原文引用（逐字）
 
@@ -170,3 +170,4 @@ node scripts/fetch-images.mjs --only-slug=<slug> --max-seconds=60
 - [x] 来源页展示 8 条条件清单（线上 `site/sources.html` 已复核）
 - [x] 已部署到 GitHub Pages（Actions #39433580696 成功）
 - [ ] live URL 已发送至 tcbrelje@gmail.com 供作者复核署名（待发送；地址已确认）
+

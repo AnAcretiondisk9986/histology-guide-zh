@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-10-20T14:09:04.702Z",
+  "checkedAt": "2026-10-20T14:35:42.663Z",
   "browser": "Chrome/155.0.8059.80",
-  "pages": 19,
-  "passed": 19,
+  "pages": 20,
+  "passed": 20,
   "failed": 0,
   "results": [
     {
@@ -140,6 +140,11 @@
           "name": "易错写入 localStorage",
           "ok": true,
           "detail": "1"
+        },
+        {
+          "name": "锚点跳转不被固定头部遮挡",
+          "ok": true,
+          "detail": "{\"targetTop\":73,\"headerBottom\":61,\"covered\":0}"
         }
       ]
     },
@@ -166,12 +171,16 @@
         {
           "name": "显示版权署名",
           "ok": true,
-          "detail": "图像 © Histology Guide 及/或原始贡献者 · 非商业教育用途，经许可保存；原页面链接见下方"
+          "detail": "图像 © Histology Guide 及/或原始贡献者 · 非商业教育用途，经许可"
         },
         {
           "name": "署名口径为公开非商业（无旧私有措辞）",
           "ok": true,
-          "detail": "图像 © Histology Guide 及/或原始贡献者 · 非商业教育用途，经许可保存；原页面链接见下方"
+          "detail": "图像 © Histology Guide 及/或原始贡献者 · 非商业教育用途，经许可"
+        },
+        {
+          "name": "缩略图说明不遮挡图片",
+          "ok": true
         },
         {
           "name": "点击可放大（灯箱）",
@@ -211,7 +220,7 @@
         {
           "name": "图谱卡片署名口径为公开非商业",
           "ok": true,
-          "detail": "图像 © Histology Guide 及/或原始贡献者 · 非商业教育用途，经许可保存；原页面链接见下方"
+          "detail": "图像 © Histology Guide 及/或原始贡献者 · 非商业教育用途，经许可"
         }
       ]
     },
@@ -248,7 +257,7 @@
         {
           "name": "卡片渲染",
           "ok": true,
-          "detail": "nephron"
+          "detail": "sertoli cell"
         },
         {
           "name": "显示答案",
@@ -283,7 +292,7 @@
         {
           "name": "review.html?chapter=5 预选第 5 章",
           "ok": true,
-          "detail": "{\"scope\":\"5\",\"card\":\"elastic cartilage\"}"
+          "detail": "{\"scope\":\"5\",\"card\":\"cartilage\"}"
         }
       ]
     },
@@ -396,13 +405,37 @@
       "checks": [
         {
           "name": "无横向溢出",
-          "ok": true,
-          "detail": null
+          "ok": true
         },
         {
           "name": "导航仍可见",
+          "ok": true
+        },
+        {
+          "name": "头部紧凑（≤120px）",
           "ok": true,
-          "detail": null
+          "detail": "89"
+        }
+      ]
+    },
+    {
+      "page": "移动端表格",
+      "ok": true,
+      "checks": [
+        {
+          "name": "宽表格可横向滚动",
+          "ok": true,
+          "detail": "{\"wideOverflow\":\"auto\",\"wideScrollable\":true,\"condDisplay\":\"block\"}"
+        },
+        {
+          "name": "许可条件表在窄屏堆叠为卡片",
+          "ok": true,
+          "detail": "block"
+        },
+        {
+          "name": "术语表在窄屏堆叠为卡片",
+          "ok": true,
+          "detail": "{\"rowDisplay\":\"block\",\"headDisplay\":\"none\",\"wrapOverflow\":\"visible\"}"
         }
       ]
     },
