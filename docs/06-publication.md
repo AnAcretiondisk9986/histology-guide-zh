@@ -25,7 +25,7 @@ Histology Guide 作者团队（回信人 `tcbrelje`，即 T. Clark Brelje；联�
 | 站点可见性 | 公开 | 已获许可（条件授予「publicly host」） |
 | 商业性 | 无广告、无付费墙、无赞助、无售卖或许可入口 | 满足条件 6 |
 | 访问方式 | 免费、无需登录 | 满足条件 6 |
-| 部署记录 | GitHub Actions `Deploy GitHub Pages` 运行 [#39433580696](https://github.com/AnAcretiondisk9986/histology-guide-zh/actions/runs/39433580696) | **成功（2026-10-20）** |
+| 部署记录 | 首次手动：Actions [#39433580696](https://github.com/AnAcretiondisk9986/histology-guide-zh/actions/runs/39433580696)；启用 push 自动部署后：[#39436654570](https://github.com/AnAcretiondisk9986/histology-guide-zh/actions/runs/39436654570) | **均成功（2026-10-20）** |
 
 ## 3. 部署方式
 
@@ -134,6 +134,7 @@ GitHub: AnAcretiondisk9986
 | 2026-10-20 | 建立本文档：记录新许可依据、仓库与 URL、部署方式、8 条条件落实与线上验收清单、邮件草稿 | 文档维护（docs-license） | 完成记录；部署与线上验收未执行 |
 | 2026-10-20 | 站点合规改造、图片分批推送、GitHub Pages 部署 | Lead | 本地 `verify-site` 19/19、`check-content` 0 error；仓库推送完成；Actions 部署成功 |
 | 2026-10-20 | 线上验收（`https://blog.acretiondisk.top/histology-guide-zh/`） | Lead | 29/29 页面 200 且含署名栏/逐字英文句/非官方声明/canonical；28 个 sitemap URL 200；5 张图片 200 且类型/体积正常；404 返回自定义页面；`*.github.io` 项目地址 404（使用账户自定义域名） |
+| 2026-10-20 | 启用 push 自动部署并复核 | Lead | Actions #39436654570 成功；线上首页、章节页、来源页、图片仍 200 且署名与 canonical 正常；仓库 About 主页指向 live URL |
 
 > 后续记录：部署日期、实际 URL、线上验收结论、live URL 发送日期与作者回复，均追加到本表。
 
