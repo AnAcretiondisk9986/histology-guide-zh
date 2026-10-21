@@ -662,7 +662,7 @@ function buildGlossaryPage() {
 function buildReviewPage() {
   const body = `${breadcrumb('', [['index.html', '首页'], ['review.html', '复习模式']])}
     <h1 style="font-family:var(--serif)">复习模式</h1>
-    <p class="muted" style="max-width:72ch">抽认卡自测：先在心里作答，按空格或“显示答案”核对。标记“再练”的题会进入易错清单。</p>
+    <p class="muted" style="max-width:72ch">抽认卡自测：先在心里作答，按空格或“显示答案”核对。标记“再练”的题会进入易错清单。标本识别模式只使用已本地托管的概览图，卡片正面不显示标本名，避免泄题。</p>
     <div class="toolbar">
       <select class="input" id="review-mode" aria-label="复习内容">
         <option value="term">术语（英文 → 中文）</option>
@@ -675,6 +675,7 @@ function buildReviewPage() {
       <span class="small faint" id="review-progress"></span>
     </div>
     <div class="flashcard" id="flashcard">
+      <div class="fc-media" id="fc-media" hidden></div>
       <div class="fc-front" id="fc-front">准备开始</div>
       <div class="fc-sub" id="fc-sub"></div>
       <div class="fc-answer" id="fc-answer"></div>

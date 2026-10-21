@@ -424,6 +424,57 @@ async function main() {
     { name: '显示答案', ok: review.revealed },
     { name: '下一张', ok: review.changed }
   ]);
+  const reviewSpecimen = await cdp.eval(`(async function(){
+    const mode = document.querySelector('#review-mode');
+    mode.value = 'specimen';
+    mode.dispatchEvent(new Event('change'));
+    await new Promise(r => setTimeout(r, 320));
+    const card = document.querySelector('#flashcard');
+    const media = document.querySelector('#fc-media');
+    const img = media.querySelector('.fc-specimen-img');
+    const front = document.querySelector('#fc-front');
+    const sub = document.querySelector('#fc-sub');
+    const answer = document.querySelector('#fc-answer');
+    const creditEl = media.querySelector('.fc-credit');
+    const before = {
+      hasImg: !!img, naturalW: img ? img.naturalWidth : 0, naturalH: img ? img.naturalHeight : 0,
+      mediaHidden: media.hidden,
+      frontDisplay: getComputedStyle(front).display,
+      answerDisplay: getComputedStyle(answer).display,
+      sub: sub.textContent,
+      credit: creditEl ? creditEl.textContent : '',
+      progress: document.querySelector('#review-progress').textContent
+    };
+    // 正面可见文本不得出现标本英文名或编号
+    const visibleFrontText = (getComputedStyle(front).display !== 'none' ? front.textContent : '') + ' ' + sub.textContent;
+    const nameVisible = /(?:MH[S]?|EM|LA|Fig)\\s*\\d/i.test(visibleFrontText) || /[A-Za-z]{4,}\\s+[A-Za-z]{4,}/.test(sub.textContent);
+    // 图片可点开灯箱，且灯箱说明不含标本名
+    img.click();
+    await new Promise(r => setTimeout(r, 150));
+    const lb = document.querySelector('.lightbox');
+    const lbOpen = !!lb && lb.classList.contains('open');
+    const lbCaption = (document.querySelector('.lb-caption') || {}).textContent || '';
+    document.dispatchEvent(new KeyboardEvent('keydown', { key: 'Escape' }));
+    await new Promise(r => setTimeout(r, 80));
+    document.querySelector('#fc-reveal').click();
+    await new Promise(r => setTimeout(r, 80));
+    const after = {
+      answerVisible: getComputedStyle(answer).display !== 'none',
+      answer: answer.textContent,
+      revealed: card.classList.contains('revealed')
+    };
+    return { before, after, nameVisible, lbOpen, lbCaption };
+  })()`);
+  record('复习模式·标本识别', [
+    { name: '显示本地概览图', ok: reviewSpecimen.before.hasImg && reviewSpecimen.before.naturalW > 0, detail: JSON.stringify(reviewSpecimen.before) },
+    { name: '正面不显示标本名（防泄题）', ok: reviewSpecimen.nameVisible === false, detail: JSON.stringify(reviewSpecimen.before.sub) },
+    { name: '翻面前答案不可见', ok: reviewSpecimen.before.answerDisplay === 'none' },
+    { name: '翻面显示中文 + 英文名', ok: reviewSpecimen.after.answerVisible && /[\u4e00-\u9fa5]/.test(reviewSpecimen.after.answer) && /[A-Za-z]/.test(reviewSpecimen.after.answer), detail: reviewSpecimen.after.answer.slice(0, 80) },
+    { name: '保留图像署名', ok: /©/.test(reviewSpecimen.before.credit), detail: reviewSpecimen.before.credit },
+    { name: '显示进度分母', ok: /\d+\s*\/\s*\d+/.test(reviewSpecimen.before.progress), detail: reviewSpecimen.before.progress },
+    { name: '点击图片可放大（灯箱不泄题）', ok: reviewSpecimen.lbOpen && !/(?:MH[S]?|EM|LA|Fig)\s*\d/i.test(reviewSpecimen.lbCaption), detail: reviewSpecimen.lbCaption }
+  ]);
+  if (SHOTS) await shot(cdp, 'review-specimen');
   if (SHOTS) await shot(cdp, 'review');
 
   /* ---------- 带参数的深链 ---------- */

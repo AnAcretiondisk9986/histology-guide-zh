@@ -719,6 +719,8 @@
     const frontEl = $('#fc-front');
     const subEl = $('#fc-sub');
     const answerEl = $('#fc-answer');
+    const mediaEl = $('#fc-media');
+    const actionsEl = $('#fc-reveal') ? $('#fc-reveal').closest('.btn-row') : null;
     const statsEl = $('#review-stats');
     const progressEl = $('#review-progress');
     const wrongEl = $('#wrong-list');
@@ -756,10 +758,31 @@
           }
         } else if (mode === 'specimen') {
           for (const sp of c.specimens || []) {
-            if (sp.kind !== 'slide') continue;
-            deck.push({ kind: 'specimen', front: sp.name, caption: sp.caption, zh: sp.zh, stain: sp.stain, chapter: c.n, name: sp.name, url: sp.url });
+            // 标本识别必须能看到图像；只有已本地托管的概览图可用，且正面不显示名称
+            if (sp.kind !== 'slide' || !sp.img) continue;
+            deck.push({
+              kind: 'specimen',
+              img: sp.img,
+              imgW: sp.imgW,
+              imgH: sp.imgH,
+              caption: sp.caption,
+              zh: sp.zh,
+              stain: sp.stain,
+              chapter: c.n,
+              name: sp.name,
+              url: sp.url
+            });
           }
         }
+      }
+      // 同一张概览图可能在多章条目中重复出现：标本识别按图片去重，避免重复卡
+      if (mode === 'specimen') {
+        const seenImg = new Set();
+        deck = deck.filter((it) => {
+          if (!it.img || seenImg.has(it.img)) return false;
+          seenImg.add(it.img);
+          return true;
+        });
       }
       shuffle(deck);
       idx = 0;
@@ -775,10 +798,22 @@
     function renderCard() {
       const item = deck[idx];
       card.classList.remove('revealed');
+      card.classList.remove('has-media');
       shown = false;
+      frontEl.hidden = false;
+      if (mediaEl) {
+        mediaEl.hidden = true;
+        mediaEl.innerHTML = '';
+      }
       if (!item) {
-        frontEl.textContent = '本组卡片已复习完';
-        subEl.textContent = `本轮：记住 ${sessionRight} 张，需再练 ${sessionWrong} 张`;
+        const emptyDeck = deck.length === 0;
+        if (emptyDeck && modeEl.value === 'specimen') {
+          frontEl.textContent = '本章暂无可用于识别的本地概览图';
+          subEl.textContent = '标本识别只包含已本地托管的概览图；可切换到其他章节，或在上方选择“全部章节”。';
+        } else {
+          frontEl.textContent = '本组卡片已复习完';
+          subEl.textContent = `本轮：记住 ${sessionRight} 张，需再练 ${sessionWrong} 张`;
+        }
         answerEl.innerHTML = '';
         if (progressEl) progressEl.textContent = '';
         return;
@@ -794,9 +829,19 @@
         subEl.textContent = `自测题 · 第 ${item.chapter} 章 · ${esc(item.tag || '')}`;
         answerEl.innerHTML = `<p class="def">${esc(item.answer)}</p>`;
       } else if (item.kind === 'specimen') {
-        frontEl.textContent = item.front;
-        subEl.textContent = `标本识别 · 第 ${item.chapter} 章 · 先在心里说出结构名，再对照原站图像`;
+        // 正面只显示概览图与章节信息，不显示标本名/英文名，避免直接猜出答案
+        const src = (window.HG_BASE || '') + item.img;
+        if (mediaEl) {
+          const dims = item.imgW && item.imgH ? ` width="${item.imgW}" height="${item.imgH}"` : '';
+          mediaEl.innerHTML = `<img class="fc-specimen-img" src="${esc(src)}" alt="待识别的组织学切片本地概览图" data-zoom="${esc(src)}"${dims} loading="lazy">
+            <div class="fc-credit">点击图片可放大 · 本地概览 · 图像 © Histology Guide 及/或原始贡献者，经许可</div>`;
+          mediaEl.hidden = false;
+        }
+        frontEl.hidden = true;
+        card.classList.add('has-media');
+        subEl.textContent = `标本识别 · 第 ${item.chapter} 章 · 先看图说出结构名，再显示答案核对`;
         answerEl.innerHTML = `<div class="fc-answer-main" style="font-family:var(--serif);font-size:24px">${esc(item.zh || '（未命名）')}</div>
+          <div class="fc-name-en">${esc(item.name || '')}</div>
           <p class="def">${esc(item.caption || '')} ${item.stain ? '· ' + esc(item.stain) : ''}</p>
           <p><a class="btn small" href="${esc(HG_SITE + item.url)}" target="_blank" rel="noopener noreferrer">打开原站切片 ↗</a></p>`;
       }
@@ -806,6 +851,30 @@
       if (!deck[idx]) return;
       card.classList.add('revealed');
       shown = true;
+      // 翻面后若答案或操作按钮被挤出视口，按最小幅度滚动：答案本身溢出时对齐答案，
+      // 否则只滚动到操作按钮可见，尽量让图片保持在视野内。
+      requestAnimationFrame(() => {
+        const ar = answerEl.getBoundingClientRect();
+        const br = actionsEl ? actionsEl.getBoundingClientRect() : null;
+        const ansOverflow = ar.bottom > innerHeight - 2;
+        const btnOverflow = !!br && br.bottom > innerHeight - 2;
+        if (!ar.height || (!ansOverflow && !btnOverflow)) return;
+        const headerH = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--header-h'), 10) || 0;
+        const ansTarget = window.scrollY + ar.top - headerH - 16;
+        const actionsTarget = br ? window.scrollY + br.bottom - innerHeight + 6 : ansTarget;
+        window.scrollTo({
+          top: Math.max(0, ansOverflow ? Math.max(ansTarget, actionsTarget) : actionsTarget),
+          behavior: reduceMotion() ? 'auto' : 'smooth'
+        });
+      });
+    }
+    function reduceMotion() {
+      return !!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches);
+    }
+    // 标本识别卡片带图，卡片较高：切到该模式或换下一张时把卡片顶端对齐到头部下方
+    function focusSpecimenCard() {
+      if (modeEl.value !== 'specimen') return;
+      card.scrollIntoView({ block: 'start', behavior: reduceMotion() ? 'auto' : 'smooth' });
     }
     function next(known) {
       const item = deck[idx];
@@ -824,6 +893,7 @@
       idx++;
       renderCard();
       renderStats();
+      requestAnimationFrame(focusSpecimenCard);
     }
     function renderStats() {
       if (!statsEl) return;
@@ -871,7 +941,10 @@
     $('#fc-reveal').addEventListener('click', reveal);
     $('#fc-known').addEventListener('click', () => next(true));
     $('#fc-again').addEventListener('click', () => next(false));
-    modeEl.addEventListener('change', buildDeck);
+    modeEl.addEventListener('change', () => {
+      buildDeck();
+      requestAnimationFrame(focusSpecimenCard);
+    });
     scopeEl.addEventListener('change', buildDeck);
     $('#review-restart') && $('#review-restart').addEventListener('click', buildDeck);
 

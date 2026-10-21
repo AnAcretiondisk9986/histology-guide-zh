@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-10-21T05:41:12.721Z",
+  "checkedAt": "2026-10-21T08:03:05.309Z",
   "browser": "Chrome/155.0.8059.85",
-  "pages": 24,
-  "passed": 24,
+  "pages": 25,
+  "passed": 25,
   "failed": 0,
   "results": [
     {
@@ -278,7 +278,7 @@
         {
           "name": "卡片渲染",
           "ok": true,
-          "detail": "larynx"
+          "detail": "striated duct"
         },
         {
           "name": "显示答案",
@@ -287,6 +287,46 @@
         {
           "name": "下一张",
           "ok": true
+        }
+      ]
+    },
+    {
+      "page": "复习模式·标本识别",
+      "ok": true,
+      "checks": [
+        {
+          "name": "显示本地概览图",
+          "ok": true,
+          "detail": "{\"hasImg\":true,\"naturalW\":4560,\"naturalH\":2794,\"mediaHidden\":false,\"frontDisplay\":\"none\",\"answerDisplay\":\"none\",\"sub\":\"标本识别 · 第 6 章 · 先看图说出结构名，再显示答案核对\",\"credit\":\"点击图片可放大 · 本地概览 · 图像 © Histology Guide 及/或原始贡献者，经许可\",\"progress\":\"1 / 266\"}"
+        },
+        {
+          "name": "正面不显示标本名（防泄题）",
+          "ok": true,
+          "detail": "\"标本识别 · 第 6 章 · 先看图说出结构名，再显示答案核对\""
+        },
+        {
+          "name": "翻面前答案不可见",
+          "ok": true
+        },
+        {
+          "name": "翻面显示中文 + 英文名",
+          "ok": true,
+          "detail": "周围神经（纵切与横切）\n          MH 052 Peripheral Nerve\n          Longitudinal and Cross-s"
+        },
+        {
+          "name": "保留图像署名",
+          "ok": true,
+          "detail": "点击图片可放大 · 本地概览 · 图像 © Histology Guide 及/或原始贡献者，经许可"
+        },
+        {
+          "name": "显示进度分母",
+          "ok": true,
+          "detail": "1 / 266"
+        },
+        {
+          "name": "点击图片可放大（灯箱不泄题）",
+          "ok": true,
+          "detail": "待识别的组织学切片本地概览图"
         }
       ]
     },
@@ -313,7 +353,7 @@
         {
           "name": "review.html?chapter=5 预选第 5 章",
           "ok": true,
-          "detail": "{\"scope\":\"5\",\"card\":\"osteoblast\"}"
+          "detail": "{\"scope\":\"5\",\"card\":\"osteocyte\"}"
         }
       ]
     },
@@ -427,7 +467,7 @@
         {
           "name": "主按钮文字对比度 ≥4.5:1",
           "ok": true,
-          "detail": "6.83 (rgb(6, 40, 43) / rgb(86, 186, 193))"
+          "detail": "7.14 (rgb(6, 40, 43) / rgb(90, 190, 197))"
         }
       ]
     },
