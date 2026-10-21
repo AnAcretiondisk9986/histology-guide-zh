@@ -223,6 +223,24 @@ async function main() {
     await check(cdp, '章节卡片 21', `return document.querySelectorAll('#chapter-index .chapter-card').length === 21`),
     await check(cdp, '全部链接可解析', `return [...document.querySelectorAll('#chapter-index a')].every(a => a.getAttribute('href'))`)
   ]);
+  const chFilter = await cdp.eval(`(async function(){
+    const el = document.querySelector('#chapter-filter');
+    const visible = () => [...document.querySelectorAll('#chapter-index .chapter-card')].filter(c => !c.hidden).length;
+    const groups = () => [...document.querySelectorAll('#chapter-index .chapter-group')].filter(g => !g.hidden).length;
+    const before = visible();
+    el.value = '上皮'; el.dispatchEvent(new Event('input', { bubbles: true }));
+    await new Promise(r => setTimeout(r, 60));
+    const filtered = visible(); const filteredGroups = groups();
+    el.value = ''; el.dispatchEvent(new Event('input', { bubbles: true }));
+    await new Promise(r => setTimeout(r, 60));
+    const restored = visible();
+    return { before, filtered, filteredGroups, restored };
+  })()`);
+  record('章节筛选', [
+    { name: '输入关键词可过滤卡片', ok: chFilter.filtered > 0 && chFilter.filtered < chFilter.before, detail: JSON.stringify(chFilter) },
+    { name: '空分组自动隐藏', ok: chFilter.filteredGroups < 3, detail: String(chFilter.filteredGroups) },
+    { name: '清空后恢复全部', ok: chFilter.restored === chFilter.before, detail: String(chFilter.restored) }
+  ]);
 
   /* ---------- 章节页（第 2 章，已有内容） ---------- */
   await navigate(cdp, 'chapter/02.html', 700);
@@ -478,31 +496,96 @@ async function main() {
     { name: '持久化', ok: !!theme.stored },
     { name: '深色下按钮文字与背景不同色', ok: theme.btnBg !== theme.btnColor, detail: `${theme.btnBg} / ${theme.btnColor}` }
   ]);
+  // 深色主题主按钮对比度（白字压在浅青底是旧问题）
+  const primary = await cdp.eval(`(function(){
+    document.documentElement.setAttribute('data-theme','dark');
+    const b = document.querySelector('.btn.primary');
+    if (!b) return null;
+    const s = getComputedStyle(b);
+    return { color: s.color, bg: s.backgroundColor };
+  })()`);
+  const relLum = (rgb) => {
+    const m = String(rgb).match(/\d+(?:\.\d+)?/g).map(Number);
+    const [r, g, b] = [m[0], m[1], m[2]].map((v) => {
+      v /= 255;
+      return v <= 0.03928 ? v / 12.92 : Math.pow((v + 0.055) / 1.055, 2.4);
+    });
+    return 0.2126 * r + 0.7152 * g + 0.0722 * b;
+  };
+  const contrast = primary
+    ? (Math.max(relLum(primary.color), relLum(primary.bg)) + 0.05) /
+      (Math.min(relLum(primary.color), relLum(primary.bg)) + 0.05)
+    : 0;
+  record('深色主题对比度', [
+    { name: '主按钮文字对比度 ≥4.5:1', ok: contrast >= 4.5, detail: contrast.toFixed(2) + ' (' + (primary && primary.color) + ' / ' + (primary && primary.bg) + ')' }
+  ]);
   if (SHOTS) { await cdp.eval(`document.documentElement.setAttribute('data-theme','dark')`); await shot(cdp, 'index-dark'); }
+
+  /* ---------- 带 hash 首访落点（懒加载布局变化回归） ---------- */
+  await navigate(cdp, 'chapter/02.html#quiz', 900);
+  await sleep(1200);
+  const hashJump = await cdp.eval(`(function(){
+    const el = document.getElementById('quiz');
+    if (!el) return { missing: true };
+    const hb = document.querySelector('.site-header').getBoundingClientRect().bottom;
+    const top = el.getBoundingClientRect().top;
+    return { top: Math.round(top), headerBottom: Math.round(hb), covered: Math.round(Math.max(0, hb - top)), docH: document.documentElement.scrollHeight };
+  })()`);
+  record('带 hash 首访', [
+    { name: '目标未被粘性头部遮挡', ok: hashJump.missing !== true && hashJump.covered <= 2, detail: JSON.stringify(hashJump) },
+    { name: '落点位于头部下方且不过远', ok: hashJump.missing !== true && Math.abs(hashJump.top - (hashJump.headerBottom + 12)) <= 8, detail: JSON.stringify(hashJump) }
+  ]);
 
   /* ---------- 移动端 ---------- */
   await cdp.send('Emulation.setDeviceMetricsOverride', { width: 390, height: 844, deviceScaleFactor: 2, mobile: true });
   await navigate(cdp, 'index.html', 500);
   const mobile = await cdp.eval(`(function(){
     const h = document.querySelector('.site-header');
+    const nav = document.querySelector('.main-nav');
     return { headerH: h ? Math.round(h.getBoundingClientRect().height) : 0,
-      overflow: document.documentElement.scrollWidth <= innerWidth + 2 };
+      overflow: document.documentElement.scrollWidth <= innerWidth + 2,
+      navClipped: nav ? nav.scrollWidth > nav.clientWidth + 2 : true,
+      searchTextFont: getComputedStyle(document.querySelector('#open-search')).fontSize };
   })()`);
   record('移动端 390px', [
     { name: '无横向溢出', ok: mobile.overflow },
     { name: '导航仍可见', ok: await cdp.eval(`getComputedStyle(document.querySelector('.main-nav')).display !== 'none'`) },
+    { name: '导航项目未被裁切', ok: mobile.navClipped === false, detail: String(mobile.navClipped) },
     { name: '头部紧凑（≤120px）', ok: mobile.headerH > 0 && mobile.headerH <= 120, detail: String(mobile.headerH) }
   ]);
+  await cdp.send('Emulation.setDeviceMetricsOverride', { width: 320, height: 640, deviceScaleFactor: 2, mobile: true });
+  await navigate(cdp, 'index.html', 500);
+  const mobile320 = await cdp.eval(`(function(){
+    const h = document.querySelector('.site-header');
+    const nav = document.querySelector('.main-nav');
+    return { headerH: h ? Math.round(h.getBoundingClientRect().height) : 0,
+      overflow: document.documentElement.scrollWidth <= innerWidth + 2,
+      navClipped: nav ? nav.scrollWidth > nav.clientWidth + 2 : true,
+      navWrap: nav ? getComputedStyle(nav).flexWrap : null };
+  })()`);
+  record('移动端 320px', [
+    { name: '无横向溢出', ok: mobile320.overflow },
+    { name: '导航换行而非被裁切', ok: mobile320.navClipped === false && mobile320.navWrap === 'wrap', detail: JSON.stringify(mobile320) },
+    { name: '头部高度 ≤132px', ok: mobile320.headerH > 0 && mobile320.headerH <= 132, detail: String(mobile320.headerH) }
+  ]);
+  if (SHOTS) await shot(cdp, 'mobile-320');
 
   /* ---------- 移动端表格可读性 ---------- */
   await navigate(cdp, 'sources.html', 700);
   const tablesMobile = await cdp.eval(`(function(){
-    const wide = document.querySelector('.table-scroll');
-    const cond = document.querySelector('.stack-cond tbody tr');
+    const wrap = document.querySelector('.stack-wrap');
+    const table = wrap && wrap.querySelector('table');
+    const row = table && table.querySelector('tbody tr');
+    const firstCell = table && table.querySelector('tbody td');
     return {
-      wideOverflow: wide ? getComputedStyle(wide).overflowX : null,
-      wideScrollable: wide ? wide.scrollWidth > wide.clientWidth : false,
-      condDisplay: cond ? getComputedStyle(cond).display : null
+      rowDisplay: row ? getComputedStyle(row).display : null,
+      cellDisplay: firstCell ? getComputedStyle(firstCell).display : null,
+      wrapOverflow: wrap ? getComputedStyle(wrap).overflowX : null,
+      wrapScrollW: wrap ? wrap.scrollWidth : null,
+      wrapClientW: wrap ? wrap.clientWidth : null,
+      docOverflow: document.documentElement.scrollWidth > innerWidth + 2,
+      label: firstCell ? getComputedStyle(firstCell, '::before').content : null,
+      condDisplay: getComputedStyle(document.querySelector('.stack-cond tbody tr')).display
     };
   })()`);
   await navigate(cdp, 'glossary.html', 700);
@@ -516,7 +599,8 @@ async function main() {
     };
   })()`);
   record('移动端表格', [
-    { name: '宽表格可横向滚动', ok: tablesMobile.wideOverflow === 'auto' && tablesMobile.wideScrollable, detail: JSON.stringify(tablesMobile) },
+    { name: '来源页宽表格在窄屏堆叠为卡片（无需横向滚动）', ok: tablesMobile.rowDisplay === 'block' && tablesMobile.wrapScrollW <= tablesMobile.wrapClientW + 2 && !tablesMobile.docOverflow, detail: JSON.stringify(tablesMobile) },
+    { name: '来源页卡片保留列标签', ok: tablesMobile.label && tablesMobile.label.includes('类型'), detail: tablesMobile.label },
     { name: '许可条件表在窄屏堆叠为卡片', ok: tablesMobile.condDisplay === 'block', detail: String(tablesMobile.condDisplay) },
     { name: '术语表在窄屏堆叠为卡片', ok: glossaryMobile.rowDisplay === 'block' && glossaryMobile.headDisplay === 'none' && glossaryMobile.wrapOverflow !== 'hidden', detail: JSON.stringify(glossaryMobile) }
   ]);

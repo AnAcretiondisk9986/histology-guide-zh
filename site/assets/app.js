@@ -235,7 +235,12 @@
     });
     document.addEventListener('keydown', (e) => {
       if (e.key === 'Escape') close();
-      if (e.key === '/' && !/^(INPUT|TEXTAREA|SELECT)$/.test(document.activeElement.tagName)) {
+      if (
+        e.key === '/' &&
+        !/^(INPUT|TEXTAREA|SELECT)$/.test(document.activeElement.tagName) &&
+        !overlay.classList.contains('open') &&
+        !document.querySelector('.lightbox.open')
+      ) {
         e.preventDefault();
         open();
       }
@@ -272,7 +277,11 @@
           .map((r) => {
             const c = HG.chapters.find((x) => x.n === r.n);
             if (!c) return '';
-            return `<a class="recent-item" href="${chapterHref(c.n)}"><span class="mono faint">${pad2(c.n)}</span> ${esc(c.titleZh)} <span class="faint small">${esc(c.titleEn)}</span></a>`;
+            return `<a class="recent-item" href="${chapterHref(c.n)}">
+              <span class="recent-num">${pad2(c.n)}</span>
+              <span class="recent-zh">${esc(c.titleZh)}</span>
+              <span class="recent-en">${esc(c.titleEn)}</span>
+            </a>`;
           })
           .join('');
       }
@@ -320,14 +329,41 @@
       { key: 'organ-systems', title: '器官系统', en: 'Organ Systems' },
       { key: 'quiz', title: '鉴别练习', en: 'Look-Alikes' }
     ];
-    root.innerHTML = groups
-      .map((g) => {
-        const items = HG.chapters.filter((c) => c.group === g.key);
-        if (!items.length) return '';
-        return `<h2 class="group-head">${esc(g.title)} <span class="faint small">${esc(g.en)}</span></h2>
-        <div class="grid cols-3">${items.map(chapterCardHtml).join('')}</div>`;
-      })
-      .join('');
+    root.innerHTML =
+      groups
+        .map((g) => {
+          const items = HG.chapters.filter((c) => c.group === g.key);
+          if (!items.length) return '';
+          return `<section class="chapter-group" data-group="${g.key}">
+            <h2 class="group-head">${esc(g.title)} <span class="faint small">${esc(g.en)}</span></h2>
+            <div class="grid cols-3">${items.map(chapterCardHtml).join('')}</div>
+          </section>`;
+        })
+        .join('') + '<p class="empty chapter-filter-empty" hidden>没有匹配的章节。试试中文或英文关键词，或清空筛选。</p>';
+
+    // 筛选框：按中文 / 英文 / 章节号过滤卡片，隐藏空分组
+    const filterEl = $('#chapter-filter');
+    if (!filterEl) return;
+    const emptyEl = $('.chapter-filter-empty', root);
+    const applyFilter = () => {
+      const q = (filterEl.value || '').trim().toLowerCase();
+      let shown = 0;
+      $$('.chapter-group', root).forEach((group) => {
+        let visible = 0;
+        $$('.chapter-card', group).forEach((card) => {
+          const hay = (card.textContent || '').toLowerCase();
+          const hit = !q || hay.includes(q);
+          card.hidden = !hit;
+          if (hit) visible++;
+        });
+        group.hidden = visible === 0;
+        shown += visible;
+      });
+      if (emptyEl) emptyEl.hidden = !(q && shown === 0);
+    };
+    filterEl.addEventListener('input', applyFilter);
+    filterEl.addEventListener('search', applyFilter);
+    applyFilter();
   }
 
   /* ------------------------------ 章节页 ------------------------------ */
@@ -495,8 +531,11 @@
     const base = window.HG_BASE || '';
     const hasImg = !!sp.img;
     const src = hasImg ? base + sp.img : '';
+    // 构建期即可知的宽高比：先写死比例，避免图片加载后改变高度造成锚点偏移
+    const ratio = sp.imgW && sp.imgH ? sp.imgW / sp.imgH : 0;
+    const thumbCls = hasImg && ratio ? (ratio > 2.2 ? ' wide' : ratio < 0.85 ? ' tall' : '') : '';
     return `<article class="specimen" data-slide-name="${esc(sp.name)}">
-      <div class="thumb">
+      <div class="thumb${thumbCls}">
         <div class="thumb-img">${hasImg
           ? `<img src="${esc(src)}" alt="${esc(zh || sp.name)}（本地概览，© Histology Guide 及/或原始贡献者，经许可）" loading="lazy" data-zoom="${esc(src)}">`
           : esc(code)}</div>
@@ -872,6 +911,27 @@
     if (h > 0) document.documentElement.style.setProperty('--header-h', h + 'px');
   }
 
+  /* ------------------------------ 首访锚点校正 ------------------------------ */
+  // 跨文档带 #hash 首次打开时，懒加载图片/布局变化可能让浏览器先算好的落点偏移；
+  // 页面 load（图片与字体就绪）后再按 scroll-padding 校正一次。
+  function fixInitialHashPosition() {
+    if (!location.hash || location.hash.length < 2) return;
+    let id = location.hash.slice(1);
+    try { id = decodeURIComponent(id); } catch (e) {}
+    const el = document.getElementById(id);
+    if (!el) return; // atlas 的 #s-* 由自身逻辑定位
+    window.addEventListener(
+      'load',
+      () => {
+        requestAnimationFrame(() => {
+          try { el.scrollIntoView({ block: 'start', behavior: 'instant' }); }
+          catch (e) { el.scrollIntoView(); }
+        });
+      },
+      { once: true }
+    );
+  }
+
   /* ------------------------------ 启动 ------------------------------ */
   window.HG_SITE = (window.HG && window.HG.sourceSite) || 'https://histologyguide.com';
   document.addEventListener('DOMContentLoaded', () => {
@@ -892,5 +952,6 @@
     initReview();
     initLightbox();
     fitThumbs();
+    fixInitialHashPosition();
   });
 })();

@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-10-20T14:47:28.028Z",
-  "browser": "Chrome/155.0.8059.80",
-  "pages": 20,
-  "passed": 20,
+  "checkedAt": "2026-10-21T05:41:12.721Z",
+  "browser": "Chrome/155.0.8059.85",
+  "pages": 24,
+  "passed": 24,
   "failed": 0,
   "results": [
     {
@@ -85,6 +85,27 @@
           "name": "全部链接可解析",
           "ok": true,
           "detail": null
+        }
+      ]
+    },
+    {
+      "page": "章节筛选",
+      "ok": true,
+      "checks": [
+        {
+          "name": "输入关键词可过滤卡片",
+          "ok": true,
+          "detail": "{\"before\":21,\"filtered\":1,\"filteredGroups\":1,\"restored\":21}"
+        },
+        {
+          "name": "空分组自动隐藏",
+          "ok": true,
+          "detail": "1"
+        },
+        {
+          "name": "清空后恢复全部",
+          "ok": true,
+          "detail": "21"
         }
       ]
     },
@@ -257,7 +278,7 @@
         {
           "name": "卡片渲染",
           "ok": true,
-          "detail": "intestinal gland"
+          "detail": "larynx"
         },
         {
           "name": "显示答案",
@@ -292,7 +313,7 @@
         {
           "name": "review.html?chapter=5 预选第 5 章",
           "ok": true,
-          "detail": "{\"scope\":\"5\",\"card\":\"elastic cartilage\"}"
+          "detail": "{\"scope\":\"5\",\"card\":\"osteoblast\"}"
         }
       ]
     },
@@ -386,7 +407,7 @@
         {
           "name": "切换生效",
           "ok": true,
-          "detail": "{\"before\":\"light\",\"after\":\"dark\",\"bg\":\"rgb(20, 24, 27)\",\"stored\":\"dark\",\"btnBg\":\"rgb(41, 46, 50)\",\"btnColor\":\"rgb(230, 232, 230)\",\"themeNow\":\"dark\"}"
+          "detail": "{\"before\":\"light\",\"after\":\"dark\",\"bg\":\"rgb(20, 24, 27)\",\"stored\":\"dark\",\"btnBg\":\"rgb(41, 46, 49)\",\"btnColor\":\"rgb(230, 232, 230)\",\"themeNow\":\"dark\"}"
         },
         {
           "name": "持久化",
@@ -395,7 +416,34 @@
         {
           "name": "深色下按钮文字与背景不同色",
           "ok": true,
-          "detail": "rgb(41, 46, 50) / rgb(230, 232, 230)"
+          "detail": "rgb(41, 46, 49) / rgb(230, 232, 230)"
+        }
+      ]
+    },
+    {
+      "page": "深色主题对比度",
+      "ok": true,
+      "checks": [
+        {
+          "name": "主按钮文字对比度 ≥4.5:1",
+          "ok": true,
+          "detail": "6.83 (rgb(6, 40, 43) / rgb(86, 186, 193))"
+        }
+      ]
+    },
+    {
+      "page": "带 hash 首访",
+      "ok": true,
+      "checks": [
+        {
+          "name": "目标未被粘性头部遮挡",
+          "ok": true,
+          "detail": "{\"top\":73,\"headerBottom\":61,\"covered\":0,\"docH\":13510}"
+        },
+        {
+          "name": "落点位于头部下方且不过远",
+          "ok": true,
+          "detail": "{\"top\":73,\"headerBottom\":61,\"covered\":0,\"docH\":13510}"
         }
       ]
     },
@@ -412,9 +460,34 @@
           "ok": true
         },
         {
+          "name": "导航项目未被裁切",
+          "ok": true,
+          "detail": "false"
+        },
+        {
           "name": "头部紧凑（≤120px）",
           "ok": true,
           "detail": "89"
+        }
+      ]
+    },
+    {
+      "page": "移动端 320px",
+      "ok": true,
+      "checks": [
+        {
+          "name": "无横向溢出",
+          "ok": true
+        },
+        {
+          "name": "导航换行而非被裁切",
+          "ok": true,
+          "detail": "{\"headerH\":119,\"overflow\":true,\"navClipped\":false,\"navWrap\":\"wrap\"}"
+        },
+        {
+          "name": "头部高度 ≤132px",
+          "ok": true,
+          "detail": "119"
         }
       ]
     },
@@ -423,9 +496,14 @@
       "ok": true,
       "checks": [
         {
-          "name": "宽表格可横向滚动",
+          "name": "来源页宽表格在窄屏堆叠为卡片（无需横向滚动）",
           "ok": true,
-          "detail": "{\"wideOverflow\":\"auto\",\"wideScrollable\":true,\"condDisplay\":\"block\"}"
+          "detail": "{\"rowDisplay\":\"block\",\"cellDisplay\":\"inline\",\"wrapOverflow\":\"visible\",\"wrapScrollW\":278,\"wrapClientW\":278,\"docOverflow\":false,\"label\":\"\\\"类型\\\"\",\"condDisplay\":\"block\"}"
+        },
+        {
+          "name": "来源页卡片保留列标签",
+          "ok": true,
+          "detail": "\"类型\""
         },
         {
           "name": "许可条件表在窄屏堆叠为卡片",

@@ -271,7 +271,7 @@ function shell({ base = '', title, description, active = '', body, pageClass = '
 </div>
 <header class="site-header">
   <div class="header-inner">
-    <a class="brand" href="${base}index.html"><span class="logo-dot"></span>组织学复习<span style="font-weight:400;color:var(--text-faint)">·</span><small>Histology Guide 中文学习层</small></a>
+    <a class="brand" href="${base}index.html"><span class="logo-dot"></span>组织学复习<span class="brand-sep" style="font-weight:400;color:var(--text-faint)">·</span><small>Histology Guide 中文学习层</small></a>
     <nav class="main-nav" aria-label="主导航">${nav}</nav>
     <div class="header-tools">
       <button class="icon-btn search-btn" id="open-search" type="button" aria-label="打开搜索">搜索 <kbd>/</kbd></button>
@@ -323,8 +323,11 @@ function specimenCard(sp, base = '../') {
   const link = SOURCES.site + sp.url;
   const hasImg = !!sp.img;
   const dims = sp.imgW && sp.imgH ? `${sp.imgW}×${sp.imgH}` : '';
+  /* 构建期写入宽高比例类，避免图片加载后 fitThumbs 改变高度导致锚点落点偏移 */
+  const ratio = sp.imgW && sp.imgH ? sp.imgW / sp.imgH : 0;
+  const thumbCls = hasImg && ratio ? (ratio > 2.2 ? ' wide' : ratio < 0.85 ? ' tall' : '') : '';
   return `<article class="specimen" data-specimen="${esc(sp.name)}">
-    <div class="thumb">
+    <div class="thumb${thumbCls}">
       <div class="thumb-img">${
         hasImg
           ? `<img src="${esc(base + sp.img)}" alt="${esc(sp.zh || sp.name)}（本地概览图，© Histology Guide 及/或原始贡献者，经许可）" loading="lazy" data-zoom="${esc(base + sp.img)}">`
@@ -701,12 +704,12 @@ function buildSourcesPage() {
   const rows = sourcesList
     .map(
       (s) => `<tr>
-        <td>${esc(s.kind)}</td>
-        <td><a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.name)}</a><div class="small faint mono" style="word-break:break-all">${esc(s.url)}</div></td>
-        <td>${esc(s.status)}${s.items != null ? `（${s.items} 项）` : ''}</td>
-        <td class="small">${s.fetchedAt ? esc(s.fetchedAt.replace('T', ' ').slice(0, 19)) + ' UTC' : '—'}</td>
-        <td class="small">${s.httpStatus ? esc(s.httpStatus) : '—'}</td>
-        <td class="small mono">${s.sha256 ? esc(s.sha256.slice(0, 16)) + '…' : '—'}</td>
+        <td data-label="类型">${esc(s.kind)}</td>
+        <td data-label="页面"><a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.name)}</a><div class="small faint mono" style="word-break:break-all">${esc(s.url)}</div></td>
+        <td data-label="状态">${esc(s.status)}${s.items != null ? `（${s.items} 项）` : ''}</td>
+        <td class="small" data-label="抓取时间">${s.fetchedAt ? esc(s.fetchedAt.replace('T', ' ').slice(0, 19)) + ' UTC' : '—'}</td>
+        <td class="small" data-label="HTTP">${s.httpStatus ? esc(s.httpStatus) : '—'}</td>
+        <td class="small mono" data-label="SHA-256">${s.sha256 ? esc(s.sha256.slice(0, 16)) + '…' : '—'}</td>
       </tr>`
     )
     .join('');
@@ -714,12 +717,12 @@ function buildSourcesPage() {
   const imgRows = localImageList
     .map(
       (im) => `<tr>
-        <td>${im.kind === 'figure' ? '示意图' : '光镜切片'}</td>
-        <td>${esc(im.specimen || im.slug)}<div class="small faint mono">${esc(im.slug)}</div></td>
-        <td class="small">第 ${esc(im.chapter)} 章</td>
-        <td class="small">${esc(im.w)}×${esc(im.h)}</td>
-        <td class="small">${(Number(im.bytes) / 1024).toFixed(0)} KB</td>
-        <td class="small"><a href="${esc(im.sourcePage)}" target="_blank" rel="noopener noreferrer">原页面 ↗</a></td>
+        <td data-label="类型">${im.kind === 'figure' ? '示意图' : '光镜切片'}</td>
+        <td data-label="标本">${esc(im.specimen || im.slug)}<div class="small faint mono">${esc(im.slug)}</div></td>
+        <td class="small" data-label="章节">第 ${esc(im.chapter)} 章</td>
+        <td class="small" data-label="分辨率">${esc(im.w)}×${esc(im.h)}</td>
+        <td class="small" data-label="体积">${(Number(im.bytes) / 1024).toFixed(0)} KB</td>
+        <td class="small" data-label="来源"><a href="${esc(im.sourcePage)}" target="_blank" rel="noopener noreferrer">原页面 ↗</a></td>
       </tr>`
     )
     .join('');
@@ -780,19 +783,17 @@ function buildSourcesPage() {
 
     <h2 style="font-size:18px">本地图像清单（经许可公开托管）</h2>
     <p class="muted small">共 ${localImageList.length} 张。每张图由原站 BigTIFF 金字塔中的一个中分辨率层级拼接而来，不等同于原站完整分辨率；卡片上保留“原站切片”链接用于高倍观察。图像 © Histology Guide 及/或原始贡献者，仅限非商业教育用途，不得在本站之外再分发。</p>
-    <p class="scroll-hint small">表格较宽，可左右滑动查看 →</p>
     ${
       localImageList.length
-        ? `<div class="card flush table-scroll"><table class="data-table">
+        ? `<div class="card flush stack-wrap"><table class="data-table stack-table stack-imglist">
         <thead><tr><th>类型</th><th>标本</th><th>章节</th><th>本地分辨率</th><th>体积</th><th>来源</th></tr></thead>
         <tbody>${imgRows}</tbody></table></div>`
         : '<div class="empty">尚未下载本地图像。运行 <code class="mono">node scripts/fetch-images.mjs</code> 按许可获取所选图像。</div>'
     }
     <h2 style="font-size:18px;margin-top:28px">页面清单与采集记录</h2>
     <p class="muted small">共 ${sourcesList.length} 条。元数据采集遵循 <a href="https://histologyguide.com/robots.txt" target="_blank" rel="noopener noreferrer">robots.txt</a>（避开 /assets /css /js 等目录），请求间隔 ≥1.2 秒；图像按许可以单文件或 Range 分层请求获取，限速并记录请求数。SHA-256 为抓取时的响应体摘要。</p>
-    <p class="scroll-hint small">表格较宽，可左右滑动查看 →</p>
-    <div class="card flush table-scroll">
-      <table class="data-table">
+    <div class="card flush stack-wrap">
+      <table class="data-table stack-table stack-src">
         <thead><tr><th>类型</th><th>页面</th><th>状态</th><th>抓取时间</th><th>HTTP</th><th>SHA-256</th></tr></thead>
         <tbody>${rows}</tbody>
       </table>
